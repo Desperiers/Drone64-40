@@ -25,7 +25,7 @@
   <url><loc>https://drone6440.fr/drone-lit-et-mixe</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://drone6440.fr/drone-vieux-boucau</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- PyrÃ©nÃ©es-Atlantiques (64) -->
+  <!-- Pyrénées-Atlantiques (64) -->
   <url><loc>https://drone6440.fr/drone-bayonne</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://drone6440.fr/drone-biarritz</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://drone6440.fr/drone-pau</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -75,5 +75,31 @@
   <url><loc>https://drone6440.fr/drone-le-bugue</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://drone6440.fr/drone-terrasson</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://drone6440.fr/drone-mussidan</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Charente-Maritime (17) -->
+  <url><loc>https://drone6440.fr/drone-la-rochelle</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-rochefort</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-saintes</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-royan</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-saint-pierre-oleron</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-chateau-doleron</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-saint-trojan-les-bains</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-dolus-doleron</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-saint-denis-doleron</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-ile-de-re</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-marennes</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-tonnay-charente</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-saint-jean-angely</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Vendée (85) -->
+  <url><loc>https://drone6440.fr/drone-la-roche-sur-yon</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-les-sables-dolonne</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-saint-gilles-croix-de-vie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-noirmoutier</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-saint-jean-de-monts</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-challans</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-fontenay-le-comte</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-lucon</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://drone6440.fr/drone-la-tranche-sur-mer</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
 </urlset>
