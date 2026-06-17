@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Devis gratuit — Drone 64/40</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080c10;
+  --bg2:#0e1318;
+  --bg3:#141b22;
+  --gold:#c9a84c;
+  --gold2:#e8c96a;
+  --text:#e8e2d6;
+  --muted:#7a8490;
+  --border:#1e2830;
+  --border2:#2a3540;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;font-weight:300;line-height:1.7;min-height:100vh}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;background:rgba(8,12,16,0.92);border-bottom:0.5px solid var(--border);backdrop-filter:blur(8px)}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:400;color:var(--gold);letter-spacing:0.12em;text-decoration:none}
+.nav-back{font-size:13px;color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:6px}
+.nav-back:hover{color:var(--text)}
+
+/* HERO */
+.hero{padding:7rem 2rem 4rem;max-width:760px;margin:0 auto;text-align:center}
+.hero-eyebrow{font-size:12px;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;margin-bottom:1.5rem}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,5vw,3.4rem);font-weight:300;line-height:1.2;color:var(--text);margin-bottom:1.2rem}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{font-size:15px;color:var(--muted);max-width:480px;margin:0 auto 2rem}
+.hero-cta{display:inline-flex;align-items:center;gap:8px;background:transparent;border:0.5px solid var(--gold);color:var(--gold);font-family:'Outfit',sans-serif;font-size:13px;letter-spacing:0.1em;padding:12px 28px;cursor:pointer;transition:all 0.2s}
+.hero-cta:hover{background:var(--gold);color:var(--bg)}
+
+/* STEPS INDICATOR */
+.steps-indicator{display:flex;align-items:center;justify-content:center;gap:0;max-width:480px;margin:0 auto 3rem;padding:0 2rem}
+.si-item{display:flex;align-items:center;gap:8px;font-size:12px;letter-spacing:0.08em;color:var(--muted);transition:color 0.3s}
+.si-item.active{color:var(--gold)}
+.si-dot{width:24px;height:24px;border-radius:50%;border:0.5px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:11px;transition:all 0.3s}
+.si-item.active .si-dot{border-color:var(--gold);color:var(--gold)}
+.si-item.done .si-dot{border-color:var(--gold);background:var(--gold);color:var(--bg)}
+.si-item.done{color:var(--muted)}
+.si-line{flex:1;height:0.5px;background:var(--border2);margin:0 8px;min-width:24px}
+
+/* PANELS */
+.panels{max-width:600px;margin:0 auto;padding:0 1.5rem 4rem}
+.panel{display:none}
+.panel.active{display:block}
+
+/* FORMULAIRE */
+.form-card{background:var(--bg2);border:0.5px solid var(--border2);padding:2rem}
+.form-card h2{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:300;color:var(--text);margin-bottom:0.4rem}
+.form-card p{font-size:13px;color:var(--muted);margin-bottom:1.8rem}
+.field{margin-bottom:1.2rem}
+.field label{display:block;font-size:11px;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;background:var(--bg3);border:0.5px solid var(--border2);color:var(--text);font-family:'Outfit',sans-serif;font-size:14px;font-weight:300;padding:10px 14px;outline:none;transition:border-color 0.2s;-webkit-appearance:none}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold)}
+.field select option{background:var(--bg3)}
+.field textarea{resize:vertical;min-height:80px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.btn-primary{width:100%;margin-top:0.5rem;background:transparent;border:0.5px solid var(--gold);color:var(--gold);font-family:'Outfit',sans-serif;font-size:13px;letter-spacing:0.1em;padding:14px;cursor:pointer;transition:all 0.2s;text-transform:uppercase}
+.btn-primary:hover{background:var(--gold);color:var(--bg)}
+
+/* CHATBOT */
+.chat-card{background:var(--bg2);border:0.5px solid var(--border2)}
+.chat-head{display:flex;align-items:center;gap:12px;padding:1.2rem 1.5rem;border-bottom:0.5px solid var(--border)}
+.chat-avatar{width:38px;height:38px;border:0.5px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--gold)}
+.chat-info .name{font-size:14px;font-weight:400;color:var(--text)}
+.chat-info .status{font-size:11px;color:var(--gold);letter-spacing:0.08em}
+.chat-msgs{min-height:260px;max-height:300px;overflow-y:auto;padding:1.2rem 1.5rem;display:flex;flex-direction:column;gap:10px}
+.chat-msgs::-webkit-scrollbar{width:3px}
+.chat-msgs::-webkit-scrollbar-track{background:transparent}
+.chat-msgs::-webkit-scrollbar-thumb{background:var(--border2)}
+.msg{max-width:82%;padding:10px 14px;font-size:13px;line-height:1.6}
+.msg.bot{background:var(--bg3);border:0.5px solid var(--border2);color:var(--text);align-self:flex-start}
+.msg.user{background:rgba(201,168,76,0.12);border:0.5px solid rgba(201,168,76,0.3);color:var(--gold2);align-self:flex-end}
+.choices-area{display:flex;flex-wrap:wrap;gap:8px;padding:0 1.5rem 1rem}
+.choice{background:transparent;border:0.5px solid var(--border2);color:var(--muted);font-family:'Outfit',sans-serif;font-size:12px;padding:6px 14px;cursor:pointer;transition:all 0.2s;letter-spacing:0.04em}
+.choice:hover{border-color:var(--gold);color:var(--gold)}
+.chat-input-row{display:flex;border-top:0.5px solid var(--border);padding:1rem 1.5rem;gap:10px}
+.chat-input-row input{flex:1;background:var(--bg3);border:0.5px solid var(--border2);color:var(--text);font-family:'Outfit',sans-serif;font-size:13px;padding:8px 12px;outline:none}
+.chat-input-row input:focus{border-color:var(--gold)}
+.send-btn{background:transparent;border:0.5px solid var(--gold);color:var(--gold);font-size:13px;padding:8px 16px;cursor:pointer;transition:all 0.2s;font-family:'Outfit',sans-serif}
+.send-btn:hover{background:var(--gold);color:var(--bg)}
+.score-row{display:flex;align-items:center;gap:12px;padding:1rem 1.5rem;border-top:0.5px solid var(--border)}
+.score-label{font-size:11px;color:var(--muted);letter-spacing:0.08em;white-space:nowrap}
+.score-track{flex:1;height:2px;background:var(--border2)}
+.score-fill{height:100%;background:var(--gold);transition:width 0.4s}
+.score-num{font-size:11px;color:var(--gold);min-width:32px;text-align:right}
+
+/* EMAILS */
+.email-list{display:flex;flex-direction:column;gap:1px;border:0.5px solid var(--border2)}
+.email-row{background:var(--bg2);padding:1.2rem 1.5rem;border-bottom:0.5px solid var(--border);cursor:pointer;transition:background 0.15s}
+.email-row:last-child{border-bottom:none}
+.email-row:hover{background:var(--bg3)}
+.er-top{display:flex;align-items:flex-start;gap:14px}
+.er-day{min-width:48px;font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:300;color:var(--gold);line-height:1.1}
+.er-day span{display:block;font-family:'Outfit',sans-serif;font-size:10px;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase}
+.er-body{flex:1}
+.er-tag{display:inline-block;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);border:0.5px solid rgba(201,168,76,0.3);padding:2px 8px;margin-bottom:6px}
+.er-subject{font-size:14px;font-weight:400;color:var(--text);margin-bottom:3px}
+.er-preview{font-size:12px;color:var(--muted);line-height:1.5}
+.er-content{display:none;margin-top:1rem;padding:1rem;background:var(--bg3);border:0.5px solid var(--border);font-size:13px;color:var(--muted);line-height:1.8;white-space:pre-wrap}
+.er-content.open{display:block}
+
+/* SUCCESS */
+.success-card{background:var(--bg2);border:0.5px solid var(--border2);padding:2.5rem;text-align:center}
+.success-card .check{font-size:2rem;color:var(--gold);margin-bottom:1rem}
+.success-card h2{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--text);margin-bottom:0.8rem}
+.success-card p{font-size:14px;color:var(--muted);max-width:360px;margin:0 auto 1.5rem}
+.success-card .contact{font-size:13px;color:var(--gold)}
+
+/* FOOTER */
+footer{text-align:center;padding:2rem;font-size:12px;color:var(--muted);border-top:0.5px solid var(--border)}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:var(--gold)}
+
+@media(max-width:500px){
+  nav{padding:1rem}
+  .hero{padding:6rem 1.5rem 3rem}
+  .row2{grid-template-columns:1fr}
+  .panels{padding:0 1rem 3rem}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="https://drone6440.fr">Drone 64/40</a>
+  <a class="nav-back" href="https://drone6440.fr">&#8592; Retour au site</a>
+</nav>
+
+<section class="hero">
+  <p class="hero-eyebrow">Landes &amp; Pays Basque</p>
+  <h1>Valorisez votre projet<br>depuis <em>les airs</em></h1>
+  <p>Photos et vidéos drone professionnelles. Devis gratuit, réponse sous 24h.</p>
+  <button class="hero-cta" onclick="scrollToForm()">Demander un devis gratuit ↓</button>
+</section>
+
+<div class="steps-indicator" id="steps-indicator">
+  <div class="si-item active" id="si0"><div class="si-dot">1</div>Votre projet</div>
+  <div class="si-line"></div>
+  <div class="si-item" id="si1"><div class="si-dot">2</div>Qualification</div>
+  <div class="si-line"></div>
+  <div class="si-item" id="si2"><div class="si-dot">3</div>Confirmation</div>
+</div>
+
+<div class="panels" id="form-anchor">
+
+  <!-- PANEL 1 : FORMULAIRE -->
+  <div class="panel active" id="p0">
+    <div class="form-card">
+      <h2>Votre demande</h2>
+      <p>Quelques informations pour préparer votre devis.</p>
+      <div class="field">
+        <label>Nom / établissement</label>
+        <input type="text" id="f-name" placeholder="Ex : Hôtel Beau Rivage" />
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label>Type d'activité</label>
+          <select id="f-type">
+            <option value="">Choisir…</option>
+            <option>Restaurant / bar</option>
+            <option>Hôtel / gîte</option>
+            <option>Commune / mairie</option>
+            <option>Agence immobilière</option>
+            <option>Industrie / BTP</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Département</label>
+          <select id="f-dept">
+            <option value="">Choisir…</option>
+            <option>Landes (40)</option>
+            <option>Pyrénées-Atlantiques (64)</option>
+            <option>Gironde (33)</option>
+            <option>Autre</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label>Email professionnel</label>
+        <input type="email" id="f-email" placeholder="contact@etablissement.fr" />
+      </div>
+      <div class="field">
+        <label>Votre besoin</label>
+        <textarea id="f-need" placeholder="Ex : vidéo de présentation pour Instagram, photos aériennes du chantier…"></textarea>
+      </div>
+      <button class="btn-primary" onclick="goToStep1()">Continuer →</button>
+    </div>
+  </div>
+
+  <!-- PANEL 2 : CHATBOT -->
+  <div class="panel" id="p1">
+    <div class="chat-card">
+      <div class="chat-head">
+        <div class="chat-avatar">N</div>
+        <div class="chat-info">
+          <div class="name">Nicolas — Drone 64/40</div>
+          <div class="status">En ligne · répond sous 24h</div>
+        </div>
+      </div>
+      <div class="chat-msgs" id="chat-msgs"></div>
+      <div class="choices-area" id="choices-area"></div>
+      <div class="chat-input-row">
+        <input type="text" id="chat-input" placeholder="Votre réponse…" onkeydown="if(event.key==='Enter')sendMsg()" />
+        <button class="send-btn" onclick="sendMsg()">Envoyer</button>
+      </div>
+      <div class="score-row">
+        <span class="score-label">Qualification</span>
+        <div class="score-track"><div class="score-fill" id="score-fill" style="width:0%"></div></div>
+        <span class="score-num" id="score-num">0/4</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PANEL 3 : CONFIRMATION + EMAILS -->
+  <div class="panel" id="p2">
+    <div class="success-card">
+      <div class="check">✦</div>
+      <h2>Demande enregistrée</h2>
+      <p>Je vous envoie un devis personnalisé sous 24h. Voici la séquence de suivi que vous allez recevoir.</p>
+      <div class="contact">drone64-40@outlook.fr · 06 71 97 82 98</div>
+    </div>
+
+    <div style="margin-top:1.5rem">
+      <p style="font-size:11px;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin-bottom:1rem">Suivi de votre demande</p>
+      <div class="email-list" id="email-list"></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <a href="https://drone6440.fr">drone6440.fr</a> &nbsp;·&nbsp; SIRET 895 050 904 00013 &nbsp;·&nbsp; Nicolas Desperiers
+</footer>
+
+<script>
+var currentStep=0;
+var score=0;
+var chatStep=0;
+var answered={};
+
+function scrollToForm(){document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'});}
+
+function setStep(n){
+  for(var i=0;i<3;i++){
+    document.getElementById('p'+i).classList.toggle('active',i===n);
+    var si=document.getElementById('si'+i);
+    si.classList.remove('active','done');
+    if(i<n)si.classList.add('done');
+    if(i===n)si.classList.add('active');
+  }
+  currentStep=n;
+  document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'});
+}
+
+function goToStep1(){
+  var name=document.getElementById('f-name').value.trim();
+  var email=document.getElementById('f-email').value.trim();
+  if(!name||!email){alert('Merci de renseigner au moins votre nom et votre email.');return;}
+  setStep(1);
+  startChat();
+}
+
+/* CHATBOT */
+var flow=[
+  {q:"Bonjour ! Pour affiner votre devis, quelques questions rapides. Quelle prestation vous intéresse principalement ?",choices:["Photos aériennes","Vidéo drone","Contenu réseaux sociaux","Prestation complète"]},
+  {q:"Avez-vous une date ou une période envisagée ?",choices:["Dès que possible","Dans le mois","Dans 2–3 mois","Pas encore fixé"]},
+  {q:"Quel est votre budget approximatif ?",choices:["Moins de 300 €","300 – 600 €","600 – 1 200 €","Plus de 1 200 €"]},
+  {q:"Y a-t-il des contraintes particulières à anticiper (zone urbaine, bâtiment classé, intérieur…) ?",choices:["Non, pas de contrainte","Zone urbanisée","Bâtiment ou site sensible","Je ne sais pas encore"]},
+];
+
+function startChat(){
+  chatStep=0;score=0;answered={};
+  document.getElementById('chat-msgs').innerHTML='';
+  document.getElementById('choices-area').innerHTML='';
+  updateScore();
+  setTimeout(function(){botMsg(flow[0].q,flow[0].choices);},500);
+}
+
+function botMsg(text,choices){
+  var m=document.createElement('div');
+  m.className='msg bot';m.textContent=text;
+  document.getElementById('chat-msgs').appendChild(m);
+  scrollChat();
+  var ca=document.getElementById('choices-area');ca.innerHTML='';
+  if(choices){choices.forEach(function(c){
+    var b=document.createElement('button');b.className='choice';b.textContent=c;
+    b.onclick=function(){pick(c);};ca.appendChild(b);
+  });}
+}
+
+function userMsg(text){
+  var m=document.createElement('div');m.className='msg user';m.textContent=text;
+  document.getElementById('chat-msgs').appendChild(m);scrollChat();
+}
+
+function scrollChat(){var c=document.getElementById('chat-msgs');c.scrollTop=c.scrollHeight;}
+
+function pick(c){
+  document.getElementById('choices-area').innerHTML='';
+  userMsg(c);tick();advance();
+}
+
+function sendMsg(){
+  var inp=document.getElementById('chat-input');var v=inp.value.trim();if(!v)return;
+  inp.value='';document.getElementById('choices-area').innerHTML='';
+  userMsg(v);tick();advance();
+}
+
+function tick(){
+  if(!answered[chatStep]){answered[chatStep]=true;score=Math.min(score+1,4);updateScore();}
+}
+
+function updateScore(){
+  document.getElementById('score-fill').style.width=Math.round(score/4*100)+'%';
+  document.getElementById('score-num').textContent=score+'/4';
+}
+
+function advance(){
+  chatStep++;
+  if(chatStep<flow.length){
+    setTimeout(function(){botMsg(flow[chatStep].q,flow[chatStep].choices);},600);
+  } else {
+    setTimeout(function(){
+      document.getElementById('choices-area').innerHTML='';
+      botMsg("Merci pour ces informations. Je prépare votre devis et reviens vers vous sous 24h. Vous allez recevoir un email de confirmation.",null);
+      setTimeout(function(){setStep(2);buildEmails();},1800);
+    },600);
+  }
+}
+
+/* EMAILS */
+var emails=[
+  {day:'J',tag:'Confirmation',subject:'Votre demande a bien été reçue',
+   body:'Bonjour,\n\nMerci pour votre intérêt pour Drone 64/40.\n\nJ\'ai bien reçu votre demande et je prépare un devis adapté à votre projet. Vous pouvez compter sur une réponse dans les 24h ouvrées.\n\nN\'hésitez pas à consulter quelques réalisations sur drone6440.fr\n\nÀ très vite,\nNicolas\nDrone 64/40 · 06 71 97 82 98'},
+  {day:'J+1',tag:'Devis',subject:'Votre devis personnalisé — Drone 64/40',
+   body:'Bonjour,\n\nComme promis, voici votre devis pour [prestation].\n\n• [Prestation principale] — [prix] HT\n• Livraison des fichiers sous 5 jours ouvrés\n• Formats optimisés pour Instagram, web et impression\n\nCe tarif inclut le déplacement, la prise de vue et le montage.\n\nPour valider, répondez simplement à cet email ou appelez-moi directement.\n\nNicolas · 06 71 97 82 98'},
+  {day:'J+4',tag:'Relance',subject:'Avez-vous eu le temps de consulter votre devis ?',
+   body:'Bonjour,\n\nJe reviens vers vous suite au devis envoyé lundi.\n\nSi vous avez des questions ou souhaitez ajuster quelque chose, je suis disponible pour en parler 10 minutes par téléphone.\n\nMon agenda se remplit pour les prochaines semaines — si vous souhaitez bloquer une date, mieux vaut le faire rapidement.\n\nNicolas · 06 71 97 82 98'},
+  {day:'J+10',tag:'Valeur',subject:'Ce qu\'une vidéo drone peut faire pour votre visibilité',
+   body:'Bonjour,\n\nJe partage avec vous un exemple concret : un établissement similaire au vôtre, quelques photos mobiles sur Instagram.\n\nAprès une vidéo aérienne de 45 secondes : +3 000 vues en 48h, réservations en hausse le week-end suivant.\n\nLes images de qualité font la différence dans votre secteur. Les clients achètent ce qu\'ils voient.\n\nToujours partant ? Répondez à cet email.\n\nNicolas'},
+  {day:'J+21',tag:'Fermeture',subject:'Je ferme votre dossier — sauf si vous le souhaitez encore',
+   body:'Bonjour,\n\nJe ne veux pas vous encombrer. Si ce n\'est pas le bon moment ou si votre projet a évolué, pas de souci.\n\nJe ferme votre demande de mon côté.\n\nMais si vous souhaitez qu\'on en reparle d\'ici quelques semaines, gardez mon contact :\ndrone64-40@outlook.fr · 06 71 97 82 98\n\nÀ bientôt peut-être,\nNicolas'},
+];
+
+function buildEmails(){
+  var el=document.getElementById('email-list');
+  if(el.innerHTML!=='')return;
+  emails.forEach(function(e,i){
+    var row=document.createElement('div');row.className='email-row';
+    row.innerHTML='<div class="er-top"><div class="er-day">'+e.day+'<span>envoi</span></div>'
+      +'<div class="er-body"><span class="er-tag">'+e.tag+'</span>'
+      +'<div class="er-subject">'+e.subject+'</div>'
+      +'<div class="er-preview">Cliquer pour voir le contenu de l\'email…</div></div></div>'
+      +'<div class="er-content" id="ec'+i+'">'+e.body+'</div>';
+    row.onclick=function(){document.getElementById('ec'+i).classList.toggle('open');};
+    el.appendChild(row);
+  });
+}
+</script>
+</body>
+</html>
