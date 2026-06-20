@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Boutique | Drone 64/40 – Tirages Photo & Formations Drone</title>
+  <meta name="description" content="Commandez vos tirages photo aériens du Pays Basque et des Landes, ou réservez votre formation pilote drone. Drone 64/40 – Nicolas Desperiers, Nouvelle-Aquitaine."/>
+  <meta name="robots" content="index,follow"/>
+  <link rel="canonical" href="https://drone6440.fr/boutique.html"/>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Store","name":"Drone 64/40 – Boutique","url":"https://drone6440.fr/boutique.html","telephone":"06 71 97 82 98","email":"drone64-40@outlook.fr","address":{"@type":"PostalAddress","addressLocality":"Cauneille","postalCode":"40300","addressCountry":"FR"}}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--bg:#080c10;--bg2:#0e1318;--bg3:#141b22;--gold:#c9a84c;--gold-dim:#8a6e2f;--text:#e8e0d0;--muted:#7a7060;--border:rgba(201,168,76,0.15);--radius:4px;--font-disp:'Cormorant Garamond',Georgia,serif;--font-body:'Outfit',system-ui,sans-serif;}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:15px;line-height:1.6;min-height:100vh}
+    nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(1rem,5vw,3rem);height:64px;background:rgba(8,12,16,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .nav-brand{font-family:var(--font-disp);font-size:1.2rem;font-weight:300;letter-spacing:.12em;color:var(--gold);text-decoration:none}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{color:var(--muted);text-decoration:none;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;transition:color .2s}
+    .nav-links a:hover{color:var(--text)}
+    .cart-btn{display:flex;align-items:center;gap:.5rem;background:none;border:1px solid var(--border);color:var(--gold);padding:.4rem .9rem;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-size:.8rem;letter-spacing:.06em;transition:border-color .2s,background .2s}
+    .cart-btn:hover{border-color:var(--gold);background:rgba(201,168,76,.06)}
+    #cart-count{background:var(--gold);color:var(--bg);border-radius:50%;width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:500}
+    .hero{padding:clamp(3rem,8vw,6rem) clamp(1rem,5vw,3rem) clamp(2rem,5vw,4rem);border-bottom:1px solid var(--border);max-width:900px}
+    .hero-eyebrow{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+    .hero h1{font-family:var(--font-disp);font-size:clamp(2.2rem,6vw,4rem);font-weight:300;line-height:1.1;color:var(--text);margin-bottom:1.2rem}
+    .hero h1 em{font-style:italic;color:var(--gold)}
+    .hero p{color:var(--muted);max-width:520px;font-size:.95rem}
+    .tabs{display:flex;border-bottom:1px solid var(--border);padding:0 clamp(1rem,5vw,3rem);position:sticky;top:64px;z-index:90;background:var(--bg)}
+    .tab-btn{background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);cursor:pointer;font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;padding:1rem 1.5rem .9rem;transition:color .2s,border-color .2s}
+    .tab-btn:hover{color:var(--text)}
+    .tab-btn.active{color:var(--gold);border-bottom-color:var(--gold)}
+    .section{padding:clamp(2rem,5vw,4rem) clamp(1rem,5vw,3rem);display:none}
+    .section.active{display:block}
+    .section-title{font-family:var(--font-disp);font-size:1.6rem;font-weight:300;color:var(--text);margin-bottom:.4rem}
+    .section-subtitle{color:var(--muted);font-size:.85rem;margin-bottom:2.5rem}
+    .products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem}
+    .card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:border-color .25s,transform .25s;display:flex;flex-direction:column}
+    .card:hover{border-color:var(--gold-dim);transform:translateY(-3px)}
+    .card-img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+    .card-placeholder{width:100%;aspect-ratio:4/3;background:var(--bg3);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.5rem;color:var(--gold-dim)}
+    .card-placeholder svg{opacity:.35}
+    .card-placeholder span{font-family:var(--font-disp);font-style:italic;font-size:.9rem;color:var(--muted)}
+    .card-body{padding:1.2rem;flex:1;display:flex;flex-direction:column}
+    .card-tag{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+    .card-title{font-family:var(--font-disp);font-size:1.15rem;font-weight:400;color:var(--text);margin-bottom:.4rem;line-height:1.3}
+    .card-desc{font-size:.82rem;color:var(--muted);margin-bottom:1.2rem;flex:1;line-height:1.55}
+    .card-footer{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .card-price{font-family:var(--font-disp);font-size:1.3rem;font-weight:600;color:var(--gold)}
+    .card-price small{font-family:var(--font-body);font-size:.7rem;color:var(--muted);font-weight:300;display:block}
+    .format-select{background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.35rem .6rem;border-radius:var(--radius);font-family:var(--font-body);font-size:.78rem;cursor:pointer;width:100%;margin-bottom:.8rem;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238a6e2f' d='M6 8L1 3h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center}
+    .add-btn{background:transparent;border:1px solid var(--gold-dim);color:var(--gold);padding:.5rem 1rem;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-size:.78rem;letter-spacing:.06em;transition:background .2s,border-color .2s;white-space:nowrap}
+    .add-btn:hover{background:rgba(201,168,76,.1);border-color:var(--gold)}
+    .formation-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:start;margin-bottom:1rem;transition:border-color .25s}
+    .formation-card:hover{border-color:var(--gold-dim)}
+    .formation-tag{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+    .formation-title{font-family:var(--font-disp);font-size:1.4rem;font-weight:300;color:var(--text);margin-bottom:.6rem}
+    .formation-desc{font-size:.85rem;color:var(--muted);margin-bottom:.8rem;max-width:540px}
+    .formation-details{font-size:.78rem;color:var(--muted)}
+    .formation-cta{display:flex;flex-direction:column;align-items:flex-end;gap:.8rem;min-width:130px}
+    .formation-price{font-family:var(--font-disp);font-size:1.6rem;font-weight:600;color:var(--gold);text-align:right}
+    .formation-price small{font-family:var(--font-body);font-size:.7rem;color:var(--muted);font-weight:300;display:block}
+    .skeleton{background:linear-gradient(90deg,var(--bg2) 25%,var(--bg3) 50%,var(--bg2) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:var(--radius)}
+    @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+    .skel-card{height:340px}
+    .empty-state{text-align:center;padding:4rem 1rem;color:var(--muted);font-family:var(--font-disp);font-style:italic;font-size:1.1rem}
+    .cart-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:200;opacity:0;pointer-events:none;transition:opacity .3s}
+    .cart-overlay.open{opacity:1;pointer-events:all}
+    .cart-panel{position:fixed;top:0;right:0;width:min(420px,100vw);height:100vh;background:var(--bg2);border-left:1px solid var(--border);z-index:201;transform:translateX(100%);transition:transform .35s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column}
+    .cart-panel.open{transform:translateX(0)}
+    .cart-header{display:flex;align-items:center;justify-content:space-between;padding:1.5rem;border-bottom:1px solid var(--border)}
+    .cart-header h2{font-family:var(--font-disp);font-size:1.3rem;font-weight:300;color:var(--text)}
+    .close-btn{background:none;border:none;color:var(--muted);cursor:pointer;padding:.3rem;transition:color .2s}
+    .close-btn:hover{color:var(--text)}
+    .cart-items{flex:1;overflow-y:auto;padding:1.5rem}
+    .cart-empty{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-disp);font-style:italic;font-size:1.1rem}
+    .cart-item{display:flex;gap:1rem;align-items:flex-start;padding-bottom:1rem;margin-bottom:1rem;border-bottom:1px solid var(--border)}
+    .cart-item-info{flex:1}
+    .cart-item-name{font-size:.9rem;color:var(--text);margin-bottom:.2rem}
+    .cart-item-variant{font-size:.75rem;color:var(--muted)}
+    .cart-item-price{font-family:var(--font-disp);font-size:1rem;color:var(--gold)}
+    .cart-item-remove{background:none;border:none;color:var(--muted);cursor:pointer;padding:.2rem;font-size:1rem;line-height:1;transition:color .2s}
+    .cart-item-remove:hover{color:#e05a5a}
+    .qty-ctrl{display:flex;align-items:center;gap:.5rem;margin-top:.4rem}
+    .qty-btn{width:24px;height:24px;background:var(--bg3);border:1px solid var(--border);color:var(--text);border-radius:2px;cursor:pointer;font-size:.9rem;display:flex;align-items:center;justify-content:center;transition:border-color .2s}
+    .qty-btn:hover{border-color:var(--gold-dim)}
+    .qty-val{font-size:.85rem;color:var(--text);min-width:20px;text-align:center}
+    .cart-footer{padding:1.5rem;border-top:1px solid var(--border)}
+    .cart-total{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.2rem}
+    .cart-total span{font-size:.85rem;color:var(--muted)}
+    .cart-total strong{font-family:var(--font-disp);font-size:1.5rem;color:var(--gold)}
+    .checkout-btn{width:100%;background:var(--gold);color:var(--bg);border:none;padding:.9rem;border-radius:var(--radius);font-family:var(--font-body);font-size:.85rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:opacity .2s}
+    .checkout-btn:hover{opacity:.9}
+    .checkout-btn:disabled{opacity:.4;cursor:not-allowed}
+    .cart-note{font-size:.72rem;color:var(--muted);text-align:center;margin-top:.8rem}
+    .toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%) translateY(20px);background:var(--bg3);border:1px solid var(--gold-dim);color:var(--text);padding:.7rem 1.4rem;border-radius:2rem;font-size:.82rem;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:300;white-space:nowrap}
+    .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+    footer{padding:2rem clamp(1rem,5vw,3rem);border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+    footer p{font-size:.75rem;color:var(--muted)}
+    footer a{color:var(--gold-dim);text-decoration:none}
+    footer a:hover{color:var(--gold)}
+    @media(max-width:640px){.nav-links{display:none}.formation-card{grid-template-columns:1fr}.formation-cta{align-items:flex-start}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-brand">DRONE 64/40</a>
+  <ul class="nav-links">
+    <li><a href="/">Accueil</a></li>
+    <li><a href="/boutique.html" style="color:var(--text)">Boutique</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <button class="cart-btn" onclick="toggleCart()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+    Panier <span id="cart-count">0</span>
+  </button>
+</nav>
+
+<header class="hero">
+  <p class="hero-eyebrow">Drone 64/40 — Boutique officielle</p>
+  <h1>Le Sud-Ouest<br/><em>vu d'en haut</em></h1>
+  <p>Tirages fine art en édition limitée et formations pilote drone — Pays Basque & Landes.</p>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('tirages',this)">Tirages photo</button>
+  <button class="tab-btn" onclick="switchTab('formations',this)">Formations drone</button>
+</div>
+
+<section class="section active" id="section-tirages">
+  <p class="section-title">Tirages fine art</p>
+  <p class="section-subtitle">Impression sur papier Hahnemühle 308g · Édition limitée signée · Livraison sous tube rigide</p>
+  <div class="products-grid" id="tirages-grid">
+    <div class="skeleton skel-card"></div>
+    <div class="skeleton skel-card"></div>
+    <div class="skeleton skel-card"></div>
+  </div>
+</section>
+
+<section class="section" id="section-formations">
+  <p class="section-title">Formations pilote drone</p>
+  <p class="section-subtitle">Open category A1/A2/A3 · Landes & Pyrénées-Atlantiques · Groupe ≤ 4 personnes</p>
+  <div id="formations-list"><div class="skeleton" style="height:160px;margin-bottom:1rem"></div></div>
+</section>
+
+<div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+<aside class="cart-panel" id="cart-panel">
+  <div class="cart-header">
+    <h2>Mon panier</h2>
+    <button class="close-btn" onclick="toggleCart()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="cart-items" id="cart-items"><p class="cart-empty">Votre panier est vide.</p></div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total</span><strong id="cart-total">0 €</strong></div>
+    <button class="checkout-btn" id="checkout-btn" onclick="checkout()" disabled>Payer par carte</button>
+    <p class="cart-note">Paiement sécurisé par Stripe · Sans TVA</p>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+
+<footer>
+  <p>© 2026 Drone 64/40 · Nicolas Desperiers · Cauneille (40300)<br/>
+    SIRET 895 050 904 00013 · <a href="mailto:drone64-40@outlook.fr">drone64-40@outlook.fr</a> · <a href="tel:0671978298">06 71 97 82 98</a>
+  </p>
+  <p><a href="/mentions-legales.html">Mentions légales</a> · <a href="/cgv.html">CGV</a></p>
+</footer>
+
+<script>
+// URL du fichier JSON sur GitHub — à jour automatiquement
+const JSON_URL = 'https://raw.githubusercontent.com/Desperiers/Drone64-40/main/produits.json';
+
+let tirages = [];
+let formations = [];
+
+async function loadProducts(){
+  try {
+    const r = await fetch(JSON_URL + '?t=' + Date.now()); // cache-bust
+    const data = await r.json();
+    tirages = data.tirages || [];
+    formations = data.formations || [];
+  } catch(e) {
+    tirages = []; formations = [];
+  }
+  renderTirages();
+  renderFormations();
+}
+
+function renderTirages(){
+  const grid = document.getElementById('tirages-grid');
+  if(!tirages.length){grid.innerHTML='<p class="empty-state">Aucun tirage disponible pour le moment.</p>';return;}
+  grid.innerHTML = tirages.map(p => {
+    const formats = Array.isArray(p.formats)?p.formats:[];
+    const opts = formats.map((f,i)=>`<option value="${i}" data-price="${f.price}">${f.label} — ${f.price} €</option>`).join('');
+    const imgHTML = p.image
+      ? `<img class="card-img" src="${p.image}" alt="${p.title}" loading="lazy"/>`
+      : `<div class="card-placeholder"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg><span>${p.tag||''}</span></div>`;
+    return `<article class="card">${imgHTML}
+      <div class="card-body">
+        <p class="card-tag">${p.tag||''}</p>
+        <h3 class="card-title">${p.title}</h3>
+        <p class="card-desc">${p.desc||''}</p>
+        ${formats.length>1?`<select class="format-select" id="fmt-${p.id}" onchange="updatePrice('${p.id}',this)">${opts}</select>`:`<input type="hidden" id="fmt-${p.id}" data-single="${formats[0]?.price||0}"/>`}
+        <div class="card-footer">
+          <div class="card-price"><span id="price-${p.id}">${formats[0]?.price||0} €</span><small>sans TVA · livraison incluse</small></div>
+          <button class="add-btn" onclick="addToCart('${p.id}','tirage')">Ajouter</button>
+        </div>
+      </div></article>`;
+  }).join('');
+}
+
+function updatePrice(id,sel){
+  document.getElementById('price-'+id).textContent=sel.options[sel.selectedIndex].dataset.price+' €';
+}
+
+function renderFormations(){
+  const list = document.getElementById('formations-list');
+  if(!formations.length){list.innerHTML='<p class="empty-state">Aucune formation disponible pour le moment.</p>';return;}
+  list.innerHTML = formations.map(f=>`
+    <article class="formation-card">
+      <div>
+        <p class="formation-tag">${f.tag||''}</p>
+        <h3 class="formation-title">${f.title}</h3>
+        <p class="formation-desc">${f.desc||''}</p>
+        <p class="formation-details">${f.details||''}</p>
+      </div>
+      <div class="formation-cta">
+        <div class="formation-price">${f.price} €<small>${f.priceNote||'sans TVA'}</small></div>
+        <button class="add-btn" onclick="addToCart('${f.id}','formation')">Réserver</button>
+      </div>
+    </article>`).join('');
+}
+
+let cart=[];
+function addToCart(id,type){
+  let name,price,variant='';
+  if(type==='tirage'){
+    const prod=tirages.find(p=>p.id===id);if(!prod)return;
+    const formats=Array.isArray(prod.formats)?prod.formats:[];
+    const selEl=document.getElementById('fmt-'+id);
+    if(selEl.tagName==='SELECT'){
+      const opt=selEl.options[selEl.selectedIndex];
+      variant=opt.label.split('—')[0].trim();price=parseInt(opt.dataset.price);
+    }else{price=parseInt(selEl.dataset.single)||0;variant=formats[0]?.label||'';}
+    name=prod.title;
+  }else{
+    const prod=formations.find(f=>f.id===id);if(!prod)return;
+    name=prod.title;price=parseInt(prod.price)||0;
+  }
+  const key=id+'__'+variant;
+  const ex=cart.find(i=>i.key===key);
+  if(ex){ex.qty++;}else{cart.push({key,id,type,name,variant,price,qty:1});}
+  renderCart();showToast('"'+name+'" ajouté au panier');
+}
+function removeFromCart(key){cart=cart.filter(i=>i.key!==key);renderCart();}
+function changeQty(key,d){const i=cart.find(i=>i.key===key);if(i)i.qty=Math.max(1,i.qty+d);renderCart();}
+function renderCart(){
+  const el=document.getElementById('cart-items');
+  const total=cart.reduce((s,i)=>s+i.price*i.qty,0);
+  const count=cart.reduce((s,i)=>s+i.qty,0);
+  document.getElementById('cart-count').textContent=count;
+  document.getElementById('cart-total').textContent=total+' €';
+  document.getElementById('checkout-btn').disabled=cart.length===0;
+  if(!cart.length){el.innerHTML='<p class="cart-empty">Votre panier est vide.</p>';return;}
+  el.innerHTML=cart.map(item=>`
+    <div class="cart-item">
+      <div class="cart-item-info">
+        <p class="cart-item-name">${item.name}</p>
+        ${item.variant?`<p class="cart-item-variant">${item.variant}</p>`:''}
+        <div class="qty-ctrl">
+          <button class="qty-btn" onclick="changeQty('${item.key}',-1)">−</button>
+          <span class="qty-val">${item.qty}</span>
+          <button class="qty-btn" onclick="changeQty('${item.key}',1)">+</button>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:.4rem">
+        <p class="cart-item-price">${item.price*item.qty} €</p>
+        <button class="cart-item-remove" onclick="removeFromCart('${item.key}')">✕</button>
+      </div>
+    </div>`).join('');
+}
+async function checkout(){
+  const btn=document.getElementById('checkout-btn');
+  btn.disabled=true;btn.textContent='Redirection…';
+  alert('✅ Panier prêt !\n\nPour activer le paiement Stripe, connecte un backend.\nEn attendant : drone64-40@outlook.fr');
+  btn.disabled=false;btn.textContent='Payer par carte';
+}
+function toggleCart(){document.getElementById('cart-panel').classList.toggle('open');document.getElementById('cart-overlay').classList.toggle('open');}
+function switchTab(name,btn){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('section-'+name).classList.add('active');
+}
+function showToast(msg){const t=document.getElementById('toast');t.textContent='✓ '+msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2800);}
+
+loadProducts();
+</script>
+</body>
+</html>
