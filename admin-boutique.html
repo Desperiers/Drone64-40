@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Admin Boutique – Drone 64/40</title>
+  <meta name="robots" content="noindex,nofollow"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#080c10;--bg2:#0e1318;--bg3:#141b22;
+      --gold:#c9a84c;--gold-dim:#8a6e2f;
+      --text:#e8e0d0;--muted:#7a7060;--danger:#c0392b;
+      --border:rgba(201,168,76,0.15);--radius:4px;
+      --font-disp:'Cormorant Garamond',serif;--font-body:'Outfit',system-ui,sans-serif;
+    }
+    body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:14px;line-height:1.6;min-height:100vh}
+    #login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:1rem}
+    .login-box{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:2.5rem;width:100%;max-width:380px;text-align:center}
+    .login-box h1{font-family:var(--font-disp);font-size:1.8rem;font-weight:300;color:var(--gold);margin-bottom:.3rem}
+    .login-box p{color:var(--muted);font-size:.82rem;margin-bottom:1.5rem}
+    input[type=password].main-pwd{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.7rem 1rem;border-radius:var(--radius);font-family:var(--font-body);font-size:.9rem;margin-bottom:1rem;outline:none;transition:border-color .2s}
+    input[type=password].main-pwd:focus{border-color:var(--gold-dim)}
+    .login-error{color:#e05a5a;font-size:.78rem;margin-bottom:.8rem;display:none}
+    #app{display:none}
+    header.app-header{display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;height:58px;background:rgba(8,12,16,.95);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50}
+    .app-brand{font-family:var(--font-disp);font-size:1.1rem;font-weight:300;color:var(--gold);letter-spacing:.1em}
+    .app-brand span{color:var(--muted);font-size:.72rem;margin-left:.4rem}
+    .header-actions{display:flex;gap:.8rem;align-items:center}
+    .btn-preview{color:var(--muted);font-size:.75rem;text-decoration:none;letter-spacing:.05em;text-transform:uppercase;transition:color .2s}
+    .btn-preview:hover{color:var(--text)}
+    .btn-logout{background:none;border:1px solid var(--border);color:var(--muted);padding:.3rem .8rem;border-radius:var(--radius);cursor:pointer;font-size:.75rem;font-family:var(--font-body)}
+    .app-body{display:grid;grid-template-columns:190px 1fr;min-height:calc(100vh - 58px)}
+    aside.sidebar{background:var(--bg2);border-right:1px solid var(--border);padding:1.2rem 0}
+    .sidebar-nav{list-style:none}
+    .sidebar-nav li a{display:flex;align-items:center;gap:.5rem;padding:.55rem 1.3rem;color:var(--muted);text-decoration:none;font-size:.82rem;transition:color .2s,background .2s;border-left:2px solid transparent}
+    .sidebar-nav li a:hover{color:var(--text);background:rgba(255,255,255,.02)}
+    .sidebar-nav li a.active{color:var(--gold);border-left-color:var(--gold);background:rgba(201,168,76,.05)}
+    .sidebar-section{padding:.3rem 1.3rem;font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-dim);margin-top:.8rem;margin-bottom:.1rem}
+    main.content{padding:1.5rem 2rem}
+    .page{display:none}
+    .page.active{display:block}
+    .page-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1.5rem;gap:1rem;flex-wrap:wrap}
+    .page-title{font-family:var(--font-disp);font-size:1.5rem;font-weight:300;color:var(--text)}
+    .page-subtitle{color:var(--muted);font-size:.8rem;margin-top:.2rem}
+
+    /* EXPORT BOX */
+    .export-box{background:var(--bg3);border:1px solid var(--gold-dim);border-radius:var(--radius);padding:1.2rem;margin-bottom:1.5rem}
+    .export-box p{font-size:.82rem;color:var(--muted);margin-bottom:.8rem}
+    .export-box strong{color:var(--gold)}
+    .export-steps{font-size:.78rem;color:var(--muted);margin-bottom:.8rem;line-height:1.8}
+    .export-steps b{color:var(--text)}
+
+    .btn{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1rem;border-radius:var(--radius);border:none;cursor:pointer;font-family:var(--font-body);font-size:.78rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;transition:opacity .2s,transform .1s}
+    .btn:active{transform:scale(.97)}
+    .btn-primary{background:var(--gold);color:var(--bg)}
+    .btn-primary:hover{opacity:.85}
+    .btn-secondary{background:var(--bg3);color:var(--text);border:1px solid var(--border)}
+    .btn-secondary:hover{border-color:var(--gold-dim)}
+    .btn-danger{background:transparent;color:var(--danger);border:1px solid rgba(192,57,43,.3)}
+    .btn-danger:hover{background:rgba(192,57,43,.1)}
+    .btn-sm{padding:.28rem .65rem;font-size:.7rem}
+    .btn-export{background:var(--gold-dim);color:var(--bg);width:100%}
+    .btn-export:hover{background:var(--gold)}
+
+    .stats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.8rem;margin-bottom:1.5rem}
+    .stat-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1rem}
+    .stat-label{font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
+    .stat-value{font-family:var(--font-disp);font-size:1.8rem;font-weight:300;color:var(--gold)}
+
+    .products-table{width:100%;border-collapse:collapse}
+    .products-table th{text-align:left;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dim);padding:.5rem .8rem;border-bottom:1px solid var(--border)}
+    .products-table td{padding:.65rem .8rem;border-bottom:1px solid rgba(201,168,76,.06);vertical-align:middle}
+    .products-table tr:hover td{background:rgba(255,255,255,.015)}
+    .prod-name{font-size:.88rem;color:var(--text)}
+    .prod-tag{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);background:rgba(201,168,76,.08);padding:.12rem .45rem;border-radius:2px}
+    .prod-price{font-family:var(--font-disp);font-size:.95rem;color:var(--gold)}
+    .prod-formats{font-size:.73rem;color:var(--muted)}
+    .row-actions{display:flex;gap:.35rem}
+    .empty-table{text-align:center;padding:3rem;color:var(--muted);font-style:italic;font-family:var(--font-disp)}
+
+    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:200;display:none;align-items:center;justify-content:center;padding:1rem}
+    .modal-overlay.open{display:flex}
+    .modal{background:var(--bg2);border:1px solid var(--border);border-radius:8px;width:100%;max-width:540px;max-height:90vh;overflow-y:auto;display:flex;flex-direction:column}
+    .modal-header{display:flex;align-items:center;justify-content:space-between;padding:1.2rem 1.5rem;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg2);z-index:1}
+    .modal-title{font-family:var(--font-disp);font-size:1.15rem;font-weight:300;color:var(--text)}
+    .modal-close{background:none;border:none;color:var(--muted);cursor:pointer;font-size:1.2rem;transition:color .2s}
+    .modal-close:hover{color:var(--text)}
+    .modal-body{padding:1.3rem 1.5rem;flex:1}
+    .modal-footer{padding:.9rem 1.5rem;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:.7rem;position:sticky;bottom:0;background:var(--bg2)}
+
+    .form-group{margin-bottom:1rem}
+    label.field-label{display:block;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);margin-bottom:.35rem}
+    input[type=text],input[type=number],input[type=url],input[type=password],textarea,select{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.6rem .8rem;border-radius:var(--radius);font-family:var(--font-body);font-size:.87rem;outline:none;transition:border-color .2s}
+    input:focus,textarea:focus,select:focus{border-color:var(--gold-dim)}
+    textarea{resize:vertical;min-height:75px}
+    .form-hint{font-size:.7rem;color:var(--muted);margin-top:.3rem}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+
+    .formats-list{display:flex;flex-direction:column;gap:.45rem;margin-bottom:.55rem}
+    .format-row{display:grid;grid-template-columns:1fr 90px 30px;gap:.4rem;align-items:center}
+    .format-row input{margin:0}
+    .remove-format{background:none;border:1px solid rgba(192,57,43,.3);color:var(--danger);width:28px;height:28px;border-radius:var(--radius);cursor:pointer;font-size:.9rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .remove-format:hover{background:rgba(192,57,43,.12)}
+    .add-format-btn{background:none;border:1px dashed var(--border);color:var(--muted);padding:.38rem 1rem;border-radius:var(--radius);cursor:pointer;font-size:.76rem;font-family:var(--font-body);width:100%;transition:border-color .2s,color .2s}
+    .add-format-btn:hover{border-color:var(--gold-dim);color:var(--text)}
+
+    .settings-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;max-width:420px;margin-bottom:1rem}
+    .settings-card h3{font-family:var(--font-disp);font-size:1.05rem;font-weight:300;color:var(--text);margin-bottom:.9rem}
+
+    .toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(20px);background:var(--bg3);border:1px solid var(--gold-dim);color:var(--text);padding:.6rem 1.3rem;border-radius:2rem;font-size:.82rem;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:400;white-space:nowrap}
+    .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+    @media(max-width:680px){.app-body{grid-template-columns:1fr} aside.sidebar{display:none} .form-row{grid-template-columns:1fr} main.content{padding:1rem}}
+  </style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login-screen">
+  <div class="login-box">
+    <h1>DRONE 64/40</h1>
+    <p>Administration boutique</p>
+    <input type="password" class="main-pwd" id="pwd-input" placeholder="Mot de passe (défaut : drone6440)" onkeydown="if(event.key==='Enter')doLogin()"/>
+    <p class="login-error" id="login-error">Mot de passe incorrect.</p>
+    <button class="btn btn-primary" style="width:100%;padding:.75rem" onclick="doLogin()">Se connecter</button>
+    <p style="font-size:.7rem;color:var(--muted);margin-top:1.2rem">Mot de passe par défaut : <strong style="color:var(--gold)">drone6440</strong></p>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <header class="app-header">
+    <div class="app-brand">DRONE 64/40 <span>Admin</span></div>
+    <div class="header-actions">
+      <a href="boutique.html" target="_blank" class="btn-preview">↗ Boutique</a>
+      <button class="btn-logout" onclick="logout()">Déconnexion</button>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <aside class="sidebar">
+      <ul class="sidebar-nav">
+        <li><p class="sidebar-section">Catalogue</p></li>
+        <li><a href="#" class="active" onclick="showPage('tirages',this);return false">🖼 Tirages</a></li>
+        <li><a href="#" onclick="showPage('formations',this);return false">📚 Formations</a></li>
+        <li><p class="sidebar-section">Compte</p></li>
+        <li><a href="#" onclick="showPage('settings',this);return false">⚙️ Paramètres</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+
+      <!-- PAGE TIRAGES -->
+      <div class="page active" id="page-tirages">
+        <div class="page-header">
+          <div><h2 class="page-title">Tirages photo</h2><p class="page-subtitle">Gérez vos tirages fine art</p></div>
+          <button class="btn btn-primary" onclick="openModal('tirage')">+ Ajouter</button>
+        </div>
+
+        <div class="export-box">
+          <p><strong>📥 Comment publier tes produits sur la boutique ?</strong></p>
+          <div class="export-steps">
+            <b>1.</b> Ajoute / modifie tes produits ici<br/>
+            <b>2.</b> Clique "Télécharger produits.json" ci-dessous<br/>
+            <b>3.</b> Upload ce fichier sur GitHub dans ton repo<br/>
+            <b>4.</b> La boutique se met à jour automatiquement !
+          </div>
+          <button class="btn btn-export" onclick="exportJSON()">⬇ Télécharger produits.json</button>
+        </div>
+
+        <div class="stats-grid" id="stats-tirages"></div>
+        <table class="products-table">
+          <thead><tr><th>Titre</th><th>Catégorie</th><th>Formats</th><th>Actions</th></tr></thead>
+          <tbody id="tbody-tirages"></tbody>
+        </table>
+      </div>
+
+      <!-- PAGE FORMATIONS -->
+      <div class="page" id="page-formations">
+        <div class="page-header">
+          <div><h2 class="page-title">Formations drone</h2><p class="page-subtitle">Gérez vos formations</p></div>
+          <button class="btn btn-primary" onclick="openModal('formation')">+ Ajouter</button>
+        </div>
+
+        <div class="export-box">
+          <p><strong>📥 Comment publier tes produits sur la boutique ?</strong></p>
+          <div class="export-steps">
+            <b>1.</b> Ajoute / modifie tes produits ici<br/>
+            <b>2.</b> Clique "Télécharger produits.json" ci-dessous<br/>
+            <b>3.</b> Upload ce fichier sur GitHub dans ton repo<br/>
+            <b>4.</b> La boutique se met à jour automatiquement !
+          </div>
+          <button class="btn btn-export" onclick="exportJSON()">⬇ Télécharger produits.json</button>
+        </div>
+
+        <div class="stats-grid" id="stats-formations"></div>
+        <table class="products-table">
+          <thead><tr><th>Titre</th><th>Catégorie</th><th>Prix</th><th>Infos</th><th>Actions</th></tr></thead>
+          <tbody id="tbody-formations"></tbody>
+        </table>
+      </div>
+
+      <!-- PAGE PARAMÈTRES -->
+      <div class="page" id="page-settings">
+        <div class="page-header"><div><h2 class="page-title">Paramètres</h2></div></div>
+        <div class="settings-card">
+          <h3>Changer le mot de passe</h3>
+          <div class="form-group"><label class="field-label">Nouveau mot de passe</label><input type="password" id="new-pwd" placeholder="Minimum 6 caractères"/></div>
+          <div class="form-group"><label class="field-label">Confirmer</label><input type="password" id="confirm-pwd" placeholder="Répéter"/></div>
+          <button class="btn btn-primary" onclick="changePwd()">Enregistrer</button>
+        </div>
+        <div class="settings-card">
+          <h3>Données</h3>
+          <p style="color:var(--muted);font-size:.82rem;margin-bottom:1rem">Les produits sont stockés dans ce navigateur. Télécharge le JSON et uploade-le sur GitHub pour les publier.</p>
+          <button class="btn btn-danger btn-sm" onclick="resetAll()">Vider tous les produits</button>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<!-- MODAL TIRAGE -->
+<div class="modal-overlay" id="modal-tirage">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modal-tirage-title">Nouveau tirage</h3>
+      <button class="modal-close" onclick="closeModal('tirage')">✕</button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="tirage-edit-id"/>
+      <div class="form-row">
+        <div class="form-group"><label class="field-label">Titre *</label><input type="text" id="t-title" placeholder="Ex : Côte Basque, Bidart"/></div>
+        <div class="form-group"><label class="field-label">Catégorie *</label><input type="text" id="t-tag" placeholder="Ex : Pays Basque"/></div>
+      </div>
+      <div class="form-group"><label class="field-label">Description</label><textarea id="t-desc" placeholder="Description affichée sur la carte…"></textarea></div>
+      <div class="form-group">
+        <label class="field-label">URL image</label>
+        <input type="url" id="t-image" placeholder="https://i.imgur.com/xxx.jpg"/>
+        <p class="form-hint">Héberge sur Imgur (gratuit) → clique droit sur l'image → "Copier l'adresse". Laisse vide pour placeholder.</p>
+      </div>
+      <div class="form-group">
+        <label class="field-label">Formats & prix *</label>
+        <div class="formats-list" id="formats-list"></div>
+        <button class="add-format-btn" onclick="addFormatRow()">+ Ajouter un format</button>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('tirage')">Annuler</button>
+      <button class="btn btn-primary" onclick="saveTirage()">Enregistrer</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL FORMATION -->
+<div class="modal-overlay" id="modal-formation">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modal-formation-title">Nouvelle formation</h3>
+      <button class="modal-close" onclick="closeModal('formation')">✕</button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="formation-edit-id"/>
+      <div class="form-row">
+        <div class="form-group"><label class="field-label">Titre *</label><input type="text" id="f-title" placeholder="Ex : Formation A1/A3"/></div>
+        <div class="form-group"><label class="field-label">Catégorie *</label><input type="text" id="f-tag" placeholder="Ex : Open Category"/></div>
+      </div>
+      <div class="form-group"><label class="field-label">Description</label><textarea id="f-desc" placeholder="Programme, objectifs…"></textarea></div>
+      <div class="form-group">
+        <label class="field-label">Infos pratiques</label>
+        <input type="text" id="f-details" placeholder="Ex : 2 jours · ≤4 pers. · Landes & Pays Basque"/>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label class="field-label">Prix (€) *</label><input type="number" id="f-price" min="0" placeholder="290"/></div>
+        <div class="form-group"><label class="field-label">Note de prix</label><input type="text" id="f-pricenote" placeholder="par personne · sans TVA"/></div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('formation')">Annuler</button>
+      <button class="btn btn-primary" onclick="saveFormation()">Enregistrer</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const KEY_PWD        = 'drone6440_admin_pwd';
+const KEY_TIRAGES    = 'drone6440_tirages';
+const KEY_FORMATIONS = 'drone6440_formations';
+const DEFAULT_PWD    = 'drone6440';
+
+// AUTH
+function doLogin(){
+  const pwd = document.getElementById('pwd-input').value;
+  const stored = localStorage.getItem(KEY_PWD) || DEFAULT_PWD;
+  if(pwd === stored){
+    document.getElementById('login-screen').style.display='none';
+    document.getElementById('app').style.display='block';
+    document.getElementById('login-error').style.display='none';
+    renderAll();
+  } else {
+    document.getElementById('login-error').style.display='block';
+    document.getElementById('pwd-input').value='';
+  }
+}
+function logout(){
+  document.getElementById('app').style.display='none';
+  document.getElementById('login-screen').style.display='flex';
+  document.getElementById('pwd-input').value='';
+}
+function changePwd(){
+  const p1=document.getElementById('new-pwd').value.trim();
+  const p2=document.getElementById('confirm-pwd').value.trim();
+  if(!p1||p1.length<6){showToast('❌ Minimum 6 caractères');return;}
+  if(p1!==p2){showToast('❌ Les mots de passe ne correspondent pas');return;}
+  localStorage.setItem(KEY_PWD,p1);
+  showToast('✓ Mot de passe modifié');
+  document.getElementById('new-pwd').value='';
+  document.getElementById('confirm-pwd').value='';
+}
+
+// NAV
+function showPage(name, el){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.sidebar-nav a').forEach(a=>a.classList.remove('active'));
+  document.getElementById('page-'+name).classList.add('active');
+  el.classList.add('active');
+}
+
+// DATA
+function getTirages(){try{const d=JSON.parse(localStorage.getItem(KEY_TIRAGES)||'[]');return Array.isArray(d)?d:[];}catch{return [];}}
+function getFormations(){try{const d=JSON.parse(localStorage.getItem(KEY_FORMATIONS)||'[]');return Array.isArray(d)?d:[];}catch{return [];}}
+function saveTirages(data){localStorage.setItem(KEY_TIRAGES,JSON.stringify(data));}
+function saveFormations(data){localStorage.setItem(KEY_FORMATIONS,JSON.stringify(data));}
+function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,5);}
+
+// EXPORT JSON
+function exportJSON(){
+  const data = { tirages: getTirages(), formations: getFormations() };
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'produits.json';
+  a.click(); URL.revokeObjectURL(url);
+  showToast('✓ produits.json téléchargé — uploade-le sur GitHub !');
+}
+
+// RENDU
+function renderTiragesTable(){
+  const tirages=getTirages();
+  const stats=document.getElementById('stats-tirages');
+  const tbody=document.getElementById('tbody-tirages');
+  const minPrice=tirages.length?Math.min(...tirages.flatMap(t=>t.formats.map(f=>f.price))):null;
+  stats.innerHTML=`
+    <div class="stat-card"><p class="stat-label">Tirages</p><p class="stat-value">${tirages.length}</p></div>
+    <div class="stat-card"><p class="stat-label">Formats</p><p class="stat-value">${tirages.reduce((s,t)=>s+(t.formats||[]).length,0)}</p></div>
+    <div class="stat-card"><p class="stat-label">Prix mini</p><p class="stat-value">${minPrice!==null?minPrice+'€':'—'}</p></div>`;
+  if(!tirages.length){tbody.innerHTML='<tr><td colspan="4" class="empty-table">Aucun tirage. Ajoutez-en un !</td></tr>';return;}
+  tbody.innerHTML=tirages.map(t=>`
+    <tr>
+      <td><span class="prod-name">${t.title}</span></td>
+      <td><span class="prod-tag">${t.tag}</span></td>
+      <td><span class="prod-formats">${(t.formats||[]).map(f=>`${f.label} <strong style="color:var(--gold)">${f.price}€</strong>`).join(' · ')}</span></td>
+      <td><div class="row-actions">
+        <button class="btn btn-secondary btn-sm" onclick="editTirage('${t.id}')">Modifier</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteTirage('${t.id}')">Suppr.</button>
+      </div></td>
+    </tr>`).join('');
+}
+
+function renderFormationsTable(){
+  const formations=getFormations();
+  const stats=document.getElementById('stats-formations');
+  const tbody=document.getElementById('tbody-formations');
+  stats.innerHTML=`
+    <div class="stat-card"><p class="stat-label">Formations</p><p class="stat-value">${formations.length}</p></div>
+    <div class="stat-card"><p class="stat-label">Prix mini</p><p class="stat-value">${formations.length?Math.min(...formations.map(f=>f.price))+'€':'—'}</p></div>`;
+  if(!formations.length){tbody.innerHTML='<tr><td colspan="5" class="empty-table">Aucune formation. Ajoutez-en une !</td></tr>';return;}
+  tbody.innerHTML=formations.map(f=>`
+    <tr>
+      <td><span class="prod-name">${f.title}</span></td>
+      <td><span class="prod-tag">${f.tag}</span></td>
+      <td><span class="prod-price">${f.price} €</span></td>
+      <td><span class="prod-formats">${f.details||'—'}</span></td>
+      <td><div class="row-actions">
+        <button class="btn btn-secondary btn-sm" onclick="editFormation('${f.id}')">Modifier</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteFormation('${f.id}')">Suppr.</button>
+      </div></td>
+    </tr>`).join('');
+}
+
+function renderAll(){renderTiragesTable();renderFormationsTable();}
+
+// MODALS
+function openModal(type, id){
+  if(type==='tirage'){
+    document.getElementById('modal-tirage-title').textContent=id?'Modifier le tirage':'Nouveau tirage';
+    document.getElementById('tirage-edit-id').value=id||'';
+    if(id){
+      const t=getTirages().find(x=>x.id===id);
+      document.getElementById('t-title').value=t.title||'';
+      document.getElementById('t-tag').value=t.tag||'';
+      document.getElementById('t-desc').value=t.desc||'';
+      document.getElementById('t-image').value=t.image||'';
+      renderFormatRows(t.formats||[]);
+    }else{
+      ['t-title','t-tag','t-desc','t-image'].forEach(i=>document.getElementById(i).value='');
+      renderFormatRows([{label:'30×45 cm',price:79}]);
+    }
+    document.getElementById('modal-tirage').classList.add('open');
+  }else{
+    document.getElementById('modal-formation-title').textContent=id?'Modifier la formation':'Nouvelle formation';
+    document.getElementById('formation-edit-id').value=id||'';
+    if(id){
+      const f=getFormations().find(x=>x.id===id);
+      document.getElementById('f-title').value=f.title||'';
+      document.getElementById('f-tag').value=f.tag||'';
+      document.getElementById('f-desc').value=f.desc||'';
+      document.getElementById('f-details').value=f.details||'';
+      document.getElementById('f-price').value=f.price||'';
+      document.getElementById('f-pricenote').value=f.priceNote||'par personne · sans TVA';
+    }else{
+      ['f-title','f-tag','f-desc','f-details','f-price'].forEach(i=>document.getElementById(i).value='');
+      document.getElementById('f-pricenote').value='par personne · sans TVA';
+    }
+    document.getElementById('modal-formation').classList.add('open');
+  }
+}
+function closeModal(type){document.getElementById('modal-'+type).classList.remove('open');}
+function editTirage(id){openModal('tirage',id);}
+function editFormation(id){openModal('formation',id);}
+
+// FORMATS
+function renderFormatRows(formats){
+  document.getElementById('formats-list').innerHTML='';
+  formats.forEach(f=>addFormatRow(f.label,f.price));
+}
+function addFormatRow(label='',price=''){
+  const list=document.getElementById('formats-list');
+  const row=document.createElement('div');
+  row.className='format-row';
+  row.innerHTML=`
+    <input type="text" placeholder="Ex : 50×75 cm" value="${label}"/>
+    <input type="number" placeholder="Prix €" value="${price}" min="0"/>
+    <button class="remove-format" onclick="this.parentElement.remove()">✕</button>`;
+  list.appendChild(row);
+}
+function getFormatRows(){
+  return Array.from(document.querySelectorAll('#formats-list .format-row')).map(row=>{
+    const inputs=row.querySelectorAll('input');
+    return {label:inputs[0].value.trim(),price:parseInt(inputs[1].value)||0};
+  }).filter(f=>f.label);
+}
+
+// SAVE
+function saveTirage(){
+  const title=document.getElementById('t-title').value.trim();
+  const tag=document.getElementById('t-tag').value.trim();
+  if(!title||!tag){showToast('❌ Titre et catégorie obligatoires');return;}
+  const formats=getFormatRows();
+  if(!formats.length){showToast('❌ Ajoute au moins un format');return;}
+  const editId=document.getElementById('tirage-edit-id').value;
+  const obj={id:editId||uid(),title,tag,desc:document.getElementById('t-desc').value.trim(),image:document.getElementById('t-image').value.trim(),formats};
+  const tirages=getTirages();
+  if(editId){const i=tirages.findIndex(t=>t.id===editId);if(i>-1)tirages[i]=obj;}
+  else tirages.push(obj);
+  saveTirages(tirages);
+  closeModal('tirage');
+  renderTiragesTable();
+  showToast('✓ Tirage enregistré — pense à télécharger le JSON !');
+}
+
+function saveFormation(){
+  const title=document.getElementById('f-title').value.trim();
+  const tag=document.getElementById('f-tag').value.trim();
+  const price=parseInt(document.getElementById('f-price').value)||0;
+  if(!title||!tag||!price){showToast('❌ Titre, catégorie et prix obligatoires');return;}
+  const editId=document.getElementById('formation-edit-id').value;
+  const obj={id:editId||uid(),title,tag,price,desc:document.getElementById('f-desc').value.trim(),details:document.getElementById('f-details').value.trim(),priceNote:document.getElementById('f-pricenote').value.trim()||'sans TVA'};
+  const formations=getFormations();
+  if(editId){const i=formations.findIndex(f=>f.id===editId);if(i>-1)formations[i]=obj;}
+  else formations.push(obj);
+  saveFormations(formations);
+  closeModal('formation');
+  renderFormationsTable();
+  showToast('✓ Formation enregistrée — pense à télécharger le JSON !');
+}
+
+function deleteTirage(id){
+  if(!confirm('Supprimer ce tirage ?'))return;
+  saveTirages(getTirages().filter(t=>t.id!==id));
+  renderTiragesTable();
+  showToast('✓ Supprimé');
+}
+function deleteFormation(id){
+  if(!confirm('Supprimer cette formation ?'))return;
+  saveFormations(getFormations().filter(f=>f.id!==id));
+  renderFormationsTable();
+  showToast('✓ Supprimé');
+}
+function resetAll(){
+  if(!confirm('Vider TOUS les produits ?'))return;
+  localStorage.removeItem(KEY_TIRAGES);
+  localStorage.removeItem(KEY_FORMATIONS);
+  renderAll();
+  showToast('✓ Données vidées');
+}
+
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),3500);
+}
+document.querySelectorAll('.modal-overlay').forEach(o=>{
+  o.addEventListener('click',e=>{if(e.target===o)o.classList.remove('open');});
+});
+</script>
+</body>
+</html>
