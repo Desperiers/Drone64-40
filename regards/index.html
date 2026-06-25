@@ -1,1 +1,799 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidéaste Peyrehorade — Regards 64-40 | Vidéo & Photo Landes Pays Basque</title>
+  <meta name="description" content="Vidéaste professionnel basé à Peyrehorade (40). Réalisation vidéo, montage cinématique et photographie en Landes (40) et Pays Basque (64). Portfolio sur demande." />
+  <meta name="keywords" content="vidéaste Peyrehorade, vidéaste Landes, vidéaste Pays Basque, vidéaste Biarritz, vidéaste Bayonne, vidéaste Anglet, vidéaste Hossegor, vidéaste Capbreton, vidéaste Seignosse, vidéaste Dax, vidéaste Mont-de-Marsan, vidéaste Saint-Jean-de-Luz, vidéaste Hendaye, vidéaste Mimizan, vidéaste Arcachon, réalisation vidéo 40, réalisation vidéo 64, montage vidéo côte basque, montage vidéo côte landaise, film restaurant Landes, film restaurant Pays Basque, photographe côte basque, photographe Landes" />
+  <link rel="canonical" href="https://regards.drone6440.fr" />
+  <meta property="og:title" content="Vidéaste Peyrehorade — Regards 64-40" />
+  <meta property="og:description" content="Réalisation vidéo professionnelle et photographie en Landes et Pays Basque. Basé à Peyrehorade." />
+  <meta property="og:url" content="https://regards.drone6440.fr" />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Regards 64-40",
+    "description": "Vidéaste et photographe professionnel basé à Peyrehorade, Landes. Réalisation vidéo, montage cinématique, photographie de terrain en Landes et Pays Basque.",
+    "url": "https://regards.drone6440.fr",
+    "telephone": "+33671978298",
+    "email": "drone64-40@outlook.fr",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Peyrehorade",
+      "postalCode": "40300",
+      "addressRegion": "Landes",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.5567,
+      "longitude": -1.1008
+    },
+    "areaServed": [
+      "Peyrehorade","Landes","Pyrénées-Atlantiques","Nouvelle-Aquitaine",
+      "Biarritz","Bayonne","Anglet","Saint-Jean-de-Luz","Hendaye","Ciboure","Urrugne",
+      "Hossegor","Capbreton","Seignosse","Vieux-Boucau","Mimizan","Biscarrosse",
+      "Dax","Mont-de-Marsan","Orthez","Pau","Mauléon-Licharre",
+      "Saint-Jean-Pied-de-Port","Cambo-les-Bains","Hasparren","Espelette"
+    ],
+    "sameAs": ["https://instagram.com/drone_6440","https://tiktok.com/@regards6440","https://drone6440.fr"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink:   #1a1814;
+      --mist:  #f0ede8;
+      --stone: #8a8278;
+      --moss:  #4a5240;
+      --gold:  #c9a84c;
+      --cream: #faf8f4;
+      --light: #e8e4dc;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      font-weight: 300;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.5rem 3rem;
+      background: rgba(26,24,20,0.93);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(201,168,76,0.12);
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem; font-weight: 300;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--cream); text-decoration: none;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a {
+      font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(255,255,255,0.45); text-decoration: none; transition: color 0.3s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh; background: var(--ink);
+      display: flex; flex-direction: column; justify-content: center;
+      position: relative; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 15% 65%, rgba(74,82,64,0.3) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 25%, rgba(201,168,76,0.1) 0%, transparent 50%),
+        linear-gradient(160deg, #0e0d0b 0%, #1a1814 40%, #111410 100%);
+    }
+    .hero-scanlines {
+      position: absolute; inset: 0; pointer-events: none;
+      background: repeating-linear-gradient(to bottom, transparent 0px, transparent 3px, rgba(0,0,0,0.07) 3px, rgba(0,0,0,0.07) 4px);
+      opacity: 0.35;
+    }
+    /* Grande typographie en fond — élément signature */
+    .hero-watermark {
+      position: absolute; right: -2rem; bottom: -3rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(8rem, 18vw, 22rem); font-weight: 300;
+      color: rgba(255,255,255,0.03);
+      line-height: 1; user-select: none; pointer-events: none;
+      letter-spacing: -0.02em;
+    }
+    .hero-timecode {
+      position: absolute; top: 7rem; left: 3rem;
+      font-size: 0.6rem; letter-spacing: 0.25em;
+      color: rgba(201,168,76,0.45);
+      display: flex; align-items: center; gap: 0.8rem;
+    }
+    .hero-timecode::before { content: '●'; color: rgba(201,168,76,0.7); animation: blink 2s ease-in-out infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.15} }
+    .hero-format {
+      position: absolute; top: 7rem; right: 3rem;
+      font-size: 0.58rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(255,255,255,0.18); text-align: right; line-height: 2;
+    }
+    .hero-content { position: relative; z-index: 2; padding: 0 6rem; }
+    .hero-eyebrow {
+      font-size: 0.62rem; letter-spacing: 0.35em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 2rem;
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .hero-eyebrow::before { content: ''; width: 30px; height: 1px; background: var(--gold); }
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(4rem, 7vw, 8.5rem); font-weight: 300; line-height: 0.95;
+      color: var(--cream); margin-bottom: 2.5rem; letter-spacing: -0.01em;
+    }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-title small {
+      display: block; font-size: 0.35em; font-style: normal;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(255,255,255,0.3); margin-top: 0.8rem; font-family: 'Outfit', sans-serif;
+    }
+    .hero-sub {
+      font-size: 0.92rem; color: rgba(255,255,255,0.4);
+      max-width: 520px; line-height: 1.9; margin-bottom: 3.5rem;
+    }
+    .hero-ctas { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 0.8rem; padding: 1rem 2.2rem;
+      background: var(--gold); color: var(--ink);
+      font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+      text-decoration: none; font-weight: 500; transition: background 0.3s, transform 0.2s;
+    }
+    .btn-primary:hover { background: #b8973e; transform: translateY(-1px); }
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 0.8rem;
+      font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(255,255,255,0.45); text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,0.18); padding-bottom: 0.2rem;
+      transition: color 0.3s, border-color 0.3s;
+    }
+    .btn-ghost:hover { color: var(--cream); border-color: rgba(255,255,255,0.45); }
+    .btn-ghost::after { content: '→'; transition: transform 0.3s; }
+    .btn-ghost:hover::after { transform: translateX(4px); }
+
+    /* Scroll indicator */
+    .hero-scroll {
+      position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+      color: rgba(255,255,255,0.2); font-size: 0.55rem; letter-spacing: 0.25em;
+      text-transform: uppercase;
+    }
+    .hero-scroll::after {
+      content: ''; width: 1px; height: 40px;
+      background: linear-gradient(to bottom, rgba(201,168,76,0.4), transparent);
+      animation: scrollpulse 2s ease-in-out infinite;
+    }
+    @keyframes scrollpulse { 0%,100%{opacity:0.4;transform:scaleY(1)} 50%{opacity:1;transform:scaleY(1.2)} }
+
+    /* ── SECTION GÉNÉRIQUE ── */
+    .section-label {
+      font-size: 0.6rem; letter-spacing: 0.35em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 4rem;
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .section-label::before { content: ''; width: 30px; height: 1px; background: var(--gold); }
+    .section-label.green { color: var(--moss); }
+    .section-label.green::before { background: var(--moss); }
+
+    /* ── PROPOSITION VIDÉO ── */
+    .video-section { background: var(--ink); color: var(--cream); padding: 8rem 6rem; }
+    .video-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7rem; align-items: start; }
+    .video-left h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 3.5vw, 4rem); font-weight: 300; line-height: 1.1;
+      margin-bottom: 1.8rem;
+    }
+    .video-left h2 em { font-style: italic; color: var(--gold); }
+    .video-left p { color: rgba(255,255,255,0.42); font-size: 0.88rem; line-height: 1.9; margin-bottom: 1rem; }
+
+    /* Bloc "portfolio sur demande" */
+    .portfolio-locked {
+      margin-top: 2.5rem;
+      border: 1px solid rgba(201,168,76,0.2);
+      padding: 2rem;
+      position: relative;
+    }
+    .portfolio-locked::before {
+      content: 'PORTFOLIO';
+      position: absolute; top: -0.5rem; left: 1.5rem;
+      background: var(--ink);
+      font-size: 0.55rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: rgba(201,168,76,0.5); padding: 0 0.5rem;
+    }
+    .portfolio-locked p {
+      font-size: 0.82rem; color: rgba(255,255,255,0.35);
+      line-height: 1.7; margin-bottom: 1.2rem;
+    }
+    .portfolio-locked a {
+      display: inline-flex; align-items: center; gap: 0.7rem;
+      font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); text-decoration: none;
+      border-bottom: 1px solid rgba(201,168,76,0.3); padding-bottom: 0.2rem;
+      transition: border-color 0.3s;
+    }
+    .portfolio-locked a:hover { border-color: var(--gold); }
+    .portfolio-locked a::after { content: '→'; }
+
+    /* Skills vidéo */
+    .video-right { display: flex; flex-direction: column; }
+    .skill-row {
+      display: grid; grid-template-columns: auto 1fr auto;
+      align-items: center; gap: 1.5rem;
+      padding: 1.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .skill-row:first-child { border-top: 1px solid rgba(255,255,255,0.07); }
+    .skill-num { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 300; color: rgba(201,168,76,0.25); line-height: 1; width: 2.5rem; }
+    .skill-info h3 { font-size: 0.82rem; font-weight: 500; color: var(--cream); margin-bottom: 0.2rem; }
+    .skill-info p { font-size: 0.72rem; color: rgba(255,255,255,0.32); line-height: 1.5; }
+    .skill-tag { font-size: 0.55rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); border: 1px solid rgba(201,168,76,0.25); padding: 0.2rem 0.55rem; white-space: nowrap; }
+
+    /* ── RÉALISATIONS — LISTE TEXTE ── */
+    .realisations { padding: 8rem 6rem; background: var(--cream); }
+    .real-list { display: flex; flex-direction: column; }
+    .real-row {
+      display: grid;
+      grid-template-columns: 3rem 1fr auto auto;
+      align-items: center; gap: 2rem;
+      padding: 1.8rem 0;
+      border-bottom: 1px solid var(--light);
+      cursor: default;
+      transition: background 0.25s;
+      position: relative;
+    }
+    .real-row:first-child { border-top: 1px solid var(--light); }
+    .real-row:hover { background: var(--mist); margin: 0 -2rem; padding-left: 2rem; padding-right: 2rem; }
+    .real-num { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-weight: 300; color: var(--light); }
+    .real-info h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; color: var(--ink); margin-bottom: 0.2rem; }
+    .real-info p { font-size: 0.72rem; color: var(--stone); letter-spacing: 0.05em; }
+    .real-cat {
+      font-size: 0.58rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--moss); border: 1px solid rgba(74,82,64,0.3); padding: 0.25rem 0.7rem;
+    }
+    .real-dur { font-size: 0.72rem; color: var(--stone); white-space: nowrap; font-family: monospace; }
+    .real-row .real-lock {
+      position: absolute; right: 0;
+      font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase;
+      color: rgba(201,168,76,0.4); opacity: 0; transition: opacity 0.3s;
+    }
+    .real-row:hover .real-lock { opacity: 1; }
+
+    /* ── CTA PORTFOLIO ── */
+    .cta-portfolio {
+      background: var(--ink); color: var(--cream);
+      padding: 6rem 6rem;
+      display: grid; grid-template-columns: 1fr auto;
+      gap: 4rem; align-items: center;
+      position: relative; overflow: hidden;
+    }
+    .cta-portfolio::before {
+      content: '▶';
+      position: absolute; right: 14rem; top: 50%; transform: translateY(-50%);
+      font-size: 14rem; color: rgba(255,255,255,0.02);
+      line-height: 1; pointer-events: none; user-select: none;
+    }
+    .cta-portfolio-left h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 3vw, 3.5rem); font-weight: 300; line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+    .cta-portfolio-left h2 em { font-style: italic; color: var(--gold); }
+    .cta-portfolio-left p { color: rgba(255,255,255,0.38); font-size: 0.88rem; line-height: 1.8; max-width: 480px; }
+    .cta-portfolio-right { display: flex; flex-direction: column; gap: 1rem; align-items: flex-end; flex-shrink: 0; }
+    .cta-portfolio-right a.btn-primary { white-space: nowrap; }
+    .cta-portfolio-right span { font-size: 0.62rem; color: rgba(255,255,255,0.2); text-align: center; letter-spacing: 0.1em; }
+
+    /* ── WORKFLOW ── */
+    .workflow { padding: 7rem 6rem; background: var(--mist); }
+    .workflow h2 { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 300; margin-bottom: 3.5rem; }
+    .workflow h2 em { font-style: italic; color: var(--moss); }
+    .workflow-steps { display: grid; grid-template-columns: repeat(4,1fr); border: 1px solid var(--light); }
+    .ws { padding: 2.5rem 2rem; border-right: 1px solid var(--light); }
+    .ws:last-child { border-right: none; }
+    .ws-num { font-family: 'Cormorant Garamond', serif; font-size: 3rem; font-weight: 300; color: var(--light); line-height: 1; margin-bottom: 1rem; }
+    .ws h3 { font-size: 0.82rem; font-weight: 500; color: var(--ink); margin-bottom: 0.6rem; }
+    .ws p { font-size: 0.75rem; color: var(--stone); line-height: 1.7; }
+    .ws-tool { margin-top: 1.2rem; font-size: 0.58rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--moss); }
+
+    /* ── PHOTO ── */
+    .photo-section { padding: 8rem 6rem; background: var(--cream); }
+    .photo-grid-text { display: grid; grid-template-columns: 1fr 1fr; gap: 7rem; align-items: start; }
+    .photo-left h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 3.5vw, 4rem); font-weight: 300; line-height: 1.1; margin-bottom: 1.5rem; }
+    .photo-left h2 em { font-style: italic; color: var(--moss); }
+    .photo-left p { color: var(--stone); font-size: 0.88rem; line-height: 1.9; margin-bottom: 1rem; }
+
+    /* Thèmes photo en liste */
+    .photo-themes { display: flex; flex-direction: column; }
+    .theme-row {
+      display: grid; grid-template-columns: auto 1fr auto;
+      align-items: center; gap: 1.5rem;
+      padding: 1.2rem 0; border-bottom: 1px solid var(--light);
+    }
+    .theme-row:first-child { border-top: 1px solid var(--light); }
+    .theme-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--moss); flex-shrink: 0; }
+    .theme-name { font-size: 0.85rem; color: var(--ink); }
+    .theme-tag { font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--stone); }
+
+    /* ── TIRAGES ── */
+    .tirages { padding: 7rem 6rem; background: var(--ink); color: var(--cream); }
+    .tirages-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+    .tirages h2 { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .tirages h2 em { font-style: italic; color: var(--gold); }
+    .tirages p { color: rgba(255,255,255,0.38); font-size: 0.88rem; line-height: 1.9; margin-bottom: 2rem; }
+    .tirages-right {
+      border: 1px solid rgba(201,168,76,0.15);
+      padding: 2.5rem;
+    }
+    .tirages-right h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 300; color: var(--cream); margin-bottom: 1.5rem; }
+    .tirage-spec { display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 0.78rem; }
+    .tirage-spec:last-child { border-bottom: none; }
+    .tirage-spec dt { color: rgba(255,255,255,0.28); letter-spacing: 0.05em; }
+    .tirage-spec dd { color: rgba(255,255,255,0.7); }
+    .tirages-btn {
+      display: inline-flex; align-items: center; gap: 1rem;
+      padding: 0.9rem 2rem; border: 1px solid rgba(201,168,76,0.4);
+      font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); text-decoration: none; margin-top: 1.5rem;
+      transition: background 0.3s, color 0.3s;
+    }
+    .tirages-btn:hover { background: var(--gold); color: var(--ink); }
+
+    /* ── CONTACT ── */
+    .contact { background: var(--mist); padding: 8rem 6rem; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7rem; align-items: start; }
+    .contact-left h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 3.5vw, 4rem); font-weight: 300; line-height: 1.1; margin-bottom: 1rem; }
+    .contact-left h2 em { font-style: italic; color: var(--moss); }
+    .contact-left p { color: var(--stone); font-size: 0.88rem; line-height: 1.9; max-width: 400px; }
+    .contact-right { display: flex; flex-direction: column; gap: 0; }
+    .contact-item {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.2rem 0; border-bottom: 1px solid var(--light);
+    }
+    .contact-item:first-child { border-top: 1px solid var(--light); }
+    .contact-item dt { font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--stone); }
+    .contact-item dd a { font-size: 0.85rem; color: var(--ink); text-decoration: none; transition: color 0.3s; }
+    .contact-item dd a:hover { color: var(--moss); }
+    /* Formulaire simple */
+    .contact-form { margin-top: 3rem; }
+    .contact-form h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300; margin-bottom: 1.5rem; }
+    .form-row { margin-bottom: 1rem; }
+    .form-row input, .form-row textarea, .form-row select {
+      width: 100%; padding: 0.9rem 1rem;
+      background: white; border: 1px solid var(--light);
+      font-family: 'Outfit', sans-serif; font-size: 0.82rem; font-weight: 300;
+      color: var(--ink); outline: none;
+      transition: border-color 0.3s;
+      appearance: none;
+    }
+    .form-row input:focus, .form-row textarea:focus, .form-row select:focus { border-color: var(--moss); }
+    .form-row textarea { resize: vertical; min-height: 100px; }
+    .form-row select { cursor: pointer; }
+    .form-submit {
+      display: inline-flex; align-items: center; gap: 0.8rem;
+      padding: 1rem 2rem; background: var(--ink);
+      font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--cream); border: none; cursor: pointer; font-family: 'Outfit', sans-serif;
+      transition: background 0.3s; margin-top: 0.5rem; width: 100%; justify-content: center;
+    }
+    .form-submit:hover { background: var(--moss); }
+
+    /* ── FOOTER ── */
+    footer { background: var(--ink); padding: 2.5rem 6rem; display: flex; justify-content: space-between; align-items: center; }
+    .footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-weight: 300; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.4); }
+    .footer-brand span { color: rgba(201,168,76,0.6); }
+    .footer-links { display: flex; gap: 2rem; list-style: none; }
+    .footer-links a { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.25); text-decoration: none; transition: color 0.3s; }
+    .footer-links a:hover { color: rgba(255,255,255,0.65); }
+    .footer-legal { font-size: 0.6rem; color: rgba(255,255,255,0.15); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 960px) {
+      nav { padding: 1.2rem 1.5rem; }
+      .nav-links { display: none; }
+      .hero-content { padding: 0 2rem; }
+      .hero-timecode, .hero-format { display: none; }
+      .hero-watermark { font-size: 6rem; right: -1rem; bottom: 1rem; }
+      .video-section, .realisations, .cta-portfolio, .workflow,
+      .photo-section, .tirages, .contact { padding: 5rem 1.5rem; }
+      .video-grid, .photo-grid-text, .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .tirages-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .cta-portfolio { grid-template-columns: 1fr; gap: 2rem; }
+      .cta-portfolio-right { align-items: flex-start; }
+      .cta-portfolio::before { display: none; }
+      .workflow-steps { grid-template-columns: 1fr 1fr; }
+      .ws { border-bottom: 1px solid var(--light); }
+      .real-row { grid-template-columns: 2.5rem 1fr auto; }
+      .real-dur { display: none; }
+      footer { flex-direction: column; gap: 1.5rem; text-align: center; padding: 2rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">Regards <span>64·40</span></a>
+    <ul class="nav-links">
+      <li><a href="#video">Vidéo</a></li>
+      <li><a href="#realisations">Réalisations</a></li>
+      <li><a href="#photo">Photo</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-scanlines"></div>
+    <div class="hero-watermark">R6440</div>
+    <div class="hero-timecode">REC · S-LOG3 · 4K 100p</div>
+    <div class="hero-format">Sony α6700<br />DaVinci Resolve<br />Landes · Pays Basque</div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Vidéo · Montage · Photographie</p>
+      <h1 class="hero-title">
+        L'image<br />
+        qui <em>raconte</em>
+        <small>Peyrehorade · Landes & Pays Basque · Sud-Ouest</small>
+      </h1>
+      <p class="hero-sub">
+        Vidéaste et photographe basé à Peyrehorade, dans les Landes.
+        Réalisation vidéo professionnelle, montage cinématique, photographie de terrain —
+        en Landes (40), Pays Basque (64) et Nouvelle-Aquitaine.
+        Portfolio disponible sur demande.
+      </p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn-primary">Demander le portfolio</a>
+        <a href="#realisations" class="btn-ghost">Voir les réalisations</a>
+      </div>
+    </div>
+    <div class="hero-scroll">Défiler</div>
+  </section>
+
+  <!-- VIDÉO & MONTAGE -->
+  <section class="video-section" id="video">
+    <div class="section-label">Réalisation vidéo & Montage</div>
+    <div class="video-grid">
+      <div class="video-left">
+        <h2>Du tournage<br />au <em>rendu final</em></h2>
+        <p>Captation en S-Log3, étalonnage colorimétrique sur DaVinci Resolve, mixage son et montage rythmé — chaque projet est traité de A à Z avec un soin de production cinématique.</p>
+        <p>Films de restaurant, institutionnels, documentaires nature, événementiels. Chaque univers a son propre traitement.</p>
+        <div class="portfolio-locked">
+          <p>Le showreel et les films complets sont partagés sur demande, lors d'un premier échange. Une façon de présenter chaque projet dans son contexte.</p>
+          <a href="#contact">Demander le portfolio complet</a>
+        </div>
+      </div>
+      <div class="video-right">
+        <div class="skill-row">
+          <span class="skill-num">01</span>
+          <div class="skill-info">
+            <h3>Tournage professionnel</h3>
+            <p>Sony α6700, balance des blancs manuelle, exposition maîtrisée en conditions réelles.</p>
+          </div>
+          <span class="skill-tag">Terrain</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-num">02</span>
+          <div class="skill-info">
+            <h3>Étalonnage colorimétrique</h3>
+            <p>LUT construite from scratch depuis S-Log3. Rendu cinématique et ambiance sur-mesure.</p>
+          </div>
+          <span class="skill-tag">Post-prod</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-num">03</span>
+          <div class="skill-info">
+            <h3>Montage & rythme</h3>
+            <p>Cut dynamique, transitions organiques, synchronisation musicale. Du restaurant au documentaire.</p>
+          </div>
+          <span class="skill-tag">Montage</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-num">04</span>
+          <div class="skill-info">
+            <h3>Livraison multi-formats</h3>
+            <p>H.264, ProRes, MOV selon destination. Révisions incluses, droits cédés à la livraison.</p>
+          </div>
+          <span class="skill-tag">Livraison</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RÉALISATIONS -->
+  <section class="realisations" id="realisations">
+    <div class="section-label">Projets réalisés</div>
+    <div class="real-list">
+      <div class="real-row">
+        <span class="real-num">01</span>
+        <div class="real-info">
+          <h3>Bistrot 4 Grains</h3>
+          <p>Film de restaurant · Ambiance soir · Étalonnage chaud</p>
+        </div>
+        <span class="real-cat">Restaurant</span>
+        <span class="real-dur">2 min 34 s</span>
+        <span class="real-lock">Sur demande →</span>
+      </div>
+      <div class="real-row">
+        <span class="real-num">02</span>
+        <div class="real-info">
+          <h3>Piveteau Bois</h3>
+          <p>Film institutionnel · Canopée photovoltaïque</p>
+        </div>
+        <span class="real-cat">Institutionnel</span>
+        <span class="real-dur">1 min 48 s</span>
+        <span class="real-lock">Sur demande →</span>
+      </div>
+      <div class="real-row">
+        <span class="real-num">03</span>
+        <div class="real-info">
+          <h3>L'Océan Anglet</h3>
+          <p>Film hôtel & restaurant · Côte basque</p>
+        </div>
+        <span class="real-cat">Hôtellerie</span>
+        <span class="real-dur">2 min 05 s</span>
+        <span class="real-lock">Sur demande →</span>
+      </div>
+      <div class="real-row">
+        <span class="real-num">04</span>
+        <div class="real-info">
+          <h3>Faune des Barthes</h3>
+          <p>Documentaire nature · Zones humides landaises</p>
+        </div>
+        <span class="real-cat">Documentaire</span>
+        <span class="real-dur">4 min 20 s</span>
+        <span class="real-lock">Sur demande →</span>
+      </div>
+      <div class="real-row">
+        <span class="real-num">05</span>
+        <div class="real-info">
+          <h3>Côte Landaise</h3>
+          <p>Film nature · Forêt de pins & littoral atlantique</p>
+        </div>
+        <span class="real-cat">Nature</span>
+        <span class="real-dur">3 min 10 s</span>
+        <span class="real-lock">Sur demande →</span>
+      </div>
+      <div class="real-row">
+        <span class="real-num">06</span>
+        <div class="real-info">
+          <h3>Lycée Maritime de Ciboure</h3>
+          <p>Film institutionnel · Formation maritime · Côte basque</p>
+        </div>
+        <span class="real-cat">Institutionnel</span>
+        <span class="real-dur">2 min 15 s</span>
+        <span class="real-lock">Sur demande →</span>
+      </div>
+      <div class="real-row">
+        <span class="real-num">07</span>
+        <div class="real-info">
+          <h3>Vins d'Irouléguy</h3>
+          <p>Film domaine viticole · Terroir basque · Vendanges</p>
+        </div>
+        <span class="real-cat">Domaine viticole</span>
+        <span class="real-dur">2 min 50 s</span>
+        <span class="real-lock">Sur demande →</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA PORTFOLIO -->
+  <section class="cta-portfolio">
+    <div class="cta-portfolio-left">
+      <h2>Vous souhaitez voir<br />les films <em>en entier</em> ?</h2>
+      <p>Le showreel complet et chaque film sont partagés lors d'un premier échange — par email ou en visio. C'est aussi l'occasion de parler de votre projet.</p>
+    </div>
+    <div class="cta-portfolio-right">
+      <a href="#contact" class="btn-primary">Prendre contact</a>
+      <span>Réponse sous 48h</span>
+    </div>
+  </section>
+
+  <!-- WORKFLOW -->
+  <section class="workflow">
+    <div class="section-label green">Méthode de travail</div>
+    <h2>Le processus de <em>montage</em></h2>
+    <div class="workflow-steps">
+      <div class="ws"><div class="ws-num">01</div><h3>Repérage & Brief</h3><p>Analyse du lieu, compréhension des enjeux, définition du rendu avant toute captation.</p><div class="ws-tool">Terrain</div></div>
+      <div class="ws"><div class="ws-num">02</div><h3>Tournage S-Log3</h3><p>Captation en profil log pour latitude maximale. Sony α6700, 4K 100p, lumière naturelle privilégiée.</p><div class="ws-tool">Sony α6700</div></div>
+      <div class="ws"><div class="ws-num">03</div><h3>Étalonnage & Montage</h3><p>LUT construite from scratch, cut rythmé, synchronisation musicale sur DaVinci Resolve.</p><div class="ws-tool">DaVinci Resolve</div></div>
+      <div class="ws"><div class="ws-num">04</div><h3>Livraison</h3><p>Export multi-formats selon destination. Révisions incluses. Droits cédés à la livraison finale.</p><div class="ws-tool">H.264 · ProRes · MOV</div></div>
+    </div>
+  </section>
+
+  <!-- PHOTO -->
+  <section class="photo-section" id="photo">
+    <div class="section-label green">Photographie</div>
+    <div class="photo-grid-text">
+      <div class="photo-left">
+        <h2>La lumière<br />du <em>Sud-Ouest</em>,<br />au sol</h2>
+        <p>Nature, faune sauvage, paysage landais et basque. Une pratique d'observation patiente, à l'affût des lumières de l'aube et des ambiances de fin de journée.</p>
+        <p>Développement RAW sur Lightroom. Chaque image disponible en tirage limité fine art ou en cession de droits.</p>
+        <br />
+        <a href="#contact" class="btn-ghost" style="color:var(--moss);border-color:rgba(74,82,64,0.3)">Voir le portfolio photo</a>
+      </div>
+      <div class="photo-right">
+        <div class="photo-themes">
+          <div class="theme-row">
+            <span class="theme-dot"></span>
+            <span class="theme-name">Forêt landaise & pins maritimes</span>
+            <span class="theme-tag">Paysage</span>
+          </div>
+          <div class="theme-row">
+            <span class="theme-dot"></span>
+            <span class="theme-name">Faune sauvage — oiseaux, mammifères</span>
+            <span class="theme-tag">Nature</span>
+          </div>
+          <div class="theme-row">
+            <span class="theme-dot"></span>
+            <span class="theme-name">Zones humides — Barthes de l'Adour</span>
+            <span class="theme-tag">Nature</span>
+          </div>
+          <div class="theme-row">
+            <span class="theme-dot"></span>
+            <span class="theme-name">Côte atlantique & littoral basque</span>
+            <span class="theme-tag">Paysage</span>
+          </div>
+          <div class="theme-row">
+            <span class="theme-dot"></span>
+            <span class="theme-name">Macro — flore & détails naturels</span>
+            <span class="theme-tag">Macro</span>
+          </div>
+          <div class="theme-row">
+            <span class="theme-dot"></span>
+            <span class="theme-name">Lumières dorées — levers & couchers</span>
+            <span class="theme-tag">Ambiance</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIRAGES -->
+  <section class="tirages" id="tirages">
+    <div class="tirages-inner">
+      <div>
+        <div class="section-label">Tirages Fine Art</div>
+        <h2>Des images<br /><em>à posséder</em></h2>
+        <p>Chaque photographie disponible en tirage limité sur papier Hahnemühle. Signé, numéroté, livré avec certificat d'authenticité. Collection visible sur demande.</p>
+        <a href="#contact" class="tirages-btn">Demander la collection</a>
+      </div>
+      <div class="tirages-right">
+        <h3>Spécifications</h3>
+        <dl>
+          <div class="tirage-spec"><dt>Support</dt><dd>Papier Hahnemühle Photo Rag</dd></div>
+          <div class="tirage-spec"><dt>Formats</dt><dd>30×40 · 50×70 · 70×100 cm</dd></div>
+          <div class="tirage-spec"><dt>Édition</dt><dd>Limitée — 10 exemplaires / image</dd></div>
+          <div class="tirage-spec"><dt>Signature</dt><dd>Manuscrite + numérotation</dd></div>
+          <div class="tirage-spec"><dt>Certificat</dt><dd>Inclus à chaque tirage</dd></div>
+          <div class="tirage-spec"><dt>Livraison</dt><dd>France entière · sous 10 jours</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-grid">
+      <div class="contact-left">
+        <div class="section-label green">Contact</div>
+        <h2>Parlons de<br />votre <em>projet</em></h2>
+        <p>Film, reportage, tirage ou portfolio sur demande — chaque demande reçoit une réponse personnalisée sous 48h.</p>
+        <br />
+        <dl class="contact-right" style="margin-top:0">
+          <div class="contact-item">
+            <dt>Email</dt>
+            <dd><a href="mailto:drone64-40@outlook.fr">drone64-40@outlook.fr</a></dd>
+          </div>
+          <div class="contact-item">
+            <dt>Téléphone</dt>
+            <dd><a href="tel:+33671978298">06 71 97 82 98</a></dd>
+          </div>
+          <div class="contact-item">
+            <dt>Instagram</dt>
+            <dd><a href="https://instagram.com/drone_6440" target="_blank">@drone_6440</a></dd>
+          </div>
+          <div class="contact-item">
+            <dt>TikTok</dt>
+            <dd><a href="https://tiktok.com/@regards6440" target="_blank">@regards6440</a></dd>
+          </div>
+          <div class="contact-item">
+            <dt>Territoire</dt>
+            <dd><a>Peyrehorade · Landes · Pays Basque · Nouvelle-Aquitaine</a></dd>
+          </div>
+        </dl>
+      </div>
+      <div class="contact-form">
+        <h3>Envoyer un message</h3>
+        <div class="form-row">
+          <input type="text" placeholder="Votre nom" />
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="Votre email" />
+        </div>
+        <div class="form-row">
+          <select>
+            <option value="" disabled selected>Objet de la demande</option>
+            <option>Portfolio vidéo complet</option>
+            <option>Portfolio photo</option>
+            <option>Devis film de restaurant / hôtel</option>
+            <option>Devis film institutionnel</option>
+            <option>Devis documentaire nature</option>
+            <option>Tirage Fine Art</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <textarea placeholder="Votre message…"></textarea>
+        </div>
+        <button class="form-submit" onclick="window.location='mailto:drone64-40@outlook.fr'">Envoyer le message →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERRITOIRE SEO -->
+  <section style="background:var(--ink);padding:4rem 6rem;border-top:1px solid rgba(255,255,255,0.05)">
+    <p style="font-size:0.6rem;letter-spacing:0.3em;text-transform:uppercase;color:rgba(201,168,76,0.4);margin-bottom:1.5rem;display:flex;align-items:center;gap:1rem">
+      <span style="width:20px;height:1px;background:rgba(201,168,76,0.4);display:inline-block"></span>
+      Zone d'intervention
+    </p>
+    <p style="font-size:0.78rem;color:rgba(255,255,255,0.2);line-height:2.2;max-width:900px">
+      Vidéaste et photographe professionnel basé à <strong style="color:rgba(255,255,255,0.4)">Peyrehorade</strong> (40300),
+      j'interviens sur l'ensemble des <strong style="color:rgba(255,255,255,0.4)">Landes (40)</strong> et des
+      <strong style="color:rgba(255,255,255,0.4)">Pyrénées-Atlantiques (64)</strong>.
+      Principalement actif sur la côte :
+      <strong style="color:rgba(255,255,255,0.4)">Biarritz</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Bayonne</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Anglet</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Saint-Jean-de-Luz</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Hendaye</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Hossegor</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Capbreton</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Seignosse</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Vieux-Boucau</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Mimizan</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Biscarrosse</strong> —
+      ainsi que dans les terres : <strong style="color:rgba(255,255,255,0.4)">Dax</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Orthez</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Pau</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Espelette</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Cambo-les-Bains</strong> ·
+      <strong style="color:rgba(255,255,255,0.4)">Saint-Jean-Pied-de-Port</strong>.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">Regards <span>64·40</span></div>
+    <ul class="footer-links">
+      <li><a href="#video">Vidéo</a></li>
+      <li><a href="#photo">Photo</a></li>
+      <li><a href="#tirages">Tirages</a></li>
+      <li><a href="https://drone6440.fr">Drone 64-40</a></li>
+    </ul>
+    <p class="footer-legal">© 2026 Drone 64-40 · SIRET 895 050 904 00013</p>
+  </footer>
+
+</body>
+</html>
