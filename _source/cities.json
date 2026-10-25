@@ -15,7 +15,8 @@
 "Rives de l'Adour"
 ],
 "type": "ville",
-"new": false
+"new": false,
+"epci": "CC d'Aire-sur-l'Adour"
 },
 {
 "slug": "amou",
@@ -33,7 +34,8 @@
 "Arènes"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Coteaux et Vallées des Luys"
 },
 {
 "slug": "andernos",
@@ -69,7 +71,8 @@
 "Forêt du Pignada"
 ],
 "type": "pb-cote",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "arcachon",
@@ -105,7 +108,8 @@
 "Passage des grues cendrées"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC du Pays Morcenais"
 },
 {
 "slug": "artix",
@@ -123,7 +127,8 @@
 "Bassin industriel"
 ],
 "type": "bearn",
-"new": false
+"new": false,
+"epci": "CC de Lacq-Orthez"
 },
 {
 "slug": "aureilhan",
@@ -141,7 +146,8 @@
 "Forêt de pins"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC de Mimizan"
 },
 {
 "slug": "azur",
@@ -159,7 +165,8 @@
 "Forêt du Marensin"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "bastennes",
@@ -177,7 +184,8 @@
 "Domaines agricoles"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Coteaux et Vallées des Luys"
 },
 {
 "slug": "bayonne",
@@ -195,7 +203,8 @@
 "Petit Bayonne"
 ],
 "type": "ville",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "belus",
@@ -213,7 +222,8 @@
 "Barthes de l'Adour"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "benquet",
@@ -231,7 +241,8 @@
 "Proximité de Mont-de-Marsan"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CA Mont de Marsan Agglomération"
 },
 {
 "slug": "bergerac",
@@ -267,7 +278,8 @@
 "Phare de Biarritz"
 ],
 "type": "pb-cote",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "bias",
@@ -285,7 +297,8 @@
 "Pistes cyclables"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC de Mimizan"
 },
 {
 "slug": "biscarrosse",
@@ -303,7 +316,8 @@
 "Musée de l'hydraviation"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC des Grands Lacs"
 },
 {
 "slug": "blaye",
@@ -375,7 +389,8 @@
 "Coteaux de Chalosse"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Coteaux et Vallées des Luys"
 },
 {
 "slug": "callen",
@@ -393,7 +408,8 @@
 "Pistes forestières"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "cambo",
@@ -411,7 +427,8 @@
 "Vallée de la Nive"
 ],
 "type": "pb-interieur",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "came",
@@ -429,7 +446,8 @@
 "Fermes basco-landaises"
 ],
 "type": "pb-interieur",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "cap-ferret",
@@ -465,7 +483,8 @@
 "Plage de la Savane"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "castets",
@@ -483,7 +502,8 @@
 "Axe A63"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Côte Landes Nature"
 },
 {
 "slug": "cauneille",
@@ -501,7 +521,8 @@
 "Confluence des Gaves"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "cazeres-sur-adour",
@@ -519,7 +540,8 @@
 "Plaine agricole"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC du Pays Grenadois"
 },
 {
 "slug": "challans",
@@ -573,7 +595,8 @@
 "Forêt galerie"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "contis",
@@ -591,7 +614,8 @@
 "Plage et dunes"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Côte Landes Nature"
 },
 {
 "slug": "dax",
@@ -609,7 +633,8 @@
 "Bords de l'Adour"
 ],
 "type": "thermal",
-"new": false
+"new": false,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "doazit",
@@ -627,7 +652,8 @@
 "Panoramas sur la vallée"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Terres de Chalosse"
 },
 {
 "slug": "dolus-doleron",
@@ -663,7 +689,8 @@
 "Exploitations agricoles"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC d'Aire-sur-l'Adour"
 },
 {
 "slug": "espelette",
@@ -681,7 +708,8 @@
 "Collines du Labourd"
 ],
 "type": "pb-interieur",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "eugenie-les-bains",
@@ -699,7 +727,8 @@
 "Coteaux du Tursan"
 ],
 "type": "thermal",
-"new": false
+"new": false,
+"epci": "CC d'Aire-sur-l'Adour"
 },
 {
 "slug": "eymet",
@@ -753,7 +782,8 @@
 "Forêt du Gabardan"
 ],
 "type": "vignoble",
-"new": false
+"new": false,
+"epci": "CC des Landes d'Armagnac"
 },
 {
 "slug": "garein",
@@ -771,7 +801,8 @@
 "Pistes de la Haute Lande"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "gastes",
@@ -789,7 +820,8 @@
 "Plages lacustres"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC des Grands Lacs"
 },
 {
 "slug": "geaune",
@@ -807,7 +839,8 @@
 "Vignes du Tursan"
 ],
 "type": "vignoble",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "grenade-sur-adour",
@@ -825,7 +858,8 @@
 "Plan de bastide"
 ],
 "type": "bastide",
-"new": false
+"new": false,
+"epci": "CC du Pays Grenadois"
 },
 {
 "slug": "hagetmau",
@@ -843,7 +877,8 @@
 "Coteaux de Chalosse"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "hasparren",
@@ -861,7 +896,8 @@
 "Collines du Labourd"
 ],
 "type": "pb-interieur",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "hastingues",
@@ -879,7 +915,8 @@
 "Gaves réunis"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "haut-mauco",
@@ -897,7 +934,8 @@
 "Proximité de Saint-Sever"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "hendaye",
@@ -915,7 +953,8 @@
 "Baie de Txingudi"
 ],
 "type": "pb-cote",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "hinx",
@@ -933,7 +972,8 @@
 "Bosquets"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Terres de Chalosse"
 },
 {
 "slug": "horsarrieu",
@@ -951,7 +991,8 @@
 "Chemins ruraux"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "hossegor",
@@ -969,7 +1010,8 @@
 "Villas basco-landaises"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "ile-de-re",
@@ -1059,7 +1101,8 @@
 "Collines du Pays d'Orthe"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "labenne",
@@ -1077,7 +1120,8 @@
 "Réserve du marais d'Orx à proximité"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "labrit",
@@ -1095,7 +1139,8 @@
 "Village des Albret"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "lacq",
@@ -1113,7 +1158,8 @@
 "Zones d'activité"
 ],
 "type": "bearn",
-"new": false
+"new": false,
+"epci": "CC de Lacq-Orthez"
 },
 {
 "slug": "lalinde",
@@ -1185,7 +1231,8 @@
 "Clairières"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "leon",
@@ -1203,7 +1250,8 @@
 "Forêt du Marensin"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC Côte Landes Nature"
 },
 {
 "slug": "les-eyzies",
@@ -1275,7 +1323,8 @@
 "Dunes"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Côte Landes Nature"
 },
 {
 "slug": "losse",
@@ -1293,7 +1342,8 @@
 "Grandes parcelles"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC des Landes d'Armagnac"
 },
 {
 "slug": "lucon",
@@ -1329,7 +1379,8 @@
 "Vallée de la Leyre"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "marennes",
@@ -1365,7 +1416,8 @@
 "Vallée du Saison"
 ],
 "type": "pb-interieur",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "merignac",
@@ -1401,7 +1453,8 @@
 "Campings"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "mezos",
@@ -1419,7 +1472,8 @@
 "Maisons landaises"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC de Mimizan"
 },
 {
 "slug": "mimizan",
@@ -1437,7 +1491,8 @@
 "Prieuré de Mimizan"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC de Mimizan"
 },
 {
 "slug": "miramont-sensacq",
@@ -1455,7 +1510,8 @@
 "Panoramas"
 ],
 "type": "vignoble",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "moliets-et-maa",
@@ -1473,7 +1529,8 @@
 "Embouchure du courant d'Huchet"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "monpazier",
@@ -1509,7 +1566,8 @@
 "Centre-ville"
 ],
 "type": "ville",
-"new": false
+"new": false,
+"epci": "CA Mont de Marsan Agglomération"
 },
 {
 "slug": "montaut",
@@ -1527,7 +1585,8 @@
 "Panorama des Pyrénées"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "montfort-en-chalosse",
@@ -1545,7 +1604,8 @@
 "Coteaux"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Terres de Chalosse"
 },
 {
 "slug": "montignac",
@@ -1581,7 +1641,8 @@
 "Zones d'activité"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC du Pays Morcenais"
 },
 {
 "slug": "mourenx",
@@ -1599,7 +1660,8 @@
 "Bassin de Lacq"
 ],
 "type": "bearn",
-"new": false
+"new": false,
+"epci": "CC de Lacq-Orthez"
 },
 {
 "slug": "mugron",
@@ -1617,7 +1679,8 @@
 "Maisons de maître"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Terres de Chalosse"
 },
 {
 "slug": "mussidan",
@@ -1653,7 +1716,8 @@
 "Musée du Béret"
 ],
 "type": "bearn",
-"new": false
+"new": false,
+"epci": "CC Pays de Nay"
 },
 {
 "slug": "noirmoutier",
@@ -1707,7 +1771,8 @@
 "Quartiers résidentiels"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "oloron",
@@ -1725,7 +1790,8 @@
 "Quartier Sainte-Croix"
 ],
 "type": "montagne",
-"new": false
+"new": false,
+"epci": "CC du Haut Béarn"
 },
 {
 "slug": "orist",
@@ -1743,7 +1809,8 @@
 "Prairies inondables"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "orthevielle",
@@ -1761,7 +1828,8 @@
 "Collines"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "orthez",
@@ -1779,7 +1847,8 @@
 "Gave de Pau"
 ],
 "type": "bearn",
-"new": false
+"new": false,
+"epci": "CC de Lacq-Orthez"
 },
 {
 "slug": "ossages",
@@ -1797,7 +1866,8 @@
 "Fermes"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "parentis",
@@ -1815,7 +1885,8 @@
 "Port des Hournails"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC des Grands Lacs"
 },
 {
 "slug": "pau",
@@ -1833,7 +1904,8 @@
 "Funiculaire"
 ],
 "type": "ville",
-"new": false
+"new": false,
+"epci": "CA Pau Béarn Pyrénées"
 },
 {
 "slug": "pauillac",
@@ -1905,7 +1977,8 @@
 "Marché du mercredi"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "pimbo",
@@ -1923,7 +1996,8 @@
 "Chemin de Saint-Jacques"
 ],
 "type": "bastide",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "pissos",
@@ -1941,7 +2015,8 @@
 "Parc naturel régional"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "pomarez",
@@ -1959,7 +2034,8 @@
 "Coteaux de Chalosse"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Coteaux et Vallées des Luys"
 },
 {
 "slug": "port-de-lanne",
@@ -1977,7 +2053,8 @@
 "Confluence des Gaves"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "pouillon",
@@ -1995,7 +2072,8 @@
 "Centre-bourg"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "riberac",
@@ -2049,7 +2127,8 @@
 "Ponts anciens"
 ],
 "type": "bastide",
-"new": false
+"new": false,
+"epci": "CC des Landes d'Armagnac"
 },
 {
 "slug": "royan",
@@ -2085,7 +2164,8 @@
 "Forêt de la Grande Lande"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "saint-denis-doleron",
@@ -2157,7 +2237,8 @@
 "Forêt du Marensin"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Côte Landes Nature"
 },
 {
 "slug": "saint-jean-angely",
@@ -2193,7 +2274,8 @@
 "Maison Louis XIV"
 ],
 "type": "pb-cote",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "saint-jean-de-monts",
@@ -2229,7 +2311,8 @@
 "Nive et vieux pont"
 ],
 "type": "pb-interieur",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "saint-julien-en-born",
@@ -2247,7 +2330,8 @@
 "Forêt du Born"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Côte Landes Nature"
 },
 {
 "slug": "saint-justin",
@@ -2265,7 +2349,8 @@
 "Bastide médiévale"
 ],
 "type": "bastide",
-"new": false
+"new": false,
+"epci": "CC des Landes d'Armagnac"
 },
 {
 "slug": "saint-lon-les-mines",
@@ -2283,7 +2368,8 @@
 "Pays d'Orthe"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "saint-palais",
@@ -2301,7 +2387,8 @@
 "Collines de Basse-Navarre"
 ],
 "type": "pb-interieur",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "saint-pierre-du-mont",
@@ -2319,7 +2406,8 @@
 "Proximité de Mont-de-Marsan"
 ],
 "type": "ville",
-"new": false
+"new": false,
+"epci": "CA Mont de Marsan Agglomération"
 },
 {
 "slug": "saint-pierre-oleron",
@@ -2355,7 +2443,8 @@
 "Cloître des Jacobins"
 ],
 "type": "chalosse",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "saint-trojan-les-bains",
@@ -2391,7 +2480,8 @@
 "Proximité de la côte"
 ],
 "type": "ville",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "sainte-eulalie-en-born",
@@ -2409,7 +2499,8 @@
 "Forêt du Born"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC des Grands Lacs"
 },
 {
 "slug": "saintes",
@@ -2445,7 +2536,8 @@
 "Musée du sel"
 ],
 "type": "thermal",
-"new": false
+"new": false,
+"epci": "CC du Béarn des Gaves"
 },
 {
 "slug": "samadet",
@@ -2463,7 +2555,8 @@
 "Village"
 ],
 "type": "vignoble",
-"new": false
+"new": false,
+"epci": "CC Chalosse Tursan"
 },
 {
 "slug": "sanguinet",
@@ -2481,7 +2574,8 @@
 "Forêt"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC des Grands Lacs"
 },
 {
 "slug": "sarlat",
@@ -2517,7 +2611,8 @@
 "Golf de Seignosse"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "sorde-labbaye",
@@ -2535,7 +2630,8 @@
 "Village médiéval"
 ],
 "type": "adour",
-"new": false
+"new": false,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "sore",
@@ -2553,7 +2649,8 @@
 "Parc naturel régional"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "soustons",
@@ -2571,7 +2668,8 @@
 "Forêt du Marensin"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "tardets",
@@ -2589,7 +2687,8 @@
 "Haute-Soule"
 ],
 "type": "montagne",
-"new": false
+"new": false,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "tarnos",
@@ -2607,7 +2706,8 @@
 "Port de Bayonne à proximité"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC du Seignanx"
 },
 {
 "slug": "tartas",
@@ -2625,7 +2725,8 @@
 "Lisière de la forêt"
 ],
 "type": "ville",
-"new": false
+"new": false,
+"epci": "CC du Pays Tarusate"
 },
 {
 "slug": "tercis-les-bains",
@@ -2643,7 +2744,8 @@
 "Thermes"
 ],
 "type": "thermal",
-"new": false
+"new": false,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "terrasson",
@@ -2697,7 +2799,8 @@
 "Proximité des plages"
 ],
 "type": "lac",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "trensacq",
@@ -2715,7 +2818,8 @@
 "Airiaux"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "vert",
@@ -2733,7 +2837,8 @@
 "Pistes forestières"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "vieux-boucau",
@@ -2751,7 +2856,8 @@
 "Plage centrale"
 ],
 "type": "ocean",
-"new": false
+"new": false,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "villeneuve-de-marsan",
@@ -2769,7 +2875,8 @@
 "Vignes d'Armagnac"
 ],
 "type": "vignoble",
-"new": false
+"new": false,
+"epci": "CC du Pays de Villeneuve en Armagnac Landais"
 },
 {
 "slug": "ychoux",
@@ -2787,7 +2894,8 @@
 "Lac d'Ychoux"
 ],
 "type": "foret",
-"new": false
+"new": false,
+"epci": "CC des Grands Lacs"
 },
 {
 "slug": "saint-paul-les-dax",
@@ -2805,7 +2913,8 @@
 "Zones commerciales"
 ],
 "type": "thermal",
-"new": true
+"new": true,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "saint-vincent-de-paul",
@@ -2823,7 +2932,8 @@
 "Barthes"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "narrosse",
@@ -2841,7 +2951,8 @@
 "Proximité de Dax"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "seyresse",
@@ -2859,7 +2970,8 @@
 "Quartiers résidentiels"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "heugas",
@@ -2877,7 +2989,8 @@
 "Proximité de Dax"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "saugnac-et-cambran",
@@ -2895,7 +3008,8 @@
 "Proximité de Dax"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CA du Grand Dax"
 },
 {
 "slug": "pey",
@@ -2913,7 +3027,8 @@
 "Maisons landaises"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "orx",
@@ -2931,7 +3046,8 @@
 "Prairies humides"
 ],
 "type": "lac",
-"new": true
+"new": true,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "saint-martin-de-seignanx",
@@ -2949,7 +3065,8 @@
 "Quartiers résidentiels"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CC du Seignanx"
 },
 {
 "slug": "saint-andre-de-seignanx",
@@ -2967,7 +3084,8 @@
 "Vue sur les Pyrénées"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CC du Seignanx"
 },
 {
 "slug": "ondres",
@@ -2985,7 +3103,8 @@
 "Forêt littorale"
 ],
 "type": "ocean",
-"new": true
+"new": true,
+"epci": "CC du Seignanx"
 },
 {
 "slug": "saint-geours-de-maremne",
@@ -3003,7 +3122,8 @@
 "Étangs"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "benesse-maremne",
@@ -3021,7 +3141,8 @@
 "Proximité des plages"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "angresse",
@@ -3039,7 +3160,8 @@
 "Proximité d'Hossegor"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "magescq",
@@ -3057,7 +3179,8 @@
 "Exploitations"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "linxe",
@@ -3075,7 +3198,8 @@
 "Proximité de l'océan"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC Côte Landes Nature"
 },
 {
 "slug": "rion-des-landes",
@@ -3093,7 +3217,8 @@
 "Bourg"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC du Pays Tarusate"
 },
 {
 "slug": "pontonx-sur-l-adour",
@@ -3111,7 +3236,8 @@
 "Quartiers résidentiels"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CC du Pays Tarusate"
 },
 {
 "slug": "habas",
@@ -3129,7 +3255,8 @@
 "Bourg"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "gamarde-les-bains",
@@ -3147,7 +3274,8 @@
 "Coteaux de Chalosse"
 ],
 "type": "chalosse",
-"new": true
+"new": true,
+"epci": "CC Terres de Chalosse"
 },
 {
 "slug": "labouheyre",
@@ -3165,7 +3293,8 @@
 "Entreprises du bois"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC Coeur Haute Lande"
 },
 {
 "slug": "saint-martin-de-hinx",
@@ -3183,7 +3312,8 @@
 "Quartiers résidentiels"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CC Maremne Adour Côte Sud"
 },
 {
 "slug": "saint-avit",
@@ -3201,7 +3331,8 @@
 "Proximité de Mont-de-Marsan"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CA Mont de Marsan Agglomération"
 },
 {
 "slug": "bretagne-de-marsan",
@@ -3219,7 +3350,8 @@
 "Proximité de Mont-de-Marsan"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CA Mont de Marsan Agglomération"
 },
 {
 "slug": "laluque",
@@ -3237,7 +3369,8 @@
 "Clairières"
 ],
 "type": "foret",
-"new": true
+"new": true,
+"epci": "CC du Pays Tarusate"
 },
 {
 "slug": "cagnotte",
@@ -3255,7 +3388,8 @@
 "Bois"
 ],
 "type": "adour",
-"new": true
+"new": true,
+"epci": "CC Pays d'Orthe et Arrigans"
 },
 {
 "slug": "lescar",
@@ -3273,7 +3407,8 @@
 "Zones commerciales"
 ],
 "type": "bearn",
-"new": true
+"new": true,
+"epci": "CA Pau Béarn Pyrénées"
 },
 {
 "slug": "billere",
@@ -3291,7 +3426,8 @@
 "Proximité de Pau"
 ],
 "type": "ville",
-"new": true
+"new": true,
+"epci": "CA Pau Béarn Pyrénées"
 },
 {
 "slug": "lons",
@@ -3309,7 +3445,8 @@
 "Proximité de Pau"
 ],
 "type": "ville",
-"new": true
+"new": true,
+"epci": "CA Pau Béarn Pyrénées"
 },
 {
 "slug": "jurancon",
@@ -3327,7 +3464,8 @@
 "Vue sur les Pyrénées"
 ],
 "type": "vignoble",
-"new": true
+"new": true,
+"epci": "CA Pau Béarn Pyrénées"
 },
 {
 "slug": "gan",
@@ -3345,7 +3483,8 @@
 "Piémont pyrénéen"
 ],
 "type": "bearn",
-"new": true
+"new": true,
+"epci": "CA Pau Béarn Pyrénées"
 },
 {
 "slug": "monein",
@@ -3363,7 +3502,8 @@
 "Coteaux"
 ],
 "type": "vignoble",
-"new": true
+"new": true,
+"epci": "CC de Lacq-Orthez"
 },
 {
 "slug": "navarrenx",
@@ -3381,7 +3521,8 @@
 "Porte Saint-Antoine"
 ],
 "type": "bearn",
-"new": true
+"new": true,
+"epci": "CC du Béarn des Gaves"
 },
 {
 "slug": "sauveterre-de-bearn",
@@ -3399,7 +3540,8 @@
 "Gave d'Oloron"
 ],
 "type": "bearn",
-"new": true
+"new": true,
+"epci": "CC du Béarn des Gaves"
 },
 {
 "slug": "bidache",
@@ -3417,7 +3559,8 @@
 "Grande rue"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "labastide-clairence",
@@ -3435,7 +3578,8 @@
 "Ateliers d'artisans"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "urt",
@@ -3453,7 +3597,8 @@
 "Barthes"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "bardos",
@@ -3471,7 +3616,8 @@
 "Bourg"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "guiche",
@@ -3489,7 +3635,8 @@
 "Barthes"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "boucau",
@@ -3507,7 +3654,8 @@
 "Quartiers résidentiels"
 ],
 "type": "ville",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "bidart",
@@ -3525,7 +3673,8 @@
 "Falaises"
 ],
 "type": "pb-cote",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "guethary",
@@ -3543,7 +3692,8 @@
 "Villas basques"
 ],
 "type": "pb-cote",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "ciboure",
@@ -3561,7 +3711,8 @@
 "Baie de Saint-Jean-de-Luz"
 ],
 "type": "pb-cote",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "urrugne",
@@ -3579,7 +3730,8 @@
 "Col d'Ibardin"
 ],
 "type": "pb-cote",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "ascain",
@@ -3597,7 +3749,8 @@
 "Fronton"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "sare",
@@ -3615,7 +3768,8 @@
 "Place du fronton"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "ainhoa",
@@ -3633,7 +3787,8 @@
 "Chapelle de l'Aubépine"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "ustaritz",
@@ -3651,7 +3806,8 @@
 "Collines du Labourd"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "saint-pee-sur-nivelle",
@@ -3669,7 +3825,8 @@
 "Château"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "itxassou",
@@ -3687,7 +3844,8 @@
 "Vallée de la Nive"
 ],
 "type": "pb-interieur",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "saint-etienne-de-baigorry",
@@ -3705,7 +3863,8 @@
 "Vallée des Aldudes"
 ],
 "type": "montagne",
-"new": true
+"new": true,
+"epci": "CA du Pays Basque"
 },
 {
 "slug": "laruns",
@@ -3723,7 +3882,8 @@
 "Lac de Fabrèges"
 ],
 "type": "montagne",
-"new": true
+"new": true,
+"epci": "CC de la Vallée d'Ossau"
 },
 {
 "slug": "morlaas",
@@ -3741,7 +3901,8 @@
 "Campagne béarnaise"
 ],
 "type": "bearn",
-"new": true
+"new": true,
+"epci": "CC du Nord Est Béarn"
 },
 {
 "slug": "talence",
@@ -4102,5 +4263,5276 @@
 ],
 "type": "ville",
 "new": true
+},
+{
+"slug": "saint-pierre-d-irube",
+"code": "64496",
+"nom": "Saint-Pierre-d'Irube",
+"dep": "64",
+"lat": 43.4659,
+"lon": -1.4444,
+"pop": 5900,
+"cp": "64990",
+"txt": "Sur la côte basque, entre Bayonne, Anglet et Biarritz, villes et quartiers résidentiels se succèdent face à l'océan. Saint-Pierre-d'Irube est une ville de 5 900 habitants, à une dizaine de minutes de Bayonne. Ses communes voisines sont Villefranque, Bayonne et Mouguerre.",
+"spots": [
+"Côte basque Adour",
+"À quelques minutes de Bayonne",
+"Agglomération du Pays Basque"
+],
+"type": "pb-cote",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Côte basque Adour"
+},
+{
+"slug": "mouguerre",
+"code": "64407",
+"nom": "Mouguerre",
+"dep": "64",
+"lat": 43.4622,
+"lon": -1.4039,
+"pop": 5428,
+"cp": "64990",
+"txt": "Entre Nive et Adour, à l'est de Bayonne, ce secteur résidentiel et agricole s'étend sur des collines verdoyantes. Ce territoire en plein développement combine villages, nouvelles maisons et campagne basque. Avec ses 5 428 habitants, cette ville se situe à une dizaine de minutes de Bayonne. Ses communes voisines sont Lahonce, Saint-Pierre-d'Irube et Villefranque.",
+"spots": [
+"Nive-Adour",
+"À quelques minutes de Bayonne",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Nive-Adour"
+},
+{
+"slug": "idron",
+"code": "64269",
+"nom": "Idron",
+"dep": "64",
+"lat": 43.2972,
+"lon": -0.3042,
+"pop": 5340,
+"cp": "64320",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Idron est une ville de 5 340 habitants, à une dizaine de minutes de Pau. Ses communes voisines sont Lée, Bizanos et Aressy.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Pau",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "bizanos",
+"code": "64132",
+"nom": "Bizanos",
+"dep": "64",
+"lat": 43.2947,
+"lon": -0.3357,
+"pop": 4592,
+"cp": "64320",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Bizanos est un bourg de 4 592 habitants, à une dizaine de minutes de Pau. Ses communes voisines sont Aressy, Idron et Pau.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Pau",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "serres-castet",
+"code": "64519",
+"nom": "Serres-Castet",
+"dep": "64",
+"lat": 43.3822,
+"lon": -0.3641,
+"pop": 4418,
+"cp": "64121",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 4 418 habitants, ce bourg se situe à une dizaine de minutes de Lescar. Ses communes voisines sont Montardon, Sauvagnon et Navailles-Angos.",
+"spots": [
+"Luys en Béarn",
+"À quelques minutes de Lescar",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "arcangues",
+"code": "64038",
+"nom": "Arcangues",
+"dep": "64",
+"lat": 43.4261,
+"lon": -1.5167,
+"pop": 3657,
+"cp": "64200",
+"txt": "Sur la côte basque, entre Bayonne, Anglet et Biarritz, villes et quartiers résidentiels se succèdent face à l'océan. Ce secteur urbain et littoral concentre commerces, hôtels, restaurants et agences immobilières. Avec ses 3 657 habitants, ce bourg se situe à une dizaine de minutes d'Ustaritz. Ses communes voisines sont Arbonne, Bassussarry et Ahetze.",
+"spots": [
+"Côte basque Adour",
+"À quelques minutes d'Ustaritz",
+"Agglomération du Pays Basque"
+],
+"type": "pb-cote",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Côte basque Adour"
+},
+{
+"slug": "gelos",
+"code": "64237",
+"nom": "Gelos",
+"dep": "64",
+"lat": 43.2544,
+"lon": -0.3679,
+"pop": 3637,
+"cp": "64110",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Gelos est un bourg de 3 637 habitants, à une dizaine de minutes de Jurançon. Ses communes voisines sont Uzos, Mazères-Lezons et Rontignon.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Jurançon",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "sauvagnon",
+"code": "64511",
+"nom": "Sauvagnon",
+"dep": "64",
+"lat": 43.3965,
+"lon": -0.3855,
+"pop": 3579,
+"cp": "64230",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 3 579 habitants, ce bourg se situe à une dizaine de minutes de Lescar. Ses communes voisines sont Serres-Castet, Caubios-Loos et Uzein.",
+"spots": [
+"Luys en Béarn",
+"À quelques minutes de Lescar",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "bassussarry",
+"code": "64100",
+"nom": "Bassussarry",
+"dep": "64",
+"lat": 43.4442,
+"lon": -1.4959,
+"pop": 3414,
+"cp": "64200",
+"txt": "Sur la côte basque, entre Bayonne, Anglet et Biarritz, villes et quartiers résidentiels se succèdent face à l'océan. Ce secteur urbain et littoral concentre commerces, hôtels, restaurants et agences immobilières. Avec ses 3 414 habitants, ce bourg se situe à une dizaine de minutes d'Anglet. Ses communes voisines sont Arcangues, Villefranque et Saint-Pierre-d'Irube.",
+"spots": [
+"Côte basque Adour",
+"À quelques minutes d'Anglet",
+"Agglomération du Pays Basque"
+],
+"type": "pb-cote",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Côte basque Adour"
+},
+{
+"slug": "villefranque",
+"code": "64558",
+"nom": "Villefranque",
+"dep": "64",
+"lat": 43.4467,
+"lon": -1.455,
+"pop": 3069,
+"cp": "64990",
+"txt": "Sur la côte basque, entre Bayonne, Anglet et Biarritz, villes et quartiers résidentiels se succèdent face à l'océan. Ce secteur urbain et littoral concentre commerces, hôtels, restaurants et agences immobilières. Avec ses 3 069 habitants, ce bourg se situe à une dizaine de minutes de Bayonne. Ses communes voisines sont Saint-Pierre-d'Irube, Bassussarry et Bayonne.",
+"spots": [
+"Côte basque Adour",
+"À quelques minutes de Bayonne",
+"Agglomération du Pays Basque"
+],
+"type": "pb-cote",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Côte basque Adour"
+},
+{
+"slug": "urcuit",
+"code": "64540",
+"nom": "Urcuit",
+"dep": "64",
+"lat": 43.4838,
+"lon": -1.3504,
+"pop": 3047,
+"cp": "64990",
+"txt": "Entre Nive et Adour, à l'est de Bayonne, ce secteur résidentiel et agricole s'étend sur des collines verdoyantes. Urcuit est un bourg de 3 047 habitants, à une dizaine de minutes de Saint-Martin-de-Seignanx. Ses communes voisines sont Briscous, Lahonce et Mouguerre.",
+"spots": [
+"Nive-Adour",
+"À quelques minutes de Saint-Martin-de-Seignanx",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Nive-Adour"
+},
+{
+"slug": "briscous",
+"code": "64147",
+"nom": "Briscous",
+"dep": "64",
+"lat": 43.4588,
+"lon": -1.33,
+"pop": 2965,
+"cp": "64240",
+"txt": "Entre Nive et Adour, à l'est de Bayonne, ce secteur résidentiel et agricole s'étend sur des collines verdoyantes. Ce territoire en plein développement combine villages, nouvelles maisons et campagne basque. Avec ses 2 965 habitants, ce bourg se situe à une dizaine de minutes d'Hasparren. Ses communes voisines sont Urcuit, Urt et Mouguerre.",
+"spots": [
+"Nive-Adour",
+"À quelques minutes d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Nive-Adour"
+},
+{
+"slug": "pontacq",
+"code": "64453",
+"nom": "Pontacq",
+"dep": "64",
+"lat": 43.1968,
+"lon": -0.1031,
+"pop": 2925,
+"cp": "64530",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 2 925 habitants, ce bourg se situe à environ 25 km de Morlaàs. Ses communes voisines sont Barzun, Ger et Bénéjacq.",
+"spots": [
+"Nord-Est Béarn",
+"À 25 km de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "bordes",
+"code": "64138",
+"nom": "Bordes",
+"dep": "64",
+"lat": 43.2446,
+"lon": -0.2734,
+"pop": 2872,
+"cp": "64510",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Bordes est un bourg de 2 872 habitants, à environ 13 km de Morlaàs. Ses communes voisines sont Assat, Angaïs et Boeil-Bezing.",
+"spots": [
+"Pays de Nay",
+"À 13 km de Morlaàs",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "lahonce",
+"code": "64304",
+"nom": "Lahonce",
+"dep": "64",
+"lat": 43.4836,
+"lon": -1.4003,
+"pop": 2740,
+"cp": "64990",
+"txt": "Entre Nive et Adour, à l'est de Bayonne, ce secteur résidentiel et agricole s'étend sur des collines verdoyantes. Ce territoire en plein développement combine villages, nouvelles maisons et campagne basque. Avec ses 2 740 habitants, ce bourg se situe à une dizaine de minutes de Saint-Martin-de-Seignanx. Ses communes voisines sont Mouguerre, Urcuit et Saint-Pierre-d'Irube.",
+"spots": [
+"Nive-Adour",
+"À quelques minutes de Saint-Martin-de-Seignanx",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Nive-Adour"
+},
+{
+"slug": "arbonne",
+"code": "64035",
+"nom": "Arbonne",
+"dep": "64",
+"lat": 43.42,
+"lon": -1.547,
+"pop": 2447,
+"cp": "64210",
+"txt": "Entre Saint-Jean-de-Luz, Hendaye et La Rhune, le Sud Pays basque réunit océan, villages labourdins et montagne. Arbonne est un bourg de 2 447 habitants, à une dizaine de minutes de Bidart. Ses communes voisines sont Ahetze, Arcangues et Bidart.",
+"spots": [
+"Sud Pays basque",
+"À quelques minutes de Bidart",
+"Agglomération du Pays Basque"
+],
+"type": "pb-cote",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Sud Pays basque"
+},
+{
+"slug": "montardon",
+"code": "64399",
+"nom": "Montardon",
+"dep": "64",
+"lat": 43.367,
+"lon": -0.3478,
+"pop": 2419,
+"cp": "64121",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 2 419 habitants, ce bourg se situe à une dizaine de minutes de Pau. Ses communes voisines sont Serres-Castet, Saint-Castin et Buros.",
+"spots": [
+"Luys en Béarn",
+"À quelques minutes de Pau",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "arudy",
+"code": "64062",
+"nom": "Arudy",
+"dep": "64",
+"lat": 43.1036,
+"lon": -0.4646,
+"pop": 2228,
+"cp": "64260",
+"txt": "La vallée d'Ossau remonte d'Arudy à Laruns et au col du Pourtalet, entre estives, villages de pierre et sommets. Arudy est un bourg de 2 228 habitants, à environ 14 km de Gan. Ses communes voisines sont Buziet, Buzy et Ogeu-les-Bains.",
+"spots": [
+"Vallée d'Ossau",
+"À 14 km de Gan",
+"Communauté de communes de la Vallée d'Ossau"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC de la Vallée d'Ossau",
+"territoire": "Vallée d'Ossau"
+},
+{
+"slug": "coarraze",
+"code": "64191",
+"nom": "Coarraze",
+"dep": "64",
+"lat": 43.1699,
+"lon": -0.2112,
+"pop": 2177,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Coarraze est un bourg de 2 177 habitants, à environ 21 km de Gan. Ses communes voisines sont Igon, Bénéjacq et Bordères.",
+"spots": [
+"Pays de Nay",
+"À 21 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "larressore",
+"code": "64317",
+"nom": "Larressore",
+"dep": "64",
+"lat": 43.3696,
+"lon": -1.4445,
+"pop": 2163,
+"cp": "64480",
+"txt": "Autour de Cambo-les-Bains et de la vallée de la Nive, Errobi est un Labourd vert de collines, de rivières et de villages. Larressore est un bourg de 2 163 habitants, à une dizaine de minutes d'Ustaritz. Ses communes voisines sont Halsou, Ustaritz et Espelette.",
+"spots": [
+"Errobi",
+"À quelques minutes d'Ustaritz",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Errobi"
+},
+{
+"slug": "ger",
+"code": "64238",
+"nom": "Ger",
+"dep": "64",
+"lat": 43.2531,
+"lon": -0.0596,
+"pop": 2137,
+"cp": "64530",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Ger est un bourg de 2 137 habitants, à environ 24 km de Morlaàs. Ses communes voisines sont Barzun, Pontacq et Espoey.",
+"spots": [
+"Nord-Est Béarn",
+"À 24 km de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "ahetze",
+"code": "64009",
+"nom": "Ahetze",
+"dep": "64",
+"lat": 43.4053,
+"lon": -1.5651,
+"pop": 2104,
+"cp": "64210",
+"txt": "Entre Saint-Jean-de-Luz, Hendaye et La Rhune, le Sud Pays basque réunit océan, villages labourdins et montagne. Ce territoire très touristique mêle ports, plages, frontons et collines au pied de La Rhune. Avec ses 2 104 habitants, ce bourg se situe à une dizaine de minutes de Bidart. Ses communes voisines sont Arbonne, Bidart et Guéthary.",
+"spots": [
+"Sud Pays basque",
+"À quelques minutes de Bidart",
+"Agglomération du Pays Basque"
+],
+"type": "pb-cote",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Sud Pays basque"
+},
+{
+"slug": "assat",
+"code": "64067",
+"nom": "Assat",
+"dep": "64",
+"lat": 43.2598,
+"lon": -0.285,
+"pop": 2068,
+"cp": "64510",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Ce territoire de vallée et de piémont associe savoir-faire industriel, patrimoine et paysages de montagne. Avec ses 2 068 habitants, ce bourg se situe à une dizaine de minutes de Pau. Ses communes voisines sont Bordes, Meillon et Ousse.",
+"spots": [
+"Pays de Nay",
+"À quelques minutes de Pau",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "artiguelouve",
+"code": "64060",
+"nom": "Artiguelouve",
+"dep": "64",
+"lat": 43.3092,
+"lon": -0.473,
+"pop": 2045,
+"cp": "64230",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Artiguelouve est un bourg de 2 045 habitants, à une dizaine de minutes de Lescar. Ses communes voisines sont Laroin, Arbus et Siros.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Lescar",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "mees",
+"code": "40179",
+"nom": "Mées",
+"dep": "40",
+"lat": 43.7062,
+"lon": -1.1154,
+"pop": 2036,
+"cp": "40990",
+"txt": "Autour de Dax, ce territoire mêle thermes, quartiers résidentiels, zones d'activité et campagne au bord de l'Adour. Avec ses 2 036 habitants, ce bourg se situe à une dizaine de minutes de Dax. Ses communes voisines sont Tercis-les-Bains, Dax et Saint-Paul-lès-Dax.",
+"spots": [
+"Grand Dax",
+"À quelques minutes de Dax",
+"Agglomération du Grand Dax"
+],
+"type": "thermal",
+"new": true,
+"auto": true,
+"epci": "CA du Grand Dax",
+"territoire": "Grand Dax"
+},
+{
+"slug": "benejacq",
+"code": "64109",
+"nom": "Bénéjacq",
+"dep": "64",
+"lat": 43.1935,
+"lon": -0.1944,
+"pop": 2013,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Bénéjacq est un bourg de 2 013 habitants, à environ 21 km de Morlaàs. Ses communes voisines sont Bordères, Coarraze et Lagos.",
+"spots": [
+"Pays de Nay",
+"À 21 km de Morlaàs",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "buros",
+"code": "64152",
+"nom": "Buros",
+"dep": "64",
+"lat": 43.3487,
+"lon": -0.3131,
+"pop": 2007,
+"cp": "64160",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 2 007 habitants, ce bourg se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Maucor, Saint-Castin et Montardon.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "asson",
+"code": "64068",
+"nom": "Asson",
+"dep": "64",
+"lat": 43.0998,
+"lon": -0.2582,
+"pop": 1982,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Ce territoire de vallée et de piémont associe savoir-faire industriel, patrimoine et paysages de montagne. Avec ses 1 982 habitants, ce village se situe à environ 21 km de Gan. Ses communes voisines sont Bruges-Capbis-Mifaget, Lestelle-Bétharram et Igon.",
+"spots": [
+"Pays de Nay",
+"À 21 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "poey-de-lescar",
+"code": "64448",
+"nom": "Poey-de-Lescar",
+"dep": "64",
+"lat": 43.3557,
+"lon": -0.4602,
+"pop": 1876,
+"cp": "64230",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Poey-de-Lescar est un village de 1 876 habitants, à une dizaine de minutes de Lescar. Ses communes voisines sont Aussevielle, Siros et Lescar.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Lescar",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "mazeres-lezons",
+"code": "64373",
+"nom": "Mazères-Lezons",
+"dep": "64",
+"lat": 43.2691,
+"lon": -0.3566,
+"pop": 1845,
+"cp": "64110",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 1 845 habitants, ce village se situe à une dizaine de minutes de Jurançon. Ses communes voisines sont Uzos, Gelos et Aressy.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Jurançon",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "saint-jean-de-marsacq",
+"code": "40264",
+"nom": "Saint-Jean-de-Marsacq",
+"dep": "40",
+"lat": 43.6103,
+"lon": -1.2505,
+"pop": 1840,
+"cp": "40230",
+"txt": "Autour de Capbreton, Hossegor, Seignosse et Saint-Vincent-de-Tyrosse, ce territoire attire touristes, entreprises et nouveaux habitants. Avec ses 1 840 habitants, ce village se situe à une dizaine de minutes de Saint-Vincent-de-Tyrosse. Ses communes voisines sont Pey, Saint-Martin-de-Hinx et Josse.",
+"spots": [
+"Maremne Adour Côte Sud",
+"À quelques minutes de Saint-Vincent-de-Tyrosse",
+"Communauté de communes Maremne Adour Côte Sud"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC Maremne Adour Côte Sud",
+"territoire": "Maremne Adour Côte Sud"
+},
+{
+"slug": "arthez-de-bearn",
+"code": "64057",
+"nom": "Arthez-de-Béarn",
+"dep": "64",
+"lat": 43.4684,
+"lon": -0.6226,
+"pop": 1837,
+"cp": "64370",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 1 837 habitants, ce village se situe à environ 13 km de Mourenx. Ses communes voisines sont Argagnon, Hagetaubin et Lacq.",
+"spots": [
+"Lacq-Orthez",
+"À 13 km de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "saubion",
+"code": "40291",
+"nom": "Saubion",
+"dep": "40",
+"lat": 43.6756,
+"lon": -1.3318,
+"pop": 1826,
+"cp": "40230",
+"txt": "Autour de Capbreton, Hossegor, Seignosse et Saint-Vincent-de-Tyrosse, ce territoire attire touristes, entreprises et nouveaux habitants. Avec ses 1 826 habitants, ce village se situe à une dizaine de minutes de Saint-Vincent-de-Tyrosse. Ses communes voisines sont Tosse, Saint-Vincent-de-Tyrosse et Angresse.",
+"spots": [
+"Maremne Adour Côte Sud",
+"À quelques minutes de Saint-Vincent-de-Tyrosse",
+"Communauté de communes Maremne Adour Côte Sud"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC Maremne Adour Côte Sud",
+"territoire": "Maremne Adour Côte Sud"
+},
+{
+"slug": "pontenx-les-forges",
+"code": "40229",
+"nom": "Pontenx-les-Forges",
+"dep": "40",
+"lat": 44.2369,
+"lon": -1.1007,
+"pop": 1775,
+"cp": "40200",
+"txt": "Entre océan, lac d'Aureilhan et forêt, le Pays de Mimizan vit au rythme du tourisme et de l'industrie du bois. Ce territoire du Born associe plages, lacs, forêt et villages paisibles. Avec ses 1 775 habitants, ce village se situe à environ 15 km de Parentis-en-Born. Ses communes voisines sont Saint-Paul-en-Born, Escource et Aureilhan.",
+"spots": [
+"Pays de Mimizan",
+"À 15 km de Parentis-en-Born",
+"Communauté de communes de Mimizan"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC de Mimizan",
+"territoire": "Pays de Mimizan"
+},
+{
+"slug": "denguin",
+"code": "64198",
+"nom": "Denguin",
+"dep": "64",
+"lat": 43.3731,
+"lon": -0.4968,
+"pop": 1765,
+"cp": "64230",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Denguin est un village de 1 765 habitants, à une dizaine de minutes de Lescar. Ses communes voisines sont Aussevielle, Bougarber et Labastide-Monréjeau.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Lescar",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "lasseube",
+"code": "64324",
+"nom": "Lasseube",
+"dep": "64",
+"lat": 43.2127,
+"lon": -0.4835,
+"pop": 1735,
+"cp": "64290",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 1 735 habitants, ce village se situe à une dizaine de minutes de Gan. Ses communes voisines sont Gan, Aubertin et Saint-Faust.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes de Gan",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "saint-perdon",
+"code": "40280",
+"nom": "Saint-Perdon",
+"dep": "40",
+"lat": 43.8815,
+"lon": -0.5996,
+"pop": 1732,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Saint-Perdon est un village de 1 732 habitants, à une dizaine de minutes de Saint-Pierre-du-Mont. Ses communes voisines sont Campet-et-Lamolère, Campagne et Saint-Pierre-du-Mont.",
+"spots": [
+"Marsan",
+"À quelques minutes de Saint-Pierre-du-Mont",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "ousse",
+"code": "64439",
+"nom": "Ousse",
+"dep": "64",
+"lat": 43.2766,
+"lon": -0.2671,
+"pop": 1672,
+"cp": "64320",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Ousse est un village de 1 672 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Artigueloutan, Lée et Assat.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Morlaàs",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "saubrigues",
+"code": "40292",
+"nom": "Saubrigues",
+"dep": "40",
+"lat": 43.6048,
+"lon": -1.325,
+"pop": 1659,
+"cp": "40230",
+"txt": "Autour de Capbreton, Hossegor, Seignosse et Saint-Vincent-de-Tyrosse, ce territoire attire touristes, entreprises et nouveaux habitants. Avec ses 1 659 habitants, ce village se situe à une dizaine de minutes de Saint-Vincent-de-Tyrosse. Ses communes voisines sont Orx, Bénesse-Maremne et Saint-Martin-de-Hinx.",
+"spots": [
+"Maremne Adour Côte Sud",
+"À quelques minutes de Saint-Vincent-de-Tyrosse",
+"Communauté de communes Maremne Adour Côte Sud"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC Maremne Adour Côte Sud",
+"territoire": "Maremne Adour Côte Sud"
+},
+{
+"slug": "soumoulou",
+"code": "64526",
+"nom": "Soumoulou",
+"dep": "64",
+"lat": 43.2596,
+"lon": -0.1955,
+"pop": 1583,
+"cp": "64420",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 1 583 habitants, ce village se situe à environ 13 km de Morlaàs. Ses communes voisines sont Nousty, Limendous et Espoey.",
+"spots": [
+"Nord-Est Béarn",
+"À 13 km de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "nousty",
+"code": "64419",
+"nom": "Nousty",
+"dep": "64",
+"lat": 43.2642,
+"lon": -0.2182,
+"pop": 1572,
+"cp": "64420",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 1 572 habitants, ce village se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Soumoulou, Artigueloutan et Limendous.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "navailles-angos",
+"code": "64415",
+"nom": "Navailles-Angos",
+"dep": "64",
+"lat": 43.4134,
+"lon": -0.3397,
+"pop": 1545,
+"cp": "64450",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 1 545 habitants, ce village se situe à environ 13 km de Morlaàs. Ses communes voisines sont Saint-Armou, Serres-Castet et Sauvagnon.",
+"spots": [
+"Luys en Béarn",
+"À 13 km de Morlaàs",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "riviere-saas-et-gourby",
+"code": "40244",
+"nom": "Rivière-Saas-et-Gourby",
+"dep": "40",
+"lat": 43.6892,
+"lon": -1.1713,
+"pop": 1476,
+"cp": "40180",
+"txt": "L'agglomération dacquoise vit autour du thermalisme, de l'Adour et de ses barthes, avec des communes résidentielles très recherchées. Rivière-Saas-et-Gourby est un village de 1 476 habitants, à une dizaine de minutes de Dax. Ses communes voisines sont Saubusse, Saint-Geours-de-Maremne et Mées.",
+"spots": [
+"Grand Dax",
+"À quelques minutes de Dax",
+"Agglomération du Grand Dax"
+],
+"type": "thermal",
+"new": true,
+"auto": true,
+"epci": "CA du Grand Dax",
+"territoire": "Grand Dax"
+},
+{
+"slug": "souraide",
+"code": "64527",
+"nom": "Souraïde",
+"dep": "64",
+"lat": 43.3464,
+"lon": -1.488,
+"pop": 1472,
+"cp": "64250",
+"txt": "Autour de Cambo-les-Bains et de la vallée de la Nive, Errobi est un Labourd vert de collines, de rivières et de villages. Ce territoire entre Nive et montagne associe maisons basques, producteurs et hébergements de charme. Avec ses 1 472 habitants, ce village se situe à une dizaine de minutes de Saint-Pée-sur-Nivelle. Ses communes voisines sont Espelette, Larressore et Saint-Pée-sur-Nivelle.",
+"spots": [
+"Errobi",
+"À quelques minutes de Saint-Pée-sur-Nivelle",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Errobi"
+},
+{
+"slug": "saugnac-et-muret",
+"code": "40295",
+"nom": "Saugnac-et-Muret",
+"dep": "40",
+"lat": 44.3992,
+"lon": -0.8172,
+"pop": 1382,
+"cp": "40410",
+"txt": "Au cœur du massif forestier, la Haute Lande est un territoire de pins, de clairières, d'airiaux et de rivières comme la Leyre. Saugnac-et-Muret est un village de 1 382 habitants, à environ 26 km de Parentis-en-Born. Ses communes voisines sont Moustey, Liposthey et Pissos.",
+"spots": [
+"Haute Lande",
+"À 26 km de Parentis-en-Born",
+"Communauté de communes Coeur Haute Lande"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC Coeur Haute Lande",
+"territoire": "Haute Lande"
+},
+{
+"slug": "saint-martin-d-oney",
+"code": "40274",
+"nom": "Saint-Martin-d'Oney",
+"dep": "40",
+"lat": 43.9281,
+"lon": -0.6413,
+"pop": 1367,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Saint-Martin-d'Oney est un village de 1 367 habitants, à environ 14 km de Saint-Pierre-du-Mont. Ses communes voisines sont Campet-et-Lamolère, Geloux et Saint-Perdon.",
+"spots": [
+"Marsan",
+"À 14 km de Saint-Pierre-du-Mont",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "garlin",
+"code": "64233",
+"nom": "Garlin",
+"dep": "64",
+"lat": 43.5585,
+"lon": -0.2726,
+"pop": 1360,
+"cp": "64330",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 1 360 habitants, ce village se situe à environ 20 km d'Aire-sur-l'Adour. Ses communes voisines sont Miramont-Sensacq, Pimbo et Thèze.",
+"spots": [
+"Luys en Béarn",
+"À 20 km d'Aire-sur-l'Adour",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "boeil-bezing",
+"code": "64133",
+"nom": "Boeil-Bezing",
+"dep": "64",
+"lat": 43.2291,
+"lon": -0.2467,
+"pop": 1341,
+"cp": "64510",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Boeil-Bezing est un village de 1 341 habitants, à environ 15 km de Morlaàs. Ses communes voisines sont Angaïs, Beuste et Lagos.",
+"spots": [
+"Pays de Nay",
+"À 15 km de Morlaàs",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "ygos-saint-saturnin",
+"code": "40333",
+"nom": "Ygos-Saint-Saturnin",
+"dep": "40",
+"lat": 43.9873,
+"lon": -0.7249,
+"pop": 1334,
+"cp": "40110",
+"txt": "Autour de Morcenx, ce territoire forestier est connu pour la réserve d'Arjuzanx et ses lacs. Ygos-Saint-Saturnin est un village de 1 334 habitants, à environ 13 km d'Arjuzanx. Ses communes voisines sont Arengosse, Geloux et Garein.",
+"spots": [
+"Pays Morcenais",
+"À 13 km d'Arjuzanx",
+"Communauté de communes du Pays Morcenais"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Morcenais",
+"territoire": "Pays Morcenais"
+},
+{
+"slug": "uzein",
+"code": "64549",
+"nom": "Uzein",
+"dep": "64",
+"lat": 43.3969,
+"lon": -0.436,
+"pop": 1326,
+"cp": "64230",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Uzein est un village de 1 326 habitants, à une dizaine de minutes de Lescar. Ses communes voisines sont Bougarber, Caubios-Loos et Sauvagnon.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Lescar",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "biriatou",
+"code": "64130",
+"nom": "Biriatou",
+"dep": "64",
+"lat": 43.3242,
+"lon": -1.7348,
+"pop": 1297,
+"cp": "64700",
+"txt": "Entre Saint-Jean-de-Luz, Hendaye et La Rhune, le Sud Pays basque réunit océan, villages labourdins et montagne. Biriatou est un village de 1 297 habitants, à une dizaine de minutes d'Urrugne. Ses communes voisines sont Urrugne, Hendaye et Ciboure.",
+"spots": [
+"Sud Pays basque",
+"À quelques minutes d'Urrugne",
+"Agglomération du Pays Basque"
+],
+"type": "pb-cote",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Sud Pays basque"
+},
+{
+"slug": "ogeu-les-bains",
+"code": "64421",
+"nom": "Ogeu-les-Bains",
+"dep": "64",
+"lat": 43.1508,
+"lon": -0.5083,
+"pop": 1290,
+"cp": "64680",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 1 290 habitants, ce village se situe à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Buziet, Buzy et Arudy.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "lee",
+"code": "64329",
+"nom": "Lée",
+"dep": "64",
+"lat": 43.2905,
+"lon": -0.2876,
+"pop": 1271,
+"cp": "64320",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Lée est un village de 1 271 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Idron, Ousse et Sendets.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Morlaàs",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "jatxou",
+"code": "64282",
+"nom": "Jatxou",
+"dep": "64",
+"lat": 43.4045,
+"lon": -1.4136,
+"pop": 1267,
+"cp": "64480",
+"txt": "Autour de Cambo-les-Bains et de la vallée de la Nive, Errobi est un Labourd vert de collines, de rivières et de villages. Jatxou est un village de 1 267 habitants, à une dizaine de minutes d'Ustaritz. Ses communes voisines sont Halsou, Larressore et Ustaritz.",
+"spots": [
+"Errobi",
+"À quelques minutes d'Ustaritz",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Errobi"
+},
+{
+"slug": "mirepeix",
+"code": "64386",
+"nom": "Mirepeix",
+"dep": "64",
+"lat": 43.1938,
+"lon": -0.2509,
+"pop": 1255,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Mirepeix est un village de 1 255 habitants, à environ 16 km de Gan. Ses communes voisines sont Baudreix, Bourdettes et Nay.",
+"spots": [
+"Pays de Nay",
+"À 16 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "begaar",
+"code": "40031",
+"nom": "Bégaar",
+"dep": "40",
+"lat": 43.8231,
+"lon": -0.8535,
+"pop": 1251,
+"cp": "40400",
+"txt": "Autour de Tartas, le Pays Tarusate est à la charnière entre la forêt landaise et les coteaux de Chalosse, au bord de la Midouze. Bégaar est un village de 1 251 habitants, à environ 25 km de Saint-Paul-lès-Dax. Ses communes voisines sont Tartas, Carcen-Ponson et Pontonx-sur-l'Adour.",
+"spots": [
+"Pays Tarusate",
+"À 25 km de Saint-Paul-lès-Dax",
+"Communauté de communes du Pays Tarusate"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Tarusate",
+"territoire": "Pays Tarusate"
+},
+{
+"slug": "sainte-marie-de-gosse",
+"code": "40271",
+"nom": "Sainte-Marie-de-Gosse",
+"dep": "40",
+"lat": 43.5561,
+"lon": -1.234,
+"pop": 1241,
+"cp": "40390",
+"txt": "Entre océan, lacs et forêt, la côte sud des Landes réunit stations de surf, golfs, villages et zones d'activité très dynamiques. Sainte-Marie-de-Gosse est un village de 1 241 habitants, à environ 16 km de Saint-Martin-de-Seignanx. Ses communes voisines sont Saint-Martin-de-Hinx, Port-de-Lanne et Saint-Étienne-d'Orthe.",
+"spots": [
+"Maremne Adour Côte Sud",
+"À 16 km de Saint-Martin-de-Seignanx",
+"Communauté de communes Maremne Adour Côte Sud"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC Maremne Adour Côte Sud",
+"territoire": "Maremne Adour Côte Sud"
+},
+{
+"slug": "meilhan",
+"code": "40180",
+"nom": "Meilhan",
+"dep": "40",
+"lat": 43.8639,
+"lon": -0.6946,
+"pop": 1237,
+"cp": "40400",
+"txt": "Autour de Tartas, le Pays Tarusate est à la charnière entre la forêt landaise et les coteaux de Chalosse, au bord de la Midouze. Meilhan est un village de 1 237 habitants, à environ 17 km de Saint-Pierre-du-Mont. Ses communes voisines sont Campagne, Carcarès-Sainte-Croix et Saint-Yaguen.",
+"spots": [
+"Pays Tarusate",
+"À 17 km de Saint-Pierre-du-Mont",
+"Communauté de communes du Pays Tarusate"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Tarusate",
+"territoire": "Pays Tarusate"
+},
+{
+"slug": "arbus",
+"code": "64037",
+"nom": "Arbus",
+"dep": "64",
+"lat": 43.321,
+"lon": -0.5091,
+"pop": 1226,
+"cp": "64230",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 1 226 habitants, ce village se situe à une dizaine de minutes de Monein. Ses communes voisines sont Siros, Artiguelouve et Tarsacq.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Monein",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "espoey",
+"code": "64216",
+"nom": "Espoey",
+"dep": "64",
+"lat": 43.2492,
+"lon": -0.1606,
+"pop": 1223,
+"cp": "64420",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Espoey est un village de 1 223 habitants, à environ 16 km de Morlaàs. Ses communes voisines sont Soumoulou, Limendous et Barzun.",
+"spots": [
+"Nord-Est Béarn",
+"À 16 km de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "mazerolles",
+"code": "64374",
+"nom": "Mazerolles",
+"dep": "64",
+"lat": 43.4433,
+"lon": -0.4753,
+"pop": 1194,
+"cp": "64230",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Mazerolles est un village de 1 194 habitants, à environ 15 km de Lescar. Ses communes voisines sont Momas, Cescau et Bougarber.",
+"spots": [
+"Luys en Béarn",
+"À 15 km de Lescar",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "herm",
+"code": "40123",
+"nom": "Herm",
+"dep": "40",
+"lat": 43.8092,
+"lon": -1.1368,
+"pop": 1185,
+"cp": "40990",
+"txt": "L'agglomération dacquoise vit autour du thermalisme, de l'Adour et de ses barthes, avec des communes résidentielles très recherchées. Herm est un village de 1 185 habitants, à une dizaine de minutes de Saint-Paul-lès-Dax. Ses communes voisines sont Magescq, Castets et Saint-Paul-lès-Dax.",
+"spots": [
+"Grand Dax",
+"À quelques minutes de Saint-Paul-lès-Dax",
+"Agglomération du Grand Dax"
+],
+"type": "thermal",
+"new": true,
+"auto": true,
+"epci": "CA du Grand Dax",
+"territoire": "Grand Dax"
+},
+{
+"slug": "souprosse",
+"code": "40309",
+"nom": "Souprosse",
+"dep": "40",
+"lat": 43.7893,
+"lon": -0.7166,
+"pop": 1184,
+"cp": "40250",
+"txt": "Autour de Tartas, le Pays Tarusate est à la charnière entre la forêt landaise et les coteaux de Chalosse, au bord de la Midouze. Ce territoire mêle forêt, rivières, villages et exploitations agricoles entre Dax et Mont-de-Marsan. Avec ses 1 184 habitants, ce village se situe à environ 16 km de Saint-Sever. Ses communes voisines sont Mugron, Tartas et Saint-Aubin.",
+"spots": [
+"Pays Tarusate",
+"À 16 km de Saint-Sever",
+"Communauté de communes du Pays Tarusate"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Tarusate",
+"territoire": "Pays Tarusate"
+},
+{
+"slug": "sarbazan",
+"code": "40288",
+"nom": "Sarbazan",
+"dep": "40",
+"lat": 44.0149,
+"lon": -0.3083,
+"pop": 1167,
+"cp": "40120",
+"txt": "À l'est du département, les Landes d'Armagnac associent forêt de pins, chais et vignes à la frontière du Gers. Sarbazan est un village de 1 167 habitants, à environ 25 km de Mont-de-Marsan. Ses communes voisines sont Roquefort, Pouydesseaux et Saint-Justin.",
+"spots": [
+"Landes d'Armagnac",
+"À 25 km de Mont-de-Marsan",
+"Communauté de communes des Landes d'Armagnac"
+],
+"type": "vignoble",
+"new": true,
+"auto": true,
+"epci": "CC des Landes d'Armagnac",
+"territoire": "Landes d'Armagnac"
+},
+{
+"slug": "sendets",
+"code": "64518",
+"nom": "Sendets",
+"dep": "64",
+"lat": 43.3042,
+"lon": -0.2667,
+"pop": 1167,
+"cp": "64320",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Sendets est un village de 1 167 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Serres-Morlaàs, Lée et Ousse.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Morlaàs",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "mont",
+"code": "64396",
+"nom": "Mont",
+"dep": "64",
+"lat": 43.4269,
+"lon": -0.6558,
+"pop": 1146,
+"cp": "64300",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Mont est un village de 1 146 habitants, à une dizaine de minutes de Mourenx. Ses communes voisines sont Lacq, Maslacq et Argagnon.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "ayherre",
+"code": "64086",
+"nom": "Ayherre",
+"dep": "64",
+"lat": 43.3719,
+"lon": -1.2488,
+"pop": 1128,
+"cp": "64240",
+"txt": "Autour de Hasparren, ce Labourd intérieur est un pays de collines, de fermes et du mont Ursuya. Ce territoire rural basque mêle élevage, villages et paysages ouverts. Avec ses 1 128 habitants, ce village se situe à une dizaine de minutes d'Hasparren. Ses communes voisines sont Isturits, Mendionde et La Bastide-Clairence.",
+"spots": [
+"Pays de Hasparren",
+"À quelques minutes d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Pays de Hasparren"
+},
+{
+"slug": "lagor",
+"code": "64301",
+"nom": "Lagor",
+"dep": "64",
+"lat": 43.3829,
+"lon": -0.6673,
+"pop": 1121,
+"cp": "64150",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 1 121 habitants, ce village se situe à une dizaine de minutes de Mourenx. Ses communes voisines sont Os-Marsillon, Mourenx et Lahourcade.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "montaut-64",
+"code": "64400",
+"nom": "Montaut",
+"dep": "64",
+"lat": 43.134,
+"lon": -0.1797,
+"pop": 1120,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Montaut est un village de 1 120 habitants, à environ 25 km de Gan. Ses communes voisines sont Lestelle-Bétharram, Igon et Coarraze.",
+"spots": [
+"Pays de Nay",
+"À 25 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "artigueloutan",
+"code": "64059",
+"nom": "Artigueloutan",
+"dep": "64",
+"lat": 43.2725,
+"lon": -0.2459,
+"pop": 1105,
+"cp": "64420",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 1 105 habitants, ce village se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Ousse, Nousty et Assat.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Morlaàs",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "bidos",
+"code": "64126",
+"nom": "Bidos",
+"dep": "64",
+"lat": 43.1743,
+"lon": -0.6048,
+"pop": 1102,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 1 102 habitants, ce village se situe à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Oloron-Sainte-Marie, Gurmençon et Agnos.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "saubusse",
+"code": "40293",
+"nom": "Saubusse",
+"dep": "40",
+"lat": 43.673,
+"lon": -1.1906,
+"pop": 1093,
+"cp": "40180",
+"txt": "Autour de Capbreton, Hossegor, Seignosse et Saint-Vincent-de-Tyrosse, ce territoire attire touristes, entreprises et nouveaux habitants. Avec ses 1 093 habitants, ce village se situe à une dizaine de minutes de Saint-Vincent-de-Tyrosse. Ses communes voisines sont Rivière-Saas-et-Gourby, Saint-Geours-de-Maremne et Orist.",
+"spots": [
+"Maremne Adour Côte Sud",
+"À quelques minutes de Saint-Vincent-de-Tyrosse",
+"Communauté de communes Maremne Adour Côte Sud"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC Maremne Adour Côte Sud",
+"territoire": "Maremne Adour Côte Sud"
+},
+{
+"slug": "onesse-laharie",
+"code": "40210",
+"nom": "Onesse-Laharie",
+"dep": "40",
+"lat": 44.0536,
+"lon": -1.0546,
+"pop": 1079,
+"cp": "40110",
+"txt": "Autour de Morcenx, ce territoire forestier est connu pour la réserve d'Arjuzanx et ses lacs. Onesse-Laharie est un village de 1 079 habitants, à environ 14 km de Morcenx. Ses communes voisines sont Mézos, Lesperon et Morcenx.",
+"spots": [
+"Pays Morcenais",
+"À 14 km de Morcenx",
+"Communauté de communes du Pays Morcenais"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Morcenais",
+"territoire": "Pays Morcenais"
+},
+{
+"slug": "arzacq-arraziguet",
+"code": "64063",
+"nom": "Arzacq-Arraziguet",
+"dep": "64",
+"lat": 43.538,
+"lon": -0.4296,
+"pop": 1077,
+"cp": "64410",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Arzacq-Arraziguet est un village de 1 077 habitants, à environ 22 km d'Hagetmau. Ses communes voisines sont Vignes, Pimbo et Morlanne.",
+"spots": [
+"Luys en Béarn",
+"À 22 km d'Hagetmau",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "puyoo",
+"code": "64461",
+"nom": "Puyoô",
+"dep": "64",
+"lat": 43.5343,
+"lon": -0.908,
+"pop": 1077,
+"cp": "64270",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 1 077 habitants, ce village se situe à une dizaine de minutes de Salies-de-Béarn. Ses communes voisines sont Ramous, Bellocq et Ossages.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Salies-de-Béarn",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "campagne",
+"code": "40061",
+"nom": "Campagne",
+"dep": "40",
+"lat": 43.8641,
+"lon": -0.6397,
+"pop": 1061,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Ce territoire, entre la Douze, le Midou et la forêt, accueille entreprises, services et quartiers en développement. Avec ses 1 061 habitants, ce village se situe à une dizaine de minutes de Saint-Pierre-du-Mont. Ses communes voisines sont Saint-Perdon, Meilhan et Haut-Mauco.",
+"spots": [
+"Marsan",
+"À quelques minutes de Saint-Pierre-du-Mont",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "louvie-juzon",
+"code": "64353",
+"nom": "Louvie-Juzon",
+"dep": "64",
+"lat": 43.0708,
+"lon": -0.3358,
+"pop": 1058,
+"cp": "64260",
+"txt": "La vallée d'Ossau remonte d'Arudy à Laruns et au col du Pourtalet, entre estives, villages de pierre et sommets. Ce territoire de haute montagne offre lacs, cols et villages pyrénéens, en partie dans le Parc national des Pyrénées. Avec ses 1 058 habitants, ce village se situe à environ 19 km de Gan. Ses communes voisines sont Bruges-Capbis-Mifaget, Asson et Sévignacq-Meyracq.",
+"spots": [
+"Vallée d'Ossau",
+"À 19 km de Gan",
+"Communauté de communes de la Vallée d'Ossau"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC de la Vallée d'Ossau",
+"territoire": "Vallée d'Ossau"
+},
+{
+"slug": "agnos",
+"code": "64007",
+"nom": "Agnos",
+"dep": "64",
+"lat": 43.1525,
+"lon": -0.6322,
+"pop": 1044,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Agnos est un village de 1 044 habitants, à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Gurmençon, Bidos et Oloron-Sainte-Marie.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "lesperon",
+"code": "40152",
+"nom": "Lesperon",
+"dep": "40",
+"lat": 43.9719,
+"lon": -1.093,
+"pop": 1043,
+"cp": "40260",
+"txt": "Autour de Morcenx, ce territoire forestier est connu pour la réserve d'Arjuzanx et ses lacs. Lesperon est un village de 1 043 habitants, à environ 20 km de Morcenx. Ses communes voisines sont Taller, Onesse-Laharie et Castets.",
+"spots": [
+"Pays Morcenais",
+"À 20 km de Morcenx",
+"Communauté de communes du Pays Morcenais"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Morcenais",
+"territoire": "Pays Morcenais"
+},
+{
+"slug": "cheraute",
+"code": "64188",
+"nom": "Chéraute",
+"dep": "64",
+"lat": 43.2324,
+"lon": -0.8217,
+"pop": 1043,
+"cp": "64130",
+"txt": "La Soule, autour de Mauléon et Tardets, est la plus petite province basque, entre collines, forêts et montagne. Chéraute est un village de 1 043 habitants, à environ 25 km d'Oloron-Sainte-Marie. Ses communes voisines sont Mauléon-Licharre, Barcus et Viodos-Abense-de-Bas.",
+"spots": [
+"Soule",
+"À 25 km d'Oloron-Sainte-Marie",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Soule"
+},
+{
+"slug": "biaudos",
+"code": "40044",
+"nom": "Biaudos",
+"dep": "40",
+"lat": 43.5474,
+"lon": -1.3121,
+"pop": 1041,
+"cp": "40390",
+"txt": "Aux portes de Bayonne, le Seignanx réunit collines, forêt, bords de l'Adour et plages de Tarnos et d'Ondres. Ce territoire très recherché combine villages vallonnés, océan et proximité immédiate du Pays basque. Avec ses 1 041 habitants, ce village se situe à une dizaine de minutes de Saint-Martin-de-Seignanx. Ses communes voisines sont Saint-Laurent-de-Gosse, Saint-André-de-Seignanx et Saint-Martin-de-Hinx.",
+"spots": [
+"Seignanx",
+"À quelques minutes de Saint-Martin-de-Seignanx",
+"Communauté de communes du Seignanx"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC du Seignanx",
+"territoire": "Seignanx"
+},
+{
+"slug": "arette",
+"code": "64040",
+"nom": "Arette",
+"dep": "64",
+"lat": 43.0335,
+"lon": -0.7378,
+"pop": 1032,
+"cp": "64570",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Arette est un village de 1 032 habitants, à environ 24 km d'Oloron-Sainte-Marie. Ses communes voisines sont Lanne-en-Barétous, Aramits et Bedous.",
+"spots": [
+"Haut Béarn",
+"À 24 km d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "laroin",
+"code": "64315",
+"nom": "Laroin",
+"dep": "64",
+"lat": 43.2956,
+"lon": -0.4382,
+"pop": 1030,
+"cp": "64110",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Laroin est un village de 1 030 habitants, à une dizaine de minutes de Billère. Ses communes voisines sont Saint-Faust, Artiguelouve et Billère.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Billère",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "ledeuix",
+"code": "64328",
+"nom": "Ledeuix",
+"dep": "64",
+"lat": 43.2344,
+"lon": -0.609,
+"pop": 1029,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ledeuix est un village de 1 029 habitants, à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Estos, Goès et Moumour.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "igon",
+"code": "64270",
+"nom": "Igon",
+"dep": "64",
+"lat": 43.151,
+"lon": -0.2329,
+"pop": 1028,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Ce territoire de vallée et de piémont associe savoir-faire industriel, patrimoine et paysages de montagne. Avec ses 1 028 habitants, ce village se situe à environ 19 km de Gan. Ses communes voisines sont Coarraze, Lestelle-Bétharram et Nay.",
+"spots": [
+"Pays de Nay",
+"À 19 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "josse",
+"code": "40129",
+"nom": "Josse",
+"dep": "40",
+"lat": 43.6421,
+"lon": -1.2371,
+"pop": 1018,
+"cp": "40230",
+"txt": "Autour de Capbreton, Hossegor, Seignosse et Saint-Vincent-de-Tyrosse, ce territoire attire touristes, entreprises et nouveaux habitants. Avec ses 1 018 habitants, ce village se situe à une dizaine de minutes de Saint-Vincent-de-Tyrosse. Ses communes voisines sont Saint-Jean-de-Marsacq, Pey et Saint-Geours-de-Maremne.",
+"spots": [
+"Maremne Adour Côte Sud",
+"À quelques minutes de Saint-Vincent-de-Tyrosse",
+"Communauté de communes Maremne Adour Côte Sud"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC Maremne Adour Côte Sud",
+"territoire": "Maremne Adour Côte Sud"
+},
+{
+"slug": "buzy",
+"code": "64157",
+"nom": "Buzy",
+"dep": "64",
+"lat": 43.1427,
+"lon": -0.4424,
+"pop": 1006,
+"cp": "64260",
+"txt": "La vallée d'Ossau remonte d'Arudy à Laruns et au col du Pourtalet, entre estives, villages de pierre et sommets. Buzy est un village de 1 006 habitants, à une dizaine de minutes de Gan. Ses communes voisines sont Buziet, Rébénacq et Sévignacq-Meyracq.",
+"spots": [
+"Vallée d'Ossau",
+"À quelques minutes de Gan",
+"Communauté de communes de la Vallée d'Ossau"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC de la Vallée d'Ossau",
+"territoire": "Vallée d'Ossau"
+},
+{
+"slug": "mimbaste",
+"code": "40183",
+"nom": "Mimbaste",
+"dep": "40",
+"lat": 43.6515,
+"lon": -0.9624,
+"pop": 1001,
+"cp": "40350",
+"txt": "Au sud du département, le Pays d'Orthe s'étend des barthes de l'Adour et des Gaves réunis jusqu'aux collines boisées, à deux pas de ma base de Cauneille. Mimbaste est un village de 1 001 habitants, à une dizaine de minutes de Dax. Ses communes voisines sont Saugnac-et-Cambran, Clermont et Sort-en-Chalosse.",
+"spots": [
+"Pays d'Orthe et Arrigans",
+"À quelques minutes de Dax",
+"Communauté de communes Pays d'Orthe et Arrigans"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC Pays d'Orthe et Arrigans",
+"territoire": "Pays d'Orthe et Arrigans"
+},
+{
+"slug": "sault-de-navailles",
+"code": "64510",
+"nom": "Sault-de-Navailles",
+"dep": "64",
+"lat": 43.5452,
+"lon": -0.672,
+"pop": 976,
+"cp": "64300",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Sault-de-Navailles est un village de 976 habitants, à environ 13 km d'Orthez. Ses communes voisines sont Sallespisse, Hagetaubin et Bonnut.",
+"spots": [
+"Lacq-Orthez",
+"À 13 km d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "saint-paul-en-born",
+"code": "40278",
+"nom": "Saint-Paul-en-Born",
+"dep": "40",
+"lat": 44.212,
+"lon": -1.1509,
+"pop": 975,
+"cp": "40200",
+"txt": "Entre océan, lac d'Aureilhan et forêt, le Pays de Mimizan vit au rythme du tourisme et de l'industrie du bois. Ce territoire du Born associe plages, lacs, forêt et villages paisibles. Avec ses 975 habitants, ce village se situe à une dizaine de minutes de Mimizan. Ses communes voisines sont Aureilhan, Pontenx-les-Forges et Escource.",
+"spots": [
+"Pays de Mimizan",
+"À quelques minutes de Mimizan",
+"Communauté de communes de Mimizan"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC de Mimizan",
+"territoire": "Pays de Mimizan"
+},
+{
+"slug": "bosdarros",
+"code": "64139",
+"nom": "Bosdarros",
+"dep": "64",
+"lat": 43.202,
+"lon": -0.356,
+"pop": 962,
+"cp": "64290",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Bosdarros est un village de 962 habitants, à une dizaine de minutes de Gan. Ses communes voisines sont Gan, Baliros et Rontignon.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Gan",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "meillon",
+"code": "64376",
+"nom": "Meillon",
+"dep": "64",
+"lat": 43.2709,
+"lon": -0.3061,
+"pop": 957,
+"cp": "64510",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Meillon est un village de 957 habitants, à une dizaine de minutes de Pau. Ses communes voisines sont Aressy, Assat et Lée.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Pau",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "bellocq",
+"code": "64108",
+"nom": "Bellocq",
+"dep": "64",
+"lat": 43.5081,
+"lon": -0.9159,
+"pop": 933,
+"cp": "64270",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 933 habitants, ce village se situe à une dizaine de minutes de Salies-de-Béarn. Ses communes voisines sont Puyoô, Ramous et Salies-de-Béarn.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Salies-de-Béarn",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "pardies",
+"code": "64443",
+"nom": "Pardies",
+"dep": "64",
+"lat": 43.3643,
+"lon": -0.5868,
+"pop": 930,
+"cp": "64150",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 930 habitants, ce village se situe à une dizaine de minutes de Mourenx. Ses communes voisines sont Mourenx, Abos et Os-Marsillon.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "lucq-de-bearn",
+"code": "64359",
+"nom": "Lucq-de-Béarn",
+"dep": "64",
+"lat": 43.2943,
+"lon": -0.6503,
+"pop": 925,
+"cp": "64360",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Lucq-de-Béarn est un village de 925 habitants, à une dizaine de minutes de Monein. Ses communes voisines sont Lahourcade, Monein et Ledeuix.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Monein",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "saint-jean-le-vieux",
+"code": "64484",
+"nom": "Saint-Jean-le-Vieux",
+"dep": "64",
+"lat": 43.173,
+"lon": -1.2077,
+"pop": 900,
+"cp": "64220",
+"txt": "Autour de Saint-Jean-Pied-de-Port et Saint-Étienne-de-Baïgorry, ce territoire de montagne est celui de l'Irouléguy et du chemin de Saint-Jacques. Saint-Jean-le-Vieux est un village de 900 habitants, à environ 32 km de Cambo-les-Bains. Ses communes voisines sont Ispoure, Saint-Jean-Pied-de-Port et Uhart-Cize.",
+"spots": [
+"Garazi-Baigorri",
+"À 32 km de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Garazi-Baigorri"
+},
+{
+"slug": "theze",
+"code": "64536",
+"nom": "Thèze",
+"dep": "64",
+"lat": 43.4723,
+"lon": -0.348,
+"pop": 898,
+"cp": "64450",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 898 habitants, ce village se situe à environ 20 km de Lescar. Ses communes voisines sont Navailles-Angos, Sévignacq et Caubios-Loos.",
+"spots": [
+"Luys en Béarn",
+"À 20 km de Lescar",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "maslacq",
+"code": "64367",
+"nom": "Maslacq",
+"dep": "64",
+"lat": 43.4234,
+"lon": -0.7035,
+"pop": 891,
+"cp": "64300",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 891 habitants, ce village se situe à une dizaine de minutes de Mourenx. Ses communes voisines sont Mont, Loubieng et Biron.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "bougarber",
+"code": "64142",
+"nom": "Bougarber",
+"dep": "64",
+"lat": 43.3896,
+"lon": -0.4697,
+"pop": 889,
+"cp": "64230",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 889 habitants, ce village se situe à une dizaine de minutes de Lescar. Ses communes voisines sont Uzein, Denguin et Aussevielle.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Lescar",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "louhossoa",
+"code": "64350",
+"nom": "Louhossoa",
+"dep": "64",
+"lat": 43.3144,
+"lon": -1.3476,
+"pop": 886,
+"cp": "64250",
+"txt": "Autour de Hasparren, ce Labourd intérieur est un pays de collines, de fermes et du mont Ursuya. Ce territoire rural basque mêle élevage, villages et paysages ouverts. Avec ses 886 habitants, ce village se situe à une dizaine de minutes de Cambo-les-Bains. Ses communes voisines sont Macaye, Itxassou et Bidarray.",
+"spots": [
+"Pays de Hasparren",
+"À quelques minutes de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Pays de Hasparren"
+},
+{
+"slug": "sort-en-chalosse",
+"code": "40308",
+"nom": "Sort-en-Chalosse",
+"dep": "40",
+"lat": 43.6805,
+"lon": -0.9261,
+"pop": 885,
+"cp": "40180",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Sort-en-Chalosse est un village de 885 habitants, à environ 13 km de Dax. Ses communes voisines sont Clermont, Hinx et Mimbaste.",
+"spots": [
+"Terres de Chalosse",
+"À 13 km de Dax",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "angais",
+"code": "64023",
+"nom": "Angaïs",
+"dep": "64",
+"lat": 43.2388,
+"lon": -0.2496,
+"pop": 885,
+"cp": "64510",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Angaïs est un village de 885 habitants, à environ 14 km de Morlaàs. Ses communes voisines sont Boeil-Bezing, Bordes et Beuste.",
+"spots": [
+"Pays de Nay",
+"À 14 km de Morlaàs",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "aressy",
+"code": "64041",
+"nom": "Aressy",
+"dep": "64",
+"lat": 43.2788,
+"lon": -0.3285,
+"pop": 881,
+"cp": "64320",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 881 habitants, ce village se situe à une dizaine de minutes de Pau. Ses communes voisines sont Bizanos, Meillon et Mazères-Lezons.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Pau",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "osses",
+"code": "64436",
+"nom": "Ossès",
+"dep": "64",
+"lat": 43.2425,
+"lon": -1.2755,
+"pop": 878,
+"cp": "64780",
+"txt": "Entre vallées, vignes en terrasses et estives, Garazi-Baigorri offre des paysages de montagne spectaculaires. Avec ses 878 habitants, ce village se situe à environ 20 km de Cambo-les-Bains. Ses communes voisines sont Saint-Martin-d'Arrossa, Irissarry et Bidarray.",
+"spots": [
+"Garazi-Baigorri",
+"À 20 km de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Garazi-Baigorri"
+},
+{
+"slug": "rontignon",
+"code": "64467",
+"nom": "Rontignon",
+"dep": "64",
+"lat": 43.2455,
+"lon": -0.3403,
+"pop": 875,
+"cp": "64110",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 875 habitants, ce village se situe à une dizaine de minutes de Jurançon. Ses communes voisines sont Narcastet, Uzos et Gelos.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Jurançon",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "uzos",
+"code": "64550",
+"nom": "Uzos",
+"dep": "64",
+"lat": 43.2596,
+"lon": -0.3516,
+"pop": 874,
+"cp": "64110",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Uzos est un village de 874 habitants, à une dizaine de minutes de Jurançon. Ses communes voisines sont Mazères-Lezons, Gelos et Rontignon.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Jurançon",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "candresse",
+"code": "40063",
+"nom": "Candresse",
+"dep": "40",
+"lat": 43.7121,
+"lon": -0.9778,
+"pop": 872,
+"cp": "40180",
+"txt": "Autour de Dax, ce territoire mêle thermes, quartiers résidentiels, zones d'activité et campagne au bord de l'Adour. Avec ses 872 habitants, ce village se situe à une dizaine de minutes de Dax. Ses communes voisines sont Hinx, Narrosse et Téthieu.",
+"spots": [
+"Grand Dax",
+"À quelques minutes de Dax",
+"Agglomération du Grand Dax"
+],
+"type": "thermal",
+"new": true,
+"auto": true,
+"epci": "CA du Grand Dax",
+"territoire": "Grand Dax"
+},
+{
+"slug": "irissarry",
+"code": "64273",
+"nom": "Irissarry",
+"dep": "64",
+"lat": 43.2641,
+"lon": -1.2402,
+"pop": 870,
+"cp": "64780",
+"txt": "Autour d'Iholdy, ce coin de Basse-Navarre aligne collines, bois et petits villages au pied des montagnes. Irissarry est un village de 870 habitants, à environ 20 km de Cambo-les-Bains. Ses communes voisines sont Ossès, Hélette et Iholdy.",
+"spots": [
+"Iholdi-Oztibarre",
+"À 20 km de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Iholdi-Oztibarre"
+},
+{
+"slug": "serres-morlaas",
+"code": "64520",
+"nom": "Serres-Morlaàs",
+"dep": "64",
+"lat": 43.3222,
+"lon": -0.2674,
+"pop": 870,
+"cp": "64160",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 870 habitants, ce village se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Morlaàs, Sendets et Ouillon.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "pouydesseaux",
+"code": "40234",
+"nom": "Pouydesseaux",
+"dep": "40",
+"lat": 43.9878,
+"lon": -0.3507,
+"pop": 869,
+"cp": "40120",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Pouydesseaux est un village de 869 habitants, à environ 19 km de Mont-de-Marsan. Ses communes voisines sont Sarbazan, Lucbardez-et-Bargues et Roquefort.",
+"spots": [
+"Marsan",
+"À 19 km de Mont-de-Marsan",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "gurmencon",
+"code": "64252",
+"nom": "Gurmençon",
+"dep": "64",
+"lat": 43.1592,
+"lon": -0.5998,
+"pop": 867,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 867 habitants, ce village se situe à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Oloron-Sainte-Marie, Bidos et Eysus.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "aussevielle",
+"code": "64080",
+"nom": "Aussevielle",
+"dep": "64",
+"lat": 43.3587,
+"lon": -0.4772,
+"pop": 864,
+"cp": "64230",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 864 habitants, ce village se situe à une dizaine de minutes de Lescar. Ses communes voisines sont Poey-de-Lescar, Siros et Denguin.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Lescar",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "saint-castin",
+"code": "64472",
+"nom": "Saint-Castin",
+"dep": "64",
+"lat": 43.3739,
+"lon": -0.3105,
+"pop": 862,
+"cp": "64160",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Saint-Castin est un village de 862 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Bernadets, Buros et Maucor.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "bascons",
+"code": "40025",
+"nom": "Bascons",
+"dep": "40",
+"lat": 43.8292,
+"lon": -0.4242,
+"pop": 855,
+"cp": "40090",
+"txt": "Entre Adour et forêt, le Pays Grenadois offre bastides, grandes cultures et paysages de rivière. Avec ses 855 habitants, ce village se situe à une dizaine de minutes de Mont-de-Marsan. Ses communes voisines sont Bretagne-de-Marsan, Grenade-sur-l'Adour et Maurrin.",
+"spots": [
+"Pays Grenadois",
+"À quelques minutes de Mont-de-Marsan",
+"Communauté de communes du Pays Grenadois"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Grenadois",
+"territoire": "Pays Grenadois"
+},
+{
+"slug": "baigts-de-bearn",
+"code": "64087",
+"nom": "Baigts-de-Béarn",
+"dep": "64",
+"lat": 43.5219,
+"lon": -0.847,
+"pop": 855,
+"cp": "64300",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Baigts-de-Béarn est un village de 855 habitants, à une dizaine de minutes d'Orthez. Ses communes voisines sont Ramous, Ossages et Puyoô.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "mendionde",
+"code": "64377",
+"nom": "Mendionde",
+"dep": "64",
+"lat": 43.3379,
+"lon": -1.2884,
+"pop": 854,
+"cp": "64240",
+"txt": "Autour de Hasparren, ce Labourd intérieur est un pays de collines, de fermes et du mont Ursuya. Ce territoire rural basque mêle élevage, villages et paysages ouverts. Avec ses 854 habitants, ce village se situe à une dizaine de minutes d'Hasparren. Ses communes voisines sont Macaye, Hélette et Ayherre.",
+"spots": [
+"Pays de Hasparren",
+"À quelques minutes d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Pays de Hasparren"
+},
+{
+"slug": "siros",
+"code": "64525",
+"nom": "Siros",
+"dep": "64",
+"lat": 43.3451,
+"lon": -0.4898,
+"pop": 848,
+"cp": "64230",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Siros est un village de 848 habitants, à une dizaine de minutes de Lescar. Ses communes voisines sont Aussevielle, Poey-de-Lescar et Arbus.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Lescar",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "bruges-capbis-mifaget",
+"code": "64148",
+"nom": "Bruges-Capbis-Mifaget",
+"dep": "64",
+"lat": 43.1263,
+"lon": -0.2973,
+"pop": 847,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Ce territoire de vallée et de piémont associe savoir-faire industriel, patrimoine et paysages de montagne. Avec ses 847 habitants, ce village se situe à environ 15 km de Gan. Ses communes voisines sont Asson, Arros-de-Nay et Igon.",
+"spots": [
+"Pays de Nay",
+"À 15 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "lembeye",
+"code": "64331",
+"nom": "Lembeye",
+"dep": "64",
+"lat": 43.4511,
+"lon": -0.1032,
+"pop": 838,
+"cp": "64350",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 838 habitants, ce village se situe à environ 23 km de Morlaàs. Ses communes voisines sont Sévignacq, Gabaston et Barinque.",
+"spots": [
+"Nord-Est Béarn",
+"À 23 km de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "bougue",
+"code": "40051",
+"nom": "Bougue",
+"dep": "40",
+"lat": 43.898,
+"lon": -0.3926,
+"pop": 833,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Bougue est un village de 833 habitants, à une dizaine de minutes de Mont-de-Marsan. Ses communes voisines sont Saint-Cricq-Villeneuve, Laglorieuse et Mazerolles.",
+"spots": [
+"Marsan",
+"À quelques minutes de Mont-de-Marsan",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "tilh",
+"code": "40316",
+"nom": "Tilh",
+"dep": "40",
+"lat": 43.5765,
+"lon": -0.8335,
+"pop": 832,
+"cp": "40360",
+"txt": "Au sud du département, le Pays d'Orthe s'étend des barthes de l'Adour et des Gaves réunis jusqu'aux collines boisées, à deux pas de ma base de Cauneille. Tilh est un village de 832 habitants, à environ 13 km d'Orthez. Ses communes voisines sont Ossages, Pomarez et Castel-Sarrazin.",
+"spots": [
+"Pays d'Orthe et Arrigans",
+"À 13 km d'Orthez",
+"Communauté de communes Pays d'Orthe et Arrigans"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC Pays d'Orthe et Arrigans",
+"territoire": "Pays d'Orthe et Arrigans"
+},
+{
+"slug": "misson",
+"code": "40186",
+"nom": "Misson",
+"dep": "40",
+"lat": 43.582,
+"lon": -0.9598,
+"pop": 828,
+"cp": "40290",
+"txt": "Au sud du département, le Pays d'Orthe s'étend des barthes de l'Adour et des Gaves réunis jusqu'aux collines boisées, à deux pas de ma base de Cauneille. Misson est un village de 828 habitants, à environ 16 km de Salies-de-Béarn. Ses communes voisines sont Habas, Labatut et Pouillon.",
+"spots": [
+"Pays d'Orthe et Arrigans",
+"À 16 km de Salies-de-Béarn",
+"Communauté de communes Pays d'Orthe et Arrigans"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC Pays d'Orthe et Arrigans",
+"territoire": "Pays d'Orthe et Arrigans"
+},
+{
+"slug": "escource",
+"code": "40094",
+"nom": "Escource",
+"dep": "40",
+"lat": 44.1748,
+"lon": -1.0703,
+"pop": 824,
+"cp": "40210",
+"txt": "Au cœur du massif forestier, la Haute Lande est un territoire de pins, de clairières, d'airiaux et de rivières comme la Leyre. Escource est un village de 824 habitants, à environ 17 km de Mimizan. Ses communes voisines sont Pontenx-les-Forges, Saint-Paul-en-Born et Lüe.",
+"spots": [
+"Haute Lande",
+"À 17 km de Mimizan",
+"Communauté de communes Coeur Haute Lande"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC Coeur Haute Lande",
+"territoire": "Haute Lande"
+},
+{
+"slug": "arros-de-nay",
+"code": "64054",
+"nom": "Arros-de-Nay",
+"dep": "64",
+"lat": 43.177,
+"lon": -0.297,
+"pop": 820,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Arros-de-Nay est un village de 820 habitants, à une dizaine de minutes de Gan. Ses communes voisines sont Bourdettes, Nay et Mirepeix.",
+"spots": [
+"Pays de Nay",
+"À quelques minutes de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "uhart-cize",
+"code": "64538",
+"nom": "Uhart-Cize",
+"dep": "64",
+"lat": 43.1301,
+"lon": -1.2499,
+"pop": 816,
+"cp": "64220",
+"txt": "Autour de Saint-Jean-Pied-de-Port et Saint-Étienne-de-Baïgorry, ce territoire de montagne est celui de l'Irouléguy et du chemin de Saint-Jacques. Uhart-Cize est un village de 816 habitants, à environ 35 km de Cambo-les-Bains. Ses communes voisines sont Saint-Jean-Pied-de-Port, Saint-Jean-le-Vieux et Ispoure.",
+"spots": [
+"Garazi-Baigorri",
+"À 35 km de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Garazi-Baigorri"
+},
+{
+"slug": "moumour",
+"code": "64409",
+"nom": "Moumour",
+"dep": "64",
+"lat": 43.21,
+"lon": -0.6613,
+"pop": 814,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Moumour est un village de 814 habitants, à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Géronce, Estos et Ledeuix.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "prechacq-les-bains",
+"code": "40237",
+"nom": "Préchacq-les-Bains",
+"dep": "40",
+"lat": 43.755,
+"lon": -0.9219,
+"pop": 808,
+"cp": "40465",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Préchacq-les-Bains est un village de 808 habitants, à environ 16 km de Dax. Ses communes voisines sont Goos, Téthieu et Pontonx-sur-l'Adour.",
+"spots": [
+"Terres de Chalosse",
+"À 16 km de Dax",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "sevignacq",
+"code": "64523",
+"nom": "Sévignacq",
+"dep": "64",
+"lat": 43.4548,
+"lon": -0.2596,
+"pop": 805,
+"cp": "64160",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Sévignacq est un village de 805 habitants, à environ 17 km de Morlaàs. Ses communes voisines sont Barinque, Saint-Armou et Thèze.",
+"spots": [
+"Luys en Béarn",
+"À 17 km de Morlaàs",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "moustey",
+"code": "40200",
+"nom": "Moustey",
+"dep": "40",
+"lat": 44.3801,
+"lon": -0.7603,
+"pop": 798,
+"cp": "40410",
+"txt": "Au cœur du massif forestier, la Haute Lande est un territoire de pins, de clairières, d'airiaux et de rivières comme la Leyre. Moustey est un village de 798 habitants, à environ 31 km de Parentis-en-Born. Ses communes voisines sont Saugnac-et-Muret, Pissos et Liposthey.",
+"spots": [
+"Haute Lande",
+"À 31 km de Parentis-en-Born",
+"Communauté de communes Coeur Haute Lande"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC Coeur Haute Lande",
+"territoire": "Haute Lande"
+},
+{
+"slug": "lestelle-betharram",
+"code": "64339",
+"nom": "Lestelle-Bétharram",
+"dep": "64",
+"lat": 43.1238,
+"lon": -0.2144,
+"pop": 788,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Lestelle-Bétharram est un village de 788 habitants, à environ 22 km de Gan. Ses communes voisines sont Montaut, Igon et Asson.",
+"spots": [
+"Pays de Nay",
+"À 22 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "bonnut",
+"code": "64135",
+"nom": "Bonnut",
+"dep": "64",
+"lat": 43.5495,
+"lon": -0.7697,
+"pop": 777,
+"cp": "64300",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 777 habitants, ce village se situe à une dizaine de minutes d'Orthez. Ses communes voisines sont Sallespisse, Amou et Tilh.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "poyartin",
+"code": "40236",
+"nom": "Poyartin",
+"dep": "40",
+"lat": 43.6865,
+"lon": -0.8598,
+"pop": 776,
+"cp": "40380",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Ce coin de Chalosse mêle petits villages perchés, élevages, champs de maïs et vues dégagées vers les Pyrénées. Avec ses 776 habitants, ce village se situe à environ 20 km de Dax. Ses communes voisines sont Montfort-en-Chalosse, Castelnau-Chalosse et Gamarde-les-Bains.",
+"spots": [
+"Terres de Chalosse",
+"À 20 km de Dax",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "tethieu",
+"code": "40315",
+"nom": "Téthieu",
+"dep": "40",
+"lat": 43.7427,
+"lon": -0.9573,
+"pop": 758,
+"cp": "40990",
+"txt": "Autour de Dax, ce territoire mêle thermes, quartiers résidentiels, zones d'activité et campagne au bord de l'Adour. Avec ses 758 habitants, ce village se situe à une dizaine de minutes de Dax. Ses communes voisines sont Saint-Vincent-de-Paul, Préchacq-les-Bains et Goos.",
+"spots": [
+"Grand Dax",
+"À quelques minutes de Dax",
+"Agglomération du Grand Dax"
+],
+"type": "thermal",
+"new": true,
+"auto": true,
+"epci": "CA du Grand Dax",
+"territoire": "Grand Dax"
+},
+{
+"slug": "helette",
+"code": "64259",
+"nom": "Hélette",
+"dep": "64",
+"lat": 43.3069,
+"lon": -1.2446,
+"pop": 758,
+"cp": "64640",
+"txt": "Autour d'Iholdy, ce coin de Basse-Navarre aligne collines, bois et petits villages au pied des montagnes. Hélette est un village de 758 habitants, à environ 15 km d'Hasparren. Ses communes voisines sont Irissarry, Mendionde et Iholdy.",
+"spots": [
+"Iholdi-Oztibarre",
+"À 15 km d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Iholdi-Oztibarre"
+},
+{
+"slug": "narcastet",
+"code": "64413",
+"nom": "Narcastet",
+"dep": "64",
+"lat": 43.2407,
+"lon": -0.3243,
+"pop": 753,
+"cp": "64510",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Ce territoire de vallée et de piémont associe savoir-faire industriel, patrimoine et paysages de montagne. Avec ses 753 habitants, ce village se situe à une dizaine de minutes de Jurançon. Ses communes voisines sont Rontignon, Baliros et Uzos.",
+"spots": [
+"Pays de Nay",
+"À quelques minutes de Jurançon",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "saint-pandelon",
+"code": "40277",
+"nom": "Saint-Pandelon",
+"dep": "40",
+"lat": 43.6701,
+"lon": -1.0408,
+"pop": 749,
+"cp": "40180",
+"txt": "L'agglomération dacquoise vit autour du thermalisme, de l'Adour et de ses barthes, avec des communes résidentielles très recherchées. Saint-Pandelon est un village de 749 habitants, à une dizaine de minutes de Dax. Ses communes voisines sont Seyresse, Bénesse-lès-Dax et Oeyreluy.",
+"spots": [
+"Grand Dax",
+"À quelques minutes de Dax",
+"Agglomération du Grand Dax"
+],
+"type": "thermal",
+"new": true,
+"auto": true,
+"epci": "CA du Grand Dax",
+"territoire": "Grand Dax"
+},
+{
+"slug": "viodos-abense-de-bas",
+"code": "64559",
+"nom": "Viodos-Abense-de-Bas",
+"dep": "64",
+"lat": 43.2488,
+"lon": -0.8966,
+"pop": 747,
+"cp": "64130",
+"txt": "La Soule, autour de Mauléon et Tardets, est la plus petite province basque, entre collines, forêts et montagne. Ce territoire de traditions, d'estives et de gorges est l'un des plus sauvages du Pays basque. Avec ses 747 habitants, ce village se situe à environ 31 km de Salies-de-Béarn. Ses communes voisines sont Espès-Undurein, Mauléon-Licharre et Chéraute.",
+"spots": [
+"Soule",
+"À 31 km de Salies-de-Béarn",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Soule"
+},
+{
+"slug": "saint-laurent-de-gosse",
+"code": "40268",
+"nom": "Saint-Laurent-de-Gosse",
+"dep": "40",
+"lat": 43.5226,
+"lon": -1.2866,
+"pop": 745,
+"cp": "40390",
+"txt": "Aux portes de Bayonne, le Seignanx réunit collines, forêt, bords de l'Adour et plages de Tarnos et d'Ondres. Saint-Laurent-de-Gosse est un village de 745 habitants, à une dizaine de minutes de Saint-Martin-de-Seignanx. Ses communes voisines sont Biaudos, Urt et Sainte-Marie-de-Gosse.",
+"spots": [
+"Seignanx",
+"À quelques minutes de Saint-Martin-de-Seignanx",
+"Communauté de communes du Seignanx"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC du Seignanx",
+"territoire": "Seignanx"
+},
+{
+"slug": "saint-etienne-d-orthe",
+"code": "40256",
+"nom": "Saint-Étienne-d'Orthe",
+"dep": "40",
+"lat": 43.5909,
+"lon": -1.1908,
+"pop": 740,
+"cp": "40300",
+"txt": "Entre Peyrehorade, Pouillon et Amou, ce territoire de collines, de rivières et de prairies inondables est celui que je connais le mieux. Avec ses 740 habitants, ce village se situe à environ 15 km de Saint-Vincent-de-Tyrosse. Ses communes voisines sont Port-de-Lanne, Pey et Orthevielle.",
+"spots": [
+"Pays d'Orthe et Arrigans",
+"À 15 km de Saint-Vincent-de-Tyrosse",
+"Communauté de communes Pays d'Orthe et Arrigans"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC Pays d'Orthe et Arrigans",
+"territoire": "Pays d'Orthe et Arrigans"
+},
+{
+"slug": "saint-faust",
+"code": "64478",
+"nom": "Saint-Faust",
+"dep": "64",
+"lat": 43.2696,
+"lon": -0.4487,
+"pop": 738,
+"cp": "64110",
+"txt": "Autour de Pau, ce territoire urbain et périurbain concentre entreprises, commerces et quartiers recherchés. Avec ses 738 habitants, ce village se situe à une dizaine de minutes de Jurançon. Ses communes voisines sont Aubertin, Laroin et Jurançon.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Jurançon",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "clermont",
+"code": "40084",
+"nom": "Clermont",
+"dep": "40",
+"lat": 43.6542,
+"lon": -0.9123,
+"pop": 736,
+"cp": "40180",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Ce coin de Chalosse mêle petits villages perchés, élevages, champs de maïs et vues dégagées vers les Pyrénées. Avec ses 736 habitants, ce village se situe à environ 16 km de Dax. Ses communes voisines sont Sort-en-Chalosse, Mimbaste et Castelnau-Chalosse.",
+"spots": [
+"Terres de Chalosse",
+"À 16 km de Dax",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "andoins",
+"code": "64021",
+"nom": "Andoins",
+"dep": "64",
+"lat": 43.303,
+"lon": -0.2259,
+"pop": 727,
+"cp": "64420",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Andoins est un village de 727 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Ouillon, Sendets et Artigueloutan.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "brocas",
+"code": "40056",
+"nom": "Brocas",
+"dep": "40",
+"lat": 44.0524,
+"lon": -0.5317,
+"pop": 721,
+"cp": "40420",
+"txt": "Autour de Sabres, Pissos et Labouheyre, la Haute Lande offre des perspectives immenses sur la forêt et le Parc naturel régional. Avec ses 721 habitants, ce village se situe à environ 23 km de Mont-de-Marsan. Ses communes voisines sont Labrit, Vert et Garein.",
+"spots": [
+"Haute Lande",
+"À 23 km de Mont-de-Marsan",
+"Communauté de communes Coeur Haute Lande"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC Coeur Haute Lande",
+"territoire": "Haute Lande"
+},
+{
+"slug": "geloux",
+"code": "40111",
+"nom": "Geloux",
+"dep": "40",
+"lat": 43.9696,
+"lon": -0.6451,
+"pop": 719,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Geloux est un village de 719 habitants, à environ 18 km de Saint-Pierre-du-Mont. Ses communes voisines sont Saint-Martin-d'Oney, Ygos-Saint-Saturnin et Campet-et-Lamolère.",
+"spots": [
+"Marsan",
+"À 18 km de Saint-Pierre-du-Mont",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "mazerolles-40",
+"code": "40178",
+"nom": "Mazerolles",
+"dep": "40",
+"lat": 43.8831,
+"lon": -0.4341,
+"pop": 715,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Ce territoire, entre la Douze, le Midou et la forêt, accueille entreprises, services et quartiers en développement. Avec ses 715 habitants, ce village se situe à une dizaine de minutes de Mont-de-Marsan. Ses communes voisines sont Bougue, Laglorieuse et Mont-de-Marsan.",
+"spots": [
+"Marsan",
+"À quelques minutes de Mont-de-Marsan",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "arengosse",
+"code": "40006",
+"nom": "Arengosse",
+"dep": "40",
+"lat": 44.0168,
+"lon": -0.7866,
+"pop": 711,
+"cp": "40110",
+"txt": "Entre forêt landaise et anciens sites miniers devenus réserves naturelles, le Pays Morcenais offre de grands espaces. Avec ses 711 habitants, ce village se situe à une dizaine de minutes d'Arjuzanx. Ses communes voisines sont Arjuzanx, Ygos-Saint-Saturnin et Morcenx.",
+"spots": [
+"Pays Morcenais",
+"À quelques minutes d'Arjuzanx",
+"Communauté de communes du Pays Morcenais"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Morcenais",
+"territoire": "Pays Morcenais"
+},
+{
+"slug": "lahourcade",
+"code": "64306",
+"nom": "Lahourcade",
+"dep": "64",
+"lat": 43.3533,
+"lon": -0.6297,
+"pop": 709,
+"cp": "64150",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 709 habitants, ce village se situe à une dizaine de minutes de Mourenx. Ses communes voisines sont Mourenx, Pardies et Os-Marsillon.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "sames",
+"code": "64502",
+"nom": "Sames",
+"dep": "64",
+"lat": 43.5247,
+"lon": -1.165,
+"pop": 709,
+"cp": "64520",
+"txt": "Autour de Bidache, au bord de la Bidouze, ce territoire fait le lien entre les Landes, le Béarn et le Pays basque. Ce pays de collines et de rivières, à quelques minutes de ma base, est très rural et très vert. Avec ses 709 habitants, ce village se situe à environ 23 km de Saint-Martin-de-Seignanx. Ses communes voisines sont Hastingues, Guiche et Orthevielle.",
+"spots": [
+"Pays de Bidache",
+"À 23 km de Saint-Martin-de-Seignanx",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Pays de Bidache"
+},
+{
+"slug": "estibeaux",
+"code": "40095",
+"nom": "Estibeaux",
+"dep": "40",
+"lat": 43.6067,
+"lon": -0.9102,
+"pop": 699,
+"cp": "40290",
+"txt": "Entre Peyrehorade, Pouillon et Amou, ce territoire de collines, de rivières et de prairies inondables est celui que je connais le mieux. Avec ses 699 habitants, ce village se situe à environ 19 km de Salies-de-Béarn. Ses communes voisines sont Misson, Clermont et Habas.",
+"spots": [
+"Pays d'Orthe et Arrigans",
+"À 19 km de Salies-de-Béarn",
+"Communauté de communes Pays d'Orthe et Arrigans"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC Pays d'Orthe et Arrigans",
+"territoire": "Pays d'Orthe et Arrigans"
+},
+{
+"slug": "aicirits-camou-suhast",
+"code": "64010",
+"nom": "Aïcirits-Camou-Suhast",
+"dep": "64",
+"lat": 43.3533,
+"lon": -1.0143,
+"pop": 699,
+"cp": "64120",
+"txt": "Autour de Saint-Palais, l'Amikuze est la Basse-Navarre des collines, des marchés et des chemins de Saint-Jacques. Ce territoire agricole et vallonné est un carrefour historique du Pays basque intérieur. Avec ses 699 habitants, ce village se situe à environ 19 km de Salies-de-Béarn. Ses communes voisines sont Amendeuix-Oneix, Béhasque-Lapiste et Saint-Palais.",
+"spots": [
+"Amikuze",
+"À 19 km de Salies-de-Béarn",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Amikuze"
+},
+{
+"slug": "beuste",
+"code": "64119",
+"nom": "Beuste",
+"dep": "64",
+"lat": 43.2206,
+"lon": -0.2311,
+"pop": 698,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Beuste est un village de 698 habitants, à environ 16 km de Morlaàs. Ses communes voisines sont Lagos, Boeil-Bezing et Bordères.",
+"spots": [
+"Pays de Nay",
+"À 16 km de Morlaàs",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "borderes",
+"code": "64137",
+"nom": "Bordères",
+"dep": "64",
+"lat": 43.2022,
+"lon": -0.2195,
+"pop": 694,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Ce territoire de vallée et de piémont associe savoir-faire industriel, patrimoine et paysages de montagne. Avec ses 694 habitants, ce village se situe à environ 19 km de Morlaàs. Ses communes voisines sont Lagos, Beuste et Bénéjacq.",
+"spots": [
+"Pays de Nay",
+"À 19 km de Morlaàs",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "poyanne",
+"code": "40235",
+"nom": "Poyanne",
+"dep": "40",
+"lat": 43.7539,
+"lon": -0.816,
+"pop": 693,
+"cp": "40380",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Ce coin de Chalosse mêle petits villages perchés, élevages, champs de maïs et vues dégagées vers les Pyrénées. Avec ses 693 habitants, ce village se situe à environ 25 km de Dax. Ses communes voisines sont Cassen, Mugron et Gamarde-les-Bains.",
+"spots": [
+"Terres de Chalosse",
+"À 25 km de Dax",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "taller",
+"code": "40311",
+"nom": "Taller",
+"dep": "40",
+"lat": 43.8937,
+"lon": -1.0835,
+"pop": 693,
+"cp": "40260",
+"txt": "La Côte Landes Nature combine grandes plages, courants, lacs et forêt littorale, très prisés l'été. Avec ses 693 habitants, ce village se situe à environ 21 km de Saint-Paul-lès-Dax. Ses communes voisines sont Castets, Lesperon et Laluque.",
+"spots": [
+"Côte Landes Nature",
+"À 21 km de Saint-Paul-lès-Dax",
+"Communauté de communes Côte Landes Nature"
+],
+"type": "ocean",
+"new": true,
+"auto": true,
+"epci": "CC Côte Landes Nature",
+"territoire": "Côte Landes Nature"
+},
+{
+"slug": "bidarray",
+"code": "64124",
+"nom": "Bidarray",
+"dep": "64",
+"lat": 43.2706,
+"lon": -1.3506,
+"pop": 693,
+"cp": "64780",
+"txt": "Autour de Cambo-les-Bains et de la vallée de la Nive, Errobi est un Labourd vert de collines, de rivières et de villages. Bidarray est un village de 693 habitants, à environ 13 km de Cambo-les-Bains. Ses communes voisines sont Louhossoa, Saint-Martin-d'Arrossa et Macaye.",
+"spots": [
+"Errobi",
+"À 13 km de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Errobi"
+},
+{
+"slug": "argagnon",
+"code": "64042",
+"nom": "Argagnon",
+"dep": "64",
+"lat": 43.4619,
+"lon": -0.6731,
+"pop": 690,
+"cp": "64300",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 690 habitants, ce village se situe à une dizaine de minutes d'Orthez. Ses communes voisines sont Castétis, Mont et Arthez-de-Béarn.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "limendous",
+"code": "64343",
+"nom": "Limendous",
+"dep": "64",
+"lat": 43.2791,
+"lon": -0.1834,
+"pop": 690,
+"cp": "64420",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 690 habitants, ce village se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Soumoulou, Nousty et Espoey.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "caubios-loos",
+"code": "64183",
+"nom": "Caubios-Loos",
+"dep": "64",
+"lat": 43.419,
+"lon": -0.4044,
+"pop": 683,
+"cp": "64230",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Caubios-Loos est un village de 683 habitants, à une dizaine de minutes de Lescar. Ses communes voisines sont Sauvagnon, Uzein et Momas.",
+"spots": [
+"Luys en Béarn",
+"À quelques minutes de Lescar",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "labastide-d-armagnac",
+"code": "40131",
+"nom": "Labastide-d'Armagnac",
+"dep": "40",
+"lat": 43.9465,
+"lon": -0.1667,
+"pop": 673,
+"cp": "40240",
+"txt": "À l'est du département, les Landes d'Armagnac associent forêt de pins, chais et vignes à la frontière du Gers. Labastide-d'Armagnac est un village de 673 habitants, à environ 33 km de Mont-de-Marsan. Ses communes voisines sont Saint-Justin, Villeneuve-de-Marsan et Sarbazan.",
+"spots": [
+"Landes d'Armagnac",
+"À 33 km de Mont-de-Marsan",
+"Communauté de communes des Landes d'Armagnac"
+],
+"type": "vignoble",
+"new": true,
+"auto": true,
+"epci": "CC des Landes d'Armagnac",
+"territoire": "Landes d'Armagnac"
+},
+{
+"slug": "gabaston",
+"code": "64227",
+"nom": "Gabaston",
+"dep": "64",
+"lat": 43.3583,
+"lon": -0.2158,
+"pop": 673,
+"cp": "64160",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Gabaston est un village de 673 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Saint-Jammes, Ouillon et Morlaàs.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "aubertin",
+"code": "64072",
+"nom": "Aubertin",
+"dep": "64",
+"lat": 43.2712,
+"lon": -0.4831,
+"pop": 671,
+"cp": "64290",
+"txt": "L'agglomération de Pau réunit la ville royale, des communes résidentielles, des zones d'activité et une vue imprenable sur les Pyrénées. Aubertin est un village de 671 habitants, à une dizaine de minutes de Jurançon. Ses communes voisines sont Saint-Faust, Artiguelouve et Laroin.",
+"spots": [
+"Agglomération paloise",
+"À quelques minutes de Jurançon",
+"Agglomération Pau Béarn Pyrénées"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Pau Béarn Pyrénées",
+"territoire": "Agglomération paloise"
+},
+{
+"slug": "ispoure",
+"code": "64275",
+"nom": "Ispoure",
+"dep": "64",
+"lat": 43.1839,
+"lon": -1.2385,
+"pop": 667,
+"cp": "64220",
+"txt": "Autour de Saint-Jean-Pied-de-Port et Saint-Étienne-de-Baïgorry, ce territoire de montagne est celui de l'Irouléguy et du chemin de Saint-Jacques. Ispoure est un village de 667 habitants, à environ 29 km de Cambo-les-Bains. Ses communes voisines sont Saint-Jean-le-Vieux, Saint-Jean-Pied-de-Port et Uhart-Cize.",
+"spots": [
+"Garazi-Baigorri",
+"À 29 km de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Garazi-Baigorri"
+},
+{
+"slug": "carresse-cassaber",
+"code": "64168",
+"nom": "Carresse-Cassaber",
+"dep": "64",
+"lat": 43.4831,
+"lon": -0.9985,
+"pop": 664,
+"cp": "64270",
+"txt": "Autour de Salies-de-Béarn, Sauveterre et Navarrenx, le Béarn des Gaves est un pays de rivières à saumons, de bastides et de collines. Carresse-Cassaber est un village de 664 habitants, à une dizaine de minutes de Salies-de-Béarn. Ses communes voisines sont Lahontan, Sorde-l'Abbaye et Salies-de-Béarn.",
+"spots": [
+"Béarn des Gaves",
+"À quelques minutes de Salies-de-Béarn",
+"Communauté de communes du Béarn des Gaves"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Béarn des Gaves",
+"territoire": "Béarn des Gaves"
+},
+{
+"slug": "aramits",
+"code": "64029",
+"nom": "Aramits",
+"dep": "64",
+"lat": 43.1313,
+"lon": -0.7252,
+"pop": 659,
+"cp": "64570",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 659 habitants, ce village se situe à environ 15 km d'Oloron-Sainte-Marie. Ses communes voisines sont Ance Féas, Esquiule et Barcus.",
+"spots": [
+"Haut Béarn",
+"À 15 km d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "barcus",
+"code": "64093",
+"nom": "Barcus",
+"dep": "64",
+"lat": 43.1847,
+"lon": -0.7855,
+"pop": 654,
+"cp": "64130",
+"txt": "La Soule, autour de Mauléon et Tardets, est la plus petite province basque, entre collines, forêts et montagne. Barcus est un village de 654 habitants, à environ 20 km d'Oloron-Sainte-Marie. Ses communes voisines sont Esquiule, Chéraute et Géronce.",
+"spots": [
+"Soule",
+"À 20 km d'Oloron-Sainte-Marie",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Soule"
+},
+{
+"slug": "gailleres",
+"code": "40103",
+"nom": "Gaillères",
+"dep": "40",
+"lat": 43.9382,
+"lon": -0.3756,
+"pop": 653,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Ce territoire, entre la Douze, le Midou et la forêt, accueille entreprises, services et quartiers en développement. Avec ses 653 habitants, ce village se situe à environ 13 km de Mont-de-Marsan. Ses communes voisines sont Saint-Cricq-Villeneuve, Bougue et Lucbardez-et-Bargues.",
+"spots": [
+"Marsan",
+"À 13 km de Mont-de-Marsan",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "castetis",
+"code": "64177",
+"nom": "Castétis",
+"dep": "64",
+"lat": 43.4774,
+"lon": -0.7159,
+"pop": 645,
+"cp": "64300",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Castétis est un village de 645 habitants, à une dizaine de minutes d'Orthez. Ses communes voisines sont Biron, Argagnon et Sallespisse.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "saint-jammes",
+"code": "64482",
+"nom": "Saint-Jammes",
+"dep": "64",
+"lat": 43.3626,
+"lon": -0.2551,
+"pop": 642,
+"cp": "64160",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 642 habitants, ce village se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Maucor, Bernadets et Morlaàs.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "pujo-le-plan",
+"code": "40238",
+"nom": "Pujo-le-Plan",
+"dep": "40",
+"lat": 43.8618,
+"lon": -0.3489,
+"pop": 641,
+"cp": "40190",
+"txt": "Autour de Villeneuve-de-Marsan, l'Armagnac landais aligne vignes, chais, bastides et forêt. Pujo-le-Plan est un village de 641 habitants, à environ 15 km de Mont-de-Marsan. Ses communes voisines sont Laglorieuse, Maurrin et Saint-Cricq-Villeneuve.",
+"spots": [
+"Armagnac landais",
+"À 15 km de Mont-de-Marsan",
+"Communauté de communes du Pays de Villeneuve en Armagnac Landais"
+],
+"type": "vignoble",
+"new": true,
+"auto": true,
+"epci": "CC du Pays de Villeneuve en Armagnac Landais",
+"territoire": "Armagnac landais"
+},
+{
+"slug": "rebenacq",
+"code": "64463",
+"nom": "Rébénacq",
+"dep": "64",
+"lat": 43.1572,
+"lon": -0.3947,
+"pop": 639,
+"cp": "64260",
+"txt": "La vallée d'Ossau remonte d'Arudy à Laruns et au col du Pourtalet, entre estives, villages de pierre et sommets. Ce territoire de haute montagne offre lacs, cols et villages pyrénéens, en partie dans le Parc national des Pyrénées. Avec ses 639 habitants, ce village se situe à une dizaine de minutes de Gan. Ses communes voisines sont Sévignacq-Meyracq, Buzy et Gan.",
+"spots": [
+"Vallée d'Ossau",
+"À quelques minutes de Gan",
+"Communauté de communes de la Vallée d'Ossau"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC de la Vallée d'Ossau",
+"territoire": "Vallée d'Ossau"
+},
+{
+"slug": "aurice",
+"code": "40020",
+"nom": "Aurice",
+"dep": "40",
+"lat": 43.7988,
+"lon": -0.602,
+"pop": 633,
+"cp": "40500",
+"txt": "Entre Hagetmau, Saint-Sever et Geaune, ce territoire de collines alterne prairies, vergers, vignes du Tursan et fermes d'élevage. Aurice est un village de 633 habitants, à une dizaine de minutes de Saint-Sever. Ses communes voisines sont Haut-Mauco, Saint-Sever et Campagne.",
+"spots": [
+"Chalosse et Tursan",
+"À quelques minutes de Saint-Sever",
+"Communauté de communes Chalosse Tursan"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Chalosse Tursan",
+"territoire": "Chalosse et Tursan"
+},
+{
+"slug": "sainte-colombe",
+"code": "40252",
+"nom": "Sainte-Colombe",
+"dep": "40",
+"lat": 43.6819,
+"lon": -0.5544,
+"pop": 633,
+"cp": "40700",
+"txt": "Entre Hagetmau, Saint-Sever et Geaune, ce territoire de collines alterne prairies, vergers, vignes du Tursan et fermes d'élevage. Sainte-Colombe est un village de 633 habitants, à une dizaine de minutes d'Hagetmau. Ses communes voisines sont Coudures, Horsarrieu et Hagetmau.",
+"spots": [
+"Chalosse et Tursan",
+"À quelques minutes d'Hagetmau",
+"Communauté de communes Chalosse Tursan"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Chalosse Tursan",
+"territoire": "Chalosse et Tursan"
+},
+{
+"slug": "cescau",
+"code": "64184",
+"nom": "Cescau",
+"dep": "64",
+"lat": 43.414,
+"lon": -0.5019,
+"pop": 630,
+"cp": "64170",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Cescau est un village de 630 habitants, à environ 13 km de Mourenx. Ses communes voisines sont Labastide-Monréjeau, Bougarber et Mazerolles.",
+"spots": [
+"Lacq-Orthez",
+"À 13 km de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "carcen-ponson",
+"code": "40067",
+"nom": "Carcen-Ponson",
+"dep": "40",
+"lat": 43.866,
+"lon": -0.8073,
+"pop": 628,
+"cp": "40400",
+"txt": "Autour de Tartas, le Pays Tarusate est à la charnière entre la forêt landaise et les coteaux de Chalosse, au bord de la Midouze. Ce territoire mêle forêt, rivières, villages et exploitations agricoles entre Dax et Mont-de-Marsan. Avec ses 628 habitants, ce village se situe à environ 22 km d'Arjuzanx. Ses communes voisines sont Carcarès-Sainte-Croix, Tartas et Bégaar.",
+"spots": [
+"Pays Tarusate",
+"À 22 km d'Arjuzanx",
+"Communauté de communes du Pays Tarusate"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Tarusate",
+"territoire": "Pays Tarusate"
+},
+{
+"slug": "laglorieuse",
+"code": "40139",
+"nom": "Laglorieuse",
+"dep": "40",
+"lat": 43.8649,
+"lon": -0.3922,
+"pop": 626,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Ce territoire, entre la Douze, le Midou et la forêt, accueille entreprises, services et quartiers en développement. Avec ses 626 habitants, ce village se situe à une dizaine de minutes de Mont-de-Marsan. Ses communes voisines sont Pujo-le-Plan, Bougue et Mazerolles.",
+"spots": [
+"Marsan",
+"À quelques minutes de Mont-de-Marsan",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "uchacq-et-parentis",
+"code": "40320",
+"nom": "Uchacq-et-Parentis",
+"dep": "40",
+"lat": 43.9412,
+"lon": -0.5536,
+"pop": 626,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Ce territoire, entre la Douze, le Midou et la forêt, accueille entreprises, services et quartiers en développement. Avec ses 626 habitants, ce village se situe à une dizaine de minutes de Mont-de-Marsan. Ses communes voisines sont Campet-et-Lamolère, Saint-Martin-d'Oney et Mont-de-Marsan.",
+"spots": [
+"Marsan",
+"À quelques minutes de Mont-de-Marsan",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "barzun",
+"code": "64097",
+"nom": "Barzun",
+"dep": "64",
+"lat": 43.2177,
+"lon": -0.1325,
+"pop": 626,
+"cp": "64530",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 626 habitants, ce village se situe à environ 21 km de Morlaàs. Ses communes voisines sont Pontacq, Espoey et Bénéjacq.",
+"spots": [
+"Nord-Est Béarn",
+"À 21 km de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "saint-maurice-sur-adour",
+"code": "40275",
+"nom": "Saint-Maurice-sur-Adour",
+"dep": "40",
+"lat": 43.7919,
+"lon": -0.4675,
+"pop": 625,
+"cp": "40270",
+"txt": "Entre Adour et forêt, le Pays Grenadois offre bastides, grandes cultures et paysages de rivière. Avec ses 625 habitants, ce village se situe à une dizaine de minutes de Saint-Sever. Ses communes voisines sont Benquet, Grenade-sur-l'Adour et Montgaillard.",
+"spots": [
+"Pays Grenadois",
+"À quelques minutes de Saint-Sever",
+"Communauté de communes du Pays Grenadois"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Grenadois",
+"territoire": "Pays Grenadois"
+},
+{
+"slug": "saint-yaguen",
+"code": "40285",
+"nom": "Saint-Yaguen",
+"dep": "40",
+"lat": 43.8998,
+"lon": -0.7404,
+"pop": 625,
+"cp": "40400",
+"txt": "Autour de Tartas, le Pays Tarusate est à la charnière entre la forêt landaise et les coteaux de Chalosse, au bord de la Midouze. Ce territoire mêle forêt, rivières, villages et exploitations agricoles entre Dax et Mont-de-Marsan. Avec ses 625 habitants, ce village se situe à environ 20 km d'Arjuzanx. Ses communes voisines sont Carcarès-Sainte-Croix, Meilhan et Carcen-Ponson.",
+"spots": [
+"Pays Tarusate",
+"À 20 km d'Arjuzanx",
+"Communauté de communes du Pays Tarusate"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Tarusate",
+"territoire": "Pays Tarusate"
+},
+{
+"slug": "eysus",
+"code": "64224",
+"nom": "Eysus",
+"dep": "64",
+"lat": 43.1379,
+"lon": -0.5845,
+"pop": 625,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 625 habitants, ce village se situe à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Gurmençon, Oloron-Sainte-Marie et Agnos.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "cassen",
+"code": "40068",
+"nom": "Cassen",
+"dep": "40",
+"lat": 43.7577,
+"lon": -0.8659,
+"pop": 624,
+"cp": "40380",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Ce coin de Chalosse mêle petits villages perchés, élevages, champs de maïs et vues dégagées vers les Pyrénées. Avec ses 624 habitants, ce village se situe à environ 21 km de Dax. Ses communes voisines sont Gamarde-les-Bains, Poyanne et Préchacq-les-Bains.",
+"spots": [
+"Terres de Chalosse",
+"À 21 km de Dax",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "ance-feas",
+"code": "64225",
+"nom": "Ance Féas",
+"dep": "64",
+"lat": 43.1571,
+"lon": -0.6902,
+"pop": 624,
+"cp": "64570",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 624 habitants, ce village se situe à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Aramits, Esquiule et Agnos.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "lue",
+"code": "40163",
+"nom": "Lüe",
+"dep": "40",
+"lat": 44.2274,
+"lon": -0.9718,
+"pop": 621,
+"cp": "40210",
+"txt": "Au nord des Landes, les Grands Lacs entourent les lacs de Cazaux-Sanguinet et de Biscarrosse-Parentis, entre forêt et océan. Lüe est un village de 621 habitants, à environ 18 km de Parentis-en-Born. Ses communes voisines sont Labouheyre, Escource et Pontenx-les-Forges.",
+"spots": [
+"Grands Lacs",
+"À 18 km de Parentis-en-Born",
+"Communauté de communes des Grands Lacs"
+],
+"type": "lac",
+"new": true,
+"auto": true,
+"epci": "CC des Grands Lacs",
+"territoire": "Grands Lacs"
+},
+{
+"slug": "saint-cricq-chalosse",
+"code": "40253",
+"nom": "Saint-Cricq-Chalosse",
+"dep": "40",
+"lat": 43.6578,
+"lon": -0.6745,
+"pop": 614,
+"cp": "40700",
+"txt": "Les coteaux de Chalosse et du Tursan offrent des paysages vallonnés, des bastides et des domaines agricoles réputés pour leurs volailles et leurs vins. Avec ses 614 habitants, ce village se situe à une dizaine de minutes d'Hagetmau. Ses communes voisines sont Brassempouy, Doazit et Momuy.",
+"spots": [
+"Chalosse et Tursan",
+"À quelques minutes d'Hagetmau",
+"Communauté de communes Chalosse Tursan"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Chalosse Tursan",
+"territoire": "Chalosse et Tursan"
+},
+{
+"slug": "morlanne",
+"code": "64406",
+"nom": "Morlanne",
+"dep": "64",
+"lat": 43.5084,
+"lon": -0.5433,
+"pop": 611,
+"cp": "64370",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 611 habitants, ce village se situe à environ 20 km de Mourenx. Ses communes voisines sont Hagetaubin, Arthez-de-Béarn et Mazerolles.",
+"spots": [
+"Luys en Béarn",
+"À 20 km de Mourenx",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "saint-armou",
+"code": "64470",
+"nom": "Saint-Armou",
+"dep": "64",
+"lat": 43.4049,
+"lon": -0.3058,
+"pop": 609,
+"cp": "64160",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Saint-Armou est un village de 609 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Barinque, Navailles-Angos et Saint-Castin.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "hontanx",
+"code": "40127",
+"nom": "Hontanx",
+"dep": "40",
+"lat": 43.8181,
+"lon": -0.2681,
+"pop": 608,
+"cp": "40190",
+"txt": "Autour de Villeneuve-de-Marsan, l'Armagnac landais aligne vignes, chais, bastides et forêt. Hontanx est un village de 608 habitants, à environ 16 km d'Aire-sur-l'Adour. Ses communes voisines sont Le Vignau, Cazères-sur-l'Adour et Pujo-le-Plan.",
+"spots": [
+"Armagnac landais",
+"À 16 km d'Aire-sur-l'Adour",
+"Communauté de communes du Pays de Villeneuve en Armagnac Landais"
+],
+"type": "vignoble",
+"new": true,
+"auto": true,
+"epci": "CC du Pays de Villeneuve en Armagnac Landais",
+"territoire": "Armagnac landais"
+},
+{
+"slug": "momas",
+"code": "64387",
+"nom": "Momas",
+"dep": "64",
+"lat": 43.4438,
+"lon": -0.4435,
+"pop": 604,
+"cp": "64230",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Ce territoire rural, autour de Thèze et Arzacq, mêle agriculture, bois et vues sur les Pyrénées. Avec ses 604 habitants, ce village se situe à environ 15 km de Lescar. Ses communes voisines sont Mazerolles, Caubios-Loos et Uzein.",
+"spots": [
+"Luys en Béarn",
+"À 15 km de Lescar",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
+},
+{
+"slug": "liposthey",
+"code": "40156",
+"nom": "Liposthey",
+"dep": "40",
+"lat": 44.3116,
+"lon": -0.8824,
+"pop": 603,
+"cp": "40410",
+"txt": "Au cœur du massif forestier, la Haute Lande est un territoire de pins, de clairières, d'airiaux et de rivières comme la Leyre. Liposthey est un village de 603 habitants, à environ 19 km de Parentis-en-Born. Ses communes voisines sont Ychoux, Pissos et Labouheyre.",
+"spots": [
+"Haute Lande",
+"À 19 km de Parentis-en-Born",
+"Communauté de communes Coeur Haute Lande"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC Coeur Haute Lande",
+"territoire": "Haute Lande"
+},
+{
+"slug": "montgaillard",
+"code": "40195",
+"nom": "Montgaillard",
+"dep": "40",
+"lat": 43.7571,
+"lon": -0.4837,
+"pop": 602,
+"cp": "40500",
+"txt": "Entre Hagetmau, Saint-Sever et Geaune, ce territoire de collines alterne prairies, vergers, vignes du Tursan et fermes d'élevage. Montgaillard est un village de 602 habitants, à une dizaine de minutes de Saint-Sever. Ses communes voisines sont Montsoué, Saint-Maurice-sur-Adour et Larrivière-Saint-Savin.",
+"spots": [
+"Chalosse et Tursan",
+"À quelques minutes de Saint-Sever",
+"Communauté de communes Chalosse Tursan"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Chalosse Tursan",
+"territoire": "Chalosse et Tursan"
+},
+{
+"slug": "benesse-les-dax",
+"code": "40035",
+"nom": "Bénesse-lès-Dax",
+"dep": "40",
+"lat": 43.644,
+"lon": -1.0383,
+"pop": 598,
+"cp": "40180",
+"txt": "L'agglomération dacquoise vit autour du thermalisme, de l'Adour et de ses barthes, avec des communes résidentielles très recherchées. Bénesse-lès-Dax est un village de 598 habitants, à une dizaine de minutes de Dax. Ses communes voisines sont Saint-Pandelon, Gaas et Heugas.",
+"spots": [
+"Grand Dax",
+"À quelques minutes de Dax",
+"Agglomération du Grand Dax"
+],
+"type": "thermal",
+"new": true,
+"auto": true,
+"epci": "CA du Grand Dax",
+"territoire": "Grand Dax"
+},
+{
+"slug": "biron",
+"code": "64131",
+"nom": "Biron",
+"dep": "64",
+"lat": 43.4581,
+"lon": -0.7396,
+"pop": 595,
+"cp": "64300",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Biron est un village de 595 habitants, à une dizaine de minutes d'Orthez. Ses communes voisines sont Castétis, Loubieng et Maslacq.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "castelnau-chalosse",
+"code": "40071",
+"nom": "Castelnau-Chalosse",
+"dep": "40",
+"lat": 43.659,
+"lon": -0.8536,
+"pop": 593,
+"cp": "40360",
+"txt": "Au sud de la Chalosse, les vallées des Luys dessinent un paysage de collines, de bois et de fermes à la limite du Béarn. Castelnau-Chalosse est un village de 593 habitants, à environ 21 km de Dax. Ses communes voisines sont Poyartin, Pomarez et Clermont.",
+"spots": [
+"Coteaux et Vallées des Luys",
+"À 21 km de Dax",
+"Communauté de communes Coteaux et Vallées des Luys"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Coteaux et Vallées des Luys",
+"territoire": "Coteaux et Vallées des Luys"
+},
+{
+"slug": "macaye",
+"code": "64364",
+"nom": "Macaye",
+"dep": "64",
+"lat": 43.3189,
+"lon": -1.3241,
+"pop": 593,
+"cp": "64240",
+"txt": "Autour de Hasparren, ce Labourd intérieur est un pays de collines, de fermes et du mont Ursuya. Ce territoire rural basque mêle élevage, villages et paysages ouverts. Avec ses 593 habitants, ce village se situe à une dizaine de minutes de Cambo-les-Bains. Ses communes voisines sont Louhossoa, Mendionde et Bidarray.",
+"spots": [
+"Pays de Hasparren",
+"À quelques minutes de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Pays de Hasparren"
+},
+{
+"slug": "baudreix",
+"code": "64101",
+"nom": "Baudreix",
+"dep": "64",
+"lat": 43.206,
+"lon": -0.2576,
+"pop": 591,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Ce territoire de vallée et de piémont associe savoir-faire industriel, patrimoine et paysages de montagne. Avec ses 591 habitants, ce village se situe à environ 15 km de Gan. Ses communes voisines sont Mirepeix, Bourdettes et Lagos.",
+"spots": [
+"Pays de Nay",
+"À 15 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "labastide-monrejeau",
+"code": "64290",
+"nom": "Labastide-Monréjeau",
+"dep": "64",
+"lat": 43.3888,
+"lon": -0.5272,
+"pop": 591,
+"cp": "64170",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Labastide-Monréjeau est un village de 591 habitants, à une dizaine de minutes de Mourenx. Ses communes voisines sont Labastide-Cézéracq, Denguin et Cescau.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "sallespisse",
+"code": "64501",
+"nom": "Sallespisse",
+"dep": "64",
+"lat": 43.5196,
+"lon": -0.72,
+"pop": 591,
+"cp": "64300",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 591 habitants, ce village se situe à une dizaine de minutes d'Orthez. Ses communes voisines sont Castétis, Sault-de-Navailles et Bonnut.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "halsou",
+"code": "64255",
+"nom": "Halsou",
+"dep": "64",
+"lat": 43.3862,
+"lon": -1.409,
+"pop": 589,
+"cp": "64480",
+"txt": "Autour de Cambo-les-Bains et de la vallée de la Nive, Errobi est un Labourd vert de collines, de rivières et de villages. Ce territoire entre Nive et montagne associe maisons basques, producteurs et hébergements de charme. Avec ses 589 habitants, ce village se situe à une dizaine de minutes de Cambo-les-Bains. Ses communes voisines sont Jatxou, Cambo-les-Bains et Larressore.",
+"spots": [
+"Errobi",
+"À quelques minutes de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Errobi"
+},
+{
+"slug": "bernadets",
+"code": "64114",
+"nom": "Bernadets",
+"dep": "64",
+"lat": 43.377,
+"lon": -0.2807,
+"pop": 587,
+"cp": "64160",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 587 habitants, ce village se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Maucor, Saint-Castin et Saint-Jammes.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "labastide-cezeracq",
+"code": "64288",
+"nom": "Labastide-Cézéracq",
+"dep": "64",
+"lat": 43.3773,
+"lon": -0.5395,
+"pop": 584,
+"cp": "64170",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Labastide-Cézéracq est un village de 584 habitants, à une dizaine de minutes de Mourenx. Ses communes voisines sont Labastide-Monréjeau, Tarsacq et Abos.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "larriviere-saint-savin",
+"code": "40145",
+"nom": "Larrivière-Saint-Savin",
+"dep": "40",
+"lat": 43.7555,
+"lon": -0.4236,
+"pop": 583,
+"cp": "40270",
+"txt": "Autour de Grenade-sur-l'Adour, ce territoire mêle plaine agricole, saligues du fleuve et coteaux. Larrivière-Saint-Savin est un village de 583 habitants, à environ 13 km de Saint-Sever. Ses communes voisines sont Grenade-sur-l'Adour, Renung et Montgaillard.",
+"spots": [
+"Pays Grenadois",
+"À 13 km de Saint-Sever",
+"Communauté de communes du Pays Grenadois"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Grenadois",
+"territoire": "Pays Grenadois"
+},
+{
+"slug": "serres-sainte-marie",
+"code": "64521",
+"nom": "Serres-Sainte-Marie",
+"dep": "64",
+"lat": 43.4223,
+"lon": -0.5576,
+"pop": 581,
+"cp": "64170",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 581 habitants, ce village se situe à une dizaine de minutes de Mourenx. Ses communes voisines sont Artix, Lacq et Labastide-Monréjeau.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "barinque",
+"code": "64095",
+"nom": "Barinque",
+"dep": "64",
+"lat": 43.404,
+"lon": -0.2714,
+"pop": 580,
+"cp": "64160",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Barinque est un village de 580 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Saint-Armou, Bernadets et Saint-Castin.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "sevignacq-meyracq",
+"code": "64522",
+"nom": "Sévignacq-Meyracq",
+"dep": "64",
+"lat": 43.1386,
+"lon": -0.3874,
+"pop": 577,
+"cp": "64260",
+"txt": "La vallée d'Ossau remonte d'Arudy à Laruns et au col du Pourtalet, entre estives, villages de pierre et sommets. Sévignacq-Meyracq est un village de 577 habitants, à une dizaine de minutes de Gan. Ses communes voisines sont Rébénacq, Buzy et Gan.",
+"spots": [
+"Vallée d'Ossau",
+"À quelques minutes de Gan",
+"Communauté de communes de la Vallée d'Ossau"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC de la Vallée d'Ossau",
+"territoire": "Vallée d'Ossau"
+},
+{
+"slug": "coudures",
+"code": "40086",
+"nom": "Coudures",
+"dep": "40",
+"lat": 43.6887,
+"lon": -0.5053,
+"pop": 571,
+"cp": "40500",
+"txt": "Les coteaux de Chalosse et du Tursan offrent des paysages vallonnés, des bastides et des domaines agricoles réputés pour leurs volailles et leurs vins. Avec ses 571 habitants, ce village se situe à une dizaine de minutes d'Hagetmau. Ses communes voisines sont Sainte-Colombe, Montsoué et Samadet.",
+"spots": [
+"Chalosse et Tursan",
+"À quelques minutes d'Hagetmau",
+"Communauté de communes Chalosse Tursan"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Chalosse Tursan",
+"territoire": "Chalosse et Tursan"
+},
+{
+"slug": "bedous",
+"code": "64104",
+"nom": "Bedous",
+"dep": "64",
+"lat": 43.0046,
+"lon": -0.5905,
+"pop": 568,
+"cp": "64490",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 568 habitants, ce village se situe à environ 23 km d'Oloron-Sainte-Marie. Ses communes voisines sont Accous, Arette et Asasp-Arros.",
+"spots": [
+"Haut Béarn",
+"À 23 km d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "hagetaubin",
+"code": "64254",
+"nom": "Hagetaubin",
+"dep": "64",
+"lat": 43.5137,
+"lon": -0.6125,
+"pop": 568,
+"cp": "64370",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 568 habitants, ce village se situe à environ 17 km d'Orthez. Ses communes voisines sont Arthez-de-Béarn, Morlanne et Sault-de-Navailles.",
+"spots": [
+"Lacq-Orthez",
+"À 17 km d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "montsoue",
+"code": "40196",
+"nom": "Montsoué",
+"dep": "40",
+"lat": 43.7287,
+"lon": -0.5065,
+"pop": 566,
+"cp": "40500",
+"txt": "Entre Hagetmau, Saint-Sever et Geaune, ce territoire de collines alterne prairies, vergers, vignes du Tursan et fermes d'élevage. Montsoué est un village de 566 habitants, à une dizaine de minutes de Saint-Sever. Ses communes voisines sont Montgaillard, Coudures et Saint-Sever.",
+"spots": [
+"Chalosse et Tursan",
+"À quelques minutes de Saint-Sever",
+"Communauté de communes Chalosse Tursan"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Chalosse Tursan",
+"territoire": "Chalosse et Tursan"
+},
+{
+"slug": "maucor",
+"code": "64370",
+"nom": "Maucor",
+"dep": "64",
+"lat": 43.3561,
+"lon": -0.2852,
+"pop": 564,
+"cp": "64160",
+"txt": "Au nord-est de Pau, ce territoire de coteaux, de bois et de vignes du Madiran et du Vic-Bilh est un Béarn rural et vallonné. Maucor est un village de 564 habitants, à une dizaine de minutes de Morlaàs. Ses communes voisines sont Bernadets, Buros et Saint-Jammes.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "lucbardez-et-bargues",
+"code": "40162",
+"nom": "Lucbardez-et-Bargues",
+"dep": "40",
+"lat": 43.9774,
+"lon": -0.4155,
+"pop": 561,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Lucbardez-et-Bargues est un village de 561 habitants, à environ 14 km de Mont-de-Marsan. Ses communes voisines sont Saint-Avit, Pouydesseaux et Gaillères.",
+"spots": [
+"Marsan",
+"À 14 km de Mont-de-Marsan",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "beyrie-sur-joyeuse",
+"code": "64120",
+"nom": "Beyrie-sur-Joyeuse",
+"dep": "64",
+"lat": 43.3095,
+"lon": -1.0948,
+"pop": 561,
+"cp": "64120",
+"txt": "Autour de Saint-Palais, l'Amikuze est la Basse-Navarre des collines, des marchés et des chemins de Saint-Jacques. Ce territoire agricole et vallonné est un carrefour historique du Pays basque intérieur. Avec ses 561 habitants, ce village se situe à environ 26 km d'Hasparren. Ses communes voisines sont Saint-Palais, Amendeuix-Oneix et Béhasque-Lapiste.",
+"spots": [
+"Amikuze",
+"À 26 km d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Amikuze"
+},
+{
+"slug": "castel-sarrazin",
+"code": "40074",
+"nom": "Castel-Sarrazin",
+"dep": "40",
+"lat": 43.6177,
+"lon": -0.7885,
+"pop": 559,
+"cp": "40330",
+"txt": "Entre Amou et Pomarez, ce territoire rural est celui de la course landaise, des coteaux et des élevages. Avec ses 559 habitants, ce village se situe à environ 18 km d'Orthez. Ses communes voisines sont Bastennes, Pomarez et Amou.",
+"spots": [
+"Coteaux et Vallées des Luys",
+"À 18 km d'Orthez",
+"Communauté de communes Coteaux et Vallées des Luys"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Coteaux et Vallées des Luys",
+"territoire": "Coteaux et Vallées des Luys"
+},
+{
+"slug": "ouillon",
+"code": "64438",
+"nom": "Ouillon",
+"dep": "64",
+"lat": 43.326,
+"lon": -0.2282,
+"pop": 553,
+"cp": "64160",
+"txt": "Autour de Morlaàs, Garlin et Lembeye, le Nord-Est Béarn associe villages, élevages et vignobles. Avec ses 553 habitants, ce village se situe à une dizaine de minutes de Morlaàs. Ses communes voisines sont Andoins, Serres-Morlaàs et Morlaàs.",
+"spots": [
+"Nord-Est Béarn",
+"À quelques minutes de Morlaàs",
+"Communauté de communes du Nord Est Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Nord Est Béarn",
+"territoire": "Nord-Est Béarn"
+},
+{
+"slug": "iholdy",
+"code": "64271",
+"nom": "Iholdy",
+"dep": "64",
+"lat": 43.2752,
+"lon": -1.1791,
+"pop": 550,
+"cp": "64640",
+"txt": "Autour d'Iholdy, ce coin de Basse-Navarre aligne collines, bois et petits villages au pied des montagnes. Iholdy est un village de 550 habitants, à environ 22 km d'Hasparren. Ses communes voisines sont Irissarry, Hélette et Beyrie-sur-Joyeuse.",
+"spots": [
+"Iholdi-Oztibarre",
+"À 22 km d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Iholdi-Oztibarre"
+},
+{
+"slug": "tarsacq",
+"code": "64535",
+"nom": "Tarsacq",
+"dep": "64",
+"lat": 43.3538,
+"lon": -0.5327,
+"pop": 548,
+"cp": "64360",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 548 habitants, ce village se situe à une dizaine de minutes de Monein. Ses communes voisines sont Abos, Labastide-Cézéracq et Siros.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Monein",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "ordiarp",
+"code": "64424",
+"nom": "Ordiarp",
+"dep": "64",
+"lat": 43.1932,
+"lon": -0.964,
+"pop": 547,
+"cp": "64130",
+"txt": "La Soule, autour de Mauléon et Tardets, est la plus petite province basque, entre collines, forêts et montagne. Ce territoire de traditions, d'estives et de gorges est l'un des plus sauvages du Pays basque. Avec ses 547 habitants, ce village se situe à environ 38 km d'Oloron-Sainte-Marie. Ses communes voisines sont Gotein-Libarrenx, Mauléon-Licharre et Viodos-Abense-de-Bas.",
+"spots": [
+"Soule",
+"À 38 km d'Oloron-Sainte-Marie",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Soule"
+},
+{
+"slug": "os-marsillon",
+"code": "64431",
+"nom": "Os-Marsillon",
+"dep": "64",
+"lat": 43.3854,
+"lon": -0.6179,
+"pop": 547,
+"cp": "64150",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Os-Marsillon est un village de 547 habitants, à une dizaine de minutes de Mourenx. Ses communes voisines sont Mourenx, Pardies et Artix.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "saint-martin-d-arrossa",
+"code": "64490",
+"nom": "Saint-Martin-d'Arrossa",
+"dep": "64",
+"lat": 43.2307,
+"lon": -1.3179,
+"pop": 543,
+"cp": "64780",
+"txt": "Entre vallées, vignes en terrasses et estives, Garazi-Baigorri offre des paysages de montagne spectaculaires. Avec ses 543 habitants, ce village se situe à environ 20 km de Cambo-les-Bains. Ses communes voisines sont Ossès, Bidarray et Saint-Étienne-de-Baïgorry.",
+"spots": [
+"Garazi-Baigorri",
+"À 20 km de Cambo-les-Bains",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Garazi-Baigorri"
+},
+{
+"slug": "isturits",
+"code": "64277",
+"nom": "Isturits",
+"dep": "64",
+"lat": 43.3662,
+"lon": -1.2111,
+"pop": 537,
+"cp": "64240",
+"txt": "Autour de Hasparren, ce Labourd intérieur est un pays de collines, de fermes et du mont Ursuya. Ce territoire rural basque mêle élevage, villages et paysages ouverts. Avec ses 537 habitants, ce village se situe à une dizaine de minutes d'Hasparren. Ses communes voisines sont Ayherre, Orègue et La Bastide-Clairence.",
+"spots": [
+"Pays de Hasparren",
+"À quelques minutes d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Pays de Hasparren"
+},
+{
+"slug": "lahontan",
+"code": "64305",
+"nom": "Lahontan",
+"dep": "64",
+"lat": 43.5238,
+"lon": -0.9712,
+"pop": 536,
+"cp": "64270",
+"txt": "Autour de Salies-de-Béarn, Sauveterre et Navarrenx, le Béarn des Gaves est un pays de rivières à saumons, de bastides et de collines. Lahontan est un village de 536 habitants, à une dizaine de minutes de Salies-de-Béarn. Ses communes voisines sont Labatut, Bellocq et Carresse-Cassaber.",
+"spots": [
+"Béarn des Gaves",
+"À quelques minutes de Salies-de-Béarn",
+"Communauté de communes du Béarn des Gaves"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC du Béarn des Gaves",
+"territoire": "Béarn des Gaves"
+},
+{
+"slug": "carcares-sainte-croix",
+"code": "40066",
+"nom": "Carcarès-Sainte-Croix",
+"dep": "40",
+"lat": 43.8547,
+"lon": -0.7603,
+"pop": 533,
+"cp": "40400",
+"txt": "Autour de Tartas, le Pays Tarusate est à la charnière entre la forêt landaise et les coteaux de Chalosse, au bord de la Midouze. Ce territoire mêle forêt, rivières, villages et exploitations agricoles entre Dax et Mont-de-Marsan. Avec ses 533 habitants, ce village se situe à environ 24 km de Saint-Pierre-du-Mont. Ses communes voisines sont Carcen-Ponson, Tartas et Saint-Yaguen.",
+"spots": [
+"Pays Tarusate",
+"À 24 km de Saint-Pierre-du-Mont",
+"Communauté de communes du Pays Tarusate"
+],
+"type": "foret",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Tarusate",
+"territoire": "Pays Tarusate"
+},
+{
+"slug": "goos",
+"code": "40113",
+"nom": "Goos",
+"dep": "40",
+"lat": 43.7317,
+"lon": -0.9182,
+"pop": 531,
+"cp": "40180",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Ce coin de Chalosse mêle petits villages perchés, élevages, champs de maïs et vues dégagées vers les Pyrénées. Avec ses 531 habitants, ce village se situe à environ 15 km de Dax. Ses communes voisines sont Préchacq-les-Bains, Hinx et Téthieu.",
+"spots": [
+"Terres de Chalosse",
+"À 15 km de Dax",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "oregue",
+"code": "64425",
+"nom": "Orègue",
+"dep": "64",
+"lat": 43.4097,
+"lon": -1.1656,
+"pop": 531,
+"cp": "64120",
+"txt": "Autour de Bidache, au bord de la Bidouze, ce territoire fait le lien entre les Landes, le Béarn et le Pays basque. Orègue est un village de 531 habitants, à environ 16 km d'Hasparren. Ses communes voisines sont La Bastide-Clairence, Isturits et Bidache.",
+"spots": [
+"Pays de Bidache",
+"À 16 km d'Hasparren",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Pays de Bidache"
+},
+{
+"slug": "abos",
+"code": "64005",
+"nom": "Abos",
+"dep": "64",
+"lat": 43.3521,
+"lon": -0.5492,
+"pop": 526,
+"cp": "64360",
+"txt": "Autour d'Orthez, Mourenx et Artix, industrie, agriculture et patrimoine béarnais se côtoient. Avec ses 526 habitants, ce village se situe à une dizaine de minutes de Mourenx. Ses communes voisines sont Tarsacq, Labastide-Cézéracq et Pardies.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Mourenx",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "le-vignau",
+"code": "40329",
+"nom": "Le Vignau",
+"dep": "40",
+"lat": 43.7795,
+"lon": -0.2912,
+"pop": 522,
+"cp": "40270",
+"txt": "Autour de Grenade-sur-l'Adour, ce territoire mêle plaine agricole, saligues du fleuve et coteaux. Le Vignau est un village de 522 habitants, à une dizaine de minutes d'Aire-sur-l'Adour. Ses communes voisines sont Cazères-sur-l'Adour, Hontanx et Renung.",
+"spots": [
+"Pays Grenadois",
+"À quelques minutes d'Aire-sur-l'Adour",
+"Communauté de communes du Pays Grenadois"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Grenadois",
+"territoire": "Pays Grenadois"
+},
+{
+"slug": "esquiule",
+"code": "64217",
+"nom": "Esquiule",
+"dep": "64",
+"lat": 43.1881,
+"lon": -0.719,
+"pop": 522,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Esquiule est un village de 522 habitants, à environ 13 km d'Oloron-Sainte-Marie. Ses communes voisines sont Géronce, Ance Féas et Moumour.",
+"spots": [
+"Haut Béarn",
+"À 13 km d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "goes",
+"code": "64245",
+"nom": "Goès",
+"dep": "64",
+"lat": 43.215,
+"lon": -0.5792,
+"pop": 520,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Goès est un village de 520 habitants, à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Estos, Ledeuix et Bidos.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "asasp-arros",
+"code": "64064",
+"nom": "Asasp-Arros",
+"dep": "64",
+"lat": 43.1166,
+"lon": -0.6274,
+"pop": 516,
+"cp": "64660",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 516 habitants, ce village se situe à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Agnos, Eysus et Gurmençon.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "baliros",
+"code": "64091",
+"nom": "Baliros",
+"dep": "64",
+"lat": 43.2273,
+"lon": -0.3092,
+"pop": 515,
+"cp": "64510",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Baliros est un village de 515 habitants, à une dizaine de minutes de Gan. Ses communes voisines sont Narcastet, Rontignon et Bordes.",
+"spots": [
+"Pays de Nay",
+"À quelques minutes de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "campet-et-lamolere",
+"code": "40062",
+"nom": "Campet-et-Lamolère",
+"dep": "40",
+"lat": 43.9143,
+"lon": -0.589,
+"pop": 506,
+"cp": "40090",
+"txt": "Autour de Mont-de-Marsan, le Marsan associe préfecture, forêt landaise, communes résidentielles et zones d'activité. Campet-et-Lamolère est un village de 506 habitants, à une dizaine de minutes de Saint-Pierre-du-Mont. Ses communes voisines sont Saint-Perdon, Uchacq-et-Parentis et Saint-Martin-d'Oney.",
+"spots": [
+"Marsan",
+"À quelques minutes de Saint-Pierre-du-Mont",
+"Agglomération Mont de Marsan Agglomération"
+],
+"type": "ville",
+"new": true,
+"auto": true,
+"epci": "CA Mont de Marsan Agglomération",
+"territoire": "Marsan"
+},
+{
+"slug": "espes-undurein",
+"code": "64214",
+"nom": "Espès-Undurein",
+"dep": "64",
+"lat": 43.2734,
+"lon": -0.8909,
+"pop": 506,
+"cp": "64130",
+"txt": "La Soule, autour de Mauléon et Tardets, est la plus petite province basque, entre collines, forêts et montagne. Espès-Undurein est un village de 506 habitants, à environ 27 km de Salies-de-Béarn. Ses communes voisines sont Viodos-Abense-de-Bas, Mauléon-Licharre et Chéraute.",
+"spots": [
+"Soule",
+"À 27 km de Salies-de-Béarn",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Soule"
+},
+{
+"slug": "behasque-lapiste",
+"code": "64106",
+"nom": "Béhasque-Lapiste",
+"dep": "64",
+"lat": 43.3162,
+"lon": -1.0091,
+"pop": 505,
+"cp": "64120",
+"txt": "Autour de Saint-Palais, l'Amikuze est la Basse-Navarre des collines, des marchés et des chemins de Saint-Jacques. Ce territoire agricole et vallonné est un carrefour historique du Pays basque intérieur. Avec ses 505 habitants, ce village se situe à environ 23 km de Salies-de-Béarn. Ses communes voisines sont Saint-Palais, Domezain-Berraute et Aïcirits-Camou-Suhast.",
+"spots": [
+"Amikuze",
+"À 23 km de Salies-de-Béarn",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Amikuze"
+},
+{
+"slug": "bourdettes",
+"code": "64145",
+"nom": "Bourdettes",
+"dep": "64",
+"lat": 43.1934,
+"lon": -0.2702,
+"pop": 503,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Bourdettes est un village de 503 habitants, à environ 14 km de Gan. Ses communes voisines sont Mirepeix, Baudreix et Nay.",
+"spots": [
+"Pays de Nay",
+"À 14 km de Gan",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "saint-aubin",
+"code": "40249",
+"nom": "Saint-Aubin",
+"dep": "40",
+"lat": 43.718,
+"lon": -0.7247,
+"pop": 498,
+"cp": "40250",
+"txt": "Autour de Montfort et Mugron, les Terres de Chalosse forment un pays de collines verdoyantes, de vallées et de fermes traditionnelles au-dessus de l'Adour. Saint-Aubin est un petit village de 498 habitants, à environ 17 km d'Hagetmau. Ses communes voisines sont Mugron, Montaut et Doazit.",
+"spots": [
+"Terres de Chalosse",
+"À 17 km d'Hagetmau",
+"Communauté de communes Terres de Chalosse"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Terres de Chalosse",
+"territoire": "Terres de Chalosse"
+},
+{
+"slug": "geronce",
+"code": "64241",
+"nom": "Géronce",
+"dep": "64",
+"lat": 43.2222,
+"lon": -0.7095,
+"pop": 492,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Géronce est un petit village de 492 habitants, à environ 14 km d'Oloron-Sainte-Marie. Ses communes voisines sont Esquiule, Moumour et Ance Féas.",
+"spots": [
+"Haut Béarn",
+"À 14 km d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "loubieng",
+"code": "64349",
+"nom": "Loubieng",
+"dep": "64",
+"lat": 43.4212,
+"lon": -0.7566,
+"pop": 491,
+"cp": "64300",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Loubieng est un petit village de 491 habitants, à une dizaine de minutes d'Orthez. Ses communes voisines sont Maslacq, Biron et Castétis.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes d'Orthez",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "momuy",
+"code": "40188",
+"nom": "Momuy",
+"dep": "40",
+"lat": 43.6144,
+"lon": -0.6439,
+"pop": 487,
+"cp": "40700",
+"txt": "Les coteaux de Chalosse et du Tursan offrent des paysages vallonnés, des bastides et des domaines agricoles réputés pour leurs volailles et leurs vins. Avec ses 487 habitants, ce petit village se situe à une dizaine de minutes d'Hagetmau. Ses communes voisines sont Brassempouy, Saint-Cricq-Chalosse et Hagetmau.",
+"spots": [
+"Chalosse et Tursan",
+"À quelques minutes d'Hagetmau",
+"Communauté de communes Chalosse Tursan"
+],
+"type": "chalosse",
+"new": true,
+"auto": true,
+"epci": "CC Chalosse Tursan",
+"territoire": "Chalosse et Tursan"
+},
+{
+"slug": "renung",
+"code": "40240",
+"nom": "Renung",
+"dep": "40",
+"lat": 43.7471,
+"lon": -0.3647,
+"pop": 483,
+"cp": "40270",
+"txt": "Autour d'Aire-sur-l'Adour, ce territoire combine plaine de l'Adour, coteaux du Tursan et chemin de Saint-Jacques. Renung est un petit village de 483 habitants, à une dizaine de minutes d'Aire-sur-l'Adour. Ses communes voisines sont Duhort-Bachen, Larrivière-Saint-Savin et Eugénie-les-Bains.",
+"spots": [
+"Pays d'Aire",
+"À quelques minutes d'Aire-sur-l'Adour",
+"Communauté de communes d'Aire-sur-l'Adour"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC d'Aire-sur-l'Adour",
+"territoire": "Pays d'Aire"
+},
+{
+"slug": "estos",
+"code": "64220",
+"nom": "Estos",
+"dep": "64",
+"lat": 43.2129,
+"lon": -0.6054,
+"pop": 481,
+"cp": "64400",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 481 habitants, ce petit village se situe à une dizaine de minutes d'Oloron-Sainte-Marie. Ses communes voisines sont Goès, Ledeuix et Bidos.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "lanne-en-baretous",
+"code": "64310",
+"nom": "Lanne-en-Barétous",
+"dep": "64",
+"lat": 43.0751,
+"lon": -0.786,
+"pop": 481,
+"cp": "64570",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 481 habitants, ce petit village se situe à environ 24 km d'Oloron-Sainte-Marie. Ses communes voisines sont Arette, Tardets-Sorholus et Aramits.",
+"spots": [
+"Haut Béarn",
+"À 24 km d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "buziet",
+"code": "64156",
+"nom": "Buziet",
+"dep": "64",
+"lat": 43.1412,
+"lon": -0.4804,
+"pop": 479,
+"cp": "64680",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 479 habitants, ce petit village se situe à une dizaine de minutes de Gan. Ses communes voisines sont Ogeu-les-Bains, Buzy et Arudy.",
+"spots": [
+"Haut Béarn",
+"À quelques minutes de Gan",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "gotein-libarrenx",
+"code": "64247",
+"nom": "Gotein-Libarrenx",
+"dep": "64",
+"lat": 43.1903,
+"lon": -0.8903,
+"pop": 479,
+"cp": "64130",
+"txt": "La Soule, autour de Mauléon et Tardets, est la plus petite province basque, entre collines, forêts et montagne. Ce territoire de traditions, d'estives et de gorges est l'un des plus sauvages du Pays basque. Avec ses 479 habitants, ce petit village se situe à environ 30 km d'Oloron-Sainte-Marie. Ses communes voisines sont Mauléon-Licharre, Ordiarp et Viodos-Abense-de-Bas.",
+"spots": [
+"Soule",
+"À 30 km d'Oloron-Sainte-Marie",
+"Agglomération du Pays Basque"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Soule"
+},
+{
+"slug": "domezain-berraute",
+"code": "64202",
+"nom": "Domezain-Berraute",
+"dep": "64",
+"lat": 43.3285,
+"lon": -0.9639,
+"pop": 473,
+"cp": "64120",
+"txt": "Autour de Saint-Palais, l'Amikuze est la Basse-Navarre des collines, des marchés et des chemins de Saint-Jacques. Ce territoire agricole et vallonné est un carrefour historique du Pays basque intérieur. Avec ses 473 habitants, ce petit village se situe à environ 20 km de Salies-de-Béarn. Ses communes voisines sont Béhasque-Lapiste, Aïcirits-Camou-Suhast et Saint-Palais.",
+"spots": [
+"Amikuze",
+"À 20 km de Salies-de-Béarn",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Amikuze"
+},
+{
+"slug": "lagos",
+"code": "64302",
+"nom": "Lagos",
+"dep": "64",
+"lat": 43.2109,
+"lon": -0.2253,
+"pop": 473,
+"cp": "64800",
+"txt": "Entre Pau et Lourdes, le Pays de Nay suit le Gave de Pau au pied des Pyrénées, entre villages, industrie et montagne. Lagos est un petit village de 473 habitants, à environ 18 km de Morlaàs. Ses communes voisines sont Bordères, Beuste et Boeil-Bezing.",
+"spots": [
+"Pays de Nay",
+"À 18 km de Morlaàs",
+"Communauté de communes Pays de Nay"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC Pays de Nay",
+"territoire": "Pays de Nay"
+},
+{
+"slug": "saint-cricq-villeneuve",
+"code": "40255",
+"nom": "Saint-Cricq-Villeneuve",
+"dep": "40",
+"lat": 43.9013,
+"lon": -0.3493,
+"pop": 472,
+"cp": "40190",
+"txt": "Autour de Villeneuve-de-Marsan, l'Armagnac landais aligne vignes, chais, bastides et forêt. Saint-Cricq-Villeneuve est un petit village de 472 habitants, à environ 14 km de Mont-de-Marsan. Ses communes voisines sont Bougue, Villeneuve-de-Marsan et Pujo-le-Plan.",
+"spots": [
+"Armagnac landais",
+"À 14 km de Mont-de-Marsan",
+"Communauté de communes du Pays de Villeneuve en Armagnac Landais"
+],
+"type": "vignoble",
+"new": true,
+"auto": true,
+"epci": "CC du Pays de Villeneuve en Armagnac Landais",
+"territoire": "Armagnac landais"
+},
+{
+"slug": "amendeuix-oneix",
+"code": "64018",
+"nom": "Amendeuix-Oneix",
+"dep": "64",
+"lat": 43.343,
+"lon": -1.0459,
+"pop": 472,
+"cp": "64120",
+"txt": "Autour de Saint-Palais, l'Amikuze est la Basse-Navarre des collines, des marchés et des chemins de Saint-Jacques. Ce territoire agricole et vallonné est un carrefour historique du Pays basque intérieur. Avec ses 472 habitants, ce petit village se situe à environ 22 km de Salies-de-Béarn. Ses communes voisines sont Aïcirits-Camou-Suhast, Saint-Palais et Béhasque-Lapiste.",
+"spots": [
+"Amikuze",
+"À 22 km de Salies-de-Béarn",
+"Agglomération du Pays Basque"
+],
+"type": "pb-interieur",
+"new": true,
+"auto": true,
+"epci": "CA du Pays Basque",
+"territoire": "Amikuze"
+},
+{
+"slug": "accous",
+"code": "64006",
+"nom": "Accous",
+"dep": "64",
+"lat": 42.9344,
+"lon": -0.5839,
+"pop": 471,
+"cp": "64490",
+"txt": "Autour d'Oloron-Sainte-Marie, le Haut Béarn s'étend du piémont jusqu'aux vallées d'Aspe et de Barétous. Ce territoire de montagne et de piémont offre gaves, estives, villages pyrénéens et grands paysages. Avec ses 471 habitants, ce petit village se situe à environ 33 km d'Oloron-Sainte-Marie. Ses communes voisines sont Bedous, Laruns et Arette.",
+"spots": [
+"Haut Béarn",
+"À 33 km d'Oloron-Sainte-Marie",
+"Communauté de communes du Haut Béarn"
+],
+"type": "montagne",
+"new": true,
+"auto": true,
+"epci": "CC du Haut Béarn",
+"territoire": "Haut Béarn"
+},
+{
+"slug": "gaas",
+"code": "40101",
+"nom": "Gaas",
+"dep": "40",
+"lat": 43.6104,
+"lon": -1.0392,
+"pop": 470,
+"cp": "40350",
+"txt": "Au sud du département, le Pays d'Orthe s'étend des barthes de l'Adour et des Gaves réunis jusqu'aux collines boisées, à deux pas de ma base de Cauneille. Gaas est un petit village de 470 habitants, à une dizaine de minutes de Dax. Ses communes voisines sont Pouillon, Cagnotte et Bénesse-lès-Dax.",
+"spots": [
+"Pays d'Orthe et Arrigans",
+"À quelques minutes de Dax",
+"Communauté de communes Pays d'Orthe et Arrigans"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC Pays d'Orthe et Arrigans",
+"territoire": "Pays d'Orthe et Arrigans"
+},
+{
+"slug": "ramous",
+"code": "64462",
+"nom": "Ramous",
+"dep": "64",
+"lat": 43.5235,
+"lon": -0.8814,
+"pop": 470,
+"cp": "64270",
+"txt": "Entre Orthez et le bassin industriel de Lacq, ce territoire suit le Gave de Pau entre coteaux, villages et sites industriels. Ramous est un petit village de 470 habitants, à une dizaine de minutes de Salies-de-Béarn. Ses communes voisines sont Puyoô, Baigts-de-Béarn et Bellocq.",
+"spots": [
+"Lacq-Orthez",
+"À quelques minutes de Salies-de-Béarn",
+"Communauté de communes de Lacq-Orthez"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC de Lacq-Orthez",
+"territoire": "Lacq-Orthez"
+},
+{
+"slug": "maurrin",
+"code": "40175",
+"nom": "Maurrin",
+"dep": "40",
+"lat": 43.8262,
+"lon": -0.3691,
+"pop": 467,
+"cp": "40270",
+"txt": "Entre Adour et forêt, le Pays Grenadois offre bastides, grandes cultures et paysages de rivière. Avec ses 467 habitants, ce petit village se situe à environ 15 km de Mont-de-Marsan. Ses communes voisines sont Pujo-le-Plan, Bascons et Laglorieuse.",
+"spots": [
+"Pays Grenadois",
+"À 15 km de Mont-de-Marsan",
+"Communauté de communes du Pays Grenadois"
+],
+"type": "adour",
+"new": true,
+"auto": true,
+"epci": "CC du Pays Grenadois",
+"territoire": "Pays Grenadois"
+},
+{
+"slug": "vignes",
+"code": "64557",
+"nom": "Vignes",
+"dep": "64",
+"lat": 43.522,
+"lon": -0.4111,
+"pop": 463,
+"cp": "64410",
+"txt": "Au nord de Pau, les vallées des Luys forment un Béarn de collines, de champs et de villages tranquilles. Vignes est un petit village de 463 habitants, à environ 25 km d'Hagetmau. Ses communes voisines sont Arzacq-Arraziguet, Pimbo et Thèze.",
+"spots": [
+"Luys en Béarn",
+"À 25 km d'Hagetmau",
+"Communauté de communes des Luys en Béarn"
+],
+"type": "bearn",
+"new": true,
+"auto": true,
+"epci": "CC des Luys en Béarn",
+"territoire": "Luys en Béarn"
 }
 ]

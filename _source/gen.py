@@ -342,6 +342,7 @@ def build_cities():
         sheet = f'''<aside class="sheet"><h2>Fiche pratique</h2><dl>
 <dt>Commune</dt><dd>{esc(nom)}</dd>{f'<dt>Code postal</dt><dd>{c["cp"]}</dd>' if c.get('cp') else ''}
 <dt>Département</dt><dd>{dname} ({c["dep"]})</dd>{f'<dt>Population</dt><dd>{nb(c["pop"])} habitants</dd>' if c.get('pop') and c['nom'] not in ('Contis-Plage', 'Arjuzanx', 'Morcenx') else ''}
+{f'<dt>Territoire</dt><dd>{esc(c["territoire"])}</dd>' if c.get('territoire') else ''}{f'<dt>Intercommunalité</dt><dd>{esc(c["epci"])}</dd>' if c.get('epci') else ''}
 <dt>Depuis Cauneille</dt><dd>{trip_txt(road, mins)}</dd><dt>Devis</dt><dd>Gratuit, réponse sous 24 h</dd></dl>
 <p class="note">{air}</p></aside>'''
         dist_ans = ("C'est ma commune de base : je peux être sur place très rapidement." if road == 0 else
@@ -356,7 +357,7 @@ def build_cities():
         img = {'ocean': 'capbreton-jetee-coucher-soleil', 'pb-cote': 'estacade-capbreton', 'lac': 'lac-ile-sable-landes-drone', 'bearn': 'pont-vieux-orthez-drone', 'chalosse': 'pissenlit-coucher-soleil-chalosse', 'ile': 'goelands-cote-atlantique'}.get(c['type'], 'lac-ile-sable-landes-drone' if c['type'] in ('foret', 'adour') else 'pont-vieux-orthez-drone')
         body = phero(items, h1, intro, img, f'Prise de vue par drone près de {nom}', facts=facts) + f'''
 <section aria-labelledby="h-loc"><div class="wrap split"><div><span class="eyebrow">{esc(nom)} vu par l'objectif</span><h2 id="h-loc" style="margin:12px 0 18px">Filmer et photographier {esc(nom)}</h2>
-<div class="prose"><p>{esc(c["txt"])}</p></div><h3 style="font-size:1.2rem;margin:22px 0 12px">À voir et à filmer</h3>{spots}
+<div class="prose"><p>{esc(c["txt"])}</p></div><h3 style="font-size:1.2rem;margin:22px 0 12px">{"Repères" if c.get("auto") else "À voir et à filmer"}</h3>{spots}
 <h3 style="font-size:1.2rem;margin:28px 0 4px">Ce que je réalise à {esc(nom)}</h3><div class="ideas">{ideas}</div></div>{sheet}</div></section>
 <section class="tight" aria-labelledby="h-m"><div class="wrap"><div class="sec-head"><span class="eyebrow">Mes métiers</span><h2 id="h-m" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Photo, vidéo, drone et réseaux sociaux à {esc(nom)}</h2></div>
 <div class="offers">
