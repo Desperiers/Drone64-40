@@ -104,7 +104,7 @@ def footer():
 <div><h4>Secteurs</h4><ul>{''.join(f'<li><a href="/{k}">{esc(v["name"])}</a></li>' for k, v in SECTORS.items())}</ul></div>
 <div><h4>Zones</h4><ul>{dep_links}<li><a href="/zones/">Toute la Nouvelle-Aquitaine</a></li></ul></div>
 <div><h4>Infos</h4><ul><li><a href="/a-propos">À propos</a></li><li><a href="/realisations">Réalisations</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li><li><a href="/regards/">Regards 64-40</a></li><li><a href="https://www.instagram.com/drone_6440" rel="noopener">Instagram</a></li></ul></div>
-</div><div class="wrap legal">Villes fréquentes : {' · '.join(f'<a href="/drone-{s}">{esc(by_slug[s]["nom"])}</a>' for s in top)}<br>© {datetime.date.today().year} Drone 64-40 · SASU · {SIRET} · <a href="/mentions-legales">Mentions légales</a></div></footer>'''
+</div><div class="wrap legal">Villes fréquentes : {' · '.join(f'<a href="/drone-{s}">{esc(by_slug[s]["nom"])}</a>' for s in top)}<br>© {datetime.date.today().year} Drone 64-40 · SASU · <a href="/mentions-legales">Mentions légales</a></div></footer>'''
 
 def contact_block(lieu=''):
     return f'''<section class="band" id="contact" aria-labelledby="h-contact"><div class="wrap contact">
@@ -427,7 +427,7 @@ def build_misc():
 
     it = [('Accueil', '/'), ('Mentions légales', '/mentions-legales')]
     body = phero(it, 'Mentions <em>légales</em>', "Informations légales sur l'éditeur et l'hébergeur du site drone6440.fr.", 'pont-vieux-orthez-drone', 'Orthez', ctas=False) + f'''<section><div class="wrap prose">
-<h2 style="margin-top:0">Éditeur</h2><p>Drone 64-40, SASU<br>1972 route du Pourtaou, 40300 Cauneille<br>{SIRET} · {TVA}<br>Téléphone : {PHONE} · Email : {EMAIL}<br>Directeur de la publication : Nicolas Desperiers</p>
+<h2 style="margin-top:0">Éditeur</h2><p>Drone 64-40, SASU<br>1972 route du Pourtaou, 40300 Cauneille<br>Téléphone : {PHONE} · Email : {EMAIL}<br>Directeur de la publication : Nicolas Desperiers</p>
 <h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P Kelly Jr Street, San Francisco, CA 94107, États-Unis.</p>
 <h2>Propriété intellectuelle</h2><p>Les photographies, vidéos et textes de ce site sont la propriété de Nicolas Desperiers. Toute reproduction sans autorisation écrite est interdite.</p>
 <h2>Données personnelles</h2><p>Ce site ne collecte pas de données via un formulaire en ligne : le formulaire de devis ouvre votre messagerie. Les informations que vous envoyez par email servent uniquement à répondre à votre demande et ne sont pas transmises à des tiers. Vous pouvez demander leur suppression à {EMAIL}.</p>
