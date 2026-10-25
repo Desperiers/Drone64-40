@@ -58,13 +58,13 @@ SERVICES = {
           ("Photo culinaire et restaurant","Plats, cocktails, salle, terrasse et équipe pour votre carte, votre site et Instagram."),
           ("Portrait professionnel","Portraits d'équipe et de dirigeants pour votre site, LinkedIn et la presse."),
           ("Reportage d'événement","Séminaire, inauguration, salon, mariage : les moments clés et l'ambiance."),
-          ("Photo de produits","Vos produits mis en scène pour une boutique en ligne ou un catalogue."),
-          ("Photo de paysage et tirages","Mes images des Landes et du Pays basque, signées Regards 64/40, sont aussi disponibles en tirages d'art.")],
+          ("Photo de produits","Vos produits mis en scène pour un site, un catalogue ou les réseaux sociaux."),
+          ("Photo de paysage et de territoire","Les Landes et le Pays basque photographiés pour les offices de tourisme, les hébergements et les collectivités.")],
   body="""<h2>Une image juste, pas seulement belle</h2>
 <p>Un acheteur regarde une annonce immobilière quelques secondes. Un client choisit un restaurant sur trois photos. Je soigne la lumière naturelle, les lignes et la composition pour que vos images fassent leur travail.</p>
 <p>Les photos sont retouchées sous Lightroom et livrées en haute définition, prêtes pour le web et l'impression. Je peux compléter avec une vue aérienne par drone le même jour.</p>
-<h2>Tirages d'art Regards 64/40</h2>
-<p>Mes photographies de paysages, de nature et de traditions du Sud-Ouest sont aussi proposées en <a href="/boutique">tirages d'art dans la boutique Regards 64/40</a>, pour décorer une maison, un hôtel ou un restaurant.</p>""",
+<h2>Signées Regards 64/40</h2>
+<p>Mes photographies sont publiées sous ma marque Regards 64/40, dédiée à la photo au sol : reportages, portraits, nature et traditions du Sud-Ouest.</p>""",
   faq=[("Combien de photos sont livrées ?","Cela dépend de la prestation. Pour un bien immobilier, comptez 15 à 30 photos retouchées. Le nombre exact est indiqué dans le devis."),
        ("Les photos sont-elles libres de droits ?","Vous recevez un droit d'utilisation pour votre communication. Les conditions sont précisées dans le devis."),
        ("Sous quel délai les photos sont-elles livrées ?","En général sous quelques jours ouvrés après la séance."),

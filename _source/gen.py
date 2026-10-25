@@ -81,7 +81,7 @@ def faq_ld(faq):
     return {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
 
 NAV = [('/videaste/', 'Vidéo'), ('/drone/', 'Drone'), ('/photographe/', 'Photo'), ('/community-manager/', 'Réseaux sociaux'),
-       ('/secteurs/', 'Secteurs'), ('/zones/', 'Zones'), ('/realisations', 'Réalisations'), ('/formation-drone', 'Formation'), ('/boutique', 'Boutique')]
+       ('/secteurs/', 'Secteurs'), ('/zones/', 'Zones'), ('/realisations', 'Réalisations'), ('/formation-drone', 'Formation')]
 
 def header(cur):
     def cl(u):
@@ -187,7 +187,7 @@ def regards_block(lead="Toutes mes photographies au sol sont signées Regards 64
     return f'''<section class="tight" aria-labelledby="h-reg"><div class="wrap"><div class="brandbox">
 <picture><source srcset="/img/regards-64-40-logo-blanc.png" media="(prefers-color-scheme: dark)"><img src="/img/regards-64-40-logo.png" alt="Logo Regards 64/40 by Drone 64/40" width="247" height="207" loading="lazy"></picture>
 <div><span class="eyebrow">Ma marque photo</span><h2 id="h-reg">Les photos signées <em>Regards 64/40</em></h2><p>{lead}</p>
-<p class="ctas" style="margin-top:16px"><a class="btn" href="/regards/">Découvrir Regards 64/40</a><a class="btn ghost" href="/boutique">Tirages d'art</a></p></div></div></div></section>'''
+<p class="ctas" style="margin-top:16px"><a class="btn" href="/regards/">Découvrir Regards 64/40</a></p></div></div></div></section>'''
 
 def service_cards(exclude=None, c3=False):
     out = []
@@ -412,7 +412,7 @@ def build_misc():
 <p>J'ai grandi entre l'Adour et l'océan. Avant de faire de l'image mon métier, j'ai travaillé comme mécanicien automobile : j'en ai gardé le goût du travail bien préparé et du matériel entretenu.</p>
 <p>Depuis plus de cinq ans, je photographie et je filme les Landes et le Pays basque, d'abord avec un drone puis au sol. J'ai créé Drone 64-40 pour proposer aux entreprises, aux restaurants, aux agences immobilières et aux collectivités une offre complète : la prise de vue, le montage et la diffusion sur les réseaux.</p>
 <p>Je suis évaluateur pour des centres de formation de télépilotes depuis 2023, et j'ai obtenu en 2026 une certification en marketing digital enregistrée au Répertoire spécifique de France Compétences (RS6710).</p>
-<h2>Deux marques, une même exigence</h2><p><strong>Drone 64-40</strong> réunit les prises de vue aériennes, la vidéo et la communication. <strong>Regards 64/40</strong> est ma marque de photographie : toutes mes photos au sol, reportages, portraits, nature et traditions du Sud-Ouest, sont publiées sous ce nom et proposées en tirages d'art. <a href="/regards/">Découvrir Regards 64/40</a>.</p>
+<h2>Deux marques, une même exigence</h2><p><strong>Drone 64-40</strong> réunit les prises de vue aériennes, la vidéo et la communication. <strong>Regards 64/40</strong> est ma marque de photographie : toutes mes photos au sol, reportages, portraits, nature et traditions du Sud-Ouest, sont publiées sous ce nom. <a href="/regards/">Découvrir Regards 64/40</a>.</p>
 <h2>Mon matériel</h2><p>Hybride Sony α6700 en S-Log3, stabilisateur DJI, micros sans fil, drones DJI et FPV. Montage et étalonnage sur DaVinci Resolve, retouche photo sur Lightroom.</p></div>
 <aside class="sheet"><h2>Certifications</h2><dl><dt>Drone</dt><dd>Télépilote certifié EU, compétences A1/A3 et A2, déclaré DGAC</dd><dt>Marketing</dt><dd>Entreprendre et développer sa clientèle grâce au marketing digital, LearningShelter, 2026, RS6710</dd><dt>Formation</dt><dd>Évaluateur pour des centres de formation drone depuis 2023</dd><dt>Assurance</dt><dd>RC professionnelle</dd><dt>Marques</dt><dd>Drone 64-40 (drone, vidéo, communication) · Regards 64/40 (photographie)</dd><dt>Société</dt><dd>SASU Drone 64-40, Cauneille (40300)</dd></dl></aside></div></section>{regards_block()}{reviews_html()}{contact_block()}'''
     page('/a-propos', 'À propos de Nicolas Desperiers | Drone 64-40', "Nicolas Desperiers, photographe, vidéaste, télépilote certifié EU et community manager certifié en marketing digital, basé à Cauneille dans les Landes.", body, cur='/a-propos', prio='0.6',
@@ -457,9 +457,9 @@ def build_extras():
     open(OUT + '/accueil.html', 'w').write(f'<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Drone 64-40</title><link rel="canonical" href="{SITE}/"><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0; url=/"><script>location.replace("/")</script></head><body><p><a href="/">Aller à l\'accueil de Drone 64-40</a></p></body></html>')
     # sitemap
     urls = ''.join(f'<url><loc>{SITE}{p}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>' for p, pr in pages)
-    urls += f'<url><loc>{SITE}/regards/</loc><lastmod>{TODAY}</lastmod><priority>0.6</priority></url><url><loc>{SITE}/boutique</loc><lastmod>{TODAY}</lastmod><priority>0.5</priority></url>'
+    urls += f'<url><loc>{SITE}/regards/</loc><lastmod>{TODAY}</lastmod><priority>0.6</priority></url>'
     open(OUT + '/sitemap.xml', 'w').write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
-    open(OUT + '/robots.txt', 'w').write(f'User-agent: *\nAllow: /\nDisallow: /admin-boutique.html\n\nSitemap: {SITE}/sitemap.xml\n')
+    open(OUT + '/robots.txt', 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n')
     os.makedirs(OUT + '/assets', exist_ok=True)
     shutil.copy('site.css', OUT + '/assets/site.css')
 
