@@ -70,7 +70,7 @@ ORG = {"@type": "ProfessionalService", "@id": SITE + "/#entreprise", "name": "Dr
        "address": {"@type": "PostalAddress", "streetAddress": "1972 Route du Pourtaou", "postalCode": "40300", "addressLocality": "Cauneille", "addressRegion": "Nouvelle-Aquitaine", "addressCountry": "FR"},
        "geo": {"@type": "GeoCoordinates", "latitude": 43.5586, "longitude": -1.0681},
        "areaServed": [{"@type": "AdministrativeArea", "name": n} for n in ["Landes", "Pyrénées-Atlantiques", "Gironde", "Dordogne", "Lot-et-Garonne", "Charente-Maritime", "Charente", "Corrèze", "Creuse", "Deux-Sèvres", "Vienne", "Haute-Vienne", "Nouvelle-Aquitaine"]],
-       "knowsAbout": ["Vidéo professionnelle", "Prise de vue aérienne par drone", "Photographie", "Community management", "Marketing digital"],
+       "brand": [{"@type": "Brand", "name": "Drone 64-40"}, {"@type": "Brand", "name": "Regards 64/40", "logo": SITE + "/img/regards-64-40-logo.png", "url": SITE + "/regards/"}], "knowsAbout": ["Vidéo professionnelle", "Prise de vue aérienne par drone", "Photographie", "Community management", "Marketing digital"],
        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5", "bestRating": "5", "reviewCount": "4"},
        "sameAs": ["https://www.instagram.com/drone_6440", "https://www.facebook.com/Done6440/", "https://fr.linkedin.com/in/nicolas-desperiers-215817203"]}
 
@@ -100,11 +100,12 @@ def footer():
     dep_links = ''.join(f'<li><a href="/zones/{DEPTS[d][0]}">{DEPTS[d][1]}</a></li>' for d in ['40', '64', '33', '24', '17', '47'])
     return f'''<footer><div class="wrap cols">
 <div><a class="brand" href="/">DRONE <span>64-40</span></a><p style="max-width:34ch">Photographe, vidéaste, pilote drone et community manager à Cauneille, dans les Landes. Interventions dans toute la Nouvelle-Aquitaine.</p>
-<p><a href="tel:{PHONE_INTL}">{PHONE}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
+<p><a href="tel:{PHONE_INTL}">{PHONE}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
+<a href="/regards/" style="display:inline-flex;align-items:center;gap:10px;margin-top:6px"><img src="/img/regards-64-40-logo-blanc.png" alt="Regards 64/40" width="64" height="54" loading="lazy"><span>Photos signées Regards 64/40</span></a></div>
 <div><h4>Métiers</h4><ul><li><a href="/videaste/">Vidéaste</a></li><li><a href="/photographe/">Photographe</a></li><li><a href="/drone/">Pilote drone</a></li><li><a href="/community-manager/">Community manager</a></li><li><a href="/formation-drone">Formation drone</a></li></ul></div>
 <div><h4>Secteurs</h4><ul>{''.join(f'<li><a href="/{k}">{esc(v["name"])}</a></li>' for k, v in SECTORS.items())}</ul></div>
 <div><h4>Zones</h4><ul>{dep_links}<li><a href="/zones/">Toute la Nouvelle-Aquitaine</a></li></ul></div>
-<div><h4>Infos</h4><ul><li><a href="/a-propos">À propos</a></li><li><a href="/realisations">Réalisations</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li><li><a href="/regards/">Regards 64-40</a></li><li><a href="https://www.instagram.com/drone_6440" rel="noopener">Instagram</a></li></ul></div>
+<div><h4>Infos</h4><ul><li><a href="/a-propos">À propos</a></li><li><a href="/realisations">Réalisations</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li><li><a href="/regards/">Regards 64/40</a></li><li><a href="https://www.instagram.com/drone_6440" rel="noopener">Instagram</a></li></ul></div>
 </div><div class="wrap legal">Villes fréquentes : {' · '.join(f'<a href="/drone-{s}">{esc(by_slug[s]["nom"])}</a>' for s in top)}<br>© {datetime.date.today().year} Drone 64-40 · SASU · <a href="/mentions-legales">Mentions légales</a></div></footer>'''
 
 def contact_block(lieu=''):
@@ -182,6 +183,12 @@ def gallery():
 def pgrid(names):
     return '<div class="pgrid">' + ''.join(f'<figure>{pic(n, PH[n][1], sizes="(max-width:640px) 100vw, 33vw")}<figcaption>{esc(PH[n][2])}</figcaption></figure>' for n in names if n in PH) + '</div>'
 
+def regards_block(lead="Toutes mes photographies au sol sont signées Regards 64/40, ma marque dédiée à la photo. Drone 64-40 réunit les prises de vue aériennes, la vidéo et la communication ; Regards 64/40 porte le regard du photographe : reportages, portraits, nature et traditions du Sud-Ouest."):
+    return f'''<section class="tight" aria-labelledby="h-reg"><div class="wrap"><div class="brandbox">
+<picture><source srcset="/img/regards-64-40-logo-blanc.png" media="(prefers-color-scheme: dark)"><img src="/img/regards-64-40-logo.png" alt="Logo Regards 64/40 by Drone 64/40" width="247" height="207" loading="lazy"></picture>
+<div><span class="eyebrow">Ma marque photo</span><h2 id="h-reg">Les photos signées <em>Regards 64/40</em></h2><p>{lead}</p>
+<p class="ctas" style="margin-top:16px"><a class="btn" href="/regards/">Découvrir Regards 64/40</a><a class="btn ghost" href="/boutique">Tirages d'art</a></p></div></div></div></section>'''
+
 def service_cards(exclude=None, c3=False):
     out = []
     for i, (k, s) in enumerate(SERVICES.items()):
@@ -224,11 +231,11 @@ def build_home():
 <section aria-labelledby="h-real"><div class="wrap"><div class="sec-head"><span class="eyebrow">Réalisations</span><h2 id="h-real">Vu d'en haut, entre Adour et océan</h2></div>{gallery()}<p style="margin-top:22px"><a class="btn ghost" href="/realisations">Toutes les réalisations</a></p></div></section>
 <section aria-labelledby="h-method" class="tight"><div class="wrap"><div class="sec-head"><span class="eyebrow">Déroulé d'un projet</span><h2 id="h-method">Du devis à la diffusion</h2></div>
 <ol class="steps"><li><strong>Devis en 24 h</strong><span>Vous décrivez le projet, je vous envoie un prix ferme.</span></li><li><strong>Repérage &amp; préparation</strong><span>Météo, lumière, zones de vol : je prépare le tournage et les démarches.</span></li><li><strong>Tournage</strong><span>Au sol et en drone, le même jour, avec une seule personne.</span></li><li><strong>Montage &amp; diffusion</strong><span>Étalonnage, formats web et réseaux, puis publication et suivi si vous le souhaitez.</span></li></ol></div></section>
-<section class="band" aria-labelledby="h-about"><div class="wrap about">{pic('nicolas-desperiers-videaste-drone', 'Nicolas Desperiers, vidéaste et télépilote, sur le terrain', sizes='(max-width:780px) 100vw, 40vw')}
+<section class="band" aria-labelledby="h-about"><div class="wrap about">{pic('nicolas-desperiers-portrait', 'Portrait de Nicolas Desperiers avec son appareil photo, son drone et son ordinateur', sizes='(max-width:780px) 100vw, 40vw')}
 <div class="txt"><span class="eyebrow">Qui filme</span><h2 id="h-about">Nicolas Desperiers</h2>
 <p>Installé à Cauneille, entre Peyrehorade et Dax, je photographie et je filme les Landes et le Pays basque depuis plus de cinq ans. Avant l'image, j'ai été mécanicien automobile : je prépare chaque tournage avec la même rigueur.</p>
 <p>Je suis aussi community manager. Je tourne en pensant déjà à la diffusion : formats verticaux, accroches, séries de contenus. Vous avez un interlocuteur unique, du tournage aux statistiques de vos publications.</p>
-<dl class="creds"><dt>Drone</dt><dd>Télépilote certifié EU (A1/A3, A2) · déclaré DGAC</dd><dt>Marketing</dt><dd>« Entreprendre et développer sa clientèle grâce au marketing digital » · LearningShelter 2026 · RS6710</dd><dt>Assurance</dt><dd>Responsabilité civile professionnelle</dd><dt>Société</dt><dd>SASU Drone 64-40 · Cauneille (40300)</dd></dl>
+<dl class="creds"><dt>Drone</dt><dd>Télépilote certifié EU (A1/A3, A2) · déclaré DGAC</dd><dt>Marketing</dt><dd>« Entreprendre et développer sa clientèle grâce au marketing digital » · LearningShelter 2026 · RS6710</dd><dt>Assurance</dt><dd>Responsabilité civile professionnelle</dd><dt>Photo</dt><dd>Photographies signées Regards 64/40</dd><dt>Société</dt><dd>SASU Drone 64-40 · Cauneille (40300)</dd></dl>
 <p><a class="btn ghost" href="/a-propos">Mon parcours</a></p></div></div></section>
 {reviews_html()}
 {zones_block()}
@@ -247,8 +254,8 @@ def build_services():
         deps = ' '.join(f'<li><a href="/{k}/{DEPTS[d][0]}">{SVC_ANGLE[k][0]} {prep(d)} {DEPTS[d][1]}</a></li>' for d in DEPTS)
         body = phero(items, s['h1'], s['intro'], s['img'], s['short']) + f'''
 <section aria-labelledby="h-off"><div class="wrap"><div class="sec-head"><span class="eyebrow">Ce que je propose</span><h2 id="h-off">{esc(s["short"])}</h2></div>{offers}</div></section>
-<section class="tight"><div class="wrap prose">{s["body"]}</div></section>
-{('<section class="tight" aria-labelledby="h-gal"><div class="wrap"><div class="sec-head"><span class="eyebrow">Galerie</span><h2 id="h-gal" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Quelques photos</h2></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>') if k == 'photographe' else ''}
+{regards_block() if k == 'photographe' else ''}<section class="tight"><div class="wrap prose">{s["body"]}</div></section>
+{('<section class="tight" aria-labelledby="h-gal"><div class="wrap"><div class="sec-head"><span class="eyebrow">Galerie</span><h2 id="h-gal" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Quelques photos Regards 64/40</h2></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>') if k == 'photographe' else ''}
 <section class="tight" aria-labelledby="h-dep"><div class="wrap"><div class="sec-head"><span class="eyebrow">Par département</span><h2 id="h-dep" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">{SVC_ANGLE[k][0]} en Nouvelle-Aquitaine</h2></div><ul class="chips">{deps}</ul></div></section>
 {sectors_band('Par secteur', "Des exemples concrets selon votre activité.")}
 <section aria-labelledby="h-autres"><div class="wrap"><div class="sec-head"><span class="eyebrow">Aussi</span><h2 id="h-autres" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Mes autres métiers</h2></div>{service_cards(exclude=k, c3=True)}</div></section>
@@ -395,18 +402,18 @@ def build_misc():
     it = [('Accueil', '/'), ('Réalisations', '/realisations')]
     figs = ''.join(f'<figure class="rv" style="padding:0;overflow:hidden">{pic(n, a, sizes="(max-width:720px) 100vw, 50vw")}<figcaption style="padding:12px 16px">{c}</figcaption></figure>' for n, a, c in GALLERY + [('lac-ile-sable-landes-drone', "Vue aérienne d'un lac et d'une île de sable dans les Landes", 'Landes · drone'), ('drones-dji-fpv', 'Drones DJI et FPV avant un vol à Dax', 'Dax (40) · matériel')])
     body = phero(it, 'Mes <em>réalisations</em>', "Une sélection de photos et de prises de vue aériennes réalisées dans les Landes et au Pays basque. D'autres projets sont visibles sur Instagram @drone_6440.", 'estacade-capbreton', 'Estacade de Capbreton', ctas=False) + \
-        f'<section aria-labelledby="h-ph"><div class="wrap"><div class="sec-head"><span class="eyebrow">Photographie</span><h2 id="h-ph">Au sol</h2></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>' + f'<section class="tight" aria-labelledby="h-dr"><div class="wrap"><div class="sec-head"><span class="eyebrow">Drone et paysages</span><h2 id="h-dr">Vu du ciel</h2></div><div class="reviews">{figs}</div><p style="margin-top:28px"><a class="btn" href="https://www.instagram.com/drone_6440" rel="noopener">Voir plus sur Instagram</a></p></div></section>{reviews_html()}{contact_block()}'
+        f'<section aria-labelledby="h-ph"><div class="wrap"><div class="sec-head"><span class="eyebrow">Photographie · Regards 64/40</span><h2 id="h-ph">Au sol</h2><p class="lede">Mes photographies sont publiées sous ma marque Regards 64/40.</p></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>' + regards_block() + f'<section class="tight" aria-labelledby="h-dr"><div class="wrap"><div class="sec-head"><span class="eyebrow">Drone et paysages</span><h2 id="h-dr">Vu du ciel</h2></div><div class="reviews">{figs}</div><p style="margin-top:28px"><a class="btn" href="https://www.instagram.com/drone_6440" rel="noopener">Voir plus sur Instagram</a></p></div></section>{reviews_html()}{contact_block()}'
     page('/realisations', 'Réalisations photo, vidéo et drone | Drone 64-40', "Photos, vidéos et prises de vue aériennes réalisées dans les Landes, au Pays basque et en Béarn par Nicolas Desperiers, Drone 64-40.", body, cur='/realisations', prio='0.7', schema=[crumbs_ld(it)])
 
     it = [('Accueil', '/'), ('À propos', '/a-propos')]
-    body = phero(it, 'Nicolas <em>Desperiers</em>', "Photographe, vidéaste, télépilote certifié et community manager, installé à Cauneille dans le sud des Landes.", 'nicolas-desperiers-photographe', 'Nicolas Desperiers, photographe', ctas=False) + f'''
-<section><div class="wrap split"><div class="prose"><h2 style="margin-top:0">Mon parcours</h2>
+    body = phero(it, 'Nicolas <em>Desperiers</em>', "Photographe, vidéaste, télépilote certifié et community manager, installé à Cauneille dans le sud des Landes.", 'nicolas-desperiers-portrait', 'Nicolas Desperiers', ctas=False) + f'''
+<section><div class="wrap split"><div class="prose"><figure style="margin:0 0 28px">{pic('nicolas-desperiers-portrait', 'Portrait de Nicolas Desperiers, photographe, vidéaste et télépilote', sizes='(max-width:860px) 100vw, 55vw')}</figure><h2 style="margin-top:0">Mon parcours</h2>
 <p>J'ai grandi entre l'Adour et l'océan. Avant de faire de l'image mon métier, j'ai travaillé comme mécanicien automobile : j'en ai gardé le goût du travail bien préparé et du matériel entretenu.</p>
 <p>Depuis plus de cinq ans, je photographie et je filme les Landes et le Pays basque, d'abord avec un drone puis au sol. J'ai créé Drone 64-40 pour proposer aux entreprises, aux restaurants, aux agences immobilières et aux collectivités une offre complète : la prise de vue, le montage et la diffusion sur les réseaux.</p>
 <p>Je suis évaluateur pour des centres de formation de télépilotes depuis 2023, et j'ai obtenu en 2026 une certification en marketing digital enregistrée au Répertoire spécifique de France Compétences (RS6710).</p>
-<h2>Regards 64-40</h2><p>Regards 64-40 est ma marque de photographie au sol et de tirages d'art, centrée sur la nature et les paysages du Sud-Ouest. <a href="/regards/">Découvrir Regards 64-40</a>.</p>
+<h2>Deux marques, une même exigence</h2><p><strong>Drone 64-40</strong> réunit les prises de vue aériennes, la vidéo et la communication. <strong>Regards 64/40</strong> est ma marque de photographie : toutes mes photos au sol, reportages, portraits, nature et traditions du Sud-Ouest, sont publiées sous ce nom et proposées en tirages d'art. <a href="/regards/">Découvrir Regards 64/40</a>.</p>
 <h2>Mon matériel</h2><p>Hybride Sony α6700 en S-Log3, stabilisateur DJI, micros sans fil, drones DJI et FPV. Montage et étalonnage sur DaVinci Resolve, retouche photo sur Lightroom.</p></div>
-<aside class="sheet"><h2>Certifications</h2><dl><dt>Drone</dt><dd>Télépilote certifié EU, compétences A1/A3 et A2, déclaré DGAC</dd><dt>Marketing</dt><dd>Entreprendre et développer sa clientèle grâce au marketing digital, LearningShelter, 2026, RS6710</dd><dt>Formation</dt><dd>Évaluateur pour des centres de formation drone depuis 2023</dd><dt>Assurance</dt><dd>RC professionnelle</dd><dt>Société</dt><dd>SASU Drone 64-40, Cauneille (40300)</dd></dl></aside></div></section>{reviews_html()}{contact_block()}'''
+<aside class="sheet"><h2>Certifications</h2><dl><dt>Drone</dt><dd>Télépilote certifié EU, compétences A1/A3 et A2, déclaré DGAC</dd><dt>Marketing</dt><dd>Entreprendre et développer sa clientèle grâce au marketing digital, LearningShelter, 2026, RS6710</dd><dt>Formation</dt><dd>Évaluateur pour des centres de formation drone depuis 2023</dd><dt>Assurance</dt><dd>RC professionnelle</dd><dt>Marques</dt><dd>Drone 64-40 (drone, vidéo, communication) · Regards 64/40 (photographie)</dd><dt>Société</dt><dd>SASU Drone 64-40, Cauneille (40300)</dd></dl></aside></div></section>{regards_block()}{reviews_html()}{contact_block()}'''
     page('/a-propos', 'À propos de Nicolas Desperiers | Drone 64-40', "Nicolas Desperiers, photographe, vidéaste, télépilote certifié EU et community manager certifié en marketing digital, basé à Cauneille dans les Landes.", body, cur='/a-propos', prio='0.6',
          schema=[crumbs_ld(it), {"@type": "Person", "name": "Nicolas Desperiers", "jobTitle": "Photographe, vidéaste, télépilote et community manager", "worksFor": {"@id": SITE + "/#entreprise"}, "address": {"@type": "PostalAddress", "addressLocality": "Cauneille", "postalCode": "40300", "addressCountry": "FR"}, "sameAs": ["https://fr.linkedin.com/in/nicolas-desperiers-215817203", "https://www.instagram.com/drone_6440"]}])
 
