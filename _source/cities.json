@@ -1,0 +1,4106 @@
+[
+{
+"slug": "aire-sur-adour",
+"code": "40001",
+"nom": "Aire-sur-l'Adour",
+"dep": "40",
+"lat": 43.7008,
+"lon": -0.2626,
+"pop": 6211,
+"cp": "40800",
+"txt": "Aux portes du Gers et du Béarn, Aire-sur-l'Adour mêle patrimoine religieux, halles et rives de l'Adour. Une ville-étape du chemin de Saint-Jacques où l'on filme autant la vie locale que les grands paysages de coteaux.",
+"spots": [
+"Cathédrale Saint-Jean-Baptiste",
+"Église Sainte-Quitterie (UNESCO)",
+"Rives de l'Adour"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "amou",
+"code": "40002",
+"nom": "Amou",
+"dep": "40",
+"lat": 43.595,
+"lon": -0.7444,
+"pop": 1550,
+"cp": "40330",
+"txt": "Au cœur de la Chalosse, Amou s'étire le long du Luy de Béarn avec son château classique et ses arènes. Les collines alentour se prêtent aux vues aériennes de fermes, de vergers et de marchés de pays.",
+"spots": [
+"Château d'Amou",
+"Luy de Béarn",
+"Arènes"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "andernos",
+"code": "33005",
+"nom": "Andernos-les-Bains",
+"dep": "33",
+"lat": 44.7511,
+"lon": -1.0889,
+"pop": 12710,
+"cp": "33510",
+"txt": "Sur la rive nord du bassin d'Arcachon, Andernos-les-Bains possède la plus longue jetée-promenade du bassin et ses cabanes ostréicoles. Un décor lumineux à marée haute comme à marée basse.",
+"spots": [
+"Jetée d'Andernos",
+"Port ostréicole",
+"Plages du bassin"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "anglet",
+"code": "64024",
+"nom": "Anglet",
+"dep": "64",
+"lat": 43.4864,
+"lon": -1.5108,
+"pop": 43271,
+"cp": "64600",
+"txt": "Entre Bayonne et Biarritz, Anglet aligne 4 km de plages de surf, la Chambre d'Amour et la forêt du Pignada. La proximité de l'aéroport de Biarritz impose de vérifier l'espace aérien avant tout vol.",
+"spots": [
+"Chambre d'Amour",
+"Plages de surf",
+"Forêt du Pignada"
+],
+"type": "pb-cote",
+"new": false
+},
+{
+"slug": "arcachon",
+"code": "33009",
+"nom": "Arcachon",
+"dep": "33",
+"lat": 44.6545,
+"lon": -1.1729,
+"pop": 11092,
+"cp": "33120",
+"txt": "Arcachon offre la Ville d'Hiver et ses villas, le front de mer et une vue sur la dune du Pilat et le banc d'Arguin. La proximité de la base de Cazaux et de l'aérodrome impose de vérifier l'espace aérien avant chaque vol.",
+"spots": [
+"Ville d'Hiver",
+"Jetée Thiers",
+"Bassin d'Arcachon"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "arjuzanx",
+"code": "40197",
+"nom": "Arjuzanx",
+"dep": "40",
+"lat": 44.02,
+"lon": -0.85,
+"pop": 5022,
+"cp": "40110",
+"txt": "Ancienne mine de lignite devenue réserve naturelle, Arjuzanx est connue pour ses lacs et le passage spectaculaire des grues cendrées chaque hiver. Un terrain rare pour l'image de nature, à filmer en respectant la réglementation de la réserve.",
+"spots": [
+"Réserve nationale d'Arjuzanx",
+"Lacs de l'ancienne mine",
+"Passage des grues cendrées"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "artix",
+"code": "64061",
+"nom": "Artix",
+"dep": "64",
+"lat": 43.3964,
+"lon": -0.5748,
+"pop": 3477,
+"cp": "64170",
+"txt": "Artix se trouve dans le bassin industriel de Lacq, au bord du Gave de Pau. Entreprises, sites industriels et lac d'Artix y offrent des sujets variés.",
+"spots": [
+"Lac d'Artix",
+"Gave de Pau",
+"Bassin industriel"
+],
+"type": "bearn",
+"new": false
+},
+{
+"slug": "aureilhan",
+"code": "40019",
+"nom": "Aureilhan",
+"dep": "40",
+"lat": 44.2063,
+"lon": -1.1862,
+"pop": 1146,
+"cp": "40200",
+"txt": "Au bord du lac d'Aureilhan, entre Mimizan et la forêt des Landes, la commune offre un plan d'eau calme bordé de pins. Les reflets du matin et les couchers de soleil font de très belles images aériennes.",
+"spots": [
+"Lac d'Aureilhan",
+"Promenade fleurie",
+"Forêt de pins"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "azur",
+"code": "40021",
+"nom": "Azur",
+"dep": "40",
+"lat": 43.7964,
+"lon": -1.2952,
+"pop": 988,
+"cp": "40140",
+"txt": "Village du Marensin posé au bord du lac de Soustons, Azur combine plans d'eau, forêt et proximité de l'océan. Les campings, gîtes et maisons du secteur gagnent à être présentés vus du ciel.",
+"spots": [
+"Lac de Soustons",
+"Port d'Albret à proximité",
+"Forêt du Marensin"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "bastennes",
+"code": "40028",
+"nom": "Bastennes",
+"dep": "40",
+"lat": 43.6483,
+"lon": -0.7784,
+"pop": 237,
+"cp": "40360",
+"txt": "Dans les collines de Chalosse, Bastennes a longtemps exploité son bitume naturel. C'est aujourd'hui un village rural tranquille, idéal pour filmer domaines agricoles, élevages et paysages vallonnés.",
+"spots": [
+"Coteaux de Chalosse",
+"Anciens sites de bitume",
+"Domaines agricoles"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "bayonne",
+"code": "64102",
+"nom": "Bayonne",
+"dep": "64",
+"lat": 43.4854,
+"lon": -1.4673,
+"pop": 54306,
+"cp": "64100",
+"txt": "Capitale du Pays basque, Bayonne vit autour de la Nive, de l'Adour, de sa cathédrale et de son Petit Bayonne. Restaurants, commerces, entreprises et Fêtes de Bayonne en font l'une des villes les plus riches en sujets de la région.",
+"spots": [
+"Quais de la Nive",
+"Cathédrale Sainte-Marie",
+"Petit Bayonne"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "belus",
+"code": "40034",
+"nom": "Bélus",
+"dep": "40",
+"lat": 43.5932,
+"lon": -1.1198,
+"pop": 615,
+"cp": "40300",
+"txt": "Belus domine le Pays d'Orthe depuis ses coteaux, avec une vue dégagée sur les barthes de l'Adour et, par temps clair, sur les Pyrénées. Un panorama qui se raconte très bien en drone.",
+"spots": [
+"Coteaux du Pays d'Orthe",
+"Vue sur les Pyrénées",
+"Barthes de l'Adour"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "benquet",
+"code": "40037",
+"nom": "Benquet",
+"dep": "40",
+"lat": 43.8169,
+"lon": -0.4978,
+"pop": 1913,
+"cp": "40280",
+"txt": "Aux portes de Mont-de-Marsan, Benquet garde un caractère rural avec ses bois, ses champs et ses maisons landaises. Un bon terrain pour l'immobilier périurbain et les exploitations agricoles.",
+"spots": [
+"Bois et clairières",
+"Maisons landaises",
+"Proximité de Mont-de-Marsan"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "bergerac",
+"code": "24037",
+"nom": "Bergerac",
+"dep": "24",
+"lat": 44.8536,
+"lon": 0.4895,
+"pop": 27110,
+"cp": "24100",
+"txt": "Bergerac s'étire au bord de la Dordogne, avec sa vieille ville, ses vignobles et la statue de Cyrano. L'aéroport de Bergerac impose de vérifier l'espace aérien avant tout vol.",
+"spots": [
+"Vieille ville",
+"Quais de la Dordogne",
+"Vignoble de Bergerac"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "biarritz",
+"code": "64122",
+"nom": "Biarritz",
+"dep": "64",
+"lat": 43.47,
+"lon": -1.5592,
+"pop": 26206,
+"cp": "64200",
+"txt": "Station balnéaire emblématique, Biarritz offre la Grande Plage, le Rocher de la Vierge et le phare. L'aéroport Biarritz-Pays basque et l'agglomération imposent une préparation sérieuse des vols, que je fais en amont.",
+"spots": [
+"Rocher de la Vierge",
+"Grande Plage",
+"Phare de Biarritz"
+],
+"type": "pb-cote",
+"new": false
+},
+{
+"slug": "bias",
+"code": "40043",
+"nom": "Bias",
+"dep": "40",
+"lat": 44.1397,
+"lon": -1.2251,
+"pop": 809,
+"cp": "40170",
+"txt": "Entre Mimizan et la forêt, Bias vit au rythme des pins et de l'océan tout proche. Les vues aériennes y montrent bien l'immensité du massif landais et la lisière du littoral.",
+"spots": [
+"Forêt domaniale",
+"Proximité de Mimizan-Plage",
+"Pistes cyclables"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "biscarrosse",
+"code": "40046",
+"nom": "Biscarrosse",
+"dep": "40",
+"lat": 44.4074,
+"lon": -1.2062,
+"pop": 15836,
+"cp": "40600",
+"txt": "Entre océan et grands lacs, Biscarrosse est un spot majeur du nord des Landes : plage, lac de Cazaux-Sanguinet, lac de Biscarrosse-Parentis et musée de l'hydraviation. La base aérienne de Cazaux impose de vérifier l'espace aérien avant chaque vol.",
+"spots": [
+"Biscarrosse-Plage",
+"Lac de Cazaux-Sanguinet",
+"Musée de l'hydraviation"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "blaye",
+"code": "33058",
+"nom": "Blaye",
+"dep": "33",
+"lat": 45.1335,
+"lon": -0.6632,
+"pop": 5066,
+"cp": "33390",
+"txt": "Blaye est dominée par sa citadelle Vauban, classée à l'UNESCO, face à l'estuaire de la Gironde. Le vignoble des Côtes de Blaye complète un décor magnifique.",
+"spots": [
+"Citadelle de Blaye (UNESCO)",
+"Estuaire de la Gironde",
+"Vignoble des Côtes de Blaye"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "bordeaux",
+"code": "33063",
+"nom": "Bordeaux",
+"dep": "33",
+"lat": 44.8587,
+"lon": -0.5882,
+"pop": 267991,
+"cp": "33000",
+"txt": "Bordeaux, classée à l'UNESCO, aligne ses quais, la place de la Bourse et le miroir d'eau. L'agglomération et l'aéroport de Mérignac imposent une préparation rigoureuse : je vous dis en amont ce qui est possible en drone et ce qui se filme au sol.",
+"spots": [
+"Place de la Bourse",
+"Miroir d'eau",
+"Quais de la Garonne"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "brantome",
+"code": "24064",
+"nom": "Brantôme en Périgord",
+"dep": "24",
+"lat": 45.3617,
+"lon": 0.6342,
+"pop": 3763,
+"cp": "24310",
+"txt": "Surnommée la Venise du Périgord, Brantôme est enlacée par la Dronne autour de son abbaye. Un des villages les plus photogéniques du Périgord vert.",
+"spots": [
+"Abbaye de Brantôme",
+"Rives de la Dronne",
+"Pont coudé"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "brassempouy",
+"code": "40054",
+"nom": "Brassempouy",
+"dep": "40",
+"lat": 43.6306,
+"lon": -0.7065,
+"pop": 279,
+"cp": "40330",
+"txt": "Brassempouy est célèbre pour la Dame de Brassempouy, l'un des plus anciens visages humains sculptés. Le village de Chalosse et son musée de la préhistoire offrent un vrai sujet pour une vidéo patrimoine.",
+"spots": [
+"Maison de la Dame de Brassempouy",
+"Jardin de la préhistoire",
+"Coteaux de Chalosse"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "callen",
+"code": "40060",
+"nom": "Callen",
+"dep": "40",
+"lat": 44.2804,
+"lon": -0.4788,
+"pop": 153,
+"cp": "40430",
+"txt": "En pleine Haute Lande, Callen est entourée de forêt de pins et de clairières. Un territoire calme où le drone montre l'échelle du massif forestier et les exploitations sylvicoles.",
+"spots": [
+"Forêt de la Haute Lande",
+"Airiaux et maisons landaises",
+"Pistes forestières"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "cambo",
+"code": "64160",
+"nom": "Cambo-les-Bains",
+"dep": "64",
+"lat": 43.3637,
+"lon": -1.3874,
+"pop": 6760,
+"cp": "64250",
+"txt": "Station thermale de la vallée de la Nive, Cambo-les-Bains abrite la villa Arnaga d'Edmond Rostand et ses jardins. Hôtels, thermes et maisons basques s'y filment magnifiquement.",
+"spots": [
+"Villa Arnaga",
+"Thermes",
+"Vallée de la Nive"
+],
+"type": "pb-interieur",
+"new": false
+},
+{
+"slug": "came",
+"code": "64161",
+"nom": "Came",
+"dep": "64",
+"lat": 43.4814,
+"lon": -1.0911,
+"pop": 1024,
+"cp": "64520",
+"txt": "Came est un village du pays de Bidache, au bord de la Bidouze, à la limite des Landes et du Pays basque. Collines, rivière et fermes composent un cadre très vert.",
+"spots": [
+"Vallée de la Bidouze",
+"Collines",
+"Fermes basco-landaises"
+],
+"type": "pb-interieur",
+"new": false
+},
+{
+"slug": "cap-ferret",
+"code": "33236",
+"nom": "Lège-Cap-Ferret",
+"dep": "33",
+"lat": 44.7236,
+"lon": -1.2038,
+"pop": 7909,
+"cp": "33950",
+"txt": "À la pointe de la presqu'île, Lège-Cap-Ferret aligne villages ostréicoles, phare et plages océanes. Villas, restaurants et loueurs y attendent des images à la hauteur du lieu.",
+"spots": [
+"Phare du Cap-Ferret",
+"Villages ostréicoles",
+"Pointe du Cap-Ferret"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "capbreton",
+"code": "40065",
+"nom": "Capbreton",
+"dep": "40",
+"lat": 43.6307,
+"lon": -1.4217,
+"pop": 9184,
+"cp": "40130",
+"txt": "Port de pêche et de plaisance, Capbreton est réputé pour son estacade, son gouf sous-marin et ses plages de surf. Restaurants du port, hôtels et agences immobilières y ont tout intérêt à soigner leur image.",
+"spots": [
+"Estacade",
+"Port de pêche et de plaisance",
+"Plage de la Savane"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "castets",
+"code": "40075",
+"nom": "Castets",
+"dep": "40",
+"lat": 43.8808,
+"lon": -1.1493,
+"pop": 2516,
+"cp": "40260",
+"txt": "Porte d'entrée du Marensin, Castets se situe entre forêt landaise et océan, le long de l'axe Bordeaux–Bayonne. Les entreprises et zones d'activité de la commune sont faciles à mettre en valeur depuis le ciel.",
+"spots": [
+"Forêt du Marensin",
+"Étang de Laprade",
+"Axe A63"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "cauneille",
+"code": "40077",
+"nom": "Cauneille",
+"dep": "40",
+"lat": 43.5586,
+"lon": -1.0681,
+"pop": 804,
+"cp": "40300",
+"txt": "C'est ma base. Au sud des Landes, Cauneille regarde les barthes de l'Adour et les collines du Pays d'Orthe. Je connais chaque chemin et chaque point de vue du secteur, du Gave aux coteaux.",
+"spots": [
+"Barthes de l'Adour",
+"Coteaux du Pays d'Orthe",
+"Confluence des Gaves"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "cazeres-sur-adour",
+"code": "40080",
+"nom": "Cazères-sur-l'Adour",
+"dep": "40",
+"lat": 43.7671,
+"lon": -0.2906,
+"pop": 1128,
+"cp": "40270",
+"txt": "Cazères-sur-l'Adour borde le fleuve entre Grenade et Aire, au milieu des cultures de maïs et des saligues. Les méandres de l'Adour y dessinent des vues aériennes très graphiques.",
+"spots": [
+"Saligues de l'Adour",
+"Méandres du fleuve",
+"Plaine agricole"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "challans",
+"code": "85047",
+"nom": "Challans",
+"dep": "85",
+"lat": 46.8354,
+"lon": -1.8467,
+"pop": 22943,
+"cp": "85300",
+"txt": "Challans est au cœur du marais breton vendéen, connue pour son canard et ses marchés. Un territoire agricole et commerçant proche de la côte.",
+"spots": [
+"Marais breton",
+"Centre-ville",
+"Marchés"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "chateau-doleron",
+"code": "17093",
+"nom": "Le Château-d'Oléron",
+"dep": "17",
+"lat": 45.878,
+"lon": -1.2166,
+"pop": 4366,
+"cp": "17480",
+"txt": "Le Château-d'Oléron garde sa citadelle et son port ostréicole aux cabanes colorées. Le pont d'Oléron et les marais offrent de superbes vues aériennes.",
+"spots": [
+"Citadelle",
+"Cabanes colorées du port",
+"Viaduc d'Oléron"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "commensacq",
+"code": "40085",
+"nom": "Commensacq",
+"dep": "40",
+"lat": 44.2164,
+"lon": -0.8006,
+"pop": 440,
+"cp": "40210",
+"txt": "Dans le Parc naturel régional des Landes de Gascogne, Commensacq se trouve au bord de la Leyre. Le village se prête aux images de nature, de canoë et de patrimoine forestier.",
+"spots": [
+"Vallée de la Leyre",
+"Parc naturel régional",
+"Forêt galerie"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "contis",
+"code": "40266",
+"nom": "Contis-Plage",
+"dep": "40",
+"lat": 44.091,
+"lon": -1.318,
+"pop": 1781,
+"cp": "40170",
+"txt": "Contis-Plage, sur la commune de Saint-Julien-en-Born, possède le seul phare des Landes et un courant qui serpente jusqu'à l'océan. Un décor très photogénique, surtout en fin de journée.",
+"spots": [
+"Phare de Contis",
+"Courant de Contis",
+"Plage et dunes"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "dax",
+"code": "40088",
+"nom": "Dax",
+"dep": "40",
+"lat": 43.6994,
+"lon": -1.0563,
+"pop": 22109,
+"cp": "40100",
+"txt": "Première station thermale de France, Dax vit autour de la Fontaine Chaude, des arènes et des bords de l'Adour. Établissements thermaux, hôtels, commerces et grands événements comme les Fêtes de Dax y sont mes clients naturels.",
+"spots": [
+"Fontaine Chaude",
+"Arènes de Dax",
+"Bords de l'Adour"
+],
+"type": "thermal",
+"new": false
+},
+{
+"slug": "doazit",
+"code": "40089",
+"nom": "Doazit",
+"dep": "40",
+"lat": 43.6917,
+"lon": -0.6484,
+"pop": 839,
+"cp": "40700",
+"txt": "Village perché de Chalosse, Doazit offre des vues sur les vallons et les fermes alentour. Un cadre idéal pour présenter un domaine, une ferme-auberge ou une maison de caractère.",
+"spots": [
+"Coteaux de Chalosse",
+"Fermes traditionnelles",
+"Panoramas sur la vallée"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "dolus-doleron",
+"code": "17140",
+"nom": "Dolus-d'Oléron",
+"dep": "17",
+"lat": 45.9132,
+"lon": -1.2561,
+"pop": 3199,
+"cp": "17550",
+"txt": "Au centre de l'île d'Oléron, Dolus-d'Oléron combine forêt, marais et plages de la côte ouest. Campings et résidences y sont nombreux.",
+"spots": [
+"Forêt des Saumonards",
+"Marais",
+"Plage de Vert-Bois"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "duhort-bachen",
+"code": "40091",
+"nom": "Duhort-Bachen",
+"dep": "40",
+"lat": 43.7196,
+"lon": -0.3195,
+"pop": 700,
+"cp": "40800",
+"txt": "Entre Aire-sur-l'Adour et Grenade, Duhort-Bachen est un village agricole de la plaine de l'Adour, aux portes du Tursan. Les grandes parcelles s'y prêtent très bien aux vues verticales en drone.",
+"spots": [
+"Plaine de l'Adour",
+"Coteaux du Tursan",
+"Exploitations agricoles"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "espelette",
+"code": "64213",
+"nom": "Espelette",
+"dep": "64",
+"lat": 43.3327,
+"lon": -1.4529,
+"pop": 2155,
+"cp": "64250",
+"txt": "Célèbre pour son piment AOP, Espelette garde ses maisons basques aux façades ornées de piments séchés. Producteurs, restaurants et boutiques y ont une identité visuelle très forte.",
+"spots": [
+"Maisons aux piments",
+"Château des barons d'Ezpeleta",
+"Collines du Labourd"
+],
+"type": "pb-interieur",
+"new": false
+},
+{
+"slug": "eugenie-les-bains",
+"code": "40097",
+"nom": "Eugénie-les-Bains",
+"dep": "40",
+"lat": 43.6947,
+"lon": -0.3839,
+"pop": 498,
+"cp": "40320",
+"txt": "Station thermale du Tursan, Eugénie-les-Bains est connue pour sa gastronomie et ses jardins. Hôtels, restaurants et spas y attendent des images haut de gamme, à la hauteur de leur clientèle.",
+"spots": [
+"Thermes d'Eugénie",
+"Parcs et jardins",
+"Coteaux du Tursan"
+],
+"type": "thermal",
+"new": false
+},
+{
+"slug": "eymet",
+"code": "24167",
+"nom": "Eymet",
+"dep": "24",
+"lat": 44.6706,
+"lon": 0.3944,
+"pop": 2569,
+"cp": "24500",
+"txt": "Bastide du Périgord pourpre, Eymet garde sa place à arcades et son donjon au bord du Dropt. Un village très apprécié des visiteurs et des acheteurs étrangers.",
+"spots": [
+"Place à arcades",
+"Donjon",
+"Rives du Dropt"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "fontenay-le-comte",
+"code": "85092",
+"nom": "Fontenay-le-Comte",
+"dep": "85",
+"lat": 46.459,
+"lon": -0.7979,
+"pop": 14059,
+"cp": "85200",
+"txt": "Fontenay-le-Comte, ancienne capitale du Bas-Poitou, garde un riche patrimoine Renaissance aux portes du Marais poitevin.",
+"spots": [
+"Centre Renaissance",
+"Bords de la Vendée",
+"Marais poitevin à proximité"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "gabarret",
+"code": "40102",
+"nom": "Gabarret",
+"dep": "40",
+"lat": 43.987,
+"lon": 0.001,
+"pop": 1283,
+"cp": "40310",
+"txt": "Capitale du Gabardan, Gabarret est à la limite du Gers, en pays d'Armagnac. Chais, vignes et forêt s'y côtoient : de quoi raconter un domaine en quelques plans aériens.",
+"spots": [
+"Pays d'Armagnac",
+"Chais et vignes",
+"Forêt du Gabardan"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "garein",
+"code": "40105",
+"nom": "Garein",
+"dep": "40",
+"lat": 44.0454,
+"lon": -0.6546,
+"pop": 424,
+"cp": "40420",
+"txt": "Garein est un petit village de la Haute Lande, entouré de pins et de landes. Un endroit calme pour illustrer la sylviculture, les airiaux et la vie rurale du massif.",
+"spots": [
+"Massif forestier",
+"Airiaux",
+"Pistes de la Haute Lande"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "gastes",
+"code": "40108",
+"nom": "Gastes",
+"dep": "40",
+"lat": 44.314,
+"lon": -1.1892,
+"pop": 925,
+"cp": "40160",
+"txt": "Sur la rive sud du lac de Biscarrosse-Parentis, Gastes possède son port et ses plages lacustres. L'eau douce et la forêt donnent de belles images pour campings, bases nautiques et locations.",
+"spots": [
+"Lac de Biscarrosse-Parentis",
+"Port de Gastes",
+"Plages lacustres"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "geaune",
+"code": "40110",
+"nom": "Geaune",
+"dep": "40",
+"lat": 43.6338,
+"lon": -0.3681,
+"pop": 767,
+"cp": "40320",
+"txt": "Bastide du Tursan, Geaune garde sa place à arcades et sa tour des Augustins. Le vignoble AOC Tursan qui l'entoure se filme très bien au printemps et à l'automne.",
+"spots": [
+"Bastide et arcades",
+"Tour des Augustins",
+"Vignes du Tursan"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "grenade-sur-adour",
+"code": "40117",
+"nom": "Grenade-sur-l'Adour",
+"dep": "40",
+"lat": 43.7943,
+"lon": -0.4208,
+"pop": 2398,
+"cp": "40270",
+"txt": "Bastide fondée au XIIIe siècle, Grenade-sur-l'Adour a gardé sa place centrale à couverts et son pont sur l'Adour. Un village très lisible vu du ciel, avec son plan en damier.",
+"spots": [
+"Place à couverts",
+"Pont sur l'Adour",
+"Plan de bastide"
+],
+"type": "bastide",
+"new": false
+},
+{
+"slug": "hagetmau",
+"code": "40119",
+"nom": "Hagetmau",
+"dep": "40",
+"lat": 43.6503,
+"lon": -0.5884,
+"pop": 4624,
+"cp": "40700",
+"txt": "Capitale de la Chalosse, Hagetmau est connue pour la crypte de Saint-Girons et son industrie du siège. Entreprises, commerces et événements sportifs y trouvent un vrai intérêt à la vidéo.",
+"spots": [
+"Crypte de Saint-Girons",
+"Arènes",
+"Coteaux de Chalosse"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "hasparren",
+"code": "64256",
+"nom": "Hasparren",
+"dep": "64",
+"lat": 43.3998,
+"lon": -1.3196,
+"pop": 7626,
+"cp": "64240",
+"txt": "Capitale du Labourd intérieur, Hasparren est entourée de collines et du mont Ursuya. Ses entreprises, ses fermes et ses maisons basques se valorisent très bien vues du ciel.",
+"spots": [
+"Mont Ursuya",
+"Centre-bourg",
+"Collines du Labourd"
+],
+"type": "pb-interieur",
+"new": false
+},
+{
+"slug": "hastingues",
+"code": "40120",
+"nom": "Hastingues",
+"dep": "40",
+"lat": 43.5145,
+"lon": -1.139,
+"pop": 609,
+"cp": "40300",
+"txt": "Hastingues est une bastide perchée au-dessus des Gaves réunis, en face de l'abbaye d'Arthous. Le contraste entre le village et la plaine des barthes est superbe en drone.",
+"spots": [
+"Bastide d'Hastingues",
+"Abbaye d'Arthous",
+"Gaves réunis"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "haut-mauco",
+"code": "40122",
+"nom": "Haut-Mauco",
+"dep": "40",
+"lat": 43.8261,
+"lon": -0.5726,
+"pop": 1001,
+"cp": "40280",
+"txt": "Au nord de Saint-Sever, Haut-Mauco est un village agricole au milieu des champs et des bois. Un cadre simple, efficace pour l'agriculture et l'immobilier rural.",
+"spots": [
+"Plaine agricole",
+"Bois landais",
+"Proximité de Saint-Sever"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "hendaye",
+"code": "64260",
+"nom": "Hendaye",
+"dep": "64",
+"lat": 43.3658,
+"lon": -1.7618,
+"pop": 18102,
+"cp": "64700",
+"txt": "À la frontière espagnole, Hendaye possède une grande plage familiale, la corniche basque et le domaine d'Abbadia. Hôtels, résidences et activités nautiques y trouvent un décor exceptionnel.",
+"spots": [
+"Château d'Abbadia",
+"Corniche basque",
+"Baie de Txingudi"
+],
+"type": "pb-cote",
+"new": false
+},
+{
+"slug": "hinx",
+"code": "40126",
+"nom": "Hinx",
+"dep": "40",
+"lat": 43.7103,
+"lon": -0.9352,
+"pop": 1894,
+"cp": "40180",
+"txt": "Village de Chalosse proche de Montfort, Hinx est entouré de collines, de champs et de bosquets. Les fermes et maisons de maître y gagnent beaucoup à être présentées vues du ciel.",
+"spots": [
+"Coteaux de Chalosse",
+"Fermes et maisons de maître",
+"Bosquets"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "horsarrieu",
+"code": "40128",
+"nom": "Horsarrieu",
+"dep": "40",
+"lat": 43.6885,
+"lon": -0.6037,
+"pop": 717,
+"cp": "40700",
+"txt": "Près d'Hagetmau, Horsarrieu est un village de Chalosse aux paysages doux et agricoles. Un bon terrain pour les vidéos d'exploitations, d'élevages et de domaines.",
+"spots": [
+"Coteaux de Chalosse",
+"Élevages",
+"Chemins ruraux"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "hossegor",
+"code": "40304",
+"nom": "Soorts-Hossegor",
+"dep": "40",
+"lat": 43.6703,
+"lon": -1.4101,
+"pop": 3817,
+"cp": "40150",
+"txt": "Spot de surf mondialement connu, Soorts-Hossegor allie lac marin, plages et villas basco-landaises. Hôtels, restaurants, surf shops et agences immobilières y vendent un art de vivre qu'il faut savoir filmer.",
+"spots": [
+"Lac marin",
+"Plage de la Gravière",
+"Villas basco-landaises"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "ile-de-re",
+"code": "17000",
+"nom": "Île de Ré",
+"dep": "17",
+"lat": 46.199,
+"lon": -1.418,
+"pop": null,
+"cp": "",
+"txt": "L'île de Ré aligne villages blancs, marais salants et le phare des Baleines. Un décor recherché pour l'hôtellerie et l'immobilier de prestige.",
+"spots": [
+"Phare des Baleines",
+"Saint-Martin-de-Ré (UNESCO)",
+"Marais salants"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "la-roche-sur-yon",
+"code": "85191",
+"nom": "La Roche-sur-Yon",
+"dep": "85",
+"lat": 46.6713,
+"lon": -1.4182,
+"pop": 54849,
+"cp": "85000",
+"txt": "Préfecture de la Vendée, La Roche-sur-Yon est connue pour son plan napoléonien en pentagone et sa grande place. Entreprises et collectivités y sont mes sujets.",
+"spots": [
+"Place Napoléon",
+"Plan en pentagone",
+"Zones d'activité"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "la-rochelle",
+"code": "17300",
+"nom": "La Rochelle",
+"dep": "17",
+"lat": 46.1598,
+"lon": -1.1703,
+"pop": 79851,
+"cp": "17000",
+"txt": "La Rochelle est célèbre pour son Vieux-Port gardé par ses tours médiévales. L'agglomération et l'aéroport imposent une préparation rigoureuse des vols.",
+"spots": [
+"Vieux-Port",
+"Tours de La Rochelle",
+"Port des Minimes"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "la-tranche-sur-mer",
+"code": "85294",
+"nom": "La Tranche-sur-Mer",
+"dep": "85",
+"lat": 46.3523,
+"lon": -1.4097,
+"pop": 3136,
+"cp": "85360",
+"txt": "La Tranche-sur-Mer est une station balnéaire du sud Vendée, entourée de pins et de longues plages. Campings et résidences y sont nombreux.",
+"spots": [
+"Grandes plages",
+"Forêt de pins",
+"Front de mer"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "labatut",
+"code": "40132",
+"nom": "Labatut",
+"dep": "40",
+"lat": 43.5546,
+"lon": -0.9916,
+"pop": 1430,
+"cp": "40300",
+"txt": "Labatut se trouve au carrefour des Landes et du Béarn, au bord des Gaves et des barthes. Les vues aériennes y révèlent la mosaïque de prairies inondables et de collines.",
+"spots": [
+"Barthes",
+"Gaves réunis",
+"Collines du Pays d'Orthe"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "labenne",
+"code": "40133",
+"nom": "Labenne",
+"dep": "40",
+"lat": 43.5997,
+"lon": -1.4255,
+"pop": 7183,
+"cp": "40530",
+"txt": "Entre océan et forêt, Labenne possède une plage sauvage, des dunes et le marais d'Orx tout proche. Campings, hébergements et activités nature y sont faciles à mettre en scène.",
+"spots": [
+"Labenne-Océan",
+"Dunes",
+"Réserve du marais d'Orx à proximité"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "labrit",
+"code": "40135",
+"nom": "Labrit",
+"dep": "40",
+"lat": 44.1065,
+"lon": -0.5536,
+"pop": 842,
+"cp": "40420",
+"txt": "Ancienne seigneurie des Albret, Labrit garde une motte castrale et un village tranquille au cœur de la forêt. Un mélange de patrimoine et de nature à raconter en images.",
+"spots": [
+"Motte castrale",
+"Forêt landaise",
+"Village des Albret"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "lacq",
+"code": "64300",
+"nom": "Lacq",
+"dep": "64",
+"lat": 43.4223,
+"lon": -0.6096,
+"pop": 1036,
+"cp": "64170",
+"txt": "Lacq est au cœur du bassin industriel béarnais né du gaz naturel. Entreprises et sites industriels y ont besoin de vidéos de présentation et de suivi de chantier.",
+"spots": [
+"Bassin industriel de Lacq",
+"Gave de Pau",
+"Zones d'activité"
+],
+"type": "bearn",
+"new": false
+},
+{
+"slug": "lalinde",
+"code": "24223",
+"nom": "Lalinde",
+"dep": "24",
+"lat": 44.8589,
+"lon": 0.7358,
+"pop": 2931,
+"cp": "24150",
+"txt": "Bastide au bord de la Dordogne, Lalinde est longée par le canal de Lalinde. Rivière, canal et falaises offrent des perspectives variées en drone.",
+"spots": [
+"Canal de Lalinde",
+"Bords de la Dordogne",
+"Bastide"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "langon",
+"code": "33227",
+"nom": "Langon",
+"dep": "33",
+"lat": 44.537,
+"lon": -0.2415,
+"pop": 7674,
+"cp": "33210",
+"txt": "Au bord de la Garonne, Langon est la porte du Sauternais et des Graves. Domaines viticoles, entreprises et bords de fleuve y offrent des sujets variés.",
+"spots": [
+"Bords de la Garonne",
+"Vignoble du Sauternais",
+"Centre-ville"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "le-bugue",
+"code": "24067",
+"nom": "Le Bugue",
+"dep": "24",
+"lat": 44.9264,
+"lon": 0.9201,
+"pop": 2663,
+"cp": "24260",
+"txt": "Au bord de la Vézère, Le Bugue est une porte de la vallée de la préhistoire avec son aquarium et ses grottes. Un secteur très touristique, riche en sujets.",
+"spots": [
+"Bords de la Vézère",
+"Aquarium du Périgord noir",
+"Gouffre de Proumeyssac"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "le-sen",
+"code": "40297",
+"nom": "Le Sen",
+"dep": "40",
+"lat": 44.145,
+"lon": -0.5126,
+"pop": 215,
+"cp": "40420",
+"txt": "Petit village de la Haute Lande, Le Sen est entouré de pins à perte de vue. Un décor idéal pour montrer l'ampleur du massif forestier et la vie des airiaux.",
+"spots": [
+"Massif des pins",
+"Airiaux",
+"Clairières"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "leon",
+"code": "40150",
+"nom": "Léon",
+"dep": "40",
+"lat": 43.845,
+"lon": -1.2736,
+"pop": 2306,
+"cp": "40550",
+"txt": "Léon est réputé pour son lac et le courant d'Huchet, réserve naturelle qui serpente jusqu'à l'océan. Un cadre exceptionnel pour les hébergements et activités nature, à filmer en respectant la réserve.",
+"spots": [
+"Lac de Léon",
+"Courant d'Huchet",
+"Forêt du Marensin"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "les-eyzies",
+"code": "24172",
+"nom": "Les Eyzies",
+"dep": "24",
+"lat": 44.9371,
+"lon": 1.0417,
+"pop": 1134,
+"cp": "24260",
+"txt": "Capitale mondiale de la préhistoire, Les Eyzies sont nichées sous les falaises de la Vézère. Les sites classés à l'UNESCO y demandent de respecter les règles de survol.",
+"spots": [
+"Musée national de préhistoire",
+"Falaises de la Vézère",
+"Grottes ornées"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "les-sables-dolonne",
+"code": "85194",
+"nom": "Les Sables-d'Olonne",
+"dep": "85",
+"lat": 46.4993,
+"lon": -1.7874,
+"pop": 49603,
+"cp": "85100",
+"txt": "Ville de départ du Vendée Globe, Les Sables-d'Olonne combinent grande plage, port et chenal. Un décor emblématique pour l'événementiel nautique.",
+"spots": [
+"Port Olona",
+"Remblai",
+"Chenal"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "libourne",
+"code": "33243",
+"nom": "Libourne",
+"dep": "33",
+"lat": 44.9157,
+"lon": -0.2361,
+"pop": 25036,
+"cp": "33500",
+"txt": "Bastide au confluent de la Dordogne et de l'Isle, Libourne est la capitale du négoce des vins du Libournais. Les châteaux de Pomerol et de Saint-Émilion sont à quelques minutes.",
+"spots": [
+"Quais de l'Isle",
+"Place Abel-Surchamp",
+"Vignoble de Pomerol"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "lit-et-mixe",
+"code": "40157",
+"nom": "Lit-et-Mixe",
+"dep": "40",
+"lat": 44.026,
+"lon": -1.2726,
+"pop": 1719,
+"cp": "40170",
+"txt": "Lit-et-Mixe s'étend de la forêt jusqu'à l'océan, avec la plage du Cap de l'Homy. Un territoire tranquille, parfait pour les campings, gîtes et activités de plein air.",
+"spots": [
+"Cap de l'Homy",
+"Forêt littorale",
+"Dunes"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "losse",
+"code": "40158",
+"nom": "Losse",
+"dep": "40",
+"lat": 44.0877,
+"lon": -0.1005,
+"pop": 286,
+"cp": "40240",
+"txt": "À la frontière du Gers, Losse appartient au Gabardan, entre forêt landaise et pays d'Armagnac. Un village rural très étendu, propice aux grands plans de nature.",
+"spots": [
+"Forêt du Gabardan",
+"Pays d'Armagnac",
+"Grandes parcelles"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "lucon",
+"code": "85128",
+"nom": "Luçon",
+"dep": "85",
+"lat": 46.456,
+"lon": -1.161,
+"pop": 9417,
+"cp": "85400",
+"txt": "Luçon est une ville épiscopale du sud Vendée, avec sa cathédrale et le jardin Dumaine, aux portes du Marais poitevin.",
+"spots": [
+"Cathédrale",
+"Jardin Dumaine",
+"Marais poitevin"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "luxey",
+"code": "40167",
+"nom": "Luxey",
+"dep": "40",
+"lat": 44.2535,
+"lon": -0.5326,
+"pop": 654,
+"cp": "40430",
+"txt": "Luxey abrite l'écomusée de l'Atelier des produits résineux, témoin de la récolte de la gemme. Un village de la Haute Lande chargé d'histoire forestière.",
+"spots": [
+"Atelier des produits résineux",
+"Forêt de la Haute Lande",
+"Vallée de la Leyre"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "marennes",
+"code": "17219",
+"nom": "Marennes-Hiers-Brouage",
+"dep": "17",
+"lat": 45.8232,
+"lon": -1.1097,
+"pop": 6163,
+"cp": "17320",
+"txt": "Capitale de l'huître Marennes-Oléron, Marennes-Hiers-Brouage abrite aussi la citadelle de Brouage. Claires ostréicoles et marais composent des images très graphiques.",
+"spots": [
+"Citadelle de Brouage",
+"Claires ostréicoles",
+"Cité de l'Huître"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "mauleon",
+"code": "64371",
+"nom": "Mauléon-Licharre",
+"dep": "64",
+"lat": 43.2177,
+"lon": -0.8832,
+"pop": 2972,
+"cp": "64130",
+"txt": "Capitale de la Soule, Mauléon-Licharre est connue pour son château fort et sa tradition de l'espadrille. Un sujet idéal pour le patrimoine et les savoir-faire locaux.",
+"spots": [
+"Château fort de Mauléon",
+"Fabriques d'espadrilles",
+"Vallée du Saison"
+],
+"type": "pb-interieur",
+"new": false
+},
+{
+"slug": "merignac",
+"code": "33281",
+"nom": "Mérignac",
+"dep": "33",
+"lat": 44.8322,
+"lon": -0.6662,
+"pop": 78090,
+"cp": "33700",
+"txt": "Mérignac accueille l'aéroport de Bordeaux et de nombreuses entreprises aéronautiques. Le vol y est très encadré : je privilégie les tournages au sol et vérifie chaque possibilité de vol.",
+"spots": [
+"Zones d'activité",
+"Parc du Vivier",
+"Quartiers résidentiels"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "messanges",
+"code": "40181",
+"nom": "Messanges",
+"dep": "40",
+"lat": 43.8049,
+"lon": -1.3646,
+"pop": 1086,
+"cp": "40660",
+"txt": "Station balnéaire calme du Marensin, Messanges mêle grandes plages, forêt et campings. Les hébergements de plein air y sont parmi mes sujets les plus demandés.",
+"spots": [
+"Plage de Messanges",
+"Forêt littorale",
+"Campings"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "mezos",
+"code": "40182",
+"nom": "Mézos",
+"dep": "40",
+"lat": 44.077,
+"lon": -1.1298,
+"pop": 868,
+"cp": "40170",
+"txt": "Mézos est un village forestier des Landes, au bord du ruisseau de la Pave. Un endroit paisible pour présenter gîtes, maisons landaises et activités nature.",
+"spots": [
+"Forêt landaise",
+"Rives de la Pave",
+"Maisons landaises"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "mimizan",
+"code": "40184",
+"nom": "Mimizan",
+"dep": "40",
+"lat": 44.1824,
+"lon": -1.2413,
+"pop": 7673,
+"cp": "40200",
+"txt": "Entre plage, lac et forêt, Mimizan est l'une des stations les plus complètes de la côte landaise. Le prieuré et son clocher-porche, inscrits à l'UNESCO, donnent aussi un vrai sujet patrimonial.",
+"spots": [
+"Mimizan-Plage",
+"Lac d'Aureilhan",
+"Prieuré de Mimizan"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "miramont-sensacq",
+"code": "40185",
+"nom": "Miramont-Sensacq",
+"dep": "40",
+"lat": 43.5935,
+"lon": -0.3255,
+"pop": 342,
+"cp": "40320",
+"txt": "Village du Tursan, Miramont-Sensacq domine des coteaux de vignes et de champs. Un cadre lumineux pour les domaines viticoles et les maisons de campagne.",
+"spots": [
+"Coteaux du Tursan",
+"Vignes",
+"Panoramas"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "moliets-et-maa",
+"code": "40187",
+"nom": "Moliets-et-Maa",
+"dep": "40",
+"lat": 43.8606,
+"lon": -1.3576,
+"pop": 1299,
+"cp": "40660",
+"txt": "Moliets-et-Maâ allie plage, golf en forêt et embouchure du courant d'Huchet. Golfs, résidences et hôtels y ont besoin d'images qui montrent le lien entre océan et pinède.",
+"spots": [
+"Plage de Moliets",
+"Golf de Moliets",
+"Embouchure du courant d'Huchet"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "monpazier",
+"code": "24280",
+"nom": "Monpazier",
+"dep": "24",
+"lat": 44.6819,
+"lon": 0.894,
+"pop": 441,
+"cp": "24540",
+"txt": "Monpazier est l'une des bastides les mieux conservées de France, classée parmi les plus beaux villages. Son plan en damier est spectaculaire vu du ciel.",
+"spots": [
+"Place des Cornières",
+"Plan de bastide",
+"Église Saint-Dominique"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "mont-de-marsan",
+"code": "40192",
+"nom": "Mont-de-Marsan",
+"dep": "40",
+"lat": 43.8915,
+"lon": -0.4898,
+"pop": 31592,
+"cp": "40000",
+"txt": "Préfecture des Landes, Mont-de-Marsan se situe au confluent de la Douze et du Midou. La base aérienne 118 impose une vérification systématique de l'espace aérien, mais la ville reste riche en sujets : entreprises, fêtes de la Madeleine, patrimoine.",
+"spots": [
+"Confluence Douze-Midou",
+"Arènes du Plumaçon",
+"Centre-ville"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "montaut",
+"code": "40191",
+"nom": "Montaut",
+"dep": "40",
+"lat": 43.7299,
+"lon": -0.658,
+"pop": 594,
+"cp": "40500",
+"txt": "Village perché au-dessus de l'Adour, Montaut offre l'un des plus beaux panoramas de Chalosse, jusqu'aux Pyrénées par temps clair. Un spot parfait pour le drone.",
+"spots": [
+"Village perché",
+"Vue sur l'Adour",
+"Panorama des Pyrénées"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "montfort-en-chalosse",
+"code": "40194",
+"nom": "Montfort-en-Chalosse",
+"dep": "40",
+"lat": 43.7048,
+"lon": -0.8385,
+"pop": 1242,
+"cp": "40380",
+"txt": "Montfort-en-Chalosse abrite le musée de la Chalosse dans un ancien domaine agricole. Le village perché et ses alentours racontent la Chalosse traditionnelle.",
+"spots": [
+"Musée de la Chalosse",
+"Village perché",
+"Coteaux"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "montignac",
+"code": "24291",
+"nom": "Montignac-Lascaux",
+"dep": "24",
+"lat": 45.0634,
+"lon": 1.1553,
+"pop": 2762,
+"cp": "24290",
+"txt": "Montignac-Lascaux, au bord de la Vézère, est connue dans le monde entier pour la grotte de Lascaux et Lascaux IV. Hébergements et restaurants y profitent d'un flux touristique important.",
+"spots": [
+"Lascaux IV",
+"Bords de la Vézère",
+"Vieille ville"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "morcenx",
+"code": "40197",
+"nom": "Morcenx",
+"dep": "40",
+"lat": 44.035,
+"lon": -0.912,
+"pop": 5022,
+"cp": "40110",
+"txt": "Ancienne étape ferroviaire au cœur de la forêt, Morcenx fait aujourd'hui partie de Morcenx-la-Nouvelle. Entreprises, zones d'activité et forêt y sont mes principaux sujets.",
+"spots": [
+"Forêt landaise",
+"Patrimoine ferroviaire",
+"Zones d'activité"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "mourenx",
+"code": "64410",
+"nom": "Mourenx",
+"dep": "64",
+"lat": 43.3756,
+"lon": -0.6173,
+"pop": 5695,
+"cp": "64150",
+"txt": "Ville nouvelle construite pour le bassin de Lacq, Mourenx offre un urbanisme singulier et un lac de loisirs. Entreprises et collectivités y sont mes sujets principaux.",
+"spots": [
+"Lac de Mourenx",
+"Urbanisme des années 60",
+"Bassin de Lacq"
+],
+"type": "bearn",
+"new": false
+},
+{
+"slug": "mugron",
+"code": "40201",
+"nom": "Mugron",
+"dep": "40",
+"lat": 43.7391,
+"lon": -0.7526,
+"pop": 1348,
+"cp": "40250",
+"txt": "Ancien port sur l'Adour, Mugron domine la vallée depuis ses coteaux. Ses maisons de maître et ses vues sur le fleuve sont idéales pour l'immobilier de caractère.",
+"spots": [
+"Coteaux sur l'Adour",
+"Ancien port fluvial",
+"Maisons de maître"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "mussidan",
+"code": "24299",
+"nom": "Mussidan",
+"dep": "24",
+"lat": 45.0287,
+"lon": 0.3658,
+"pop": 2771,
+"cp": "24400",
+"txt": "Mussidan, au bord de l'Isle, est un carrefour entre Périgueux et Bergerac. Entreprises et commerces y sont faciles à présenter en vidéo.",
+"spots": [
+"Bords de l'Isle",
+"Centre-ville",
+"Campagne du Périgord"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "nay",
+"code": "64417",
+"nom": "Nay",
+"dep": "64",
+"lat": 43.1758,
+"lon": -0.2589,
+"pop": 3184,
+"cp": "64800",
+"txt": "Ancienne bastide au bord du Gave de Pau, Nay est connue pour la maison Carrée et le béret. Les Pyrénées en toile de fond rendent chaque plan aérien spectaculaire.",
+"spots": [
+"Maison Carrée",
+"Gave de Pau",
+"Musée du Béret"
+],
+"type": "bearn",
+"new": false
+},
+{
+"slug": "noirmoutier",
+"code": "85163",
+"nom": "Noirmoutier-en-l'Île",
+"dep": "85",
+"lat": 47.0073,
+"lon": -2.2648,
+"pop": 4505,
+"cp": "85330",
+"txt": "Noirmoutier-en-l'Île possède son château, ses marais salants et ses plages. L'île est accessible par le passage du Gois à marée basse.",
+"spots": [
+"Château de Noirmoutier",
+"Marais salants",
+"Passage du Gois"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "nontron",
+"code": "24311",
+"nom": "Nontron",
+"dep": "24",
+"lat": 45.5334,
+"lon": 0.6772,
+"pop": 3057,
+"cp": "24300",
+"txt": "Nontron est la capitale du Périgord vert et des métiers d'art, connue pour ses couteaux. Un sujet idéal pour les artisans et le tourisme.",
+"spots": [
+"Pôle des métiers d'art",
+"Coutellerie de Nontron",
+"Vallée du Bandiat"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "oeyreluy",
+"code": "40207",
+"nom": "Oeyreluy",
+"dep": "40",
+"lat": 43.6717,
+"lon": -1.0778,
+"pop": 1493,
+"cp": "40180",
+"txt": "Aux portes de Dax, Oeyreluy combine habitat résidentiel, golf et barthes de l'Adour. Un secteur recherché où les vues aériennes valorisent bien les maisons.",
+"spots": [
+"Barthes de l'Adour",
+"Proximité de Dax",
+"Quartiers résidentiels"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "oloron",
+"code": "64422",
+"nom": "Oloron-Sainte-Marie",
+"dep": "64",
+"lat": 43.1709,
+"lon": -0.5907,
+"pop": 10684,
+"cp": "64400",
+"txt": "Oloron-Sainte-Marie, au confluent des Gaves d'Aspe et d'Ossau, garde la cathédrale Sainte-Marie classée à l'UNESCO. Une ville d'eau et de montagne, aux portes des vallées pyrénéennes.",
+"spots": [
+"Cathédrale Sainte-Marie (UNESCO)",
+"Confluence des Gaves",
+"Quartier Sainte-Croix"
+],
+"type": "montagne",
+"new": false
+},
+{
+"slug": "orist",
+"code": "40211",
+"nom": "Orist",
+"dep": "40",
+"lat": 43.6362,
+"lon": -1.1709,
+"pop": 814,
+"cp": "40300",
+"txt": "Orist borde l'Adour entre Dax et Peyrehorade, au milieu des barthes. Les inondations saisonnières y créent des paysages changeants, magnifiques vus d'en haut.",
+"spots": [
+"Barthes de l'Adour",
+"Bords du fleuve",
+"Prairies inondables"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "orthevielle",
+"code": "40212",
+"nom": "Orthevielle",
+"dep": "40",
+"lat": 43.5639,
+"lon": -1.1451,
+"pop": 1073,
+"cp": "40300",
+"txt": "Village du Pays d'Orthe, Orthevielle se trouve près de la confluence des Gaves et de l'Adour. Les collines, les prairies et les rivières y forment un décor varié.",
+"spots": [
+"Pays d'Orthe",
+"Gaves réunis",
+"Collines"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "orthez",
+"code": "64430",
+"nom": "Orthez",
+"dep": "64",
+"lat": 43.4914,
+"lon": -0.7798,
+"pop": 10881,
+"cp": "64300",
+"txt": "Orthez est célèbre pour son Pont-Vieux fortifié sur le Gave de Pau et sa tour Moncade. Une de mes photos les plus connues a été prise ici.",
+"spots": [
+"Pont-Vieux",
+"Tour Moncade",
+"Gave de Pau"
+],
+"type": "bearn",
+"new": false
+},
+{
+"slug": "ossages",
+"code": "40214",
+"nom": "Ossages",
+"dep": "40",
+"lat": 43.5576,
+"lon": -0.8808,
+"pop": 492,
+"cp": "40290",
+"txt": "Ossages est un village du Pays d'Orthe, entre Pouillon et Habas, au milieu des collines et des bois. Un bon terrain pour l'immobilier rural et les exploitations.",
+"spots": [
+"Collines du Pays d'Orthe",
+"Bois",
+"Fermes"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "parentis",
+"code": "40217",
+"nom": "Parentis-en-Born",
+"dep": "40",
+"lat": 44.339,
+"lon": -1.0647,
+"pop": 7586,
+"cp": "40160",
+"txt": "Parentis-en-Born borde le lac de Biscarrosse-Parentis, connu pour ses puits de pétrole lacustres. Bases nautiques, entreprises et événements y offrent de nombreux sujets.",
+"spots": [
+"Lac de Biscarrosse-Parentis",
+"Puits de pétrole",
+"Port des Hournails"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "pau",
+"code": "64445",
+"nom": "Pau",
+"dep": "64",
+"lat": 43.3175,
+"lon": -0.3492,
+"pop": 80441,
+"cp": "64000",
+"txt": "Ville royale face aux Pyrénées, Pau offre le boulevard des Pyrénées, le château d'Henri IV et le Grand Prix. L'aéroport Pau-Pyrénées et l'agglomération imposent de préparer chaque vol avec soin.",
+"spots": [
+"Château de Pau",
+"Boulevard des Pyrénées",
+"Funiculaire"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "pauillac",
+"code": "33314",
+"nom": "Pauillac",
+"dep": "33",
+"lat": 45.1974,
+"lon": -0.7657,
+"pop": 5190,
+"cp": "33250",
+"txt": "Capitale du Médoc viticole, Pauillac compte trois premiers grands crus classés en bord d'estuaire. Un territoire d'exception pour les vidéos de domaines viticoles.",
+"spots": [
+"Châteaux du Médoc",
+"Estuaire de la Gironde",
+"Port de plaisance"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "perigueux",
+"code": "24322",
+"nom": "Périgueux",
+"dep": "24",
+"lat": 45.194,
+"lon": 0.7086,
+"pop": 29055,
+"cp": "24000",
+"txt": "Préfecture de la Dordogne, Périgueux est dominée par la cathédrale Saint-Front, classée à l'UNESCO, au bord de l'Isle. Patrimoine, commerces et entreprises y offrent de nombreux sujets.",
+"spots": [
+"Cathédrale Saint-Front",
+"Quais de l'Isle",
+"Quartier gallo-romain"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "pessac",
+"code": "33318",
+"nom": "Pessac",
+"dep": "33",
+"lat": 44.7972,
+"lon": -0.662,
+"pop": 67339,
+"cp": "33600",
+"txt": "Pessac combine campus universitaire, quartiers résidentiels et le château Pape Clément, cru des Graves. Un territoire urbain proche de l'aéroport, à préparer avec soin.",
+"spots": [
+"Château Pape Clément",
+"Campus",
+"Bois des Sources du Peugue"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "peyrehorade",
+"code": "40224",
+"nom": "Peyrehorade",
+"dep": "40",
+"lat": 43.5558,
+"lon": -1.1064,
+"pop": 3700,
+"cp": "40300",
+"txt": "Capitale du Pays d'Orthe, Peyrehorade s'étire au bord des Gaves réunis, avec le château de Montréal et ses quais. C'est la ville voisine de ma base : j'y interviens très souvent.",
+"spots": [
+"Château de Montréal",
+"Quais des Gaves",
+"Marché du mercredi"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "pimbo",
+"code": "40226",
+"nom": "Pimbo",
+"dep": "40",
+"lat": 43.5776,
+"lon": -0.3778,
+"pop": 195,
+"cp": "40320",
+"txt": "Plus ancienne bastide des Landes, Pimbo est perchée sur une crête du Tursan avec sa collégiale. Une étape du chemin de Saint-Jacques très photogénique.",
+"spots": [
+"Collégiale Saint-Barthélemy",
+"Bastide perchée",
+"Chemin de Saint-Jacques"
+],
+"type": "bastide",
+"new": false
+},
+{
+"slug": "pissos",
+"code": "40227",
+"nom": "Pissos",
+"dep": "40",
+"lat": 44.299,
+"lon": -0.7712,
+"pop": 1505,
+"cp": "40410",
+"txt": "Au cœur du Parc naturel régional des Landes de Gascogne, Pissos est un village d'artisans au bord de la Leyre. Idéal pour la nature, le canoë et les savoir-faire locaux.",
+"spots": [
+"Vallée de la Leyre",
+"Village d'artisans",
+"Parc naturel régional"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "pomarez",
+"code": "40228",
+"nom": "Pomarez",
+"dep": "40",
+"lat": 43.6246,
+"lon": -0.8327,
+"pop": 1642,
+"cp": "40360",
+"txt": "Pomarez est surnommée la Mecque de la course landaise, avec ses arènes couvertes. Un sujet parfait pour les vidéos d'événements et de traditions.",
+"spots": [
+"Arènes de Pomarez",
+"Course landaise",
+"Coteaux de Chalosse"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "port-de-lanne",
+"code": "40231",
+"nom": "Port-de-Lanne",
+"dep": "40",
+"lat": 43.5703,
+"lon": -1.1796,
+"pop": 1232,
+"cp": "40300",
+"txt": "Port-de-Lanne se trouve au bord de l'Adour, juste en aval de la confluence avec les Gaves. Les barthes et le fleuve y donnent des images amples et naturelles.",
+"spots": [
+"Bord de l'Adour",
+"Barthes",
+"Confluence des Gaves"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "pouillon",
+"code": "40233",
+"nom": "Pouillon",
+"dep": "40",
+"lat": 43.6051,
+"lon": -1.0055,
+"pop": 3134,
+"cp": "40350",
+"txt": "Bourg du Pays d'Orthe, Pouillon est entouré de collines et de bois, entre Dax et Peyrehorade. Commerces, artisans et maisons du secteur se valorisent très bien en vidéo.",
+"spots": [
+"Collines du Pays d'Orthe",
+"Lac de Luc",
+"Centre-bourg"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "riberac",
+"code": "24352",
+"nom": "Ribérac",
+"dep": "24",
+"lat": 45.2448,
+"lon": 0.3332,
+"pop": 3734,
+"cp": "24600",
+"txt": "Capitale du Ribéracois, Ribérac est entourée d'églises romanes à coupoles et de vallons. Son marché et sa campagne se prêtent bien aux vidéos de territoire.",
+"spots": [
+"Églises romanes",
+"Vallée de la Dronne",
+"Marché du vendredi"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "rochefort",
+"code": "17299",
+"nom": "Rochefort",
+"dep": "17",
+"lat": 45.9461,
+"lon": -0.9698,
+"pop": 23460,
+"cp": "17300",
+"txt": "Rochefort est la ville de la Corderie royale et de l'Hermione, au bord de la Charente. La base aérienne voisine impose de vérifier l'espace aérien avant tout vol.",
+"spots": [
+"Corderie royale",
+"Hermione",
+"Pont transbordeur"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "roquefort",
+"code": "40245",
+"nom": "Roquefort",
+"dep": "40",
+"lat": 44.0374,
+"lon": -0.3283,
+"pop": 1990,
+"cp": "40120",
+"txt": "Roquefort est bâtie sur un éperon rocheux au confluent de la Douze et de l'Estampon. Son église fortifiée et ses ponts sont superbes vus du ciel.",
+"spots": [
+"Église fortifiée",
+"Confluence Douze-Estampon",
+"Ponts anciens"
+],
+"type": "bastide",
+"new": false
+},
+{
+"slug": "royan",
+"code": "17306",
+"nom": "Royan",
+"dep": "17",
+"lat": 45.632,
+"lon": -1.0163,
+"pop": 19425,
+"cp": "17200",
+"txt": "Station balnéaire à l'embouchure de la Gironde, Royan est connue pour son architecture des années 50 et sa grande conche. Le phare de Cordouan est visible au large.",
+"spots": [
+"Grande conche",
+"Église Notre-Dame",
+"Front de mer"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "sabres",
+"code": "40246",
+"nom": "Sabres",
+"dep": "40",
+"lat": 44.1594,
+"lon": -0.7297,
+"pop": 1213,
+"cp": "40630",
+"txt": "Sabres est la porte d'entrée de l'écomusée de Marquèze, accessible par un petit train. Le patrimoine de la Grande Lande y est au cœur de l'image.",
+"spots": [
+"Écomusée de Marquèze",
+"Train de Marquèze",
+"Forêt de la Grande Lande"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "saint-denis-doleron",
+"code": "17323",
+"nom": "Saint-Denis-d'Oléron",
+"dep": "17",
+"lat": 46.0246,
+"lon": -1.3843,
+"pop": 1358,
+"cp": "17650",
+"txt": "À la pointe nord de l'île d'Oléron, Saint-Denis-d'Oléron fait face au phare de Chassiron. Port de plaisance, plages et falaises offrent un décor varié.",
+"spots": [
+"Phare de Chassiron",
+"Port de plaisance",
+"Plages du nord"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "saint-emilion",
+"code": "33394",
+"nom": "Saint-Émilion",
+"dep": "33",
+"lat": 44.8945,
+"lon": -0.1675,
+"pop": 1608,
+"cp": "33330",
+"txt": "Village classé à l'UNESCO, Saint-Émilion domine son vignoble avec son église monolithe et ses ruelles en pierre. Les châteaux viticoles y attendent des images d'exception.",
+"spots": [
+"Église monolithe",
+"Vignoble classé (UNESCO)",
+"Tour du Roy"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "saint-gilles-croix-de-vie",
+"code": "85222",
+"nom": "Saint-Gilles-Croix-de-Vie",
+"dep": "85",
+"lat": 46.6919,
+"lon": -1.919,
+"pop": 8333,
+"cp": "85800",
+"txt": "Port de pêche et station balnéaire, Saint-Gilles-Croix-de-Vie est connue pour ses sardines et sa grande plage.",
+"spots": [
+"Port de pêche",
+"Grande plage",
+"Corniche vendéenne"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "saint-girons-en-marensin",
+"code": "40326",
+"nom": "Vielle-Saint-Girons",
+"dep": "40",
+"lat": 43.9295,
+"lon": -1.325,
+"pop": 1518,
+"cp": "40560",
+"txt": "Vielle-Saint-Girons, au cœur du Marensin, s'étend de l'étang de Léon jusqu'aux plages de Saint-Girons. Un terrain idéal pour campings, surf et vacances nature.",
+"spots": [
+"Saint-Girons-Plage",
+"Étang de Léon",
+"Forêt du Marensin"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "saint-jean-angely",
+"code": "17347",
+"nom": "Saint-Jean-d'Angély",
+"dep": "17",
+"lat": 45.9404,
+"lon": -0.5194,
+"pop": 6784,
+"cp": "17400",
+"txt": "Saint-Jean-d'Angély garde son abbaye royale et ses tours, étape du chemin de Saint-Jacques. Un patrimoine important au cœur de la Saintonge.",
+"spots": [
+"Abbaye royale",
+"Tours de l'abbatiale",
+"Bords de la Boutonne"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "saint-jean-de-luz",
+"code": "64483",
+"nom": "Saint-Jean-de-Luz",
+"dep": "64",
+"lat": 43.3958,
+"lon": -1.6354,
+"pop": 14857,
+"cp": "64500",
+"txt": "Port de pêche et station balnéaire, Saint-Jean-de-Luz combine baie abritée, maisons d'armateurs et église où s'est marié Louis XIV. Restaurants, hôtels et boutiques y vendent une image très soignée.",
+"spots": [
+"Baie de Saint-Jean-de-Luz",
+"Port de pêche",
+"Maison Louis XIV"
+],
+"type": "pb-cote",
+"new": false
+},
+{
+"slug": "saint-jean-de-monts",
+"code": "85234",
+"nom": "Saint-Jean-de-Monts",
+"dep": "85",
+"lat": 46.7985,
+"lon": -2.0332,
+"pop": 8868,
+"cp": "85160",
+"txt": "Saint-Jean-de-Monts aligne huit kilomètres de plage bordée de pins. Une station familiale très fréquentée l'été.",
+"spots": [
+"Grande plage",
+"Forêt de pins",
+"Front de mer"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "saint-jean-pied-de-port",
+"code": "64485",
+"nom": "Saint-Jean-Pied-de-Port",
+"dep": "64",
+"lat": 43.1572,
+"lon": -1.2347,
+"pop": 1479,
+"cp": "64220",
+"txt": "Dernière étape avant Roncevaux sur le chemin de Saint-Jacques, Saint-Jean-Pied-de-Port garde ses remparts, sa citadelle et la Nive. Un décor de carte postale au pied des montagnes.",
+"spots": [
+"Citadelle",
+"Rue de la Citadelle",
+"Nive et vieux pont"
+],
+"type": "pb-interieur",
+"new": false
+},
+{
+"slug": "saint-julien-en-born",
+"code": "40266",
+"nom": "Saint-Julien-en-Born",
+"dep": "40",
+"lat": 44.0829,
+"lon": -1.2449,
+"pop": 1781,
+"cp": "40170",
+"txt": "Saint-Julien-en-Born rassemble le bourg forestier et la station de Contis-Plage. Le courant de Contis et le phare offrent des images uniques sur la côte landaise.",
+"spots": [
+"Phare de Contis",
+"Courant de Contis",
+"Forêt du Born"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "saint-justin",
+"code": "40267",
+"nom": "Saint-Justin",
+"dep": "40",
+"lat": 43.9889,
+"lon": -0.2356,
+"pop": 1008,
+"cp": "40240",
+"txt": "Bastide du Marsan, Saint-Justin garde sa place à arcades et ses maisons à colombages. Un village authentique pour les vidéos patrimoine et tourisme.",
+"spots": [
+"Place à arcades",
+"Maisons à colombages",
+"Bastide médiévale"
+],
+"type": "bastide",
+"new": false
+},
+{
+"slug": "saint-lon-les-mines",
+"code": "40269",
+"nom": "Saint-Lon-les-Mines",
+"dep": "40",
+"lat": 43.6238,
+"lon": -1.1349,
+"pop": 1246,
+"cp": "40300",
+"txt": "Village du Pays d'Orthe, Saint-Lon-les-Mines est connu pour son château et ses collines boisées. Un cadre de caractère pour l'immobilier et l'événementiel.",
+"spots": [
+"Château de Saint-Lon",
+"Collines boisées",
+"Pays d'Orthe"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "saint-palais",
+"code": "64493",
+"nom": "Saint-Palais",
+"dep": "64",
+"lat": 43.3159,
+"lon": -1.0399,
+"pop": 2204,
+"cp": "64120",
+"txt": "Saint-Palais est la capitale de la Basse-Navarre, carrefour des chemins de Saint-Jacques. Son marché et son festival de force basque en font un lieu vivant à filmer.",
+"spots": [
+"Centre-bourg",
+"Stèle de Gibraltar à proximité",
+"Collines de Basse-Navarre"
+],
+"type": "pb-interieur",
+"new": false
+},
+{
+"slug": "saint-pierre-du-mont",
+"code": "40281",
+"nom": "Saint-Pierre-du-Mont",
+"dep": "40",
+"lat": 43.8739,
+"lon": -0.5255,
+"pop": 10092,
+"cp": "40280",
+"txt": "Commune voisine de Mont-de-Marsan, Saint-Pierre-du-Mont accueille zones commerciales, entreprises et quartiers résidentiels. La proximité de la base aérienne demande une vérification avant tout vol.",
+"spots": [
+"Zones commerciales",
+"Quartiers résidentiels",
+"Proximité de Mont-de-Marsan"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "saint-pierre-oleron",
+"code": "17385",
+"nom": "Saint-Pierre-d'Oléron",
+"dep": "17",
+"lat": 45.9418,
+"lon": -1.29,
+"pop": 6633,
+"cp": "17310",
+"txt": "Capitale de l'île d'Oléron, Saint-Pierre-d'Oléron combine bourg commerçant, port de La Cotinière et marais. Un territoire riche pour le tourisme et l'immobilier.",
+"spots": [
+"Port de La Cotinière",
+"Centre-bourg",
+"Marais"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "saint-sever",
+"code": "40282",
+"nom": "Saint-Sever",
+"dep": "40",
+"lat": 43.7654,
+"lon": -0.5562,
+"pop": 5043,
+"cp": "40500",
+"txt": "Saint-Sever domine la vallée de l'Adour depuis son plateau, avec son abbatiale classée à l'UNESCO. Un des plus beaux panoramas des Landes, entre Chalosse et forêt.",
+"spots": [
+"Abbatiale de Saint-Sever (UNESCO)",
+"Belvédère sur l'Adour",
+"Cloître des Jacobins"
+],
+"type": "chalosse",
+"new": false
+},
+{
+"slug": "saint-trojan-les-bains",
+"code": "17411",
+"nom": "Saint-Trojan-les-Bains",
+"dep": "17",
+"lat": 45.8352,
+"lon": -1.2216,
+"pop": 1121,
+"cp": "17370",
+"txt": "Au sud de l'île d'Oléron, Saint-Trojan-les-Bains est entourée de forêt et de dunes, avec son petit train. Un décor naturel pour les hébergements.",
+"spots": [
+"Forêt de Saint-Trojan",
+"Grande plage",
+"Petit train"
+],
+"type": "ile",
+"new": false
+},
+{
+"slug": "saint-vincent-de-tyrosse",
+"code": "40284",
+"nom": "Saint-Vincent-de-Tyrosse",
+"dep": "40",
+"lat": 43.663,
+"lon": -1.3062,
+"pop": 8014,
+"cp": "40230",
+"txt": "Pôle commercial du Maremne, Saint-Vincent-de-Tyrosse est à quelques minutes des plages et de l'A63. Entreprises, commerces et lotissements y sont des sujets fréquents.",
+"spots": [
+"Centre-ville",
+"Zones d'activité",
+"Proximité de la côte"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "sainte-eulalie-en-born",
+"code": "40257",
+"nom": "Sainte-Eulalie-en-Born",
+"dep": "40",
+"lat": 44.2721,
+"lon": -1.2031,
+"pop": 1443,
+"cp": "40200",
+"txt": "Sainte-Eulalie-en-Born borde le lac de Biscarrosse-Parentis, avec son port et ses plages lacustres. Un décor paisible pour campings et activités nautiques.",
+"spots": [
+"Lac de Biscarrosse-Parentis",
+"Port de Sainte-Eulalie",
+"Forêt du Born"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "saintes",
+"code": "17415",
+"nom": "Saintes",
+"dep": "17",
+"lat": 45.7422,
+"lon": -0.6559,
+"pop": 25363,
+"cp": "17100",
+"txt": "Saintes, au bord de la Charente, garde un patrimoine romain remarquable avec l'arc de Germanicus et l'amphithéâtre. Une ville d'histoire à filmer.",
+"spots": [
+"Arc de Germanicus",
+"Amphithéâtre gallo-romain",
+"Abbaye aux Dames"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "salies-de-bearn",
+"code": "64499",
+"nom": "Salies-de-Béarn",
+"dep": "64",
+"lat": 43.4697,
+"lon": -0.9135,
+"pop": 4742,
+"cp": "64270",
+"txt": "Cité du sel, Salies-de-Béarn garde ses maisons à colombages au-dessus du Saleys et ses thermes. Un village de caractère pour le tourisme et l'immobilier.",
+"spots": [
+"Thermes de Salies",
+"Maisons sur le Saleys",
+"Musée du sel"
+],
+"type": "thermal",
+"new": false
+},
+{
+"slug": "samadet",
+"code": "40286",
+"nom": "Samadet",
+"dep": "40",
+"lat": 43.6343,
+"lon": -0.4916,
+"pop": 1123,
+"cp": "40320",
+"txt": "Samadet est connu pour sa faïencerie du XVIIIe siècle, aujourd'hui musée. Un village du Tursan où se mêlent patrimoine, artisanat et coteaux.",
+"spots": [
+"Musée de la faïence",
+"Coteaux du Tursan",
+"Village"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "sanguinet",
+"code": "40287",
+"nom": "Sanguinet",
+"dep": "40",
+"lat": 44.481,
+"lon": -1.0647,
+"pop": 4741,
+"cp": "40460",
+"txt": "Sur la rive est du lac de Cazaux-Sanguinet, Sanguinet est réputée pour ses eaux claires et ses vestiges engloutis. La base aérienne de Cazaux impose de vérifier l'espace aérien avant tout vol.",
+"spots": [
+"Lac de Cazaux-Sanguinet",
+"Port de Sanguinet",
+"Forêt"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "sarlat",
+"code": "24520",
+"nom": "Sarlat-la-Canéda",
+"dep": "24",
+"lat": 44.9052,
+"lon": 1.2004,
+"pop": 8763,
+"cp": "24200",
+"txt": "Sarlat-la-Canéda possède l'un des centres médiévaux les mieux conservés d'Europe. Hôtels, restaurants et producteurs y vendent une image du Périgord noir très forte.",
+"spots": [
+"Cité médiévale",
+"Place de la Liberté",
+"Marché aux oies"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "seignosse",
+"code": "40296",
+"nom": "Seignosse",
+"dep": "40",
+"lat": 43.6918,
+"lon": -1.3962,
+"pop": 4056,
+"cp": "40510",
+"txt": "Seignosse alterne plages de surf, golf, étang Blanc et étang Noir. Résidences, écoles de surf et restaurants y sont parmi les plus demandeurs d'images de qualité.",
+"spots": [
+"Plage des Estagnots",
+"Étang Noir",
+"Golf de Seignosse"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "sorde-labbaye",
+"code": "40306",
+"nom": "Sorde-l'Abbaye",
+"dep": "40",
+"lat": 43.5207,
+"lon": -1.0486,
+"pop": 645,
+"cp": "40300",
+"txt": "Sorde-l'Abbaye abrite une abbaye bénédictine inscrite à l'UNESCO au bord du Gave d'Oloron. Les mosaïques, les jardins et la rivière en font un sujet patrimoine très fort.",
+"spots": [
+"Abbaye de Sorde (UNESCO)",
+"Gave d'Oloron",
+"Village médiéval"
+],
+"type": "adour",
+"new": false
+},
+{
+"slug": "sore",
+"code": "40307",
+"nom": "Sore",
+"dep": "40",
+"lat": 44.2972,
+"lon": -0.6073,
+"pop": 1179,
+"cp": "40430",
+"txt": "Sore est la commune la plus étendue de la Haute Lande, avec ses forêts et la Petite Leyre. Un cadre parfait pour les sujets de nature et de sylviculture.",
+"spots": [
+"Petite Leyre",
+"Forêt de la Haute Lande",
+"Parc naturel régional"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "soustons",
+"code": "40310",
+"nom": "Soustons",
+"dep": "40",
+"lat": 43.7654,
+"lon": -1.3356,
+"pop": 8701,
+"cp": "40140",
+"txt": "Soustons combine lac, plage de Soustons-Plage et forêt du Marensin. Le lac de Soustons et le port d'Albret à proximité offrent des images variées pour le tourisme et l'immobilier.",
+"spots": [
+"Lac de Soustons",
+"Soustons-Plage",
+"Forêt du Marensin"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "tardets",
+"code": "64533",
+"nom": "Tardets-Sorholus",
+"dep": "64",
+"lat": 43.1238,
+"lon": -0.8446,
+"pop": 589,
+"cp": "64470",
+"txt": "Tardets-Sorholus est le cœur de la Haute-Soule, au pied de la montagne. Les gorges, les villages et les estives alentour offrent des images de montagne remarquables.",
+"spots": [
+"Place à arcades",
+"Gorges de Kakuetta à proximité",
+"Haute-Soule"
+],
+"type": "montagne",
+"new": false
+},
+{
+"slug": "tarnos",
+"code": "40312",
+"nom": "Tarnos",
+"dep": "40",
+"lat": 43.5267,
+"lon": -1.4545,
+"pop": 12957,
+"cp": "40220",
+"txt": "À la frontière du Pays basque, Tarnos combine plage du Métro, forêt et zones industrielles près du port de Bayonne. Un territoire varié, du tourisme à l'industrie.",
+"spots": [
+"Plage du Métro",
+"Forêt",
+"Port de Bayonne à proximité"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "tartas",
+"code": "40313",
+"nom": "Tartas",
+"dep": "40",
+"lat": 43.8161,
+"lon": -0.7925,
+"pop": 3169,
+"cp": "40400",
+"txt": "Tartas s'étage sur les deux rives de la Midouze, entre forêt et Chalosse. Ses vieux quartiers et son ancien port fluvial ont du caractère vus du ciel.",
+"spots": [
+"Rives de la Midouze",
+"Vieux quartiers",
+"Lisière de la forêt"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "tercis-les-bains",
+"code": "40314",
+"nom": "Tercis-les-Bains",
+"dep": "40",
+"lat": 43.6694,
+"lon": -1.1098,
+"pop": 1359,
+"cp": "40180",
+"txt": "Tercis-les-Bains, près de Dax, est connu pour son site géologique classé et ses barthes. Un village de nature et de thermalisme au bord de l'Adour.",
+"spots": [
+"Site géologique de Tercis",
+"Barthes de l'Adour",
+"Thermes"
+],
+"type": "thermal",
+"new": false
+},
+{
+"slug": "terrasson",
+"code": "24547",
+"nom": "Terrasson-Lavilledieu",
+"dep": "24",
+"lat": 45.1189,
+"lon": 1.2947,
+"pop": 6218,
+"cp": "24120",
+"txt": "Terrasson-Lavilledieu domine la Vézère avec son vieux pont et les Jardins de l'Imaginaire. Un décor de jardins et de rivière très original vu du ciel.",
+"spots": [
+"Jardins de l'Imaginaire",
+"Vieux pont",
+"Bords de la Vézère"
+],
+"type": "perigord",
+"new": false
+},
+{
+"slug": "tonnay-charente",
+"code": "17449",
+"nom": "Tonnay-Charente",
+"dep": "17",
+"lat": 45.9636,
+"lon": -0.874,
+"pop": 8289,
+"cp": "17430",
+"txt": "Tonnay-Charente borde la Charente avec son pont suspendu et ses quais. Un cadre fluvial très photogénique près de Rochefort.",
+"spots": [
+"Pont suspendu",
+"Quais de la Charente",
+"Marais"
+],
+"type": "ville",
+"new": false
+},
+{
+"slug": "tosse",
+"code": "40317",
+"nom": "Tosse",
+"dep": "40",
+"lat": 43.693,
+"lon": -1.322,
+"pop": 3556,
+"cp": "40230",
+"txt": "Entre Seignosse et Saint-Vincent-de-Tyrosse, Tosse borde l'étang Blanc et le lac de Hardy. Un secteur résidentiel recherché, proche de l'océan.",
+"spots": [
+"Étang Blanc",
+"Lac de Hardy",
+"Proximité des plages"
+],
+"type": "lac",
+"new": false
+},
+{
+"slug": "trensacq",
+"code": "40319",
+"nom": "Trensacq",
+"dep": "40",
+"lat": 44.23,
+"lon": -0.7492,
+"pop": 284,
+"cp": "40630",
+"txt": "Trensacq est un petit village de la Grande Lande, au bord de la Grande Leyre. La forêt et la rivière y composent un décor calme et authentique.",
+"spots": [
+"Grande Leyre",
+"Forêt de la Grande Lande",
+"Airiaux"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "vert",
+"code": "40323",
+"nom": "Vert",
+"dep": "40",
+"lat": 44.0924,
+"lon": -0.5941,
+"pop": 235,
+"cp": "40420",
+"txt": "Vert est un village du Parc naturel régional des Landes de Gascogne, au milieu des pins. Un cadre préservé pour la nature et le tourisme vert.",
+"spots": [
+"Forêt du Parc naturel régional",
+"Clairières",
+"Pistes forestières"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "vieux-boucau",
+"code": "40328",
+"nom": "Vieux-Boucau-les-Bains",
+"dep": "40",
+"lat": 43.7848,
+"lon": -1.3934,
+"pop": 1685,
+"cp": "40480",
+"txt": "Vieux-Boucau-les-Bains possède un lac marin artificiel relié à l'océan par le courant de Soustons. Un décor unique pour hôtels, résidences et activités nautiques.",
+"spots": [
+"Lac marin",
+"Port d'Albret",
+"Plage centrale"
+],
+"type": "ocean",
+"new": false
+},
+{
+"slug": "villeneuve-de-marsan",
+"code": "40331",
+"nom": "Villeneuve-de-Marsan",
+"dep": "40",
+"lat": 43.907,
+"lon": -0.3058,
+"pop": 2508,
+"cp": "40190",
+"txt": "Villeneuve-de-Marsan est une bastide aux portes de l'Armagnac, avec son château et sa grande place. Un village de caractère entre forêt et vignes.",
+"spots": [
+"Château de Ravignan à proximité",
+"Place de la bastide",
+"Vignes d'Armagnac"
+],
+"type": "vignoble",
+"new": false
+},
+{
+"slug": "ychoux",
+"code": "40332",
+"nom": "Ychoux",
+"dep": "40",
+"lat": 44.3502,
+"lon": -0.9607,
+"pop": 2338,
+"cp": "40160",
+"txt": "Ychoux est une commune forestière du nord des Landes, sur l'axe Bordeaux–Mimizan. Ses zones d'activité et la forêt environnante sont faciles à filmer.",
+"spots": [
+"Forêt du nord des Landes",
+"Zones d'activité",
+"Lac d'Ychoux"
+],
+"type": "foret",
+"new": false
+},
+{
+"slug": "saint-paul-les-dax",
+"code": "40279",
+"nom": "Saint-Paul-lès-Dax",
+"dep": "40",
+"lat": 43.7397,
+"lon": -1.0771,
+"pop": 14481,
+"cp": "40990",
+"txt": "Deuxième ville de l'agglomération dacquoise, Saint-Paul-lès-Dax entoure le lac de Christus et ses thermes. Commerces, entreprises et établissements de santé y sont des clients réguliers.",
+"spots": [
+"Lac de Christus",
+"Thermes de Christus",
+"Zones commerciales"
+],
+"type": "thermal",
+"new": true
+},
+{
+"slug": "saint-vincent-de-paul",
+"code": "40283",
+"nom": "Saint-Vincent-de-Paul",
+"dep": "40",
+"lat": 43.7457,
+"lon": -0.9942,
+"pop": 3402,
+"cp": "40990",
+"txt": "Village natal de saint Vincent de Paul, la commune garde le berceau et son sanctuaire, au bord de l'Adour près de Dax. Un sujet patrimonial et spirituel fort.",
+"spots": [
+"Berceau de saint Vincent de Paul",
+"Bords de l'Adour",
+"Barthes"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "narrosse",
+"code": "40202",
+"nom": "Narrosse",
+"dep": "40",
+"lat": 43.6911,
+"lon": -1.0116,
+"pop": 3387,
+"cp": "40180",
+"txt": "Narrosse est une commune résidentielle au sud de Dax, entre bois et barthes. Les maisons avec terrain y gagnent beaucoup à être présentées en vue aérienne.",
+"spots": [
+"Quartiers résidentiels",
+"Bois",
+"Proximité de Dax"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "seyresse",
+"code": "40300",
+"nom": "Seyresse",
+"dep": "40",
+"lat": 43.6811,
+"lon": -1.0607,
+"pop": 1029,
+"cp": "40180",
+"txt": "Seyresse accueille l'aérodrome de Dax-Seyresse et l'école d'hélicoptères de l'ALAT. Tout vol y demande une vérification de l'espace aérien, que je fais en amont.",
+"spots": [
+"Aérodrome de Dax-Seyresse",
+"Bords de l'Adour",
+"Quartiers résidentiels"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "heugas",
+"code": "40125",
+"nom": "Heugas",
+"dep": "40",
+"lat": 43.6432,
+"lon": -1.0867,
+"pop": 1398,
+"cp": "40180",
+"txt": "Village résidentiel au sud de Dax, Heugas est entouré de collines et de bois. Un bon secteur pour l'immobilier familial et les exploitations agricoles.",
+"spots": [
+"Collines",
+"Bois",
+"Proximité de Dax"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "saugnac-et-cambran",
+"code": "40294",
+"nom": "Saugnac-et-Cambran",
+"dep": "40",
+"lat": 43.6693,
+"lon": -0.9915,
+"pop": 1560,
+"cp": "40180",
+"txt": "Entre Dax et la Chalosse, Saugnac-et-Cambran domine les barthes de l'Adour. Les vues sur la vallée y sont très belles en fin de journée.",
+"spots": [
+"Barthes de l'Adour",
+"Coteaux",
+"Proximité de Dax"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "pey",
+"code": "40222",
+"nom": "Pey",
+"dep": "40",
+"lat": 43.6126,
+"lon": -1.209,
+"pop": 838,
+"cp": "40300",
+"txt": "Pey est un village du Pays d'Orthe, entre forêt et collines, à quelques minutes de Peyrehorade. Un cadre calme pour l'immobilier rural.",
+"spots": [
+"Collines du Pays d'Orthe",
+"Forêt",
+"Maisons landaises"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "orx",
+"code": "40213",
+"nom": "Orx",
+"dep": "40",
+"lat": 43.6073,
+"lon": -1.3667,
+"pop": 647,
+"cp": "40230",
+"txt": "Orx est connu pour sa réserve naturelle nationale du marais d'Orx, haut lieu de l'observation des oiseaux. Les tournages s'y font en respectant la réglementation de la réserve.",
+"spots": [
+"Réserve naturelle du marais d'Orx",
+"Observatoires",
+"Prairies humides"
+],
+"type": "lac",
+"new": true
+},
+{
+"slug": "saint-martin-de-seignanx",
+"code": "40273",
+"nom": "Saint-Martin-de-Seignanx",
+"dep": "40",
+"lat": 43.5305,
+"lon": -1.3888,
+"pop": 6238,
+"cp": "40390",
+"txt": "Aux portes de Bayonne, Saint-Martin-de-Seignanx combine collines du Seignanx, bords de l'Adour et quartiers résidentiels. Un secteur très demandé en immobilier.",
+"spots": [
+"Collines du Seignanx",
+"Bords de l'Adour",
+"Quartiers résidentiels"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "saint-andre-de-seignanx",
+"code": "40248",
+"nom": "Saint-André-de-Seignanx",
+"dep": "40",
+"lat": 43.5612,
+"lon": -1.3545,
+"pop": 1945,
+"cp": "40390",
+"txt": "Saint-André-de-Seignanx est un village vallonné du Seignanx, entre Bayonne et Peyrehorade. Ses fermes et maisons avec vue se filment très bien.",
+"spots": [
+"Collines du Seignanx",
+"Fermes",
+"Vue sur les Pyrénées"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "ondres",
+"code": "40209",
+"nom": "Ondres",
+"dep": "40",
+"lat": 43.5597,
+"lon": -1.4375,
+"pop": 6533,
+"cp": "40440",
+"txt": "Entre Tarnos et Labenne, Ondres possède une plage sauvage bordée de dunes et une forêt littorale. Campings, résidences et immobilier y sont mes sujets habituels.",
+"spots": [
+"Ondres-Plage",
+"Dunes",
+"Forêt littorale"
+],
+"type": "ocean",
+"new": true
+},
+{
+"slug": "saint-geours-de-maremne",
+"code": "40261",
+"nom": "Saint-Geours-de-Maremne",
+"dep": "40",
+"lat": 43.6817,
+"lon": -1.2182,
+"pop": 3089,
+"cp": "40230",
+"txt": "Saint-Geours-de-Maremne est un carrefour du Maremne, le long de l'A63, entre forêt et étangs. Les entreprises de sa zone d'activité trouvent un intérêt réel à la vidéo.",
+"spots": [
+"Zone d'activité Atlantisud",
+"Forêt",
+"Étangs"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "benesse-maremne",
+"code": "40036",
+"nom": "Bénesse-Maremne",
+"dep": "40",
+"lat": 43.634,
+"lon": -1.369,
+"pop": 3780,
+"cp": "40230",
+"txt": "Entre Capbreton et Saint-Vincent-de-Tyrosse, Bénesse-Maremne combine forêt, golf et habitat résidentiel. Un secteur recherché, à quelques minutes de l'océan.",
+"spots": [
+"Forêt",
+"Golf",
+"Proximité des plages"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "angresse",
+"code": "40004",
+"nom": "Angresse",
+"dep": "40",
+"lat": 43.658,
+"lon": -1.359,
+"pop": 2277,
+"cp": "40150",
+"txt": "Angresse se situe entre Hossegor et Seignosse, au bord de la forêt. Ses résidences et maisons y sont très prisées, et le drone en montre l'environnement.",
+"spots": [
+"Forêt",
+"Quartiers résidentiels",
+"Proximité d'Hossegor"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "magescq",
+"code": "40168",
+"nom": "Magescq",
+"dep": "40",
+"lat": 43.7854,
+"lon": -1.2013,
+"pop": 2698,
+"cp": "40140",
+"txt": "Magescq est un bourg du Marensin, entre forêt et lagunes, sur l'axe Bordeaux–Bayonne. Un territoire nature et agricole facile d'accès.",
+"spots": [
+"Forêt du Marensin",
+"Lagunes",
+"Exploitations"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "linxe",
+"code": "40155",
+"nom": "Linxe",
+"dep": "40",
+"lat": 43.9242,
+"lon": -1.2238,
+"pop": 1552,
+"cp": "40260",
+"txt": "Linxe est un village forestier du Marensin, proche de Castets et de l'océan. Un cadre paisible pour les gîtes et les activités nature.",
+"spots": [
+"Forêt du Marensin",
+"Village",
+"Proximité de l'océan"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "rion-des-landes",
+"code": "40243",
+"nom": "Rion-des-Landes",
+"dep": "40",
+"lat": 43.9244,
+"lon": -0.9473,
+"pop": 3142,
+"cp": "40370",
+"txt": "Rion-des-Landes est une commune forestière entre Dax et Morcenx. Entreprises du bois, exploitations et immobilier rural y sont mes principaux sujets.",
+"spots": [
+"Forêt landaise",
+"Industrie du bois",
+"Bourg"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "pontonx-sur-l-adour",
+"code": "40230",
+"nom": "Pontonx-sur-l'Adour",
+"dep": "40",
+"lat": 43.7879,
+"lon": -0.9268,
+"pop": 3021,
+"cp": "40465",
+"txt": "Pontonx-sur-l'Adour borde le fleuve entre Dax et Tartas. Les bords de l'Adour et les quartiers résidentiels se valorisent bien vus du ciel.",
+"spots": [
+"Bords de l'Adour",
+"Pont",
+"Quartiers résidentiels"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "habas",
+"code": "40118",
+"nom": "Habas",
+"dep": "40",
+"lat": 43.5605,
+"lon": -0.9343,
+"pop": 1489,
+"cp": "40290",
+"txt": "Habas est un village du Pays d'Orthe aux collines verdoyantes, entre Pouillon et Amou. Un cadre rural typique pour fermes et maisons de caractère.",
+"spots": [
+"Collines du Pays d'Orthe",
+"Fermes",
+"Bourg"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "gamarde-les-bains",
+"code": "40104",
+"nom": "Gamarde-les-Bains",
+"dep": "40",
+"lat": 43.7289,
+"lon": -0.8742,
+"pop": 1583,
+"cp": "40380",
+"txt": "Gamarde-les-Bains est un village de Chalosse au bord du Louts, avec ses sources thermales. Un mélange de nature et de patrimoine.",
+"spots": [
+"Vallée du Louts",
+"Sources thermales",
+"Coteaux de Chalosse"
+],
+"type": "chalosse",
+"new": true
+},
+{
+"slug": "labouheyre",
+"code": "40134",
+"nom": "Labouheyre",
+"dep": "40",
+"lat": 44.2162,
+"lon": -0.9148,
+"pop": 2906,
+"cp": "40210",
+"txt": "Labouheyre est une ville forestière de la Grande Lande, sur l'axe Bordeaux–Bayonne. Son patrimoine et ses entreprises du bois se filment facilement.",
+"spots": [
+"Forêt de la Grande Lande",
+"Centre-bourg",
+"Entreprises du bois"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "saint-martin-de-hinx",
+"code": "40272",
+"nom": "Saint-Martin-de-Hinx",
+"dep": "40",
+"lat": 43.58,
+"lon": -1.2674,
+"pop": 1808,
+"cp": "40390",
+"txt": "Saint-Martin-de-Hinx est un village du Seignanx, entre forêt et collines, proche de Saint-Vincent-de-Tyrosse. Un secteur résidentiel calme et recherché.",
+"spots": [
+"Collines",
+"Forêt",
+"Quartiers résidentiels"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "saint-avit",
+"code": "40250",
+"nom": "Saint-Avit",
+"dep": "40",
+"lat": 43.9455,
+"lon": -0.4555,
+"pop": 684,
+"cp": "40090",
+"txt": "Aux portes de Mont-de-Marsan, Saint-Avit mêle forêt, champs et quartiers résidentiels. La proximité de la base aérienne demande une vérification avant tout vol.",
+"spots": [
+"Forêt",
+"Quartiers résidentiels",
+"Proximité de Mont-de-Marsan"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "bretagne-de-marsan",
+"code": "40055",
+"nom": "Bretagne-de-Marsan",
+"dep": "40",
+"lat": 43.8391,
+"lon": -0.4685,
+"pop": 1618,
+"cp": "40280",
+"txt": "Bretagne-de-Marsan est une commune résidentielle au sud de Mont-de-Marsan, entre forêt et cultures. Un bon terrain pour l'immobilier et les exploitations.",
+"spots": [
+"Forêt",
+"Cultures",
+"Proximité de Mont-de-Marsan"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "laluque",
+"code": "40142",
+"nom": "Laluque",
+"dep": "40",
+"lat": 43.8531,
+"lon": -0.9823,
+"pop": 1102,
+"cp": "40465",
+"txt": "Laluque est un village forestier au nord de Dax, connu pour son patrimoine ferroviaire. La forêt y offre de grandes perspectives aériennes.",
+"spots": [
+"Forêt landaise",
+"Patrimoine ferroviaire",
+"Clairières"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "cagnotte",
+"code": "40059",
+"nom": "Cagnotte",
+"dep": "40",
+"lat": 43.6062,
+"lon": -1.076,
+"pop": 784,
+"cp": "40300",
+"txt": "Cagnotte est un village du Pays d'Orthe qui garde les vestiges d'une ancienne abbaye. Collines et bois composent un cadre paisible.",
+"spots": [
+"Ancienne abbaye",
+"Collines du Pays d'Orthe",
+"Bois"
+],
+"type": "adour",
+"new": true
+},
+{
+"slug": "lescar",
+"code": "64335",
+"nom": "Lescar",
+"dep": "64",
+"lat": 43.3392,
+"lon": -0.4271,
+"pop": 9455,
+"cp": "64230",
+"txt": "Ancienne capitale du Béarn, Lescar domine la plaine depuis sa cathédrale romane. Ses zones commerciales et quartiers résidentiels jouxtent Pau, dont l'aéroport impose de vérifier l'espace aérien.",
+"spots": [
+"Cathédrale Notre-Dame",
+"Remparts",
+"Zones commerciales"
+],
+"type": "bearn",
+"new": true
+},
+{
+"slug": "billere",
+"code": "64129",
+"nom": "Billère",
+"dep": "64",
+"lat": 43.3032,
+"lon": -0.3943,
+"pop": 14384,
+"cp": "64140",
+"txt": "Commune voisine de Pau, Billère mêle quartiers résidentiels, bords du Gave et équipements sportifs. Un secteur urbain où je prépare chaque vol en amont.",
+"spots": [
+"Bords du Gave de Pau",
+"Quartiers résidentiels",
+"Proximité de Pau"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "lons",
+"code": "64348",
+"nom": "Lons",
+"dep": "64",
+"lat": 43.3191,
+"lon": -0.4058,
+"pop": 13606,
+"cp": "64140",
+"txt": "Lons, au nord-ouest de Pau, accueille zones commerciales, entreprises et lotissements. La proximité de l'aéroport Pau-Pyrénées demande une vérification avant tout vol.",
+"spots": [
+"Zones commerciales",
+"Quartiers résidentiels",
+"Proximité de Pau"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "jurancon",
+"code": "64284",
+"nom": "Jurançon",
+"dep": "64",
+"lat": 43.2708,
+"lon": -0.4085,
+"pop": 7040,
+"cp": "64110",
+"txt": "Jurançon est la porte du célèbre vignoble AOC, sur les coteaux face à Pau. Domaines viticoles et chais s'y filment superbement, avec les Pyrénées en fond.",
+"spots": [
+"Vignoble de Jurançon",
+"Coteaux",
+"Vue sur les Pyrénées"
+],
+"type": "vignoble",
+"new": true
+},
+{
+"slug": "gan",
+"code": "64230",
+"nom": "Gan",
+"dep": "64",
+"lat": 43.1998,
+"lon": -0.4103,
+"pop": 5676,
+"cp": "64290",
+"txt": "Au sud de Pau, Gan est une commune du piémont, entre coteaux de Jurançon et vallée du Néez. Les maisons béarnaises et les vues sur la montagne y sont recherchées.",
+"spots": [
+"Coteaux de Jurançon",
+"Vallée du Néez",
+"Piémont pyrénéen"
+],
+"type": "bearn",
+"new": true
+},
+{
+"slug": "monein",
+"code": "64393",
+"nom": "Monein",
+"dep": "64",
+"lat": 43.2922,
+"lon": -0.5593,
+"pop": 4446,
+"cp": "64360",
+"txt": "Monein est la plus grande commune du vignoble de Jurançon, avec l'église Saint-Girons et sa charpente remarquable. Domaines et paysages viticoles se racontent très bien en drone.",
+"spots": [
+"Église Saint-Girons",
+"Vignoble de Jurançon",
+"Coteaux"
+],
+"type": "vignoble",
+"new": true
+},
+{
+"slug": "navarrenx",
+"code": "64416",
+"nom": "Navarrenx",
+"dep": "64",
+"lat": 43.3283,
+"lon": -0.7379,
+"pop": 1042,
+"cp": "64190",
+"txt": "Navarrenx est une cité bastionnée du XVIe siècle au bord du Gave d'Oloron, réputée pour la pêche au saumon. Ses remparts en étoile sont spectaculaires vus du ciel.",
+"spots": [
+"Remparts bastionnés",
+"Gave d'Oloron",
+"Porte Saint-Antoine"
+],
+"type": "bearn",
+"new": true
+},
+{
+"slug": "sauveterre-de-bearn",
+"code": "64513",
+"nom": "Sauveterre-de-Béarn",
+"dep": "64",
+"lat": 43.4121,
+"lon": -0.9308,
+"pop": 1375,
+"cp": "64390",
+"txt": "Perchée au-dessus du Gave d'Oloron, Sauveterre-de-Béarn garde son pont de la Légende et la tour Monréal. Un panorama de premier ordre pour le drone.",
+"spots": [
+"Pont de la Légende",
+"Tour Monréal",
+"Gave d'Oloron"
+],
+"type": "bearn",
+"new": true
+},
+{
+"slug": "bidache",
+"code": "64123",
+"nom": "Bidache",
+"dep": "64",
+"lat": 43.4698,
+"lon": -1.1436,
+"pop": 1338,
+"cp": "64520",
+"txt": "Bidache est dominée par les ruines du château des Gramont, au-dessus de la Bidouze. Un village chargé d'histoire, à la porte du Pays basque.",
+"spots": [
+"Château des Gramont",
+"Vallée de la Bidouze",
+"Grande rue"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "labastide-clairence",
+"code": "64289",
+"nom": "La Bastide-Clairence",
+"dep": "64",
+"lat": 43.4241,
+"lon": -1.2356,
+"pop": 1000,
+"cp": "64240",
+"txt": "Classée parmi les plus beaux villages de France, La Bastide-Clairence est une bastide aux maisons à colombages et ateliers d'artisans. Un décor parfait pour le tourisme et l'artisanat.",
+"spots": [
+"Place des arceaux",
+"Maisons à colombages",
+"Ateliers d'artisans"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "urt",
+"code": "64546",
+"nom": "Urt",
+"dep": "64",
+"lat": 43.4788,
+"lon": -1.2814,
+"pop": 2346,
+"cp": "64240",
+"txt": "Urt est un village au bord de l'Adour, entre Bayonne et Peyrehorade, avec son abbaye de Belloc à proximité. Fleuve, barthes et collines y composent de belles images.",
+"spots": [
+"Bords de l'Adour",
+"Abbaye de Belloc",
+"Barthes"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "bardos",
+"code": "64094",
+"nom": "Bardos",
+"dep": "64",
+"lat": 43.4718,
+"lon": -1.223,
+"pop": 1905,
+"cp": "64520",
+"txt": "Bardos est une commune du Labourd intérieur, vallonnée et agricole, entre Bayonne et Bidache. Fermes et maisons basques s'y filment très bien.",
+"spots": [
+"Collines du Labourd",
+"Fermes basques",
+"Bourg"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "guiche",
+"code": "64250",
+"nom": "Guiche",
+"dep": "64",
+"lat": 43.5081,
+"lon": -1.2085,
+"pop": 1075,
+"cp": "64520",
+"txt": "Guiche est un village au confluent de l'Adour et de la Bidouze, dominé par les ruines de son château. Un cadre de nature et de patrimoine.",
+"spots": [
+"Ruines du château",
+"Confluence Adour-Bidouze",
+"Barthes"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "boucau",
+"code": "64140",
+"nom": "Boucau",
+"dep": "64",
+"lat": 43.5264,
+"lon": -1.4812,
+"pop": 8968,
+"cp": "64340",
+"txt": "Boucau borde l'embouchure de l'Adour et le port de Bayonne. Industrie portuaire, quartiers résidentiels et bords de fleuve offrent des sujets variés.",
+"spots": [
+"Embouchure de l'Adour",
+"Port de Bayonne",
+"Quartiers résidentiels"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "bidart",
+"code": "64125",
+"nom": "Bidart",
+"dep": "64",
+"lat": 43.4393,
+"lon": -1.5803,
+"pop": 7689,
+"cp": "64210",
+"txt": "Entre Biarritz et Guéthary, Bidart possède plusieurs plages de surf et un village basque perché sur la falaise. La proximité de l'aéroport de Biarritz demande une vérification avant tout vol.",
+"spots": [
+"Plage de l'Uhabia",
+"Village perché",
+"Falaises"
+],
+"type": "pb-cote",
+"new": true
+},
+{
+"slug": "guethary",
+"code": "64249",
+"nom": "Guéthary",
+"dep": "64",
+"lat": 43.4226,
+"lon": -1.6114,
+"pop": 1306,
+"cp": "64210",
+"txt": "Ancien port baleinier, Guéthary est un petit village basque réputé pour son spot de surf Parlementia. Maisons basques, restaurants et vues sur l'océan en font un décor très prisé.",
+"spots": [
+"Port de Guéthary",
+"Spot de Parlementia",
+"Villas basques"
+],
+"type": "pb-cote",
+"new": true
+},
+{
+"slug": "ciboure",
+"code": "64189",
+"nom": "Ciboure",
+"dep": "64",
+"lat": 43.3771,
+"lon": -1.6658,
+"pop": 5951,
+"cp": "64500",
+"txt": "Face à Saint-Jean-de-Luz, Ciboure abrite le fort de Socoa et la maison natale de Maurice Ravel. Un port de caractère et une baie superbe vue du ciel.",
+"spots": [
+"Fort de Socoa",
+"Port de Ciboure",
+"Baie de Saint-Jean-de-Luz"
+],
+"type": "pb-cote",
+"new": true
+},
+{
+"slug": "urrugne",
+"code": "64545",
+"nom": "Urrugne",
+"dep": "64",
+"lat": 43.3521,
+"lon": -1.7038,
+"pop": 10661,
+"cp": "64122",
+"txt": "Urrugne s'étend de la corniche basque au col d'Ibardin, avec le château d'Urtubie et la chapelle de Socorri. Océan et montagne réunis sur une seule commune.",
+"spots": [
+"Corniche basque",
+"Château d'Urtubie",
+"Col d'Ibardin"
+],
+"type": "pb-cote",
+"new": true
+},
+{
+"slug": "ascain",
+"code": "64065",
+"nom": "Ascain",
+"dep": "64",
+"lat": 43.3436,
+"lon": -1.6354,
+"pop": 4658,
+"cp": "64310",
+"txt": "Au pied de la Rhune, Ascain est un village basque typique avec son fronton et son pont romain sur la Nivelle. Un décor idéal pour le tourisme et l'hôtellerie.",
+"spots": [
+"Pont romain",
+"La Rhune",
+"Fronton"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "sare",
+"code": "64504",
+"nom": "Sare",
+"dep": "64",
+"lat": 43.2916,
+"lon": -1.5828,
+"pop": 2763,
+"cp": "64310",
+"txt": "Classé parmi les plus beaux villages de France, Sare est connu pour le train de la Rhune et ses grottes. Fermes, gîtes et restaurants y bénéficient d'un cadre exceptionnel.",
+"spots": [
+"Train de la Rhune",
+"Grottes de Sare",
+"Place du fronton"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "ainhoa",
+"code": "64014",
+"nom": "Ainhoa",
+"dep": "64",
+"lat": 43.2924,
+"lon": -1.4857,
+"pop": 672,
+"cp": "64250",
+"txt": "Ancienne bastide sur le chemin de Saint-Jacques, Ainhoa aligne ses maisons labourdines blanches et rouges. L'un des plus beaux villages de France, très photogénique.",
+"spots": [
+"Rue principale",
+"Maisons labourdines",
+"Chapelle de l'Aubépine"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "ustaritz",
+"code": "64547",
+"nom": "Ustaritz",
+"dep": "64",
+"lat": 43.4013,
+"lon": -1.4712,
+"pop": 7897,
+"cp": "64480",
+"txt": "Ancienne capitale du Labourd, Ustaritz s'étire le long de la Nive entre Bayonne et Cambo. Maisons de maître, fermes et bords de rivière y sont recherchés.",
+"spots": [
+"Bords de la Nive",
+"Maisons de maître",
+"Collines du Labourd"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "saint-pee-sur-nivelle",
+"code": "64495",
+"nom": "Saint-Pée-sur-Nivelle",
+"dep": "64",
+"lat": 43.3503,
+"lon": -1.5468,
+"pop": 7264,
+"cp": "64310",
+"txt": "Saint-Pée-sur-Nivelle possède un lac de loisirs au pied des collines du Labourd. Hébergements, base de loisirs et immobilier y gagnent à être filmés.",
+"spots": [
+"Lac de Saint-Pée",
+"Collines du Labourd",
+"Château"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "itxassou",
+"code": "64279",
+"nom": "Itxassou",
+"dep": "64",
+"lat": 43.311,
+"lon": -1.4066,
+"pop": 2248,
+"cp": "64250",
+"txt": "Itxassou est réputée pour ses cerises et le Pas de Roland, au bord de la Nive. Un village basque très vert, idéal pour les producteurs et le tourisme.",
+"spots": [
+"Pas de Roland",
+"Vergers de cerisiers",
+"Vallée de la Nive"
+],
+"type": "pb-interieur",
+"new": true
+},
+{
+"slug": "saint-etienne-de-baigorry",
+"code": "64477",
+"nom": "Saint-Étienne-de-Baïgorry",
+"dep": "64",
+"lat": 43.1791,
+"lon": -1.3517,
+"pop": 1527,
+"cp": "64430",
+"txt": "Capitale de la vallée des Aldudes, Saint-Étienne-de-Baïgorry est entourée du vignoble d'Irouléguy en terrasses. Des paysages de montagne exceptionnels pour les domaines et le tourisme.",
+"spots": [
+"Vignoble d'Irouléguy",
+"Pont romain",
+"Vallée des Aldudes"
+],
+"type": "montagne",
+"new": true
+},
+{
+"slug": "laruns",
+"code": "64320",
+"nom": "Laruns",
+"dep": "64",
+"lat": 42.9,
+"lon": -0.42,
+"pop": 1177,
+"cp": "64440",
+"txt": "Au cœur de la vallée d'Ossau, Laruns est la porte du col d'Aubisque et du Pourtalet. Montagne, estives et lacs offrent des images grandioses, sous réserve des règles du Parc national des Pyrénées.",
+"spots": [
+"Vallée d'Ossau",
+"Col d'Aubisque",
+"Lac de Fabrèges"
+],
+"type": "montagne",
+"new": true
+},
+{
+"slug": "morlaas",
+"code": "64405",
+"nom": "Morlaàs",
+"dep": "64",
+"lat": 43.3356,
+"lon": -0.2664,
+"pop": 4374,
+"cp": "64160",
+"txt": "Première capitale du Béarn, Morlaàs garde le portail roman de l'église Sainte-Foy. Entre patrimoine et quartiers résidentiels proches de Pau, la commune offre des sujets variés.",
+"spots": [
+"Église Sainte-Foy",
+"Centre historique",
+"Campagne béarnaise"
+],
+"type": "bearn",
+"new": true
+},
+{
+"slug": "talence",
+"code": "33522",
+"nom": "Talence",
+"dep": "33",
+"lat": 44.8034,
+"lon": -0.5943,
+"pop": 46338,
+"cp": "33400",
+"txt": "Talence, au sud de Bordeaux, combine campus universitaire, château Haut-Brion à proximité et quartiers résidentiels. Le vol y est encadré : je prépare chaque tournage en amont.",
+"spots": [
+"Campus",
+"Château Peixotto",
+"Quartiers résidentiels"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "begles",
+"code": "33039",
+"nom": "Bègles",
+"dep": "33",
+"lat": 44.7989,
+"lon": -0.5491,
+"pop": 31831,
+"cp": "33130",
+"txt": "Bègles borde la Garonne au sud de Bordeaux, avec ses quartiers en renouvellement et ses berges. Entreprises et collectivités y sont mes sujets principaux.",
+"spots": [
+"Berges de la Garonne",
+"Quartiers en renouvellement",
+"Zones d'activité"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "la-teste-de-buch",
+"code": "33529",
+"nom": "La Teste-de-Buch",
+"dep": "33",
+"lat": 44.5952,
+"lon": -1.1983,
+"pop": 27566,
+"cp": "33115",
+"txt": "La Teste-de-Buch englobe la dune du Pilat, Pyla-sur-Mer et le port ostréicole. La base de Cazaux et l'aérodrome imposent une vérification de l'espace aérien.",
+"spots": [
+"Dune du Pilat",
+"Pyla-sur-Mer",
+"Port ostréicole"
+],
+"type": "ocean",
+"new": true
+},
+{
+"slug": "gujan-mestras",
+"code": "33199",
+"nom": "Gujan-Mestras",
+"dep": "33",
+"lat": 44.6126,
+"lon": -1.0827,
+"pop": 22153,
+"cp": "33470",
+"txt": "Capitale ostréicole du bassin d'Arcachon, Gujan-Mestras compte sept ports aux cabanes typiques. Un décor authentique pour producteurs et restaurants.",
+"spots": [
+"Ports ostréicoles",
+"Cabanes typiques",
+"Bassin d'Arcachon"
+],
+"type": "ocean",
+"new": true
+},
+{
+"slug": "lacanau",
+"code": "33214",
+"nom": "Lacanau",
+"dep": "33",
+"lat": 44.9903,
+"lon": -1.1141,
+"pop": 5739,
+"cp": "33680",
+"txt": "Lacanau combine station de surf, grand lac et forêt de pins. Hébergements, écoles de surf et événements y trouvent un décor idéal.",
+"spots": [
+"Lacanau-Océan",
+"Lac de Lacanau",
+"Forêt de pins"
+],
+"type": "ocean",
+"new": true
+},
+{
+"slug": "soulac-sur-mer",
+"code": "33514",
+"nom": "Soulac-sur-Mer",
+"dep": "33",
+"lat": 45.4968,
+"lon": -1.1008,
+"pop": 3100,
+"cp": "33780",
+"txt": "À la pointe du Médoc, Soulac-sur-Mer est connue pour ses villas balnéaires et sa basilique UNESCO. Le phare de Cordouan se devine au large.",
+"spots": [
+"Villas soulacaises",
+"Basilique Notre-Dame-de-la-fin-des-Terres",
+"Plage"
+],
+"type": "ocean",
+"new": true
+},
+{
+"slug": "agen",
+"code": "47001",
+"nom": "Agen",
+"dep": "47",
+"lat": 44.2059,
+"lon": 0.632,
+"pop": 32801,
+"cp": "47000",
+"txt": "Préfecture du Lot-et-Garonne, Agen borde la Garonne avec son pont-canal et sa vieille ville. L'aéroport Agen-La Garenne impose de vérifier l'espace aérien.",
+"spots": [
+"Pont-canal",
+"Vieille ville",
+"Bords de la Garonne"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "marmande",
+"code": "47157",
+"nom": "Marmande",
+"dep": "47",
+"lat": 44.4997,
+"lon": 0.1692,
+"pop": 17328,
+"cp": "47200",
+"txt": "Capitale de la tomate, Marmande s'étend au bord de la Garonne, au milieu des vergers et des cultures maraîchères. Un territoire agricole idéal pour le drone.",
+"spots": [
+"Bords de la Garonne",
+"Cultures maraîchères",
+"Centre-ville"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "villeneuve-sur-lot",
+"code": "47323",
+"nom": "Villeneuve-sur-Lot",
+"dep": "47",
+"lat": 44.4312,
+"lon": 0.7457,
+"pop": 22350,
+"cp": "47300",
+"txt": "Bastide au bord du Lot, Villeneuve-sur-Lot garde ses portes fortifiées et son Pont-Vieux. Un décor de patrimoine fluvial superbe vu du ciel.",
+"spots": [
+"Pont-Vieux",
+"Porte de Paris",
+"Bords du Lot"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "nerac",
+"code": "47195",
+"nom": "Nérac",
+"dep": "47",
+"lat": 44.1308,
+"lon": 0.3419,
+"pop": 6992,
+"cp": "47600",
+"txt": "Nérac, au bord de la Baïse, garde le château d'Henri IV et le parc de la Garenne. Une petite ville de caractère en Albret.",
+"spots": [
+"Château-musée Henri IV",
+"Bords de la Baïse",
+"Parc de la Garenne"
+],
+"type": "perigord",
+"new": true
+},
+{
+"slug": "angouleme",
+"code": "16015",
+"nom": "Angoulême",
+"dep": "16",
+"lat": 45.6461,
+"lon": 0.1503,
+"pop": 41908,
+"cp": "16000",
+"txt": "Ville de l'image et capitale de la bande dessinée, Angoulême domine la Charente depuis ses remparts. Son festival international et ses murs peints en font un sujet très visuel.",
+"spots": [
+"Remparts",
+"Cathédrale Saint-Pierre",
+"Murs peints"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "cognac",
+"code": "16102",
+"nom": "Cognac",
+"dep": "16",
+"lat": 45.6952,
+"lon": -0.337,
+"pop": 18532,
+"cp": "16100",
+"txt": "Capitale mondiale de l'eau-de-vie, Cognac borde la Charente avec ses grandes maisons et ses chais. Un territoire idéal pour les vidéos de marques et de domaines.",
+"spots": [
+"Quais de la Charente",
+"Grandes maisons de cognac",
+"Vieille ville"
+],
+"type": "vignoble",
+"new": true
+},
+{
+"slug": "brive-la-gaillarde",
+"code": "19031",
+"nom": "Brive-la-Gaillarde",
+"dep": "19",
+"lat": 45.1397,
+"lon": 1.5189,
+"pop": 47095,
+"cp": "19100",
+"txt": "Ville la plus peuplée de Corrèze, Brive-la-Gaillarde est connue pour son marché, sa foire du livre et son centre historique. Commerces et entreprises y offrent de nombreux sujets.",
+"spots": [
+"Collégiale Saint-Martin",
+"Halle Georges-Brassens",
+"Centre historique"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "tulle",
+"code": "19272",
+"nom": "Tulle",
+"dep": "19",
+"lat": 45.2723,
+"lon": 1.7618,
+"pop": 13401,
+"cp": "19000",
+"txt": "Préfecture de la Corrèze, Tulle s'étire dans la vallée de la Corrèze, connue pour son accordéon et sa dentelle. Une ville encaissée très graphique vue du ciel.",
+"spots": [
+"Cathédrale Notre-Dame",
+"Vallée de la Corrèze",
+"Quartier des Trois Provinces"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "gueret",
+"code": "23096",
+"nom": "Guéret",
+"dep": "23",
+"lat": 46.1623,
+"lon": 1.8707,
+"pop": 12955,
+"cp": "23000",
+"txt": "Préfecture de la Creuse, Guéret est entourée de forêts et proche du parc animalier des Loups de Chabrières. Un territoire nature pour les collectivités et le tourisme.",
+"spots": [
+"Forêt de Chabrières",
+"Centre-ville",
+"Monts de Guéret"
+],
+"type": "foret",
+"new": true
+},
+{
+"slug": "niort",
+"code": "79191",
+"nom": "Niort",
+"dep": "79",
+"lat": 46.3281,
+"lon": -0.4685,
+"pop": 59854,
+"cp": "79000",
+"txt": "Préfecture des Deux-Sèvres, Niort est la porte du Marais poitevin avec son donjon au bord de la Sèvre niortaise. Entreprises et sièges de mutuelles y sont nombreux.",
+"spots": [
+"Donjon de Niort",
+"Sèvre niortaise",
+"Marais poitevin"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "poitiers",
+"code": "86194",
+"nom": "Poitiers",
+"dep": "86",
+"lat": 46.5822,
+"lon": 0.3641,
+"pop": 89916,
+"cp": "86000",
+"txt": "Poitiers est une ville universitaire au riche patrimoine roman, avec Notre-Dame-la-Grande, à quelques minutes du Futuroscope. Entreprises, établissements et événements y sont mes sujets.",
+"spots": [
+"Notre-Dame-la-Grande",
+"Centre historique",
+"Futuroscope à proximité"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "chatellerault",
+"code": "86066",
+"nom": "Châtellerault",
+"dep": "86",
+"lat": 46.8174,
+"lon": 0.555,
+"pop": 31003,
+"cp": "86100",
+"txt": "Châtellerault borde la Vienne avec son pont Henri IV et son ancienne manufacture d'armes reconvertie. Un patrimoine industriel et fluvial à filmer.",
+"spots": [
+"Pont Henri IV",
+"Manufacture",
+"Bords de la Vienne"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "limoges",
+"code": "87085",
+"nom": "Limoges",
+"dep": "87",
+"lat": 45.8592,
+"lon": 1.2509,
+"pop": 129937,
+"cp": "87000",
+"txt": "Capitale de la porcelaine et des arts du feu, Limoges garde sa gare des Bénédictins, sa cathédrale et ses bords de Vienne. Entreprises, artisans et commerces y attendent des images soignées.",
+"spots": [
+"Gare des Bénédictins",
+"Cathédrale Saint-Étienne",
+"Bords de Vienne"
+],
+"type": "ville",
+"new": true
+},
+{
+"slug": "saint-junien",
+"code": "87154",
+"nom": "Saint-Junien",
+"dep": "87",
+"lat": 45.9021,
+"lon": 0.8872,
+"pop": 11415,
+"cp": "87200",
+"txt": "Saint-Junien est réputée pour sa ganterie et sa collégiale, au bord de la Vienne. Savoir-faire et patrimoine y font de très bons sujets.",
+"spots": [
+"Collégiale",
+"Ganterie",
+"Bords de la Vienne"
+],
+"type": "ville",
+"new": true
+}
+]
