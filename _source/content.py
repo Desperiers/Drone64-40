@@ -168,6 +168,7 @@ IDEAS = {
 'bearn': [('videaste',"Entreprises et sites industriels du bassin et de la vallée."),('drone-collectivites',"Patrimoine, ponts et bords de Gave."),('drone-immobilier-landes',"Maisons béarnaises avec vue sur les Pyrénées.")],
 'montagne': [('video-restaurant-hotel',"Hébergements, refuges et restaurants de vallée."),('drone-collectivites',"Promotion touristique des vallées et des sites naturels."),('drone-agriculture',"Estives, élevages et producteurs de montagne.")],
 'perigord': [('video-restaurant-hotel',"Hôtels, gîtes et restaurants du Périgord."),('drone-collectivites',"Patrimoine, bastides et sites touristiques."),('drone-immobilier-landes',"Maisons en pierre et domaines avec piscine.")],
+'rural': [('videaste',"Entreprises, artisans et commerces de la commune et des environs."),('drone-immobilier-landes',"Maisons, terrains et biens de caractère vus du ciel."),('drone-collectivites',"Communication municipale, patrimoine et événements locaux.")],
 'ile': [('video-restaurant-hotel',"Hôtels, campings et restaurants de l'île."),('drone-immobilier-landes',"Maisons de vacances et résidences secondaires."),('drone-agriculture',"Ostréiculteurs, sauniers et producteurs locaux.")],
 }
 

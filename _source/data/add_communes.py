@@ -1,9 +1,10 @@
 """Ajoute des communes des Landes et des Pyrénées-Atlantiques à cities.json."""
 import json, math, re, unicodedata, hashlib, sys
 sys.path.insert(0, 'data')
-from territoires import T, PB_POLES
+from territoires import T, PB_POLES, DEP_T
 S = '/tmp/claude-0/-home-claude/904700ec-aa8a-5918-be9a-68b5f05adc89/scratchpad'
-TARGET = int(sys.argv[1]) if len(sys.argv) > 1 else 410
+MIN = {'40': 0, '64': 250}
+MIN_OTHER = 3000
 cen = json.load(open(S + '/geo/centres.json'))
 com = {c['code']: c for c in json.load(open(S + '/npmtest/package/data/communes.json')) if c['type'] == 'commune-actuelle'}
 epci = {}
@@ -20,13 +21,12 @@ def km(a, b):
     return 2*R*math.asin(math.sqrt(h))
 # enrichir les fiches existantes
 for c in cities:
-    if c['dep'] in ('40', '64') and c['code'] in epci: c['epci'] = epci[c['code']]
+    if c['code'] in epci: c['epci'] = epci[c['code']]
 have_codes = {c['code'] for c in cities}; have_slugs = {c['slug'] for c in cities}
-cur = sum(1 for c in cities if c['dep'] in ('40', '64'))
-need = TARGET - cur
-pool = sorted([c for c in com.values() if c['departement'] in ('40', '64') and c['code'] not in have_codes and c['code'] in cen],
-              key=lambda c: -(c.get('population') or 0))
-hubs = [c for c in cities if (c.get('pop') or 0) >= 4000 and c['dep'] in ('40', '64')]
+DEPS = ['40', '64'] + list(DEP_T)
+pool = sorted([c for c in com.values() if c['departement'] in DEPS and c['code'] not in have_codes and c['code'] in cen
+               and (c.get('population') or 0) >= MIN.get(c['departement'], MIN_OTHER)], key=lambda c: -(c.get('population') or 0))
+hubs = [c for c in cities if (c.get('pop') or 0) >= 4000]
 def pole(lat, lon):
     return min(PB_POLES, key=lambda k: km((lat, lon), PB_POLES[k][:2]))
 def de(n):
@@ -35,13 +35,17 @@ def fmt(n): return f"{n:,}".replace(',', '\u202f')
 def size(p):
     return 'petit village' if p < 500 else 'village' if p < 2000 else 'bourg' if p < 5000 else 'ville'
 added = 0
-for c in pool[:need]:
+for c in pool:
     lat, lon, _ = cen[c['code']]
     e = epci.get(c['code'], '')
     if e == 'CA du Pays Basque':
         p = pole(lat, lon); terr, phrases, typ = p, PB_POLES[p][2], PB_POLES[p][3]
     elif e in T:
         terr, phrases, typ = T[e]
+    elif c['departement'] in DEP_T:
+        terr, phrases, typ = DEP_T[c['departement']]
+        if (c.get('population') or 0) >= 10000: typ = 'ville'
+        elif c['departement'] == '17' and lon < -0.95: typ = 'ocean'
     else:
         continue
     h = int(hashlib.md5(c['code'].encode()).hexdigest(), 16)
@@ -60,7 +64,7 @@ for c in pool[:need]:
     have_slugs.add(slug)
     cities.append({'slug': slug, 'code': c['code'], 'nom': c['nom'], 'dep': c['departement'], 'lat': lat, 'lon': lon,
                    'pop': pop, 'cp': (c.get('codesPostaux') or [''])[0], 'txt': txt,
-                   'spots': [terr, f"À {'quelques minutes' if dn <= 12 else f'{dn} km'} {de(near['nom'])}", e.replace('CC ', 'Communauté de communes ').replace('CA ', 'Agglomération ')],
+                   'spots': [terr, f"À {'quelques minutes' if dn <= 12 else f'{dn} km'} {de(near['nom'])}", e.replace('CC ', 'Communauté de communes ').replace('CA ', 'Agglomération ').replace('CU ', 'Communauté urbaine ')],
                    'type': typ, 'new': True, 'auto': True, 'epci': e, 'territoire': terr})
     added += 1
 for c in cities:
@@ -69,4 +73,4 @@ for c in cities:
     c['txt'] += f" Ses communes voisines sont {v[0]['nom']}, {v[1]['nom']} et {v[2]['nom']}."
 json.dump(cities, open('cities.json', 'w'), ensure_ascii=False, indent=0)
 from collections import Counter
-print('ajoutées', added, 'total', len(cities), Counter(c['dep'] for c in cities if c['dep'] in ('40', '64')), 'pop min ajoutée', pool[need-1].get('population'))
+print('ajoutées', added, 'total', len(cities), Counter(c['dep'] for c in cities if c['dep'] in ('40', '64')), 'par dép.', Counter(c['dep'] for c in cities))

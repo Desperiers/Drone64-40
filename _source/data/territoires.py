@@ -44,3 +44,17 @@ PB_POLES = {
  'Garazi-Baigorri': (43.17, -1.28, ["Autour de Saint-Jean-Pied-de-Port et Saint-Étienne-de-Baïgorry, ce territoire de montagne est celui de l'Irouléguy et du chemin de Saint-Jacques.", "Entre vallées, vignes en terrasses et estives, Garazi-Baigorri offre des paysages de montagne spectaculaires."], 'montagne'),
  'Soule': (43.20, -0.90, ["La Soule, autour de Mauléon et Tardets, est la plus petite province basque, entre collines, forêts et montagne.", "Ce territoire de traditions, d'estives et de gorges est l'un des plus sauvages du Pays basque."], 'montagne'),
 }
+
+# Autres départements : présentation générale (2 variantes) et type par défaut
+DEP_T = {
+'33': ("Gironde", ["En Gironde, entre la métropole bordelaise, les vignobles prestigieux, le bassin d'Arcachon et l'estuaire, les sujets ne manquent pas.", "Le département de la Gironde associe une grande métropole, des communes résidentielles, des châteaux viticoles et un littoral très fréquenté."], 'vignoble'),
+'24': ("Dordogne", ["La Dordogne, avec ses vallées, ses châteaux et ses villages de pierre, est l'une des destinations touristiques majeures de France.", "Entre Périgord vert, blanc, pourpre et noir, la Dordogne offre un patrimoine et des paysages exceptionnels."], 'perigord'),
+'47': ("Lot-et-Garonne", ["Le Lot-et-Garonne est un pays de vergers, de bastides et de vallées, entre la Garonne et le Lot.", "Entre Agen, Marmande et Villeneuve-sur-Lot, le Lot-et-Garonne associe agriculture, bastides et rivières."], 'rural'),
+'17': ("Charente-Maritime", ["La Charente-Maritime combine îles, ports, marais et stations balnéaires, entre La Rochelle, Rochefort et Royan.", "Entre océan, estuaire de la Gironde et campagne saintongeaise, la Charente-Maritime attire visiteurs et entreprises."], 'rural'),
+'16': ("Charente", ["La Charente, autour d'Angoulême et de Cognac, est le pays des eaux-de-vie, de la vallée de la Charente et de l'image.", "Entre vignes du Cognac, vallée de la Charente et patrimoine roman, la Charente offre un cadre varié."], 'vignoble'),
+'19': ("Corrèze", ["La Corrèze associe la vallée de la Dordogne, les plateaux du Limousin et des villes comme Brive et Tulle.", "Entre gorges, plateaux et villages classés, la Corrèze est un territoire vert et préservé."], 'rural'),
+'23': ("Creuse", ["La Creuse est un territoire de forêts, de lacs et de villages, au cœur du Limousin.", "Entre Guéret et le plateau de Millevaches, la Creuse offre une nature préservée et un patrimoine rural."], 'foret'),
+'79': ("Deux-Sèvres", ["Les Deux-Sèvres, autour de Niort, réunissent le Marais poitevin, le bocage et un tissu d'entreprises dynamique.", "Entre Marais poitevin, bocage et vallées, les Deux-Sèvres associent nature et activité économique."], 'rural'),
+'86': ("Vienne", ["La Vienne, autour de Poitiers et de Châtellerault, associe patrimoine roman, Futuroscope et campagne.", "Entre villes universitaires, châteaux et vallées, la Vienne est un territoire actif au nord de la région."], 'rural'),
+'87': ("Haute-Vienne", ["La Haute-Vienne, autour de Limoges, est le pays de la porcelaine, des arts du feu et de la campagne limousine.", "Entre Limoges, monts et vallées, la Haute-Vienne associe savoir-faire et nature."], 'rural'),
+}
