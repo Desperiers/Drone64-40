@@ -236,3 +236,9 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
 footer a{text-decoration:none}footer a:hover{color:var(--accent)}
 footer .legal{border-top:1px solid var(--deep-line);padding-block:18px;font:400 .75rem/1.6 var(--mono)}
 @media (max-width:900px){footer .cols{grid-template-columns:1fr 1fr}}
+
+/* Galerie photo */
+.pgrid{columns:3 260px;column-gap:12px}
+.pgrid figure{break-inside:avoid;margin:0 0 12px;position:relative;background:var(--line)}
+.pgrid img{width:100%}
+.pgrid figcaption{position:absolute;left:0;bottom:0;width:100%;padding:8px 10px;font:500 .7rem/1.3 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.7))}

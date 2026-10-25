@@ -47,7 +47,7 @@ SERVICES = {
        ("Êtes-vous assuré ?","Oui, je suis couvert par une responsabilité civile professionnelle pour mon activité de télépilote."),
        ("Pouvez-vous filmer un événement avec du public ?","Le survol de rassemblements est interdit en catégorie ouverte. Je filme alors en périphérie et je complète avec des plans au sol pour garder l'ambiance.")]),
 'photographe': dict(
-  nav='Photo', short='Photographie', img='pont-vieux-orthez-drone',
+  nav='Photo', short='Photographie', img='course-landaise-vache-cordier',
   title='Photographe professionnel dans les Landes et au Pays basque | Drone 64-40',
   desc="Photographe à Cauneille (40) : photo immobilière, culinaire, portrait d'équipe, événement, photo aérienne. Landes, Pays basque, Béarn. Retouche incluse, devis 24 h.",
   h1="Photographe professionnel <em>Landes · Pays basque</em>",
@@ -114,7 +114,7 @@ SECTORS = {
   body="<p>Je tourne pendant le service ou avant l'ouverture, selon ce que vous voulez montrer, en m'adaptant à votre rythme pour ne pas gêner l'équipe. Le rendu est chaud et naturel, fidèle à ce que vivent vos clients.</p><p>Hôtels, campings et gîtes profitent en plus des plans aériens : la piscine, l'accès à la plage, la forêt autour.</p>",
   review=("Super expérience. Très professionnel. Rendu au top, exploitable facilement.","Le Louisabella")),
 'video-evenement-mariage': dict(
-  name='Événements', sub="Mariages, festivals, aftermovies, sport", img='estacade-capbreton',
+  name='Événements', sub="Mariages, festivals, aftermovies, sport", img='course-landaise-vache-cordier', photos=['course-landaise-vache-cordier','course-landaise-cordier-corde','course-landaise-arene-piste'],
   title="Vidéaste événementiel et mariage dans les Landes | Drone 64-40",
   desc="Aftermovie de festival, vidéo de mariage, séminaire, compétition sportive, course landaise : vidéo et photo d'événement avec plans drone dans les Landes et au Pays basque.",
   h1="Vidéo &amp; photo <em>d'événement</em>",
@@ -217,3 +217,14 @@ SVC_ANGLE = {
 'drone': ("Pilote drone","pilote drone","Je réalise des photos et vidéos aériennes pour l'immobilier, le tourisme, les chantiers, les domaines et les événements, en vérifiant chaque zone de vol avant la mission."),
 'community-manager': ("Community manager","community manager","Je crée vos contenus photo et vidéo, je les publie sur vos réseaux sociaux et je suis les résultats, avec une stratégie adaptée à votre clientèle."),
 }
+
+# Photos de la galerie : (fichier, texte alternatif, légende)
+PHOTOS = [
+ ('course-landaise-vache-cordier', "Vache landaise aux cornes protégées tenue à la corde pendant une course landaise, écarteurs en arrière-plan", "Course landaise · reportage"),
+ ('course-landaise-cordier-corde', "Cordier en tenue blanche maniant la corde dans l'arène d'une course landaise", "Course landaise · le cordier"),
+ ('course-landaise-arene-piste', "Piste de sable et barrière rouge d'une arène de course landaise, vue au ras du sol", "Course landaise · l'arène"),
+ ('goelands-cote-atlantique', "Goélands sur un rocher de la côte atlantique", "Côte atlantique · nature"),
+ ('pissenlit-coucher-soleil-chalosse', "Pissenlit au coucher du soleil dans une prairie landaise", "Chalosse · nature"),
+ ('estacade-capbreton', "Estacade de Capbreton et reflets à marée basse", "Capbreton · paysage"),
+ ('coulisses-tournage-eglise', "Appareil photo hybride sur trépied pendant un tournage dans une église", "Coulisses · tournage en intérieur"),
+]

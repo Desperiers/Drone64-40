@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Générateur du site drone6440.fr — produit des pages HTML statiques dans OUT."""
 import json, math, os, re, sys, html, hashlib, shutil, datetime
-from content import SERVICES, SECTORS, DEPTS, IDEAS, REVIEWS, HOME_FAQ, DEPT_ECO, SVC_ANGLE
+from content import SERVICES, SECTORS, DEPTS, IDEAS, REVIEWS, HOME_FAQ, DEPT_ECO, SVC_ANGLE, PHOTOS
+PH = {p[0]: p for p in PHOTOS}
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'out'
 SITE = 'https://drone6440.fr'
@@ -178,6 +179,9 @@ GALLERY = [('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée d
 def gallery():
     return '<div class="grid">' + ''.join(f'<figure class="g{i+1}">{pic(n, a, sizes="(max-width:720px) 50vw, 33vw")}<figcaption>{c}</figcaption></figure>' for i, (n, a, c) in enumerate(GALLERY)) + '</div>'
 
+def pgrid(names):
+    return '<div class="pgrid">' + ''.join(f'<figure>{pic(n, PH[n][1], sizes="(max-width:640px) 100vw, 33vw")}<figcaption>{esc(PH[n][2])}</figcaption></figure>' for n in names if n in PH) + '</div>'
+
 def service_cards(exclude=None, c3=False):
     out = []
     for i, (k, s) in enumerate(SERVICES.items()):
@@ -244,6 +248,7 @@ def build_services():
         body = phero(items, s['h1'], s['intro'], s['img'], s['short']) + f'''
 <section aria-labelledby="h-off"><div class="wrap"><div class="sec-head"><span class="eyebrow">Ce que je propose</span><h2 id="h-off">{esc(s["short"])}</h2></div>{offers}</div></section>
 <section class="tight"><div class="wrap prose">{s["body"]}</div></section>
+{('<section class="tight" aria-labelledby="h-gal"><div class="wrap"><div class="sec-head"><span class="eyebrow">Galerie</span><h2 id="h-gal" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Quelques photos</h2></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>') if k == 'photographe' else ''}
 <section class="tight" aria-labelledby="h-dep"><div class="wrap"><div class="sec-head"><span class="eyebrow">Par département</span><h2 id="h-dep" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">{SVC_ANGLE[k][0]} en Nouvelle-Aquitaine</h2></div><ul class="chips">{deps}</ul></div></section>
 {sectors_band('Par secteur', "Des exemples concrets selon votre activité.")}
 <section aria-labelledby="h-autres"><div class="wrap"><div class="sec-head"><span class="eyebrow">Aussi</span><h2 id="h-autres" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Mes autres métiers</h2></div>{service_cards(exclude=k, c3=True)}</div></section>
@@ -295,7 +300,7 @@ def build_sectors():
         body = phero(items, s['h1'], s['intro'], s['img'], s['name']) + f'''
 <section aria-labelledby="h-p"><div class="wrap"><div class="sec-head"><span class="eyebrow">{esc(s["name"])}</span><h2 id="h-p">Ce que je réalise</h2></div>{pts}</div></section>
 <section class="tight"><div class="wrap prose">{s["body"]}<p>Voir aussi : <a href="/videaste/">vidéo</a> · <a href="/photographe/">photographie</a> · <a href="/drone/">drone</a> · <a href="/community-manager/">community management</a>.</p></div></section>
-{rv}
+{('<section class="tight"><div class="wrap">' + pgrid(s['photos']) + '</div></section>') if s.get('photos') else ''}{rv}
 <section class="band"><div class="wrap"><div class="sec-head"><span class="eyebrow">Autres secteurs</span><h2 style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Je travaille aussi avec</h2></div><div class="sectors" style="grid-template-columns:repeat(4,1fr)">{others}</div></div></section>
 {faq_html(faq)}{contact_block()}'''
         page(path, s['title'], s['desc'], body, cur='/secteurs', prio='0.8', schema=[crumbs_ld(items), faq_ld(faq)])
@@ -390,7 +395,7 @@ def build_misc():
     it = [('Accueil', '/'), ('Réalisations', '/realisations')]
     figs = ''.join(f'<figure class="rv" style="padding:0;overflow:hidden">{pic(n, a, sizes="(max-width:720px) 100vw, 50vw")}<figcaption style="padding:12px 16px">{c}</figcaption></figure>' for n, a, c in GALLERY + [('lac-ile-sable-landes-drone', "Vue aérienne d'un lac et d'une île de sable dans les Landes", 'Landes · drone'), ('drones-dji-fpv', 'Drones DJI et FPV avant un vol à Dax', 'Dax (40) · matériel')])
     body = phero(it, 'Mes <em>réalisations</em>', "Une sélection de photos et de prises de vue aériennes réalisées dans les Landes et au Pays basque. D'autres projets sont visibles sur Instagram @drone_6440.", 'estacade-capbreton', 'Estacade de Capbreton', ctas=False) + \
-        f'<section><div class="wrap"><div class="reviews">{figs}</div><p style="margin-top:28px"><a class="btn" href="https://www.instagram.com/drone_6440" rel="noopener">Voir plus sur Instagram</a></p></div></section>{reviews_html()}{contact_block()}'
+        f'<section aria-labelledby="h-ph"><div class="wrap"><div class="sec-head"><span class="eyebrow">Photographie</span><h2 id="h-ph">Au sol</h2></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>' + f'<section class="tight" aria-labelledby="h-dr"><div class="wrap"><div class="sec-head"><span class="eyebrow">Drone et paysages</span><h2 id="h-dr">Vu du ciel</h2></div><div class="reviews">{figs}</div><p style="margin-top:28px"><a class="btn" href="https://www.instagram.com/drone_6440" rel="noopener">Voir plus sur Instagram</a></p></div></section>{reviews_html()}{contact_block()}'
     page('/realisations', 'Réalisations photo, vidéo et drone | Drone 64-40', "Photos, vidéos et prises de vue aériennes réalisées dans les Landes, au Pays basque et en Béarn par Nicolas Desperiers, Drone 64-40.", body, cur='/realisations', prio='0.7', schema=[crumbs_ld(it)])
 
     it = [('Accueil', '/'), ('À propos', '/a-propos')]
