@@ -17,6 +17,17 @@ cities = json.load(open('cities.json'))
 by_slug = {c['slug']: c for c in cities}
 pages = []  # (path, priority)
 
+
+GA_TAG = """<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HV32EPKN5V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HV32EPKN5V');
+</script>
+"""
+
 def esc(s): return html.escape(s, quote=True)
 def strip(s): return re.sub(r'<[^>]+>', '', s)
 
@@ -149,7 +160,7 @@ def page(path, title, desc, body, cur=None, schema=None, img='og-drone-64-40.jpg
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="/assets/site.css?v={CSSV}">
 {ld({"@context": "https://schema.org", "@graph": schema})}
-</head><body>'''
+{GA_TAG}</head><body>'''
     doc = head + header(cur) + f'<main id="main">{body}</main>' + footer() + JS + '</body></html>'
     fp = OUT + (path + 'index.html' if path.endswith('/') else path + '.html')
     os.makedirs(os.path.dirname(fp), exist_ok=True)
@@ -454,7 +465,7 @@ def build_misc():
 
 def build_extras():
     # accueil.html : ancienne URL renvoyée vers la racine
-    open(OUT + '/accueil.html', 'w').write(f'<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Drone 64-40</title><link rel="canonical" href="{SITE}/"><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0; url=/"><script>location.replace("/")</script></head><body><p><a href="/">Aller à l\'accueil de Drone 64-40</a></p></body></html>')
+    open(OUT + '/accueil.html', 'w').write(f'<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Drone 64-40</title><link rel="canonical" href="{SITE}/"><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0; url=/"><script>location.replace("/")</script>{GA_TAG}</head><body><p><a href="/">Aller à l\'accueil de Drone 64-40</a></p></body></html>')
     # sitemap
     urls = ''.join(f'<url><loc>{SITE}{p}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>' for p, pr in pages)
     urls += f'<url><loc>{SITE}/regards/</loc><lastmod>{TODAY}</lastmod><priority>0.6</priority></url>'
