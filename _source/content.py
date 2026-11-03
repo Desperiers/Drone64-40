@@ -24,7 +24,7 @@ SERVICES = {
        ("Faut-il préparer quelque chose avant le tournage ?","Je vous envoie une courte liste : lieux à filmer, personnes présentes, messages clés. Je m'occupe du reste, y compris de la musique libre de droits."),
        ("Pouvez-vous ajouter des plans de drone ?","Oui, c'est mon métier d'origine. Les plans aériens sont tournés le même jour, dans les limites de la réglementation.")]),
 'drone': dict(
-  nav='Drone', short='Prises de vue drone', img='lac-ile-sable-landes-drone',
+  nav='Drone', short='Prises de vue drone', img='estacade-capbreton',
   title='Pilote drone professionnel Landes et Pays basque | Drone 64-40',
   desc="Télépilote certifié EU basé à Cauneille (40) : photo et vidéo aérienne 4K, vols FPV, immobilier, tourisme, chantiers, événements. Landes, Pays basque, Béarn. Devis 24 h.",
   h1="Pilote drone professionnel <em>Landes · Pays basque</em>",
@@ -226,6 +226,6 @@ PHOTOS = [
  ('course-landaise-arene-piste', "Piste de sable et barrière rouge d'une arène de course landaise, vue au ras du sol", "Course landaise · l'arène · Regards 64/40"),
  ('goelands-cote-atlantique', "Goélands sur un rocher de la côte atlantique", "Côte atlantique · nature · Regards 64/40"),
  ('pissenlit-coucher-soleil-chalosse', "Pissenlit au coucher du soleil dans une prairie landaise", "Chalosse · nature · Regards 64/40"),
- ('estacade-capbreton', "Estacade de Capbreton et reflets à marée basse", "Capbreton · paysage · Regards 64/40"),
+ ('estacade-capbreton', "Estacade de Capbreton et ses phares vus du ciel au crépuscule", "Capbreton · vue aérienne"),
  ('coulisses-tournage-eglise', "Appareil photo hybride sur trépied pendant un tournage dans une église", "Coulisses · tournage en intérieur"),
 ]

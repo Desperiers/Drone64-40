@@ -12,6 +12,7 @@ PHONE, PHONE_INTL, EMAIL = '06 71 97 82 98', '+33671978298', 'drone64-40@outlook
 SIRET = '[SIRET à compléter]'
 TVA = '[TVA intracom. à compléter]'
 CSSV = hashlib.md5(open('site.css','rb').read()).hexdigest()[:8]
+JSV = hashlib.md5(open('immersif.js','rb').read()).hexdigest()[:8]
 
 cities = json.load(open('cities.json'))
 by_slug = {c['slug']: c for c in cities}
@@ -141,7 +142,7 @@ var b='Bonjour Nicolas,%0D%0A%0D%0APrestation : '+encodeURIComponent(d.get('type
 location.href='mailto:'+f.dataset.mail+'?subject='+encodeURIComponent('Demande de devis — '+d.get('type'))+'&body='+b;});});
 </script>'''
 
-def page(path, title, desc, body, cur=None, schema=None, img='og-drone-64-40.jpg', prio='0.6', robots='index,follow'):
+def page(path, title, desc, body, cur=None, schema=None, img='og-drone-64-40.jpg', prio='0.6', robots='index,follow', imm=False, preload=None):
     canon = SITE + path
     schema = [ORG] + (schema or [])
     head = f'''<!DOCTYPE html>
@@ -159,9 +160,10 @@ def page(path, title, desc, body, cur=None, schema=None, img='og-drone-64-40.jpg
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="/assets/site.css?v={CSSV}">
-{ld({"@context": "https://schema.org", "@graph": schema})}
-{GA_TAG}</head><body>'''
-    doc = head + header(cur) + f'<main id="main">{body}</main>' + footer() + JS + '</body></html>'
+{preload or ""}{ld({"@context": "https://schema.org", "@graph": schema})}
+{GA_TAG}</head><body{' class="imm-page"' if imm else ''}>'''
+    extra = (ALTI + f'<script src="/assets/immersif.js?v={JSV}" defer></script>') if imm else ''
+    doc = head + header(cur) + f'<main id="main">{body}</main>' + footer() + JS + extra + '</body></html>'
     fp = OUT + (path + 'index.html' if path.endswith('/') else path + '.html')
     os.makedirs(os.path.dirname(fp), exist_ok=True)
     open(fp, 'w').write(doc)
@@ -175,8 +177,14 @@ def crumbs_html(items):
     return '<nav class="crumbs" aria-label="Fil d\'Ariane"><ol>' + ''.join(
         (f'<li><a href="{u}">{esc(n)}</a></li>' if i < len(items)-1 else f'<li aria-current="page">{esc(n)}</li>') for i, (n, u) in enumerate(items)) + '</ol></nav>'
 
-def phero(items, h1, intro, img, alt, ctas=True, facts=''):
+def phero(items, h1, intro, img, alt, ctas=True, facts='', imm=None):
     c = f'<div class="ctas"><a class="btn" href="#contact">Demander un devis · réponse 24 h</a><a class="btn ghost" href="/realisations">Voir les réalisations</a></div>' if ctas else ''
+    if imm:
+        mode, coord, altm = imm
+        return (f'<section class="phero imm" data-hero><div class="slides">{slide(img, alt, "LANDES · PAYS BASQUE", coord, altm, first=True, ox="60%", oy="40%")}</div>'
+                f'{osd(mode, "LANDES · PAYS BASQUE", coord, live_alt=altm is not None)}{OSD_CORNERS}'
+                f'<div class="wrap">{crumbs_html(items)}<h1>{h1}</h1><p class="intro">{intro}</p>{c}{facts}</div>'
+                f'<a class="cue" href="#h-off" aria-label="Descendre vers les prestations">DESCENDRE</a></section>')
     return f'<section class="phero">{pic(img, alt, eager=True, sizes="100vw")}<div class="wrap">{crumbs_html(items)}<h1>{h1}</h1><p class="intro">{intro}</p>{c}{facts}</div></section>'
 
 def faq_html(faq, title='Questions fréquentes', hid='h-faq'):
@@ -184,12 +192,64 @@ def faq_html(faq, title='Questions fréquentes', hid='h-faq'):
         ''.join(f'<details{" open" if i == 0 else ""}><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for i, (q, a) in enumerate(faq)) + '</div></div></section>'
 
 GALLERY = [('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton vue par drone', 'Capbreton (40) · drone'),
-           ('estacade-capbreton', 'Estacade de Capbreton depuis la plage', 'Estacade · Capbreton'),
+           ('estacade-capbreton', 'Estacade de Capbreton vue par drone au crépuscule', 'Estacade · Capbreton · drone'),
            ('goelands-cote-atlantique', 'Goélands sur un rocher de la côte atlantique', 'Côte atlantique · photo'),
            ('pont-vieux-orthez-drone', "Pont-Vieux d'Orthez vu du ciel", 'Orthez (64) · drone'),
            ('pissenlit-coucher-soleil-chalosse', 'Pissenlit au coucher du soleil dans une prairie landaise', 'Chalosse (40) · photo')]
 def gallery():
     return '<div class="grid">' + ''.join(f'<figure class="g{i+1}">{pic(n, a, sizes="(max-width:720px) 50vw, 33vw")}<figcaption>{c}</figcaption></figure>' for i, (n, a, c) in enumerate(GALLERY)) + '</div>'
+
+# ---------------------------------------------------------------- immersif
+ALTI = '<div class="alti" aria-hidden="true"><div class="sc"><i></i></div><b>ALT 120 m</b><span>Décollage</span></div>'
+AR = {'capbreton-jetee-coucher-soleil': '16/9', 'lac-ile-sable-landes-drone': '900/506', 'pont-vieux-orthez-drone': '1200/627',
+      'course-landaise-vache-cordier': '3/2', 'course-landaise-cordier-corde': '2/3', 'course-landaise-arene-piste': '2/3',
+      'estacade-capbreton': '16/9', 'goelands-cote-atlantique': '3/4', 'pissenlit-coucher-soleil-chalosse': '2/3',
+      'coulisses-tournage-eglise': '3/4', 'drones-dji-fpv': '4/3'}
+OSD_CORNERS = '<span class="corner a" aria-hidden="true"></span><span class="corner b" aria-hidden="true"></span><span class="reticle" aria-hidden="true"></span>'
+
+def slide(name, alt, place, coord, altm, first=False, ox='50%', oy='50%', tx='0', ty='0'):
+    st = f'--ox:{ox};--oy:{oy};--tx:{tx};--ty:{ty}'
+    a = f' data-a="{altm}"' if altm is not None else ''
+    if first:
+        img = f'<img src="/img/{name}-800.webp" srcset="/img/{name}-800.webp 800w, /img/{name}.webp 1600w" sizes="100vw" alt="{esc(alt)}" fetchpriority="high" style="{st}">'
+    else:
+        img = f'<img data-src="/img/{name}-800.webp" data-srcset="/img/{name}-800.webp 800w, /img/{name}.webp 1600w" sizes="100vw" alt="" decoding="async" style="{st}">'
+    return f'<div class="slide{" on" if first else ""}" data-p="{esc(place)}" data-c="{esc(coord)}"{a}>{img}</div>'
+
+def reel(n):
+    if n < 2: return ''
+    b = ''.join(f'<button type="button" data-go="{i}" aria-label="Vue {i+1} sur {n}"{" class=on" if i == 0 else ""}><span class="bar"><i></i></span></button>' for i in range(n))
+    return f'<div class="reel">{b}<button type="button" class="pp" aria-pressed="false" aria-label="Mettre en pause le diaporama">❚❚ PAUSE</button></div>'
+
+def osd(mode, place, coord, live_alt=True):
+    tr = (f'<span data-alt>ALT 0 m</span><br><span data-coord>{esc(coord)}</span>' if live_alt else f'<span data-coord>{esc(coord)}</span>')
+    return (f'<div class="osd tl" aria-hidden="true"><span class="rec"><i></i>REC</span> <span data-tc>00:00:00:00</span> · {mode}</div>'
+            f'<div class="osd tr" aria-hidden="true">{tr}</div>'
+            f'<div class="osd br" aria-hidden="true"><span data-place>{esc(place)}</span></div>')
+
+def fly(items, eyebrow, title, hid, end_txt='Toutes les réalisations', end_url='/realisations', hint='Faites défiler · survol'):
+    figs = ''.join(f'<figure style="--ar:{AR.get(n, "4/3")}">{pic(n, alt, sizes="(max-width:900px) 82vw, 50vw")}<figcaption><span>{esc(cap)}</span><b>{esc(tag)}</b></figcaption></figure>' for n, alt, cap, tag in items)
+    return (f'<section class="fly" aria-labelledby="{hid}"><div class="pin"><div class="wrap fhead"><div class="sec-head" style="margin:0"><span class="eyebrow">{eyebrow}</span><h2 id="{hid}">{title}</h2></div>'
+            f'<span class="hint" aria-hidden="true"><span class="d">{hint} →</span><span class="m">Glissez · survol →</span></span></div>'
+            f'<div class="track">{figs}<a class="fend" href="{end_url}"><strong>{end_txt}</strong><span>Voir →</span></a></div></div></section>')
+
+HOME_FLY = [('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton vue par drone', 'Capbreton (40)', 'Drone'),
+            ('course-landaise-vache-cordier', PH['course-landaise-vache-cordier'][1], 'Course landaise', 'Regards 64/40'),
+            ('pont-vieux-orthez-drone', "Pont-Vieux d'Orthez vu du ciel", 'Orthez (64)', 'Drone'),
+            ('estacade-capbreton', PH['estacade-capbreton'][1], 'Estacade · Capbreton', 'Drone'),
+            ('lac-ile-sable-landes-drone', 'Lac et île de sable dans les Landes vus par drone', 'Landes (40)', 'Drone'),
+            ('goelands-cote-atlantique', PH['goelands-cote-atlantique'][1], 'Côte atlantique', 'Regards 64/40'),
+            ('course-landaise-cordier-corde', PH['course-landaise-cordier-corde'][1], 'Le cordier', 'Regards 64/40'),
+            ('pissenlit-coucher-soleil-chalosse', PH['pissenlit-coucher-soleil-chalosse'][1], 'Chalosse (40)', 'Regards 64/40')]
+DRONE_FLY = [HOME_FLY[0], HOME_FLY[3], HOME_FLY[2], HOME_FLY[4]]
+PHOTO_FLY = [(n, a, c.split(' · ')[0] + (' · ' + c.split(' · ')[1] if c.count(' · ') > 1 else ''), 'Regards 64/40') for n, a, c in PHOTOS if n != 'estacade-capbreton']
+
+SVC_OSD = {  # mode (haut gauche), ligne haut droite, altitude animée
+    'videaste': ('4K · 25P · S-LOG3', 'SOL + DRONE', None),
+    'drone': ('4K · D-LOG M', 'CAP 270° · H.S. 4 m/s', 95),
+    'photographe': ('PHOTO · RAW', 'REGARDS 64/40', None),
+    'community-manager': ('LIVE · 9:16', 'INSTAGRAM · LINKEDIN · TIKTOK', None),
+}
 
 def pgrid(names):
     return '<div class="pgrid">' + ''.join(f'<figure>{pic(n, PH[n][1], sizes="(max-width:640px) 100vw, 33vw")}<figcaption>{esc(PH[n][2])}</figcaption></figure>' for n in names if n in PH) + '</div>'
@@ -227,19 +287,20 @@ def zones_block():
 
 # ---------------------------------------------------------------- accueil
 def build_home():
-    body = f'''<section class="hero" aria-labelledby="h1">{pic('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton filmé par drone', eager=True, sizes='100vw')}
-<div class="osd tl" aria-hidden="true"><span class="rec"><i></i>REC</span> &nbsp;4K · 25P · S-LOG3</div>
-<div class="osd tr" aria-hidden="true">ALT 87 m · H.S. 6 m/s<br>43.559° N · 1.068° O</div>
-<div class="osd br" aria-hidden="true">CAPBRETON (40) · 20:41</div>
-<span class="corner a" aria-hidden="true"></span><span class="corner b" aria-hidden="true"></span>
+    slides = (slide('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton filmé par drone', 'CAPBRETON (40) · JETÉE', '43.646° N · 1.448° O', 87, first=True, ox='70%', oy='55%', tx='-2%')
+              + slide('pont-vieux-orthez-drone', '', 'ORTHEZ (64) · PONT-VIEUX', '43.487° N · 0.774° O', 64, ox='50%', oy='60%', ty='2%')
+              + slide('estacade-capbreton', '', 'CAPBRETON (40) · ESTACADE', 'CAP 270° · H.S. 4 m/s', 112, ox='40%', oy='55%', tx='2%')
+              + slide('course-landaise-vache-cordier', '', 'ARÈNES LANDAISES · REGARDS 64/40', 'PHOTO · SOL', 0, ox='55%', oy='40%', tx='-1.5%'))
+    body = f'''<section class="hero imm" aria-labelledby="h1" data-hero><div class="slides">{slides}</div>
+{osd('4K · 25P', 'CAPBRETON (40) · JETÉE', '43.646° N · 1.448° O')}{OSD_CORNERS}
 <div class="wrap"><h1 id="h1">Photographe, vidéaste &amp; drone <em>Landes · Pays basque</em></h1>
 <p>Je crée vos images au sol et dans les airs, puis je les fais travailler sur vos réseaux. Vidéo, drone, photo et community management pour entreprises, restaurants, immobilier et collectivités, partout en Nouvelle-Aquitaine.</p>
 <div class="ctas"><a class="btn" href="#contact">Demander un devis · réponse 24 h</a><a class="btn ghost" href="/realisations">Voir les réalisations</a></div>
-<div class="proof"><span><b>★ 5,0</b> · 4 avis Google</span><span><b>Télépilote certifié EU</b> · déclaré DGAC</span><span><b>Certifié marketing digital</b> · RS6710</span><span><b>Assuré</b> RC Pro</span><span><b>5 ans</b> de terrain</span></div></div></section>
+<div class="proof"><span><b>★ 5,0</b> · 4 avis Google</span><span><b>Télépilote certifié EU</b> · déclaré DGAC</span><span><b>Certifié marketing digital</b> · RS6710</span><span><b>Assuré</b> RC Pro</span><span><b>5 ans</b> de terrain</span></div></div>{reel(4)}<a class="cue" href="#h-services" aria-label="Descendre vers les prestations">DESCENDRE</a></section>
 <section aria-labelledby="h-services"><div class="wrap"><div class="sec-head"><span class="eyebrow">Prestations</span><h2 id="h-services">Quatre métiers, un seul interlocuteur</h2>
 <p class="lede">Vous n'avez pas à coordonner un vidéaste, un pilote, un monteur et une agence. Je tourne, je monte, je publie et je mesure ce que vos contenus rapportent.</p></div>{service_cards()}</div></section>
 {sectors_band()}
-<section aria-labelledby="h-real"><div class="wrap"><div class="sec-head"><span class="eyebrow">Réalisations</span><h2 id="h-real">Vu d'en haut, entre Adour et océan</h2></div>{gallery()}<p style="margin-top:22px"><a class="btn ghost" href="/realisations">Toutes les réalisations</a></p></div></section>
+{fly(HOME_FLY, 'Réalisations', "Vu d'en haut, entre Adour et océan", 'h-real')}
 <section aria-labelledby="h-method" class="tight"><div class="wrap"><div class="sec-head"><span class="eyebrow">Déroulé d'un projet</span><h2 id="h-method">Du devis à la diffusion</h2></div>
 <ol class="steps"><li><strong>Devis en 24 h</strong><span>Vous décrivez le projet, je vous envoie un prix ferme.</span></li><li><strong>Repérage &amp; préparation</strong><span>Météo, lumière, zones de vol : je prépare le tournage et les démarches.</span></li><li><strong>Tournage</strong><span>Au sol et en drone, le même jour, avec une seule personne.</span></li><li><strong>Montage &amp; diffusion</strong><span>Étalonnage, formats web et réseaux, puis publication et suivi si vous le souhaitez.</span></li></ol></div></section>
 <section class="band" aria-labelledby="h-about"><div class="wrap about">{pic('nicolas-desperiers-portrait', 'Portrait de Nicolas Desperiers avec son appareil photo, son drone et son ordinateur', sizes='(max-width:780px) 100vw, 40vw')}
@@ -254,7 +315,7 @@ def build_home():
 {contact_block()}'''
     page('/', 'Photographe, vidéaste & drone Landes, Pays basque | Drone 64-40',
          "Photographe, vidéaste, pilote drone certifié et community manager à Cauneille (40). Landes, Pays basque, Béarn, Gironde et toute la Nouvelle-Aquitaine. Devis sous 24 h.",
-         body, cur='/', schema=[{"@type": "WebSite", "@id": SITE + "/#site", "url": SITE + "/", "name": "Drone 64-40", "inLanguage": "fr"}, faq_ld(HOME_FAQ)], prio='1.0')
+         body, cur='/', imm=True, preload='<link rel="preload" as="image" href="/img/capbreton-jetee-coucher-soleil-800.webp" imagesrcset="/img/capbreton-jetee-coucher-soleil-800.webp 800w, /img/capbreton-jetee-coucher-soleil.webp 1600w" imagesizes="100vw" fetchpriority="high">\n', schema=[{"@type": "WebSite", "@id": SITE + "/#site", "url": SITE + "/", "name": "Drone 64-40", "inLanguage": "fr"}, faq_ld(HOME_FAQ)], prio='1.0')
 
 # ---------------------------------------------------------------- services
 def build_services():
@@ -263,15 +324,15 @@ def build_services():
         items = [('Accueil', '/'), (s['short'], path)]
         offers = '<div class="offers">' + ''.join(f'<div class="offer"><strong>{esc(a)}</strong><span>{esc(b)}</span></div>' for a, b in s['offers']) + '</div>'
         deps = ' '.join(f'<li><a href="/{k}/{DEPTS[d][0]}">{SVC_ANGLE[k][0]} {prep(d)} {DEPTS[d][1]}</a></li>' for d in DEPTS)
-        body = phero(items, s['h1'], s['intro'], s['img'], s['short']) + f'''
+        body = phero(items, s['h1'], s['intro'], s['img'], s['short'], imm=SVC_OSD[k]) + f'''
 <section aria-labelledby="h-off"><div class="wrap"><div class="sec-head"><span class="eyebrow">Ce que je propose</span><h2 id="h-off">{esc(s["short"])}</h2></div>{offers}</div></section>
 {regards_block() if k == 'photographe' else ''}<section class="tight"><div class="wrap prose">{s["body"]}</div></section>
-{('<section class="tight" aria-labelledby="h-gal"><div class="wrap"><div class="sec-head"><span class="eyebrow">Galerie</span><h2 id="h-gal" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Quelques photos Regards 64/40</h2></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>') if k == 'photographe' else ''}
+{fly(PHOTO_FLY, 'Galerie', 'Quelques photos Regards 64/40', 'h-gal', 'Découvrir Regards 64/40', '/regards/') if k == 'photographe' else ''}{fly(DRONE_FLY, 'Vu du ciel', 'Quelques vues aériennes', 'h-gal', 'Toutes les réalisations') if k == 'drone' else ''}
 <section class="tight" aria-labelledby="h-dep"><div class="wrap"><div class="sec-head"><span class="eyebrow">Par département</span><h2 id="h-dep" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">{SVC_ANGLE[k][0]} en Nouvelle-Aquitaine</h2></div><ul class="chips">{deps}</ul></div></section>
 {sectors_band('Par secteur', "Des exemples concrets selon votre activité.")}
 <section aria-labelledby="h-autres"><div class="wrap"><div class="sec-head"><span class="eyebrow">Aussi</span><h2 id="h-autres" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Mes autres métiers</h2></div>{service_cards(exclude=k, c3=True)}</div></section>
 {faq_html(s["faq"])}{contact_block()}'''
-        page(path, s['title'], s['desc'], body, cur=path, img='og-drone-64-40.jpg', prio='0.9',
+        page(path, s['title'], s['desc'], body, cur=path, img='og-drone-64-40.jpg', prio='0.9', imm=True,
              schema=[crumbs_ld(items), faq_ld(s['faq']), {"@type": "Service", "name": s['short'], "provider": {"@id": SITE + "/#entreprise"}, "areaServed": "Nouvelle-Aquitaine", "serviceType": s['short']}])
 
 def prep(d):  # « en Gironde », « dans les Landes »
@@ -473,6 +534,7 @@ def build_extras():
     open(OUT + '/robots.txt', 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n')
     os.makedirs(OUT + '/assets', exist_ok=True)
     shutil.copy('site.css', OUT + '/assets/site.css')
+    shutil.copy('immersif.js', OUT + '/assets/immersif.js')
 
 if __name__ == '__main__':
     build_home(); build_services(); build_service_depts(); build_sectors(); build_cities(); build_zones(); build_misc(); build_extras()
