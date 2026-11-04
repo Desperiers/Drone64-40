@@ -306,7 +306,7 @@ def sectors_band(title='Une page par métier', lede="Chaque secteur a ses contra
         ''.join(f'<a class="sector" href="/{k}"><strong>{esc(v["name"])}</strong><span>{esc(v["sub"])}</span></a>' for k, v in SECTORS.items()) + '</div></div></section>'
 
 def reviews_html(n=4):
-    return '<section aria-labelledby="h-avis"><div class="wrap"><div class="sec-head"><span class="eyebrow">Avis Google</span><div class="score"><b>5,0</b><span class="stars" aria-label="5 étoiles sur 5">★★★★★</span><span class="lede">sur 4 avis Google</span></div><h2 id="h-avis" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Ce qu\'en disent les clients</h2></div><div class="reviews">' + \
+    return '<section aria-labelledby="h-avis"><div class="wrap"><div class="sec-head"><span class="eyebrow">Avis Google</span><div class="score"><b>5,0</b><span class="stars" aria-label="5 étoiles sur 5">★★★★★</span><span class="lede">sur 5 avis Google</span></div><h2 id="h-avis" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Ce qu\'en disent les clients</h2></div><div class="reviews">' + \
         ''.join(f'<figure class="rv"><blockquote>« {esc(t)} »</blockquote><figcaption>{esc(a)}{(" · " + esc(r)) if r else ""}</figcaption></figure>' for t, a, r in REVIEWS[:n]) + '</div></div></section>'
 
 def dep_cities(dep): return sorted([c for c in cities if c['dep'] == dep], key=lambda c: -(c['pop'] or 0))
@@ -330,7 +330,7 @@ def build_home():
 <div class="wrap"><h1 id="h1">Photographe, vidéaste &amp; drone <em>Landes · Pays basque</em></h1>
 <p>Je crée vos images au sol et dans les airs, puis je les fais travailler sur vos réseaux. Vidéo, drone, photo et community management pour entreprises, restaurants, immobilier et collectivités, partout en Nouvelle-Aquitaine.</p>
 <div class="ctas"><a class="btn" href="#contact">Demander un devis · réponse 24 h</a><a class="btn ghost" href="/realisations">Voir les réalisations</a></div>
-<div class="proof"><span><b>★ 5,0</b> · 4 avis Google</span><span><b>Télépilote certifié EU</b> · déclaré DGAC</span><span><b>Certifié marketing digital</b> · RS6710</span><span><b>Assuré</b> RC Pro</span><span><b>5 ans</b> de terrain</span></div></div>{reel(4)}<a class="cue" href="#h-services" aria-label="Descendre vers les prestations">DESCENDRE</a></section>
+<div class="proof"><span><b>★ 5,0</b> · 5 avis Google</span><span><b>Télépilote certifié EU</b> · déclaré DGAC</span><span><b>Certifié marketing digital</b> · RS6710</span><span><b>Assuré</b> RC Pro</span><span><b>5 ans</b> de terrain</span></div></div>{reel(4)}<a class="cue" href="#h-services" aria-label="Descendre vers les prestations">DESCENDRE</a></section>
 <section aria-labelledby="h-services"><div class="wrap"><div class="sec-head"><span class="eyebrow">Prestations</span><h2 id="h-services">Quatre métiers, un seul interlocuteur</h2>
 <p class="lede">Vous n'avez pas à coordonner un vidéaste, un pilote, un monteur et une agence. Je tourne, je monte, je publie et je mesure ce que vos contenus rapportent.</p></div>{service_cards()}</div></section>
 {vf('pont-vieux-orthez-drone', "Pont-Vieux d'Orthez et le gave de Pau vus du ciel", 'En vol', 'Un seul pilote. <em>Du sol au ciel.</em>', "Je tourne au sol et en drone le même jour. Une seule personne sur le terrain, un seul devis, et des images qui se répondent.", 'h-vf', ('REC · 4K 25P', 'ALT 64 m', 'ORTHEZ (64) · PONT-VIEUX', '43.487° N · 0.774° O'))}
