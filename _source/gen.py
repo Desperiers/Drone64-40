@@ -142,7 +142,7 @@ var b='Bonjour Nicolas,%0D%0A%0D%0APrestation : '+encodeURIComponent(d.get('type
 location.href='mailto:'+f.dataset.mail+'?subject='+encodeURIComponent('Demande de devis — '+d.get('type'))+'&body='+b;});});
 </script>'''
 
-def page(path, title, desc, body, cur=None, schema=None, img='og-drone-64-40.jpg', prio='0.6', robots='index,follow', imm=False, preload=None):
+def page(path, title, desc, body, cur=None, schema=None, img='og-drone-64-40.jpg', prio='0.6', robots='index,follow', imm=False, preload=None, boot=False):
     canon = SITE + path
     schema = [ORG] + (schema or [])
     head = f'''<!DOCTYPE html>
@@ -161,7 +161,7 @@ def page(path, title, desc, body, cur=None, schema=None, img='og-drone-64-40.jpg
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="/assets/site.css?v={CSSV}">
 {preload or ""}{ld({"@context": "https://schema.org", "@graph": schema})}
-{GA_TAG}</head><body{' class="imm-page"' if imm else ''}>'''
+{GA_TAG}{imm_head(boot) if imm else ''}</head><body{' class="imm-page top"' if imm else ''}>{BOOT if boot else ''}'''
     extra = (ALTI + f'<script src="/assets/immersif.js?v={JSV}" defer></script>') if imm else ''
     doc = head + header(cur) + f'<main id="main">{body}</main>' + footer() + JS + extra + '</body></html>'
     fp = OUT + (path + 'index.html' if path.endswith('/') else path + '.html')
@@ -205,7 +205,7 @@ AR = {'capbreton-jetee-coucher-soleil': '16/9', 'lac-ile-sable-landes-drone': '9
       'course-landaise-vache-cordier': '3/2', 'course-landaise-cordier-corde': '2/3', 'course-landaise-arene-piste': '2/3',
       'estacade-capbreton': '16/9', 'goelands-cote-atlantique': '3/4', 'pissenlit-coucher-soleil-chalosse': '2/3',
       'coulisses-tournage-eglise': '3/4', 'drones-dji-fpv': '4/3'}
-OSD_CORNERS = '<span class="corner a" aria-hidden="true"></span><span class="corner b" aria-hidden="true"></span><span class="reticle" aria-hidden="true"></span>'
+OSD_CORNERS = '<span class="scan" aria-hidden="true"></span><span class="vignette" aria-hidden="true"></span><span class="corner a" aria-hidden="true"></span><span class="corner b" aria-hidden="true"></span><span class="reticle" aria-hidden="true"></span>'
 
 def slide(name, alt, place, coord, altm, first=False, ox='50%', oy='50%', tx='0', ty='0'):
     st = f'--ox:{ox};--oy:{oy};--tx:{tx};--ty:{ty}'
@@ -232,6 +232,20 @@ def fly(items, eyebrow, title, hid, end_txt='Toutes les réalisations', end_url=
     return (f'<section class="fly" aria-labelledby="{hid}"><div class="pin"><div class="wrap fhead"><div class="sec-head" style="margin:0"><span class="eyebrow">{eyebrow}</span><h2 id="{hid}">{title}</h2></div>'
             f'<span class="hint" aria-hidden="true"><span class="d">{hint} →</span><span class="m">Glissez · survol →</span></span></div>'
             f'<div class="track">{figs}<a class="fend" href="{end_url}"><strong>{end_txt}</strong><span>Voir →</span></a></div></div></section>')
+
+def imm_head(boot):
+    b = ("try{if(!sessionStorage.getItem('d64boot')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('boot-on');sessionStorage.setItem('d64boot','1')}}catch(e){}" if boot else '')
+    return f'<script>(function(r){{r.classList.add("imm-js");{b}}})(document.documentElement)</script>'
+
+BOOT = ('<div class="boot" role="presentation"><div class="bx"><span class="ring" aria-hidden="true"></span>'
+        '<ol aria-hidden="true"><li>GPS · <b>19 SAT</b></li><li>Calibration IMU · <b>OK</b></li><li>Zone de vol · <b>vérifiée</b></li><li>Décollage</li></ol>'
+        '<span class="bar" aria-hidden="true"><i></i></span></div><button type="button">Passer ✕</button></div>')
+
+def vf(img, alt, eyebrow, title, text, hid, marks=('REC · 4K 25P', 'ALT 72 m', 'LANDES · PAYS BASQUE', 'ISO 100 · 1/500')):
+    m = ''.join(f'<span class="{k}">{esc(t)}</span>' for k, t in zip('abcd', marks)) + '<i></i><i></i><i></i><i></i>'
+    return (f'<section class="vf" aria-labelledby="{hid}"><div class="vpin"><div class="frame">{pic(img, alt, sizes="100vw")}</div>'
+            f'<div class="marks" aria-hidden="true">{m}</div>'
+            f'<div class="wrap vtxt"><span class="eyebrow">{eyebrow}</span><h2 id="{hid}">{title}</h2><p>{text}</p></div></div></section>')
 
 HOME_FLY = [('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton vue par drone', 'Capbreton (40)', 'Drone'),
             ('course-landaise-vache-cordier', PH['course-landaise-vache-cordier'][1], 'Course landaise', 'Regards 64/40'),
@@ -299,6 +313,7 @@ def build_home():
 <div class="proof"><span><b>★ 5,0</b> · 4 avis Google</span><span><b>Télépilote certifié EU</b> · déclaré DGAC</span><span><b>Certifié marketing digital</b> · RS6710</span><span><b>Assuré</b> RC Pro</span><span><b>5 ans</b> de terrain</span></div></div>{reel(4)}<a class="cue" href="#h-services" aria-label="Descendre vers les prestations">DESCENDRE</a></section>
 <section aria-labelledby="h-services"><div class="wrap"><div class="sec-head"><span class="eyebrow">Prestations</span><h2 id="h-services">Quatre métiers, un seul interlocuteur</h2>
 <p class="lede">Vous n'avez pas à coordonner un vidéaste, un pilote, un monteur et une agence. Je tourne, je monte, je publie et je mesure ce que vos contenus rapportent.</p></div>{service_cards()}</div></section>
+{vf('pont-vieux-orthez-drone', "Pont-Vieux d'Orthez et le gave de Pau vus du ciel", 'En vol', 'Un seul pilote. <em>Du sol au ciel.</em>', "Je tourne au sol et en drone le même jour. Une seule personne sur le terrain, un seul devis, et des images qui se répondent.", 'h-vf', ('REC · 4K 25P', 'ALT 64 m', 'ORTHEZ (64) · PONT-VIEUX', '43.487° N · 0.774° O'))}
 {sectors_band()}
 {fly(HOME_FLY, 'Réalisations', "Vu d'en haut, entre Adour et océan", 'h-real')}
 <section aria-labelledby="h-method" class="tight"><div class="wrap"><div class="sec-head"><span class="eyebrow">Déroulé d'un projet</span><h2 id="h-method">Du devis à la diffusion</h2></div>
@@ -315,7 +330,7 @@ def build_home():
 {contact_block()}'''
     page('/', 'Photographe, vidéaste & drone Landes, Pays basque | Drone 64-40',
          "Photographe, vidéaste, pilote drone certifié et community manager à Cauneille (40). Landes, Pays basque, Béarn, Gironde et toute la Nouvelle-Aquitaine. Devis sous 24 h.",
-         body, cur='/', imm=True, preload='<link rel="preload" as="image" href="/img/capbreton-jetee-coucher-soleil-800.webp" imagesrcset="/img/capbreton-jetee-coucher-soleil-800.webp 800w, /img/capbreton-jetee-coucher-soleil.webp 1600w" imagesizes="100vw" fetchpriority="high">\n', schema=[{"@type": "WebSite", "@id": SITE + "/#site", "url": SITE + "/", "name": "Drone 64-40", "inLanguage": "fr"}, faq_ld(HOME_FAQ)], prio='1.0')
+         body, cur='/', imm=True, boot=True, preload='<link rel="preload" as="image" href="/img/capbreton-jetee-coucher-soleil-800.webp" imagesrcset="/img/capbreton-jetee-coucher-soleil-800.webp 800w, /img/capbreton-jetee-coucher-soleil.webp 1600w" imagesizes="100vw" fetchpriority="high">\n', schema=[{"@type": "WebSite", "@id": SITE + "/#site", "url": SITE + "/", "name": "Drone 64-40", "inLanguage": "fr"}, faq_ld(HOME_FAQ)], prio='1.0')
 
 # ---------------------------------------------------------------- services
 def build_services():
@@ -331,6 +346,7 @@ def build_services():
 <section class="tight" aria-labelledby="h-dep"><div class="wrap"><div class="sec-head"><span class="eyebrow">Par département</span><h2 id="h-dep" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">{SVC_ANGLE[k][0]} en Nouvelle-Aquitaine</h2></div><ul class="chips">{deps}</ul></div></section>
 {sectors_band('Par secteur', "Des exemples concrets selon votre activité.")}
 <section aria-labelledby="h-autres"><div class="wrap"><div class="sec-head"><span class="eyebrow">Aussi</span><h2 id="h-autres" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Mes autres métiers</h2></div>{service_cards(exclude=k, c3=True)}</div></section>
+{vf('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton vu par drone', 'Avant chaque vol', 'Préparé. <em>Puis décollé.</em>', "Météo, zones de vol, autorisations, sécurité des personnes : je vérifie tout avant de décoller. Le jour du tournage, il ne reste qu'à filmer.", 'h-vf', ('REC · 4K · D-LOG M', 'ALT 87 m', 'CAPBRETON (40) · JETÉE', '43.646° N · 1.448° O')) if k == 'drone' else ''}
 {faq_html(s["faq"])}{contact_block()}'''
         page(path, s['title'], s['desc'], body, cur=path, img='og-drone-64-40.jpg', prio='0.9', imm=True,
              schema=[crumbs_ld(items), faq_ld(s['faq']), {"@type": "Service", "name": s['short'], "provider": {"@id": SITE + "/#entreprise"}, "areaServed": "Nouvelle-Aquitaine", "serviceType": s['short']}])

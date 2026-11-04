@@ -39,17 +39,32 @@ if(hero){
   altT=+(slides[0]&&slides[0].dataset.a||0);alt=calm?altT:0;
   show(0);
   function pad(n){return(n<10?'0':'')+n;}
-  var vis=true;
+  var vis=true,mx=0,my=0,tmx=0,tmy=0;
+  if(!calm&&W.matchMedia('(pointer: fine)').matches){
+    hero.addEventListener('pointermove',function(e){var r=hero.getBoundingClientRect();tmx=(e.clientX-r.left)/r.width*2-1;tmy=(e.clientY-r.top)/r.height*2-1;});
+    hero.addEventListener('pointerleave',function(){tmx=0;tmy=0;});
+  }
   if('IntersectionObserver' in W)new IntersectionObserver(function(e){vis=e[0].isIntersecting;}).observe(hero);
   (function tick(now){
     if(vis&&!paused){
       var f=Math.floor((now-t0)/40),fr=f%25,s=Math.floor(f/25);
       if(tc)tc.textContent=pad(Math.floor(s/3600))+':'+pad(Math.floor(s/60)%60)+':'+pad(s%60)+':'+pad(fr);
     }
+    mx+=(tmx-mx)*.07;my+=(tmy-my)*.07;
+    if(Math.abs(tmx-mx)>.001||Math.abs(tmy-my)>.001){hero.style.setProperty('--mx',mx.toFixed(3));hero.style.setProperty('--my',my.toFixed(3));}
     alt+=(altT-alt)*.06;
     if(altE){var a=Math.round(alt);altE.textContent=altT>0?'ALT '+a+' m':'AU SOL';}
     requestAnimationFrame(tick);
   })(t0);
+}
+
+/* ---- Décollage : bouton Passer ---- */
+var boot=d.querySelector('.boot');
+if(boot){
+  var off=function(){R.classList.add('boot-off');};
+  boot.addEventListener('click',off);
+  d.addEventListener('keydown',function(e){if(e.key==='Escape')off();},{once:true});
+  setTimeout(off,2800);
 }
 
 /* ---- Apparitions au défilement ---- */
@@ -78,6 +93,25 @@ function layoutFly(){
   });
 }
 
+/* ---- Viseur ---- */
+var vfs=[].slice.call(d.querySelectorAll('.vf'));
+if(!calm)vfs.forEach(function(v){v.classList.add('pinned');v.style.setProperty('--q',0);});
+
+/* ---- Curseur réticule ---- */
+if(!calm&&W.matchMedia('(pointer: fine)').matches){
+  var curEl=d.createElement('div');curEl.className='cur';curEl.setAttribute('aria-hidden','true');curEl.innerHTML='<b></b>';d.body.appendChild(curEl);
+  var cb=curEl.firstChild,zones='.imm,.fly,.vf';
+  [].forEach.call(d.querySelectorAll(zones),function(z){z.classList.add('cur-zone');});
+  d.addEventListener('pointermove',function(e){
+    var z=e.target.closest&&e.target.closest(zones);
+    curEl.classList.toggle('show',!!z);if(!z)return;
+    curEl.style.transform='translate3d('+e.clientX+'px,'+e.clientY+'px,0)';
+    var ln=e.target.closest('a,button');curEl.classList.toggle('link',!!ln);
+    cb.textContent=ln?'OUVRIR':(z.classList.contains('fly')?'SURVOL':'X '+String(Math.round(e.clientX)).padStart(4,'0')+' · Y '+String(Math.round(e.clientY)).padStart(4,'0'));
+  },{passive:true});
+  d.addEventListener('pointerleave',function(){curEl.classList.remove('show');});
+}
+
 /* ---- Altimètre et progression du vol ---- */
 var alti=d.querySelector('.alti'),altiV=alti&&alti.querySelector('b'),altiL=alti&&alti.querySelector('span');
 var heads=[].slice.call(d.querySelectorAll('main>section'));
@@ -90,6 +124,13 @@ function onScroll(){
     ticking=false;
     var y=W.scrollY,vh=W.innerHeight,max=R.scrollHeight-vh,p=max>0?Math.min(1,y/max):0;
     R.style.setProperty('--prog',p.toFixed(4));
+    d.body.classList.toggle('top',!!hero&&y<10);
+    vfs.forEach(function(v){
+      if(!v.classList.contains('pinned'))return;
+      var r=v.getBoundingClientRect(),run=v.offsetHeight-v.querySelector('.vpin').offsetHeight;
+      var q=Math.min(1,Math.max(0,-(r.top-(nav?nav.offsetHeight:0))/(run*.72)));
+      v.style.setProperty('--q',q.toFixed(3));
+    });
     if(els.length)sweep(vh);
     if(hero&&!calm){var hp=Math.min(1,Math.max(0,y/hero.offsetHeight));hero.style.setProperty('--hp',hp.toFixed(3));}
     flys.forEach(function(f){
@@ -107,7 +148,7 @@ function onScroll(){
       altiL.textContent=lab;
       var mid=d.elementFromPoint(W.innerWidth-40,vh/2),dk=!!(mid&&mid.closest('.band,.fly,.hero,.phero,footer'));
       alti.classList.toggle('dk',dk);
-      alti.classList.toggle('off',!!(hero&&y<hero.offsetHeight*.6)||!!(mid&&mid.closest('.fly')));
+      alti.classList.toggle('off',!!(hero&&y<hero.offsetHeight*.6)||!!(mid&&mid.closest('.fly,.vf')));
     }
   });
 }

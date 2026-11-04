@@ -349,3 +349,83 @@ footer .legal{border-top:1px solid var(--deep-line);padding-block:18px;font:400 
   .imm-js .up{opacity:1;transform:none;transition:none}
   .hero.imm .slides,.phero.imm .slides,.hero.imm .wrap,.phero.imm .wrap{transform:none;opacity:1}
 }
+
+/* ================================================================
+   Immersif, niveau 2
+   ================================================================ */
+/* Navigation transparente tant qu'on est sur l'ouverture */
+.imm-page header.nav{transition:background-color .45s ease,box-shadow .45s ease}
+.imm-js .imm-page.top header.nav{background:linear-gradient(rgba(4,10,9,.55),rgba(4,10,9,0));box-shadow:none}
+.imm-page main>.imm:first-child{margin-top:calc(-1 * var(--navh));min-height:100svh;padding-top:calc(var(--navh) + clamp(80px,12vh,140px))}
+.imm-page .imm .osd.tl,.imm-page .imm .osd.tr{top:calc(var(--navh) + 14px)}
+.imm-page .imm .corner.a{top:calc(var(--navh) + 52px)}
+@media (max-width:640px){.imm-page .imm .osd.br{top:calc(var(--navh) + 36px)}}
+/* Lignes de balayage de l'écran de retour */
+.scan{position:absolute;inset:0;z-index:-1;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 1px,transparent 1px 3px);mix-blend-mode:overlay}
+.vignette{position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%)}
+/* Nacelle : l'image suit la souris */
+.hero.imm .slides,.phero.imm .slides{inset:-4%;translate:calc(var(--mx,0) * -1.6%) calc(var(--my,0) * -1.6%)}
+.imm .reticle{translate:calc(var(--mx,0) * 18px) calc(var(--my,0) * 18px);transition:opacity .3s}
+
+/* Séquence de décollage (première visite de la session) */
+.boot{display:none}
+.boot-on .boot{position:fixed;inset:0;z-index:50;display:grid;place-items:center;background:#040a09;color:#e9efec;font:500 .78rem/1.7 var(--mono);letter-spacing:.14em;text-transform:uppercase;animation:bootout .55s ease 2.15s forwards;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+.boot .bx{display:grid;gap:18px;justify-items:center;text-align:center}
+.boot .ring{width:92px;height:92px;border:1px solid rgba(255,255,255,.35);border-radius:50%;position:relative;animation:spin 2.2s linear}
+.boot .ring::before{content:"";position:absolute;inset:-1px;border-radius:50%;border:2px solid transparent;border-top-color:var(--accent);animation:spin .9s linear infinite}
+.boot .ring::after{content:"";position:absolute;left:50%;top:50%;width:6px;height:6px;margin:-3px;border-radius:50%;background:var(--accent)}
+.boot ol{list-style:none;margin:0;padding:0;display:grid;gap:2px;min-height:6.8em}
+.boot li{opacity:0;animation:bootline .01s steps(1) forwards}
+.boot li:nth-child(1){animation-delay:.15s}.boot li:nth-child(2){animation-delay:.55s}.boot li:nth-child(3){animation-delay:.95s}.boot li:nth-child(4){animation-delay:1.4s;color:var(--accent)}
+.boot li b{font-weight:500;color:#7fdc9f}
+.boot .bar{width:180px;height:2px;background:rgba(255,255,255,.15);overflow:hidden}
+.boot .bar i{display:block;height:100%;background:var(--accent);transform-origin:0 50%;animation:fill 1.9s cubic-bezier(.4,0,.2,1) forwards}
+.boot button{all:unset;cursor:pointer;position:absolute;right:max(20px,env(safe-area-inset-right,0px));bottom:max(20px,env(safe-area-inset-bottom,0px));font:500 .7rem/1 var(--mono);letter-spacing:.14em;padding:12px 14px;border:1px solid rgba(255,255,255,.3)}
+.boot button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.boot-off .boot{display:none}
+@keyframes bootline{to{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes bootout{to{opacity:0;visibility:hidden}}
+/* Décollage : l'image monte en altitude puis se pose */
+.boot-on:not(.boot-off) .hero.imm .slides{animation:liftoff 2.6s cubic-bezier(.16,.8,.24,1) 1.9s both}
+@keyframes liftoff{from{scale:1.45;filter:brightness(.35) blur(3px)}to{scale:1;filter:none}}
+.boot-on:not(.boot-off) .imm h1{animation-delay:2.25s!important}.boot-on:not(.boot-off) .imm .wrap>p{animation-delay:2.45s!important}
+.boot-on:not(.boot-off) .imm .ctas{animation-delay:2.6s!important}.boot-on:not(.boot-off) .imm .proof{animation-delay:2.75s!important}
+
+/* Viseur : le cadre de la caméra s'ouvre en plein écran au défilement */
+.vf{position:relative;background:#040a09;color:#fff;padding:0}
+.vf .vpin{position:relative;min-height:80svh;display:grid;place-items:center;overflow:hidden;isolation:isolate}
+.vf .frame{position:absolute;inset:0;z-index:-2;clip-path:inset(calc((1 - var(--q,1)) * 17%) calc((1 - var(--q,1)) * 27%));will-change:clip-path}
+.vf .frame img{width:100%;height:100%;object-fit:cover;scale:calc(1.28 - var(--q,1) * .28)}
+.vf .frame::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,10,9,.72),rgba(4,10,9,0) 65%),linear-gradient(0deg,rgba(4,10,9,.85),rgba(4,10,9,.25) 60%,rgba(4,10,9,.4));opacity:calc(.35 + var(--q,1) * .65)}
+.vf .marks{position:absolute;inset:calc((1 - var(--q,1)) * 17% + 18px) calc((1 - var(--q,1)) * 27% + 18px);z-index:-1;pointer-events:none;font:500 .68rem/1.4 var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.85)}
+.vf .marks span{position:absolute}
+.vf .marks .a{top:0;left:0}.vf .marks .b{top:0;right:0;text-align:right}.vf .marks .c{bottom:0;left:0}.vf .marks .d{bottom:0;right:0;text-align:right}
+.vf .marks i{position:absolute;width:22px;height:22px;border:2px solid rgba(255,255,255,.7)}
+.vf .marks i:nth-of-type(1){top:-8px;left:-8px;border-right:0;border-bottom:0}.vf .marks i:nth-of-type(2){top:-8px;right:-8px;border-left:0;border-bottom:0}
+.vf .marks i:nth-of-type(3){bottom:-8px;left:-8px;border-right:0;border-top:0}.vf .marks i:nth-of-type(4){bottom:-8px;right:-8px;border-left:0;border-top:0}
+.vf .marks span{padding:8px 10px}
+.vf .vtxt{width:100%;padding-block:clamp(64px,10vh,120px);opacity:calc((var(--q,1) - .55) * 2.4);transform:translate3d(0,calc((1 - var(--q,1)) * 40px),0)}
+.vf .vtxt h2{font-size:clamp(2.6rem,7.5vw,6.2rem);font-weight:900;max-width:14ch}
+.vf .vtxt h2 em{font-style:normal;color:var(--accent)}
+.vf .vtxt p{max-width:52ch;color:rgba(255,255,255,.88);font-size:1.12rem;margin:18px 0 0}
+.vf.pinned{height:250svh}
+@media (max-width:640px){.vf .marks .d{display:none}}
+.vf.pinned .vpin{position:sticky;top:var(--navh);height:calc(100svh - var(--navh));min-height:0}
+
+/* Curseur réticule sur les zones image (souris uniquement) */
+.cur{position:fixed;left:0;top:0;width:44px;height:44px;margin:-22px 0 0 -22px;z-index:60;pointer-events:none;opacity:0;transition:opacity .2s,width .25s,height .25s,margin .25s}
+.cur::before,.cur::after{content:"";position:absolute;inset:0;border:1px solid rgba(255,255,255,.9);border-radius:50%}
+.cur::after{inset:50%;width:4px;height:4px;margin:-2px;background:var(--accent);border:0}
+.cur b{position:absolute;left:52px;top:14px;white-space:nowrap;font:500 .62rem/1 var(--mono);letter-spacing:.1em;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+.cur.show{opacity:1}
+.cur.link{width:64px;height:64px;margin:-32px 0 0 -32px}
+.cur.link::before{border-color:var(--accent)}
+@media (pointer:fine){.cur-zone,.cur-zone *{cursor:none}.cur-zone a,.cur-zone button{cursor:pointer}}
+
+@media (prefers-reduced-motion:reduce){
+  .boot-on .boot{display:none}
+  .hero.imm .slides,.phero.imm .slides{translate:none}
+  .vf .frame{clip-path:none}.vf .frame img{scale:1}.vf .vtxt{opacity:1;transform:none}.vf .marks{inset:18px}
+  .cur{display:none}
+}
