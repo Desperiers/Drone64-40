@@ -80,6 +80,18 @@ if(!calm&&'IntersectionObserver' in W){
 /* filet de sécurité : tout ce qui est déjà au-dessus du bas de l'écran apparaît, même après un défilement très rapide */
 function sweep(vh){for(var k=els.length-1;k>=0;k--){var el=els[k];if(el.classList.contains('in')||el.getBoundingClientRect().top<vh){el.classList.add('in');els.splice(k,1);}}}
 
+/* ---- Compteurs d'abonnés ---- */
+var counts=[].slice.call(d.querySelectorAll('[data-count]'));
+if(!calm&&counts.length&&'IntersectionObserver' in W){
+  var fmt=function(n){return String(n).replace(/\B(?=(\d{3})+(?!\d))/g,' ');};
+  var co=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(!e.isIntersecting)return;co.unobserve(e.target);
+    var el=e.target,to=+el.dataset.count,t1=performance.now(),D=1600;
+    (function step(t){var k=Math.min(1,(t-t1)/D),v=Math.round(to*(1-Math.pow(1-k,3)));el.textContent=fmt(v);if(k<1)requestAnimationFrame(step);})(t1);
+  });},{threshold:.6});
+  counts.forEach(function(el){co.observe(el);});
+}
+
 /* ---- Survol : galerie horizontale épinglée ---- */
 var flys=[].slice.call(d.querySelectorAll('.fly'));
 function layoutFly(){

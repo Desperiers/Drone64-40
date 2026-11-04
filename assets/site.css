@@ -439,3 +439,12 @@ footer .legal{border-top:1px solid var(--deep-line);padding-block:18px;font:400 
 .direct .social.big span,.social.big span{display:grid;font:600 .95rem/1.2 var(--body)}
 .social.big small{font:400 .72rem/1.3 var(--mono);opacity:.75;letter-spacing:.02em;text-transform:none}
 @media (max-width:420px){.social.big{grid-template-columns:1fr}}
+/* Communauté : total des abonnés */
+.comm .tot{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:6px 0 4px}
+.direct .comm .tot strong{white-space:nowrap;font:900 clamp(3rem,7vw,4.6rem)/.9 var(--display);color:var(--accent);font-variant-numeric:tabular-nums}
+.direct .comm .tot span{font:500 .78rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--deep-muted);max-width:18ch}
+.social.big a{position:relative}
+.social.big b{white-space:nowrap;margin-left:auto;font:800 1.25rem/1 var(--display);font-variant-numeric:tabular-nums;color:var(--accent)}
+.asof{margin:10px 0 0;font:400 .7rem/1.3 var(--mono);color:var(--deep-muted);letter-spacing:.04em}
+.ftot{margin:10px 0 0;font:500 .74rem/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--deep-muted)}
+.ftot b{color:var(--accent);font-weight:500}

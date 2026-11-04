@@ -76,16 +76,24 @@ FONTS = 'https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800
 
 def ld(obj): return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False, separators=(',', ':')) + '</script>'
 
-SOCIALS = [  # (nom, lien, pseudo, tracé SVG 24×24)
-    ('Instagram', 'https://www.instagram.com/drone_6440', '@drone_6440', 'M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z'),
-    ('Facebook', 'https://www.facebook.com/Done6440/', 'Drone 64-40', 'M13.5 21.9v-7.4H16l.4-2.9h-2.9V9.8c0-.8.2-1.4 1.4-1.4h1.6V5.8c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.1H7.8v2.9h2.6v7.4C5.6 21.2 2 17 2 12 2 6.5 6.5 2 12 2s10 4.5 10 10c0 5-3.6 9.2-8.5 9.9z'),
-    ('LinkedIn', 'https://fr.linkedin.com/in/nicolas-desperiers-215817203', 'Nicolas Desperiers', 'M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z'),
-    ('TikTok', 'https://www.tiktok.com/@nicolasdesperiers', '@nicolasdesperiers', 'M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.8 5.8 0 1 0 4.9 5.7V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.2-1.6z'),
+FOLLOWERS_DATE = '4 novembre 2026'  # à mettre à jour avec les chiffres
+SOCIALS = [  # (nom, lien, pseudo, abonnés, tracé SVG 24×24)
+    ('Instagram', 'https://www.instagram.com/drone_6440', '@drone_6440', 760, 'M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z'),
+    ('Facebook', 'https://www.facebook.com/Done6440/', 'Drone 64-40', 1540, 'M13.5 21.9v-7.4H16l.4-2.9h-2.9V9.8c0-.8.2-1.4 1.4-1.4h1.6V5.8c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.1H7.8v2.9h2.6v7.4C5.6 21.2 2 17 2 12 2 6.5 6.5 2 12 2s10 4.5 10 10c0 5-3.6 9.2-8.5 9.9z'),
+    ('LinkedIn', 'https://fr.linkedin.com/in/nicolas-desperiers-215817203', 'Nicolas Desperiers', 1300, 'M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z'),
+    ('TikTok', 'https://www.tiktok.com/@nicolasdesperiers', '@nicolasdesperiers', 3080, 'M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.8 5.8 0 1 0 4.9 5.7V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.2-1.6z'),
 ]
+TOTAL_FOLLOWERS = sum(s[3] for s in SOCIALS)
 def socials_html(cls='social', labels=False):
     return f'<ul class="{cls}" aria-label="Réseaux sociaux">' + ''.join(
-        f'<li><a href="{u}" rel="noopener" target="_blank" aria-label="{n} · {esc(h)}"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="{p}"/></svg>{("<span>" + n + "<small>" + esc(h) + "</small></span>") if labels else ""}</a></li>'
-        for n, u, h, p in SOCIALS) + '</ul>'
+        f'<li><a href="{u}" rel="noopener" target="_blank" aria-label="{n} · {esc(h)} · {nb(c)} abonnés"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="{p}"/></svg>'
+        + (f'<span>{n}<small>{esc(h)}</small></span><b data-count="{c}">{nb(c)}</b>' if labels else '') + '</a></li>'
+        for n, u, h, c, p in SOCIALS) + '</ul>'
+
+def community_html():
+    return (f'<div class="line comm"><small>Communauté · {len(SOCIALS)} réseaux</small>'
+            f'<div class="tot"><strong data-count="{TOTAL_FOLLOWERS}">{nb(TOTAL_FOLLOWERS)}</strong><span>abonnés suivent mes tournages</span></div>'
+            f'{socials_html("social big", labels=True)}<p class="asof">Chiffres au {FOLLOWERS_DATE}</p></div>')
 
 ORG = {"@type": "ProfessionalService", "@id": SITE + "/#entreprise", "name": "Drone 64-40", "url": SITE + "/",
        "image": SITE + "/img/og-drone-64-40.jpg", "logo": SITE + "/img/icon-512.png", "telephone": PHONE_INTL, "email": EMAIL,
@@ -123,7 +131,7 @@ def footer():
     dep_links = ''.join(f'<li><a href="/zones/{DEPTS[d][0]}">{DEPTS[d][1]}</a></li>' for d in ['40', '64', '33', '24', '17', '47'])
     return f'''<footer><div class="wrap cols">
 <div><a class="brand" href="/">DRONE <span>64-40</span></a><p style="max-width:34ch">Photographe, vidéaste, pilote drone et community manager à Cauneille, dans les Landes. Interventions dans toute la Nouvelle-Aquitaine.</p>
-<p><a href="tel:{PHONE_INTL}">{PHONE}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>{socials_html()}
+<p><a href="tel:{PHONE_INTL}">{PHONE}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>{socials_html()}<p class="ftot"><b>{nb(TOTAL_FOLLOWERS)}</b> abonnés sur {len(SOCIALS)} réseaux</p>
 <a href="/regards/" style="display:inline-flex;align-items:center;gap:10px;margin-top:6px"><img src="/img/regards-64-40-logo-blanc.png" alt="Regards 64/40" width="64" height="54" loading="lazy"><span>Photos signées Regards 64/40</span></a></div>
 <div><h4>Métiers</h4><ul><li><a href="/videaste/">Vidéaste</a></li><li><a href="/photographe/">Photographe</a></li><li><a href="/drone/">Pilote drone</a></li><li><a href="/community-manager/">Community manager</a></li><li><a href="/formation-drone">Formation drone</a></li></ul></div>
 <div><h4>Secteurs</h4><ul>{''.join(f'<li><a href="/{k}">{esc(v["name"])}</a></li>' for k, v in SECTORS.items())}</ul></div>
@@ -138,7 +146,7 @@ def contact_block(lieu=''):
 <a class="line" href="tel:{PHONE_INTL}"><small>Téléphone</small><span>{PHONE}</span></a>
 <a class="line" href="mailto:{EMAIL}"><small>Email</small><span style="font-size:1.3rem">{EMAIL}</span></a>
 <div class="line"><small>Base</small><span style="font-size:1.2rem">1972 route du Pourtaou, 40300 Cauneille</span></div>
-<div class="line"><small>Suivez mes tournages</small>{socials_html('social big', labels=True)}</div></div>
+{community_html()}</div>
 <form class="devis" data-mail="{EMAIL}">
 <div class="row"><label>Nom<input name="nom" autocomplete="name" required></label><label>Téléphone<input name="tel" type="tel" autocomplete="tel"></label></div>
 <div class="row"><label>Prestation<select name="type"><option>Vidéo</option><option>Drone</option><option>Photographie</option><option>Community management</option><option>Formation drone</option><option>Plusieurs prestations</option></select></label>
