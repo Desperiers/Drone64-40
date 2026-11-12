@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Générateur du site drone6440.fr — produit des pages HTML statiques dans OUT."""
 import json, math, os, re, sys, html, hashlib, shutil, datetime
-from content import SERVICES, SECTORS, DEPTS, IDEAS, REVIEWS, HOME_FAQ, DEPT_ECO, SVC_ANGLE, PHOTOS
+from content import SERVICES, SECTORS, DEPTS, IDEAS, REVIEWS, HOME_FAQ, DEPT_ECO, SVC_ANGLE, PHOTOS, PATRIMOINE
 PH = {p[0]: p for p in PHOTOS}
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'out'
@@ -507,10 +507,16 @@ def build_zones():
     page('/zones/', 'Zones d\'intervention en Nouvelle-Aquitaine | Drone 64-40', f"Photographe, vidéaste, drone et community manager dans toute la Nouvelle-Aquitaine : Landes, Pays basque, Béarn, Gironde, Dordogne et plus. {len(cities)} villes desservies.", body, cur='/zones', prio='0.8', schema=[crumbs_ld(hub)])
 
 # ---------------------------------------------------------------- annexes
+def patrimoine_block():
+    figs = ''.join(f'<figure class="rv" style="padding:0;overflow:hidden">{pic(n, a, sizes="(max-width:720px) 100vw, 50vw")}<figcaption style="padding:12px 16px">{esc(c)}</figcaption></figure>' for n, a, c in PATRIMOINE)
+    return f'''<section id="patrimoine" aria-labelledby="h-pat"><div class="wrap"><div class="sec-head"><span class="eyebrow">Domaines · châteaux · lieux de réception · patrimoine</span><h2 id="h-pat">Patrimoine &amp; domaines</h2><p class="lede">Vignobles, châteaux, lieux de réception et monuments du Béarn, des Landes et du Pays basque : je les filme au sol et vu du ciel, puis je fais vivre ces images sur vos réseaux.</p></div><div class="reviews">{figs}</div>
+<ul class="chips" style="margin-top:28px"><li><span>Film de présentation du domaine</span></li><li><span>Photos aériennes et au sol</span></li><li><span>Reels pour Instagram et Facebook</span></li><li><span>Captation de vos événements</span></li><li><span>Community management mensuel</span></li><li><span>Fiche Google et publicités</span></li></ul>
+<p class="ctas" style="margin-top:20px"><a class="btn" href="#contact">Parlons de votre domaine · réponse 24 h</a></p></div></section>'''
+
 def build_misc():
     it = [('Accueil', '/'), ('Réalisations', '/realisations')]
     figs = ''.join(f'<figure class="rv" style="padding:0;overflow:hidden">{pic(n, a, sizes="(max-width:720px) 100vw, 50vw")}<figcaption style="padding:12px 16px">{c}</figcaption></figure>' for n, a, c in GALLERY + [('lac-ile-sable-landes-drone', "Vue aérienne d'un lac et d'une île de sable dans les Landes", 'Landes · drone'), ('drones-dji-fpv', 'Drones DJI et FPV avant un vol à Dax', 'Dax (40) · matériel')])
-    body = phero(it, 'Mes <em>réalisations</em>', "Une sélection de photos et de prises de vue aériennes réalisées dans les Landes et au Pays basque. D'autres projets sont visibles sur Instagram @drone_6440.", 'estacade-capbreton', 'Estacade de Capbreton', ctas=False) + \
+    body = phero(it, 'Mes <em>réalisations</em>', "Une sélection de photos et de prises de vue aériennes réalisées dans les Landes et au Pays basque. D'autres projets sont visibles sur Instagram @drone_6440.", 'estacade-capbreton', 'Estacade de Capbreton', ctas=False) + patrimoine_block() + \
         f'<section aria-labelledby="h-ph"><div class="wrap"><div class="sec-head"><span class="eyebrow">Photographie · Regards 64/40</span><h2 id="h-ph">Au sol</h2><p class="lede">Mes photographies sont publiées sous ma marque Regards 64/40.</p></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>' + regards_block() + f'<section class="tight" aria-labelledby="h-dr"><div class="wrap"><div class="sec-head"><span class="eyebrow">Drone et paysages</span><h2 id="h-dr">Vu du ciel</h2></div><div class="reviews">{figs}</div><p style="margin-top:28px"><a class="btn" href="https://www.instagram.com/drone_6440" rel="noopener">Voir plus sur Instagram</a></p></div></section>{reviews_html()}{contact_block()}'
     page('/realisations', 'Réalisations photo, vidéo et drone | Drone 64-40', "Photos, vidéos et prises de vue aériennes réalisées dans les Landes, au Pays basque et en Béarn par Nicolas Desperiers, Drone 64-40.", body, cur='/realisations', prio='0.7', schema=[crumbs_ld(it)])
 

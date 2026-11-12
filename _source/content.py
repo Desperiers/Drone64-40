@@ -229,3 +229,11 @@ PHOTOS = [
  ('estacade-capbreton', "Estacade de Capbreton et ses phares vus du ciel au crépuscule", "Capbreton · vue aérienne"),
  ('coulisses-tournage-eglise', "Appareil photo hybride sur trépied pendant un tournage dans une église", "Coulisses · tournage en intérieur"),
 ]
+
+# Réalisations « Patrimoine & domaines » (page /realisations#patrimoine).
+# Pour ajouter une image : déposer nom.webp (1600 px de large) et nom-800.webp (800 px) dans /img,
+# puis ajouter une ligne (nom, texte alternatif, légende) ci-dessous.
+PATRIMOINE = [
+ ('pont-vieux-orthez-drone', "Pont-Vieux d'Orthez et sa tour médiévale vus du ciel, au-dessus du gave de Pau", "Pont-Vieux · Orthez (64) · drone"),
+ ('coulisses-tournage-eglise', "Appareil photo sur trépied pendant un tournage dans une église", "Tournage dans une église · coulisses"),
+]

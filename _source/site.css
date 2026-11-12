@@ -448,3 +448,4 @@ footer .legal{border-top:1px solid var(--deep-line);padding-block:18px;font:400 
 .asof{margin:10px 0 0;font:400 .7rem/1.3 var(--mono);color:var(--deep-muted);letter-spacing:.04em}
 .ftot{margin:10px 0 0;font:500 .74rem/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--deep-muted)}
 .ftot b{color:var(--accent);font-weight:500}
+#patrimoine .rv img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
