@@ -13,6 +13,9 @@ if(hero){
   var slides=[].slice.call(hero.querySelectorAll('.slide')),bars=[].slice.call(hero.querySelectorAll('.reel [data-go]'));
   var pp=hero.querySelector('.reel .pp'),tc=hero.querySelector('[data-tc]'),altE=hero.querySelector('[data-alt]'),plE=hero.querySelector('[data-place]'),coE=hero.querySelector('[data-coord]');
   var cur=0,timer=null,paused=calm,DUR=7000,alt=0,altT=0,t0=performance.now();
+  var hv=hero.querySelector('video.hv');
+  var vplay=function(){var p=hv.play();if(p&&p.catch)p.catch(function(){});};
+  if(hv&&calm){hv.removeAttribute('autoplay');try{hv.pause();}catch(e){}}
   function load(s){var i=s.querySelector('img[data-src]');if(i){if(i.dataset.srcset)i.srcset=i.dataset.srcset;i.src=i.dataset.src;i.removeAttribute('data-src');}}
   function show(n){
     if(!slides.length)return;
@@ -31,7 +34,7 @@ if(hero){
   bars.forEach(function(b){b.addEventListener('click',function(){show(+b.dataset.go);});});
   if(pp)pp.addEventListener('click',function(){
     paused=!paused;hero.classList.toggle('paused',paused);pp.setAttribute('aria-pressed',paused);pp.textContent=paused?'▶ LECTURE':'❚❚ PAUSE';
-    clearTimeout(timer);if(!paused)show(cur);
+    clearTimeout(timer);if(hv){try{paused?hv.pause():vplay();}catch(e){}}else if(!paused)show(cur);
   });
   if(paused){hero.classList.add('paused');if(pp){pp.setAttribute('aria-pressed','true');pp.textContent='▶ LECTURE';}}
   /* précharger les autres vues une fois la page chargée */
@@ -44,7 +47,7 @@ if(hero){
     hero.addEventListener('pointermove',function(e){var r=hero.getBoundingClientRect();tmx=(e.clientX-r.left)/r.width*2-1;tmy=(e.clientY-r.top)/r.height*2-1;});
     hero.addEventListener('pointerleave',function(){tmx=0;tmy=0;});
   }
-  if('IntersectionObserver' in W)new IntersectionObserver(function(e){vis=e[0].isIntersecting;}).observe(hero);
+  if('IntersectionObserver' in W)new IntersectionObserver(function(e){vis=e[0].isIntersecting;if(hv&&!paused){try{vis?vplay():hv.pause();}catch(x){}}}).observe(hero);
   (function tick(now){
     if(vis&&!paused){
       var f=Math.floor((now-t0)/40),fr=f%25,s=Math.floor(f/25);
@@ -158,7 +161,7 @@ function onScroll(){
       for(var i=0;i<heads.length;i++){if(heads[i].getBoundingClientRect().top<vh*.45){var l=label(heads[i]);if(l)lab=l;}}
       if(p>.985)lab='Atterrissage · contact';
       altiL.textContent=lab;
-      var mid=d.elementFromPoint(W.innerWidth-40,vh/2),dk=!!(mid&&mid.closest('.band,.fly,.hero,.phero,footer'));
+      var mid=d.elementFromPoint(W.innerWidth-40,vh/2),dk=!!(mid&&mid.closest('.band,.fly,.films-sec,.hero,.phero,footer'));
       alti.classList.toggle('dk',dk);
       alti.classList.toggle('off',!!(hero&&y<hero.offsetHeight*.6)||!!(mid&&mid.closest('.fly,.vf')));
     }

@@ -319,21 +319,63 @@ def zones_block():
     others = ' · '.join(f'<a href="/zones/{DEPTS[d][0]}">{DEPTS[d][1]}</a>' for d in ['47', '17', '16', '19', '23', '79', '86', '87'])
     return f'<section aria-labelledby="h-zones" class="tight"><div class="wrap"><div class="sec-head"><span class="eyebrow">Zone d\'intervention</span><h2 id="h-zones">Près de chez vous</h2><p class="lede">Basé à Cauneille, je me déplace dans toute la Nouvelle-Aquitaine pour la photo, la vidéo, le drone et la communication. Chaque ville a sa page.</p></div><div class="zones">{"".join(cols)}</div><p style="margin-top:28px">Aussi en {others}.</p></div></section>'
 
+# ---------------------------------------------------------------- films vidéo
+# Fichiers : /video/<fichier>.mp4 (H.264 720p) et affiche /img/<fichier>.webp + -800.webp
+FILMS = {  # clé : (fichier, orientation h/v, titre, description, légende, durée ISO)
+    'trois-mats': ('film-trois-mats-drone', 'h', 'Trois-mâts vu du ciel', "Film drone d'un grand voilier toutes voiles dehors, au large de la côte basque.", 'Film drone · 1 min 47', 'PT1M47S'),
+    'ferme': ('film-ferme-eschourdes', 'v', 'Ferme des Eschourdes', "Film de présentation d'une ferme landaise, de ses animaux et de sa boutique.", "Film d'entreprise · 1 min 22", 'PT1M22S'),
+    'rugby': ('film-rugby', 'h', 'Rugby · le buteur', "Film sportif : un buteur à l'entraînement, au ralenti et au plus près du geste.", 'Film sportif · 30 s', 'PT30S'),
+    'course': ('film-course-landaise', 'v', 'Course landaise', "Écarteurs et sauteurs dans l'arène, filmés pour Regards 64/40.", 'Événement · 59 s', 'PT59S'),
+}
+
+def film_card(k):
+    f, o, t, d, c, _ = FILMS[k]
+    poster = f'/img/{f}.webp' if o == 'h' else f'/img/{f}-800.webp'
+    return (f'<figure class="film film-{o}"><video controls preload="none" playsinline poster="{poster}" aria-label="{esc(t)}">'
+            f'<source src="/video/{f}.mp4" type="video/mp4"></video>'
+            f'<figcaption><strong>{esc(t)}</strong><span>{esc(c)}</span></figcaption></figure>')
+
+def films_html(keys, eyebrow, title, lede, hid):
+    rows, i = [], 0
+    while i < len(keys):
+        pair = keys[i:i + 2]
+        rows.append(f'<div class="frow f-{"".join(FILMS[k][1] for k in pair)}">' + ''.join(film_card(k) for k in pair) + '</div>')
+        i += 2
+    return (f'<section class="films-sec" aria-labelledby="{hid}"><div class="wrap"><div class="sec-head"><span class="eyebrow">{eyebrow}</span><h2 id="{hid}">{title}</h2>'
+            f'<p class="lede">{lede}</p></div><div class="films">{"".join(rows)}</div></div></section>')
+
+def films_ld(keys):
+    out = []
+    for k in keys:
+        f, o, t, d, c, dur = FILMS[k]
+        out.append({"@type": "VideoObject", "name": t, "description": d, "thumbnailUrl": f"{SITE}/img/{f}.webp",
+                    "contentUrl": f"{SITE}/video/{f}.mp4", "uploadDate": "2026-11-13", "duration": dur,
+                    "creator": {"@id": SITE + "/#entreprise"}})
+    return out
+
+ALL_FILMS = ['trois-mats', 'ferme', 'rugby', 'course']
+SVC_FILMS = {  # page métier : (films, sur-titre, titre, phrase, id)
+    'videaste': (ALL_FILMS, 'Films', 'Quelques films récents', "Du drone au ralenti sportif, en passant par le film d'entreprise : je tourne, je monte et j'étalonne chaque film.", 'h-films'),
+    'drone': (['trois-mats'], 'Film drone', 'Un trois-mâts vu du ciel', "Approche, survol et passage au ras des voiles : ce que le drone apporte à un film.", 'h-films'),
+    'community-manager': (['ferme', 'course'], 'Formats verticaux', 'Des vidéos pensées pour vos réseaux', "Tournées et montées en 9:16 pour Instagram, TikTok et Facebook, avec titres et sous-titres intégrés.", 'h-films'),
+}
+
 # ---------------------------------------------------------------- accueil
 def build_home():
-    slides = (slide('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton filmé par drone', 'CAPBRETON (40) · JETÉE', '43.646° N · 1.448° O', 87, first=True, ox='70%', oy='55%', tx='-2%')
-              + slide('pont-vieux-orthez-drone', '', 'ORTHEZ (64) · PONT-VIEUX', '43.487° N · 0.774° O', 64, ox='50%', oy='60%', ty='2%')
-              + slide('estacade-capbreton', '', 'CAPBRETON (40) · ESTACADE', 'CAP 270° · H.S. 4 m/s', 112, ox='40%', oy='55%', tx='2%')
-              + slide('course-landaise-vache-cordier', '', 'ARÈNES LANDAISES · REGARDS 64/40', 'PHOTO · SOL', 0, ox='55%', oy='40%', tx='-1.5%'))
+    slides = ('<div class="slide on" data-p="EN MER · TROIS-MÂTS" data-c="CAP 270° · H.S. 4 m/s" data-a="95">'
+              '<video class="hv" autoplay muted loop playsinline preload="auto" poster="/img/hero-trois-mats.webp" aria-hidden="true">'
+              '<source src="/video/hero-trois-mats-sm.mp4" type="video/mp4" media="(max-width: 800px)">'
+              '<source src="/video/hero-trois-mats.mp4" type="video/mp4"></video></div>')
     body = f'''<section class="hero imm" aria-labelledby="h1" data-hero><div class="slides">{slides}</div>
-{osd('4K · 25P', 'CAPBRETON (40) · JETÉE', '43.646° N · 1.448° O')}{OSD_CORNERS}
+{osd('4K · 24P', 'EN MER · TROIS-MÂTS', 'CAP 270° · H.S. 4 m/s')}{OSD_CORNERS}
 <div class="wrap"><h1 id="h1">Photographe, vidéaste &amp; drone <em>Landes · Pays basque</em></h1>
 <p>Je crée vos images au sol et dans les airs, puis je les fais travailler sur vos réseaux. Vidéo, drone, photo et community management pour entreprises, restaurants, immobilier et collectivités, partout en Nouvelle-Aquitaine.</p>
 <div class="ctas"><a class="btn" href="#contact">Demander un devis · réponse 24 h</a><a class="btn ghost" href="/realisations">Voir les réalisations</a></div>
-<div class="proof"><span><b>★ 5,0</b> · 5 avis Google</span><span><b>Télépilote certifié EU</b> · déclaré DGAC</span><span><b>Certifié marketing digital</b> · RS6710</span><span><b>Assuré</b> RC Pro</span><span><b>5 ans</b> de terrain</span></div></div>{reel(4)}<a class="cue" href="#h-services" aria-label="Descendre vers les prestations">DESCENDRE</a></section>
+<div class="proof"><span><b>★ 5,0</b> · 5 avis Google</span><span><b>Télépilote certifié EU</b> · déclaré DGAC</span><span><b>Certifié marketing digital</b> · RS6710</span><span><b>Assuré</b> RC Pro</span><span><b>5 ans</b> de terrain</span></div></div><div class="reel"><button type="button" class="pp" aria-pressed="false" aria-label="Mettre en pause la vidéo">❚❚ PAUSE</button></div><a class="cue" href="#h-services" aria-label="Descendre vers les prestations">DESCENDRE</a></section>
 <section aria-labelledby="h-services"><div class="wrap"><div class="sec-head"><span class="eyebrow">Prestations</span><h2 id="h-services">Quatre métiers, un seul interlocuteur</h2>
 <p class="lede">Vous n'avez pas à coordonner un vidéaste, un pilote, un monteur et une agence. Je tourne, je monte, je publie et je mesure ce que vos contenus rapportent.</p></div>{service_cards()}</div></section>
 {vf('pont-vieux-orthez-drone', "Pont-Vieux d'Orthez et le gave de Pau vus du ciel", 'En vol', 'Un seul pilote. <em>Du sol au ciel.</em>', "Je tourne au sol et en drone le même jour. Une seule personne sur le terrain, un seul devis, et des images qui se répondent.", 'h-vf', ('REC · 4K 25P', 'ALT 64 m', 'ORTHEZ (64) · PONT-VIEUX', '43.487° N · 0.774° O'))}
+{films_html(ALL_FILMS, 'Films', 'Mes derniers films', "Drone, sport, entreprise, événement : quatre films récents, tournés et montés par mes soins. Lancez-les, le son est d'origine.", 'h-films')}
 {sectors_band()}
 {fly(HOME_FLY, 'Réalisations', "Vu d'en haut, entre Adour et océan", 'h-real')}
 <section aria-labelledby="h-method" class="tight"><div class="wrap"><div class="sec-head"><span class="eyebrow">Déroulé d'un projet</span><h2 id="h-method">Du devis à la diffusion</h2></div>
@@ -350,7 +392,7 @@ def build_home():
 {contact_block()}'''
     page('/', 'Photographe, vidéaste & drone Landes, Pays basque | Drone 64-40',
          "Photographe, vidéaste, pilote drone certifié et community manager à Cauneille (40). Landes, Pays basque, Béarn, Gironde et toute la Nouvelle-Aquitaine. Devis sous 24 h.",
-         body, cur='/', imm=True, boot=True, preload='<link rel="preload" as="image" href="/img/capbreton-jetee-coucher-soleil-800.webp" imagesrcset="/img/capbreton-jetee-coucher-soleil-800.webp 800w, /img/capbreton-jetee-coucher-soleil.webp 1600w" imagesizes="100vw" fetchpriority="high">\n', schema=[{"@type": "WebSite", "@id": SITE + "/#site", "url": SITE + "/", "name": "Drone 64-40", "inLanguage": "fr"}, faq_ld(HOME_FAQ)], prio='1.0')
+         body, cur='/', imm=True, boot=True, preload='<link rel="preload" as="image" href="/img/hero-trois-mats.webp" fetchpriority="high">\n', schema=[{"@type": "WebSite", "@id": SITE + "/#site", "url": SITE + "/", "name": "Drone 64-40", "inLanguage": "fr"}, faq_ld(HOME_FAQ)] + films_ld(ALL_FILMS), prio='1.0')
 
 # ---------------------------------------------------------------- services
 def build_services():
@@ -362,14 +404,14 @@ def build_services():
         body = phero(items, s['h1'], s['intro'], s['img'], s['short'], imm=SVC_OSD[k]) + f'''
 <section aria-labelledby="h-off"><div class="wrap"><div class="sec-head"><span class="eyebrow">Ce que je propose</span><h2 id="h-off">{esc(s["short"])}</h2></div>{offers}</div></section>
 {regards_block() if k == 'photographe' else ''}<section class="tight"><div class="wrap prose">{s["body"]}</div></section>
-{fly(PHOTO_FLY, 'Galerie', 'Quelques photos Regards 64/40', 'h-gal', 'Découvrir Regards 64/40', '/regards/') if k == 'photographe' else ''}{fly(DRONE_FLY, 'Vu du ciel', 'Quelques vues aériennes', 'h-gal', 'Toutes les réalisations') if k == 'drone' else ''}
+{fly(PHOTO_FLY, 'Galerie', 'Quelques photos Regards 64/40', 'h-gal', 'Découvrir Regards 64/40', '/regards/') if k == 'photographe' else ''}{fly(DRONE_FLY, 'Vu du ciel', 'Quelques vues aériennes', 'h-gal', 'Toutes les réalisations') if k == 'drone' else ''}{films_html(*SVC_FILMS[k]) if k in SVC_FILMS else ''}
 <section class="tight" aria-labelledby="h-dep"><div class="wrap"><div class="sec-head"><span class="eyebrow">Par département</span><h2 id="h-dep" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">{SVC_ANGLE[k][0]} en Nouvelle-Aquitaine</h2></div><ul class="chips">{deps}</ul></div></section>
 {sectors_band('Par secteur', "Des exemples concrets selon votre activité.")}
 <section aria-labelledby="h-autres"><div class="wrap"><div class="sec-head"><span class="eyebrow">Aussi</span><h2 id="h-autres" style="font-size:clamp(1.8rem,3.5vw,2.4rem)">Mes autres métiers</h2></div>{service_cards(exclude=k, c3=True)}</div></section>
 {vf('capbreton-jetee-coucher-soleil', 'Coucher de soleil sur la jetée de Capbreton vu par drone', 'Avant chaque vol', 'Préparé. <em>Puis décollé.</em>', "Météo, zones de vol, autorisations, sécurité des personnes : je vérifie tout avant de décoller. Le jour du tournage, il ne reste qu'à filmer.", 'h-vf', ('REC · 4K · D-LOG M', 'ALT 87 m', 'CAPBRETON (40) · JETÉE', '43.646° N · 1.448° O')) if k == 'drone' else ''}
 {faq_html(s["faq"])}{contact_block()}'''
         page(path, s['title'], s['desc'], body, cur=path, img='og-drone-64-40.jpg', prio='0.9', imm=True,
-             schema=[crumbs_ld(items), faq_ld(s['faq']), {"@type": "Service", "name": s['short'], "provider": {"@id": SITE + "/#entreprise"}, "areaServed": "Nouvelle-Aquitaine", "serviceType": s['short']}])
+             schema=[crumbs_ld(items), faq_ld(s['faq']), {"@type": "Service", "name": s['short'], "provider": {"@id": SITE + "/#entreprise"}, "areaServed": "Nouvelle-Aquitaine", "serviceType": s['short']}] + (films_ld(SVC_FILMS[k][0]) if k in SVC_FILMS else []))
 
 def prep(d):  # « en Gironde », « dans les Landes »
     return {'40': 'dans les', '64': 'dans les', '79': 'dans les', '85': 'en'}.get(d, 'en') if d != '86' else 'dans la'
@@ -510,9 +552,9 @@ def build_zones():
 def build_misc():
     it = [('Accueil', '/'), ('Réalisations', '/realisations')]
     figs = ''.join(f'<figure class="rv" style="padding:0;overflow:hidden">{pic(n, a, sizes="(max-width:720px) 100vw, 50vw")}<figcaption style="padding:12px 16px">{c}</figcaption></figure>' for n, a, c in GALLERY + [('lac-ile-sable-landes-drone', "Vue aérienne d'un lac et d'une île de sable dans les Landes", 'Landes · drone'), ('drones-dji-fpv', 'Drones DJI et FPV avant un vol à Dax', 'Dax (40) · matériel')])
-    body = phero(it, 'Mes <em>réalisations</em>', "Une sélection de photos et de prises de vue aériennes réalisées dans les Landes et au Pays basque. D'autres projets sont visibles sur Instagram @drone_6440.", 'estacade-capbreton', 'Estacade de Capbreton', ctas=False) + \
+    body = phero(it, 'Mes <em>réalisations</em>', "Une sélection de photos et de prises de vue aériennes réalisées dans les Landes et au Pays basque. D'autres projets sont visibles sur Instagram @drone_6440.", 'estacade-capbreton', 'Estacade de Capbreton', ctas=False) + films_html(ALL_FILMS, 'Films', 'Films récents', "Drone, sport, entreprise et événement : quatre films tournés et montés par mes soins.", 'h-films') + \
         f'<section aria-labelledby="h-ph"><div class="wrap"><div class="sec-head"><span class="eyebrow">Photographie · Regards 64/40</span><h2 id="h-ph">Au sol</h2><p class="lede">Mes photographies sont publiées sous ma marque Regards 64/40.</p></div>' + pgrid([p[0] for p in PHOTOS]) + '</div></section>' + regards_block() + f'<section class="tight" aria-labelledby="h-dr"><div class="wrap"><div class="sec-head"><span class="eyebrow">Drone et paysages</span><h2 id="h-dr">Vu du ciel</h2></div><div class="reviews">{figs}</div><p style="margin-top:28px"><a class="btn" href="https://www.instagram.com/drone_6440" rel="noopener">Voir plus sur Instagram</a></p></div></section>{reviews_html()}{contact_block()}'
-    page('/realisations', 'Réalisations photo, vidéo et drone | Drone 64-40', "Photos, vidéos et prises de vue aériennes réalisées dans les Landes, au Pays basque et en Béarn par Nicolas Desperiers, Drone 64-40.", body, cur='/realisations', prio='0.7', schema=[crumbs_ld(it)])
+    page('/realisations', 'Réalisations photo, vidéo et drone | Drone 64-40', "Photos, vidéos et prises de vue aériennes réalisées dans les Landes, au Pays basque et en Béarn par Nicolas Desperiers, Drone 64-40.", body, cur='/realisations', prio='0.7', schema=[crumbs_ld(it)] + films_ld(ALL_FILMS))
 
     it = [('Accueil', '/'), ('À propos', '/a-propos')]
     body = phero(it, 'Nicolas <em>Desperiers</em>', "Photographe, vidéaste, télépilote certifié et community manager, installé à Cauneille dans le sud des Landes.", 'nicolas-desperiers-portrait', 'Nicolas Desperiers', ctas=False) + f'''
