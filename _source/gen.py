@@ -602,12 +602,65 @@ def build_misc():
         '<section><div class="wrap"><ul class="chips"><li><a href="/">Accueil</a></li><li><a href="/zones/">Toutes les villes</a></li><li><a href="/videaste/">Vidéo</a></li><li><a href="/photographe/">Photo</a></li><li><a href="/drone/">Drone</a></li><li><a href="/contact">Contact</a></li></ul></div></section>'
     page('/404', 'Page introuvable | Drone 64-40', "Cette page n'existe pas.", body, robots='noindex,follow')
 
+# ---------------------------------------------------------------- Regards 64/40
+REGARDS_PROJETS = [  # (nom, description, catégorie, durée)
+    ('Bistrot 4 Grains', 'Film de restaurant · ambiance soir · étalonnage chaud', 'Restaurant', '2 min 34'),
+    ('Piveteau Bois', 'Film institutionnel · canopée photovoltaïque', 'Institutionnel', '1 min 48'),
+    ("L'Océan Anglet", 'Film hôtel et restaurant · côte basque', 'Hôtellerie', '2 min 05'),
+    ('Faune des Barthes', 'Documentaire nature · zones humides landaises', 'Documentaire', '4 min 20'),
+    ('Côte landaise', 'Film nature · forêt de pins et littoral atlantique', 'Nature', '3 min 10'),
+    ('Lycée maritime de Ciboure', 'Film institutionnel · formation maritime', 'Institutionnel', '2 min 15'),
+    ("Vins d'Irouléguy", 'Film domaine viticole · terroir basque · vendanges', 'Domaine viticole', '2 min 50'),
+]
+REGARDS_ZONES_COTE = ['Biarritz', 'Bayonne', 'Anglet', 'Saint-Jean-de-Luz', 'Hendaye', 'Hossegor', 'Capbreton', 'Seignosse', 'Vieux-Boucau', 'Mimizan', 'Biscarrosse']
+REGARDS_ZONES_TERRES = ['Dax', 'Orthez', 'Pau', 'Espelette', 'Cambo-les-Bains', 'Saint-Jean-Pied-de-Port']
+
+def build_regards():
+    path = '/regards/'
+    items = [('Accueil', '/'), ('Regards 64/40', path)]
+    intro = ("Regards 64/40, c'est ma marque de vidéo et de photographie au sol, basée à Peyrehorade. Films de restaurant, d'hôtel, "
+             "institutionnels, documentaires nature et reportages, dans les Landes, au Pays basque et en Béarn.")
+    facts = ('<div class="proof"><span><b>Sony α6700</b> · S-Log3 · 4K 100p</span><span><b>DaVinci Resolve</b> · étalonnage</span>'
+             '<span><b>Peyrehorade</b> · Landes · Pays basque</span></div>')
+    steps4 = lambda xs: '<ol class="steps">' + ''.join(f'<li><strong>{esc(a)}</strong><span>{esc(b)}</span></li>' for a, b in xs) + '</ol>'
+    projets = '<ul class="plist">' + ''.join(
+        f'<li><div><strong>{esc(n)}</strong><span>{esc(d)}</span></div><em>{esc(c)}</em><b>{esc(t)}</b></li>' for n, d, c, t in REGARDS_PROJETS) + '</ul>'
+    zc = ' '.join(f'<li><span>{z}</span></li>' for z in REGARDS_ZONES_COTE)
+    zt = ' '.join(f'<li><span>{z}</span></li>' for z in REGARDS_ZONES_TERRES)
+    body = phero(items, 'Regards 64/40 · l\'image <em>qui raconte</em>', intro, 'course-landaise-vache-cordier',
+                 "Écarteur face à une vache lors d'une course landaise, photo Regards 64/40", facts=facts,
+                 imm=('S-LOG3 · 4K 100P', 'SONY α6700 · DAVINCI', None)) + f"""
+<section aria-labelledby="h-off"><div class="wrap"><div class="sec-head"><span class="eyebrow">Réalisation vidéo &amp; montage</span><h2 id="h-off">Du tournage au rendu final</h2>
+<p class="lede">Captation en S-Log3, étalonnage sur DaVinci Resolve, mixage son et montage rythmé : chaque projet est traité de A à Z, avec un soin de production cinéma.</p></div>
+<div class="offers"><div class="offer"><strong>Tournage</strong><span>Sony α6700, balance des blancs manuelle, exposition maîtrisée en conditions réelles.</span></div>
+<div class="offer"><strong>Étalonnage</strong><span>Rendu construit depuis le S-Log3, ambiance sur mesure pour chaque univers.</span></div>
+<div class="offer"><strong>Montage &amp; rythme</strong><span>Cut dynamique, transitions naturelles, synchronisation musicale, du restaurant au documentaire.</span></div>
+<div class="offer"><strong>Livraison multi-formats</strong><span>H.264, ProRes ou MOV selon la diffusion. Révisions incluses, droits cédés à la livraison.</span></div></div></div></section>
+{films_html(['ferme', 'course'], 'Films Regards 64/40', 'Au sol, au plus près', "Deux films récents tournés au sol : une ferme landaise et sa boutique, puis une course landaise vue depuis la piste.", 'h-films')}
+<section aria-labelledby="h-proj"><div class="wrap"><div class="sec-head"><span class="eyebrow">Projets réalisés</span><h2 id="h-proj">D'autres films, sur demande</h2>
+<p class="lede">Ces films appartiennent à mes clients : je les montre lors d'un premier échange, par e-mail ou en visio, pour présenter chaque projet dans son contexte.</p></div>
+{projets}<p class="ctas" style="margin-top:24px"><a class="btn" href="#contact">Demander à voir un film</a></p></div></section>
+<section class="tight" aria-labelledby="h-ph"><div class="wrap"><div class="sec-head"><span class="eyebrow">Photographie</span><h2 id="h-ph">La lumière du Sud-Ouest, au sol</h2>
+<p class="lede">Nature, faune sauvage, paysages landais et basques, traditions. Une pratique d'observation patiente, à l'affût des lumières de l'aube et des fins de journée. Développement RAW sur Lightroom.</p></div>
+<ul class="chips"><li><span>Forêt landaise</span></li><li><span>Faune sauvage</span></li><li><span>Barthes de l'Adour</span></li><li><span>Côte atlantique</span></li><li><span>Macro</span></li><li><span>Courses landaises</span></li></ul></div></section>
+{fly(PHOTO_FLY, 'Galerie', 'Quelques photos Regards 64/40', 'h-gal', 'Voir toutes les réalisations', '/realisations')}
+<section aria-labelledby="h-method" class="tight"><div class="wrap"><div class="sec-head"><span class="eyebrow">Méthode</span><h2 id="h-method">Le déroulé d'un film</h2></div>
+{steps4([('Repérage & brief', 'Analyse du lieu, des enjeux et du rendu voulu avant toute captation.'), ('Tournage S-Log3', 'Profil log pour un maximum de latitude, lumière naturelle privilégiée.'), ('Étalonnage & montage', 'Couleur sur mesure, cut rythmé, musique synchronisée.'), ('Livraison', 'Export selon la diffusion, révisions incluses, droits cédés.')])}</div></section>
+<section class="tight" aria-labelledby="h-tir"><div class="wrap"><div class="sec-head"><span class="eyebrow">Tirages fine art</span><h2 id="h-tir">Des images à posséder</h2>
+<p class="lede">Mes photographies existent en tirage limité sur papier Hahnemühle Photo Rag, signé, numéroté et livré avec un certificat. La collection est visible sur demande.</p></div>
+<ul class="chips"><li><span>30×40 · 50×70 · 70×100 cm</span></li><li><span>10 exemplaires par image</span></li><li><span>Signature et numérotation</span></li><li><span>Livraison en France sous 10 jours</span></li></ul></div></section>
+<section class="tight" aria-labelledby="h-zone"><div class="wrap"><div class="sec-head"><span class="eyebrow">Zone d'intervention</span><h2 id="h-zone">Vidéaste et photographe à Peyrehorade</h2>
+<p class="lede">Basé à Peyrehorade (40300), j'interviens dans les Landes (40) et les Pyrénées-Atlantiques (64), et plus largement en Nouvelle-Aquitaine. <a href="/zones/">Voir toutes les zones</a>.</p></div>
+<p class="zlab">Sur la côte</p><ul class="chips">{zc}</ul><p class="zlab">Dans les terres</p><ul class="chips">{zt}</ul></div></section>
+{contact_block()}"""
+    page(path, 'Vidéaste et photographe à Peyrehorade | Regards 64/40', "Regards 64/40 : vidéo et photographie au sol à Peyrehorade (40). Films de restaurant, d'hôtel, institutionnels et documentaires nature dans les Landes et au Pays basque.",
+         body, cur=path, prio='0.7', imm=True, schema=[crumbs_ld(items)] + films_ld(['ferme', 'course']))
+
 def build_extras():
     # accueil.html : ancienne URL renvoyée vers la racine
     open(OUT + '/accueil.html', 'w').write(f'<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Drone 64-40</title><link rel="canonical" href="{SITE}/"><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0; url=/"><script>location.replace("/")</script>{GA_TAG}</head><body><p><a href="/">Aller à l\'accueil de Drone 64-40</a></p></body></html>')
     # sitemap
     urls = ''.join(f'<url><loc>{SITE}{p}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>' for p, pr in pages)
-    urls += f'<url><loc>{SITE}/regards/</loc><lastmod>{TODAY}</lastmod><priority>0.6</priority></url>'
     open(OUT + '/sitemap.xml', 'w').write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
     open(OUT + '/robots.txt', 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n')
     os.makedirs(OUT + '/assets', exist_ok=True)
@@ -615,5 +668,5 @@ def build_extras():
     shutil.copy('immersif.js', OUT + '/assets/immersif.js')
 
 if __name__ == '__main__':
-    build_home(); build_services(); build_service_depts(); build_sectors(); build_cities(); build_zones(); build_misc(); build_extras()
+    build_home(); build_services(); build_service_depts(); build_sectors(); build_cities(); build_zones(); build_misc(); build_regards(); build_extras()
     print(len(pages), 'pages indexables')

@@ -470,3 +470,14 @@ footer .legal{border-top:1px solid var(--deep-line);padding-block:18px;font:400 
 @media (max-width:760px){.frow.f-hv,.frow.f-vh,.frow.f-hh{grid-template-columns:1fr}.frow .film-v{max-width:340px;width:100%;justify-self:center}.frow.f-vv{grid-template-columns:1fr 1fr;gap:12px}.frow.f-vv .film-v{max-width:none}}
 /* Vidéo de fond de l'ouverture */
 .slide video{width:100%;height:100%;object-fit:cover;display:block}
+
+/* Regards 64/40 : liste des projets */
+.plist{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.plist li{display:grid;grid-template-columns:1fr auto 5.5rem;align-items:center;gap:8px 24px;padding:18px 0;border-bottom:1px solid var(--line)}
+.plist li div{display:grid;gap:4px;min-width:0}
+.plist strong{font:800 1.35rem/1.05 var(--display);text-transform:uppercase}
+.plist span{color:var(--muted);font-size:.95rem}
+.plist em{font:500 .7rem/1 var(--mono);font-style:normal;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);padding:7px 10px;border-radius:999px;white-space:nowrap}
+.plist b{font:500 .78rem/1 var(--mono);font-weight:500;color:var(--accent);text-align:right;font-variant-numeric:tabular-nums}
+@media (max-width:640px){.plist li{grid-template-columns:1fr auto}.plist li div{grid-column:1/-1}}
+.zlab{margin:18px 0 8px;font:500 .72rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
